@@ -48,63 +48,65 @@ curl [options / URLs]
 
 ## 示例
 
-抓取“人人都懂物联网”网站首页
+抓取“人人都懂物联网”网站首页：
 
 ```bash
 curl https://getiot.tech
 ```
 
-将网页数据保存到本地文件
+将网页数据保存到本地文件：
 
 ```bash
 curl https://getiot.tech > index.html
 ```
 
-设置 cookies
+设置 cookies：
 
 ```bash
 curl https://getiot.tech --cookie "user=root;pass=123456"
 ```
 
-设置用户代理字符串
+设置用户代理字符串：
 
 ```bash
 curl URL --user-agent "Mozilla/5.0"
 curl URL -A "Mozilla/5.0"
 ```
 
-进行 HTTP 或者 FTP 的登录认证（可以指定密码，也可以不指定密码在后续操作中输入密码）
+进行 HTTP 或者 FTP 的登录认证（可以指定密码，也可以不指定密码在后续操作中输入密码）：
 
 ```bash
 curl -u user:pwd https://getiot.tech
 curl -u user https://getiot.tech
 ```
 
-只打印响应头部信息
+只打印响应头部信息：
 
 ```bash
 curl -I https://getiot.tech
 ```
 
-下载远程文件
+下载远程文件：
 
 ```bash
 curl -O https://static.getiot.tech/flag-of-china.png
 ```
 
-下载远程文件，并重命名
+下载远程文件，并重命名：
 
 ```bash
 curl -o test.png https://static.getiot.tech/flag-of-china.png
 ```
 
-下载远程文件，并显示下载进度
+下载远程文件，并显示下载进度：
 
 ```bash
 curl -# -O https://static.getiot.tech/flag-of-china.png
 ```
 
+下载并执行 nvm 的安装脚本（`-o-` 选项指定将下载的数据输出到标准输出，而不是保存为文件，这意味着下载的内容会被直接传输到管道）：
 
-
-
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+```
 
