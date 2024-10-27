@@ -1,4 +1,5 @@
 ---
+sidebar_label: shutdown 命令
 sidebar_position: 48
 slug: /shutdown
 ---

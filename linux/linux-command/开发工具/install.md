@@ -1,4 +1,5 @@
 ---
+sidebar_label: install 命令
 sidebar_position: 8
 slug: /install
 ---

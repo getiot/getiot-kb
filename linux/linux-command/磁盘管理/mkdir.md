@@ -1,4 +1,5 @@
 ---
+sidebar_label: mkdir 命令
 sidebar_position: 10
 slug: /mkdir
 ---

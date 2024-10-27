@@ -1,4 +1,5 @@
 ---
+sidebar_label: i2cdump 命令
 sidebar_position: 7
 slug: /i2cdump
 ---

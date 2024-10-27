@@ -1,4 +1,5 @@
 ---
+sidebar_label: scp 命令
 sidebar_position: 11
 slug: /scp
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: pv 命令
 sidebar_position: 8
 slug: /pv
 ---

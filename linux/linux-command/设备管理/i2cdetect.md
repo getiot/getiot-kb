@@ -1,4 +1,5 @@
 ---
+sidebar_label: i2cdetect 命令
 sidebar_position: 6
 slug: /i2cdetect
 ---

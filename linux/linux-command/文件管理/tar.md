@@ -1,4 +1,5 @@
 ---
+sidebar_label: tar 命令
 sidebar_position: 26
 slug: /tar
 ---

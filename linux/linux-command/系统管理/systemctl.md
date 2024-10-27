@@ -1,4 +1,5 @@
 ---
+sidebar_label: systemctl 命令
 sidebar_position: 49
 slug: /systemctl
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: xz 命令
 sidebar_position: 27
 slug: /xz
 ---

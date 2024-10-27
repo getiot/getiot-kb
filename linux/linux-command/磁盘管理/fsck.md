@@ -1,4 +1,5 @@
 ---
+sidebar_label: fsck 命令
 sidebar_position: 20
 slug: /fsck
 ---

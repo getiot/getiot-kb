@@ -1,4 +1,5 @@
 ---
+sidebar_label: arecord 命令
 sidebar_position: 2
 slug: /arecord
 ---

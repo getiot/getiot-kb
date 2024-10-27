@@ -1,4 +1,5 @@
 ---
+sidebar_label: vmstat 命令
 sidebar_position: 3
 slug: /vmstat
 ---

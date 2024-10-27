@@ -1,4 +1,5 @@
 ---
+sidebar_label: tree 命令
 sidebar_position: 16
 slug: /tree
 ---

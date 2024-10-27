@@ -1,4 +1,5 @@
 ---
+sidebar_label: zip 命令
 sidebar_position: 29
 slug: /zip
 ---

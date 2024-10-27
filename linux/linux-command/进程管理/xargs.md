@@ -1,4 +1,5 @@
 ---
+sidebar_label: xargs 命令
 sidebar_position: 19
 slug: /xargs
 ---

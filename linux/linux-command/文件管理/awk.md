@@ -1,4 +1,5 @@
 ---
+sidebar_label: awk 命令
 sidebar_position: 22
 slug: /awk
 ---

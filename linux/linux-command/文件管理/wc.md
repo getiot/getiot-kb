@@ -1,4 +1,5 @@
 ---
+sidebar_label: wc 命令
 sidebar_position: 21
 slug: /wc
 ---

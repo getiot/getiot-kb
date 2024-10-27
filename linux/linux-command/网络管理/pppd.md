@@ -1,4 +1,5 @@
 ---
+sidebar_label: pppd 命令
 sidebar_position: 38
 slug: /pppd
 ---

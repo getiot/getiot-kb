@@ -1,4 +1,5 @@
 ---
+sidebar_label: gpiofind 命令
 sidebar_position: 17
 slug: /gpiofind
 ---

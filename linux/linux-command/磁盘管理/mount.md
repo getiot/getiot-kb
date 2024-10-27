@@ -1,4 +1,5 @@
 ---
+sidebar_label: mount 命令
 sidebar_position: 12
 slug: /mount
 ---

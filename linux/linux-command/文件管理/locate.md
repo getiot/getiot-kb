@@ -1,4 +1,5 @@
 ---
+sidebar_label: locate 命令
 sidebar_position: 33
 slug: /locate
 ---

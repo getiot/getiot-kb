@@ -1,4 +1,5 @@
 ---
+sidebar_label: fbset 命令
 sidebar_position: 23
 slug: /fbset
 ---

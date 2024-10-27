@@ -1,4 +1,5 @@
 ---
+sidebar_label: pidof 命令
 sidebar_position: 17
 slug: /pidof
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: i2ctransfer 命令
 sidebar_position: 10
 slug: /i2ctransfer
 ---

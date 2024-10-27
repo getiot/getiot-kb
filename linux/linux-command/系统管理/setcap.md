@@ -1,4 +1,5 @@
 ---
+sidebar_label: setcap 命令
 sidebar_position: 55
 slug: /setcap
 ---

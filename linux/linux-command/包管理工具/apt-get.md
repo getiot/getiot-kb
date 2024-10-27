@@ -1,4 +1,5 @@
 ---
+sidebar_label: apt-get 命令
 sidebar_position: 2
 slug: /apt-get
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: more 命令
 sidebar_position: 7
 slug: /more
 ---

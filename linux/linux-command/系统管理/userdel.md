@@ -1,4 +1,5 @@
 ---
+sidebar_label: userdel 命令
 sidebar_position: 7
 slug: /userdel
 ---

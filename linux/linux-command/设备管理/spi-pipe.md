@@ -1,4 +1,5 @@
 ---
+sidebar_label: spi-pipe 命令
 sidebar_position: 5
 slug: /spi-pipe
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: nmcli 命令
 sidebar_position: 40
 slug: /nmcli
 ---

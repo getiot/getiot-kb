@@ -1,4 +1,5 @@
 ---
+sidebar_label: getcap 命令
 sidebar_position: 56
 slug: /getcap
 ---

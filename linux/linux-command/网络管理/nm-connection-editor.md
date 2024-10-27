@@ -1,4 +1,5 @@
 ---
+sidebar_label: nm-connection-editor 命令
 sidebar_position: 39
 slug: /nm-connection-editor
 ---

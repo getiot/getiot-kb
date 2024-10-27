@@ -1,4 +1,5 @@
 ---
+sidebar_label: nmtui 命令
 sidebar_position: 41
 slug: /nmtui
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: bg 命令
 sidebar_position: 9
 slug: /bg
 ---

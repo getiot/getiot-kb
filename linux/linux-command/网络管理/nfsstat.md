@@ -1,4 +1,5 @@
 ---
+sidebar_label: nfsstat 命令
 sidebar_position: 37
 slug: /nfsstat
 ---

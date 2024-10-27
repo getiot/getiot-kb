@@ -1,4 +1,5 @@
 ---
+sidebar_label: whereis 命令
 sidebar_position: 4
 slug: /whereis
 ---

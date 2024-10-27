@@ -1,4 +1,5 @@
 ---
+sidebar_label: sfdisk 命令
 sidebar_position: 18
 slug: /sfdisk
 ---

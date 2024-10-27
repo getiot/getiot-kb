@@ -1,4 +1,5 @@
 ---
+sidebar_label: addgroup 命令
 sidebar_position: 14
 slug: /addgroup
 ---

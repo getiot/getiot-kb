@@ -1,4 +1,5 @@
 ---
+sidebar_label: dpkg 命令
 sidebar_position: 5
 slug: /dpkg
 ---

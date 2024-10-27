@@ -1,4 +1,5 @@
 ---
+sidebar_label: diff 命令
 sidebar_position: 8
 slug: /diff
 ---

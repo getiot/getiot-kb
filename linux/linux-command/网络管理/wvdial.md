@@ -1,4 +1,5 @@
 ---
+sidebar_label: wvdial 命令
 sidebar_position: 43
 slug: /wvdial
 ---

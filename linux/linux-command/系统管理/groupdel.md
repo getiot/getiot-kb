@@ -1,4 +1,5 @@
 ---
+sidebar_label: groupdel 命令
 sidebar_position: 10
 slug: /groupdel
 ---

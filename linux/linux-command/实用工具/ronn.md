@@ -1,4 +1,5 @@
 ---
+sidebar_label: ronn 命令
 sidebar_position: 5
 slug: /ronn
 ---

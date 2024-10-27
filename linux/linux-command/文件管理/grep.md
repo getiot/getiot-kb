@@ -1,4 +1,5 @@
 ---
+sidebar_label: grep 命令
 sidebar_position: 11
 slug: /grep
 ---

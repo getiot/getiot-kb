@@ -1,4 +1,5 @@
 ---
+sidebar_label: netstat 命令
 sidebar_position: 7
 slug: /netstat
 ---

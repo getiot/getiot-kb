@@ -1,4 +1,5 @@
 ---
+sidebar_label: chroot 命令
 sidebar_position: 43
 slug: /chroot
 ---

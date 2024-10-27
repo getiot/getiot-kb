@@ -1,4 +1,5 @@
 ---
+sidebar_label: sudo 命令
 sidebar_position: 36
 slug: /sudo
 ---

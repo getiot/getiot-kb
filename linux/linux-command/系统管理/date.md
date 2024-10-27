@@ -1,4 +1,5 @@
 ---
+sidebar_label: date 命令
 sidebar_position: 18
 slug: /date
 ---

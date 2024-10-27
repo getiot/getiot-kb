@@ -1,4 +1,5 @@
 ---
+sidebar_label: id 命令
 sidebar_position: 37
 slug: /id
 ---

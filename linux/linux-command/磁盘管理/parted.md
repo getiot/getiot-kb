@@ -1,4 +1,5 @@
 ---
+sidebar_label: parted 命令
 sidebar_position: 19
 slug: /parted
 ---

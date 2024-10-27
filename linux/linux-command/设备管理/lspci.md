@@ -1,4 +1,5 @@
 ---
+sidebar_label: lspci 命令
 sidebar_position: 2
 slug: /lspci
 ---

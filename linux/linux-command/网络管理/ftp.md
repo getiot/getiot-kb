@@ -1,4 +1,5 @@
 ---
+sidebar_label: ftp 命令
 sidebar_position: 12
 slug: /ftp
 ---

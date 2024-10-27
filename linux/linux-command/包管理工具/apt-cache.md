@@ -1,4 +1,5 @@
 ---
+sidebar_label: apt-cache 命令
 sidebar_position: 4
 slug: /apt-cache
 ---

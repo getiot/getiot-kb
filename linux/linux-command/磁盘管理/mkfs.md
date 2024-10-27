@@ -1,4 +1,5 @@
 ---
+sidebar_label: mkfs 命令
 sidebar_position: 23
 slug: /mkfs
 ---

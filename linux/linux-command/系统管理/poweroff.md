@@ -1,4 +1,5 @@
 ---
+sidebar_label: poweroff 命令
 sidebar_position: 47
 slug: /poweroff
 ---

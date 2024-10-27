@@ -1,4 +1,5 @@
 ---
+sidebar_label: flatpak 命令
 sidebar_position: 9
 slug: /flatpak
 ---

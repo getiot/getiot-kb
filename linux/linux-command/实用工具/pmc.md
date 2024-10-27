@@ -1,4 +1,5 @@
 ---
+sidebar_label: pmc 命令
 sidebar_position: 13
 slug: /pmc
 ---

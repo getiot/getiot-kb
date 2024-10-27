@@ -1,4 +1,5 @@
 ---
+sidebar_label: size 命令
 sidebar_position: 6
 slug: /size
 ---

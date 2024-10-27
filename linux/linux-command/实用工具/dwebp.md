@@ -1,4 +1,5 @@
 ---
+sidebar_label: dwebp 命令
 sidebar_position: 7
 slug: /dwebp
 ---

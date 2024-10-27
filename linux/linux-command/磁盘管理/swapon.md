@@ -1,4 +1,5 @@
 ---
+sidebar_label: swapon 命令
 sidebar_position: 25
 slug: /swapon
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: ss 命令
 sidebar_position: 46
 slug: /ss
 ---

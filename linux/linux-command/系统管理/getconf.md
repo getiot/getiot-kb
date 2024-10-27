@@ -1,4 +1,5 @@
 ---
+sidebar_label: getconf 命令
 sidebar_position: 44
 slug: /getconf
 ---

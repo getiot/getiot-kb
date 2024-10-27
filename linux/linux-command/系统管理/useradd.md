@@ -1,4 +1,5 @@
 ---
+sidebar_label: useradd 命令
 sidebar_position: 6
 slug: /useradd
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: tee 命令
 sidebar_position: 20
 slug: /tee
 ---

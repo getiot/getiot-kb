@@ -1,4 +1,5 @@
 ---
+sidebar_label: traceroute 命令
 sidebar_position: 19
 slug: /traceroute
 ---

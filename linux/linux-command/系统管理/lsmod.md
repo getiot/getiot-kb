@@ -1,4 +1,5 @@
 ---
+sidebar_label: lsmod 命令
 sidebar_position: 25
 slug: /lsmod
 ---

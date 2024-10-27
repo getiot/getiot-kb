@@ -1,4 +1,5 @@
 ---
+sidebar_label: cd 命令
 sidebar_position: 4
 slug: /cd
 ---

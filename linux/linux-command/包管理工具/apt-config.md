@@ -1,4 +1,5 @@
 ---
+sidebar_label: apt-config 命令
 sidebar_position: 3
 slug: /apt-config
 ---

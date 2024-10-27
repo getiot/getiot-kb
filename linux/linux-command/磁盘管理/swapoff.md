@@ -1,4 +1,5 @@
 ---
+sidebar_label: swapoff 命令
 sidebar_position: 26
 slug: /swapoff
 ---

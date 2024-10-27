@@ -1,4 +1,5 @@
 ---
+sidebar_label: timeout 命令
 sidebar_position: 7
 slug: /timeout
 ---

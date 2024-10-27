@@ -1,4 +1,5 @@
 ---
+sidebar_label: lsof 命令
 sidebar_position: 12
 slug: /lsof
 ---

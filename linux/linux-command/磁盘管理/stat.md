@@ -1,4 +1,5 @@
 ---
+sidebar_label: stat 命令
 sidebar_position: 15
 slug: /stat
 ---

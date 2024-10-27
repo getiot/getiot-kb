@@ -1,4 +1,5 @@
 ---
+sidebar_label: mergecap 命令
 sidebar_position: 21
 slug: /mergecap
 ---

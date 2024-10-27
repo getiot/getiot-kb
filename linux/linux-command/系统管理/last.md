@@ -1,4 +1,5 @@
 ---
+sidebar_label: last 命令
 sidebar_position: 40
 slug: /last
 ---

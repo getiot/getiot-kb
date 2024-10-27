@@ -1,4 +1,5 @@
 ---
+sidebar_label: minicom 命令
 sidebar_position: 12
 slug: /minicom
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: nethogs 命令
 sidebar_position: 30
 slug: /nethogs
 ---

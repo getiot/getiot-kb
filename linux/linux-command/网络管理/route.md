@@ -1,4 +1,5 @@
 ---
+sidebar_label: route 命令
 sidebar_position: 4
 slug: /route
 ---

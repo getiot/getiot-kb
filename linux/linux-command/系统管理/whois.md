@@ -1,4 +1,5 @@
 ---
+sidebar_label: whois 命令
 sidebar_position: 33
 slug: /whois
 ---

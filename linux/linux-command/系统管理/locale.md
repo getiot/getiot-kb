@@ -1,4 +1,5 @@
 ---
+sidebar_label: locale 命令
 sidebar_position: 54
 slug: /locale
 ---

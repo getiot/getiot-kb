@@ -1,4 +1,5 @@
 ---
+sidebar_label: apt 命令
 sidebar_position: 1
 slug: /apt
 ---

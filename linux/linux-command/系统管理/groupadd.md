@@ -1,4 +1,5 @@
 ---
+sidebar_label: groupadd 命令
 sidebar_position: 9
 slug: /groupadd
 ---

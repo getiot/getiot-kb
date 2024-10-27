@@ -1,4 +1,5 @@
 ---
+sidebar_label: wget 命令
 sidebar_position: 14
 slug: /wget
 ---

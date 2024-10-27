@@ -1,4 +1,5 @@
 ---
+sidebar_label: adduser 命令
 sidebar_position: 12
 slug: /adduser
 ---

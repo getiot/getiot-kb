@@ -1,4 +1,5 @@
 ---
+sidebar_label: renice 命令
 sidebar_position: 14
 slug: /renice
 ---

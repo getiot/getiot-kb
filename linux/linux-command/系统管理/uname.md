@@ -1,4 +1,5 @@
 ---
+sidebar_label: uname 命令
 sidebar_position: 20
 slug: /uname
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: jobs 命令
 sidebar_position: 8
 slug: /jobs
 ---

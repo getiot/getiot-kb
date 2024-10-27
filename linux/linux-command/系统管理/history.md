@@ -1,4 +1,5 @@
 ---
+sidebar_label: history 命令
 sidebar_position: 39
 slug: /history
 ---

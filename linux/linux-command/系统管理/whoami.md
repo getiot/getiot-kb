@@ -1,4 +1,5 @@
 ---
+sidebar_label: whoami 命令
 sidebar_position: 32
 slug: /whoami
 ---

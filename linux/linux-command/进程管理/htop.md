@@ -1,4 +1,5 @@
 ---
+sidebar_label: htop 命令
 sidebar_position: 3
 slug: /htop
 ---

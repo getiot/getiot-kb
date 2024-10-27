@@ -1,4 +1,5 @@
 ---
+sidebar_label: hexdump 命令
 sidebar_position: 1
 slug: /hexdump
 ---

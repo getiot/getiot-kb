@@ -1,4 +1,5 @@
 ---
+sidebar_label: sysctl 命令
 sidebar_position: 53
 slug: /sysctl
 ---

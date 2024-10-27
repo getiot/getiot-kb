@@ -1,4 +1,5 @@
 ---
+sidebar_label: qrencode 命令
 sidebar_position: 3
 slug: /qrencode
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: groupmod 命令
 sidebar_position: 11
 slug: /groupmod
 ---

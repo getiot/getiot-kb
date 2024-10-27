@@ -1,4 +1,5 @@
 ---
+sidebar_label: networkctl 命令
 sidebar_position: 45
 slug: /networkctl
 ---

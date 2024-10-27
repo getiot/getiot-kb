@@ -1,4 +1,5 @@
 ---
+sidebar_label: nc 命令
 sidebar_position: 29
 slug: /nc
 ---

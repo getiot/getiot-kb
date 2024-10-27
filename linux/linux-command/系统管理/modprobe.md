@@ -1,4 +1,5 @@
 ---
+sidebar_label: modprobe 命令
 sidebar_position: 28
 slug: /modprobe
 ---

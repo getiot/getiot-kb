@@ -1,4 +1,5 @@
 ---
+sidebar_label: mc 命令
 sidebar_position: 28
 slug: /mc
 ---

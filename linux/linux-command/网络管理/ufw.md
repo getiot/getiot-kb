@@ -1,4 +1,5 @@
 ---
+sidebar_label: ufw 命令
 sidebar_position: 36
 slug: /ufw
 ---

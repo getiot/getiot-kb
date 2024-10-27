@@ -1,4 +1,5 @@
 ---
+sidebar_label: gpspipe 命令
 sidebar_position: 17
 slug: /gpspipe
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: dig 命令
 sidebar_position: 16
 slug: /dig
 ---

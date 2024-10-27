@@ -1,4 +1,5 @@
 ---
+sidebar_label: chattr 命令
 sidebar_position: 31
 slug: /chattr
 ---

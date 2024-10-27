@@ -1,4 +1,5 @@
 ---
+sidebar_label: gpsd 命令
 sidebar_position: 14
 slug: /gpsd
 ---

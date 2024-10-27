@@ -1,4 +1,5 @@
 ---
+sidebar_label: mmc 命令
 sidebar_position: 15
 slug: /mmc
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: neofetch 命令
 sidebar_position: 30
 slug: /neofetch
 ---

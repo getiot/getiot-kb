@@ -1,4 +1,5 @@
 ---
+sidebar_label: cp 命令
 sidebar_position: 15
 slug: /cp
 ---

@@ -1,4 +1,5 @@
 ---
+sidebar_label: stty 命令
 sidebar_position: 11
 slug: /stty
 ---

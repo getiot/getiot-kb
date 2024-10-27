@@ -1,4 +1,5 @@
 ---
+sidebar_label: cyclitest 命令
 sidebar_position: 4
 slug: /cyclitest
 ---

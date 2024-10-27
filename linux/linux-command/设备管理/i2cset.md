@@ -1,4 +1,5 @@
 ---
+sidebar_label: i2cset 命令
 sidebar_position: 9
 slug: /i2cset
 ---

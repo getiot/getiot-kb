@@ -1,4 +1,5 @@
 ---
+sidebar_label: reboot 命令
 sidebar_position: 46
 slug: /reboot
 ---

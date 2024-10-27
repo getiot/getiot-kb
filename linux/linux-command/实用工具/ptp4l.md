@@ -1,4 +1,5 @@
 ---
+sidebar_label: ptp4l 命令
 sidebar_position: 10
 slug: /ptp4l
 ---

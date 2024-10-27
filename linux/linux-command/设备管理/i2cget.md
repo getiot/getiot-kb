@@ -1,4 +1,5 @@
 ---
+sidebar_label: i2cget 命令
 sidebar_position: 8
 slug: /i2cget
 ---

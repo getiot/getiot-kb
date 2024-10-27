@@ -1,4 +1,5 @@
 ---
+sidebar_label: deluser 命令
 sidebar_position: 13
 slug: /deluser
 ---

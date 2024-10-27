@@ -1,4 +1,5 @@
 ---
+sidebar_label: pkg 命令
 sidebar_position: 8
 slug: /pkg
 ---

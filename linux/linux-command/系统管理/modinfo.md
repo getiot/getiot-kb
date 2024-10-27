@@ -1,4 +1,5 @@
 ---
+sidebar_label: modinfo 命令
 sidebar_position: 27
 slug: /modinfo
 ---

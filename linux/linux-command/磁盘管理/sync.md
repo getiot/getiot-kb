@@ -1,4 +1,5 @@
 ---
+sidebar_label: sync 命令
 sidebar_position: 21
 slug: /sync
 ---

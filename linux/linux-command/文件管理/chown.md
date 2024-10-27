@@ -1,4 +1,5 @@
 ---
+sidebar_label: chown 命令
 sidebar_position: 5
 slug: /chown
 ---

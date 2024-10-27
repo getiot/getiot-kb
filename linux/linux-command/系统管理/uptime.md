@@ -1,4 +1,5 @@
 ---
+sidebar_label: uptime 命令
 sidebar_position: 16
 slug: /uptime
 ---

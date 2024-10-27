@@ -1,4 +1,5 @@
 ---
+sidebar_label: netcat 命令
 sidebar_position: 28
 slug: /netcat
 ---

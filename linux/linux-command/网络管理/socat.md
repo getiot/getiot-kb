@@ -1,4 +1,5 @@
 ---
+sidebar_label: socat 命令
 sidebar_position: 42
 slug: /socat
 ---

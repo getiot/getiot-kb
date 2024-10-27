@@ -1,4 +1,5 @@
 ---
+sidebar_label: type 命令
 sidebar_position: 38
 slug: /type
 ---
