@@ -4,7 +4,7 @@ sidebar_position: 18
 slug: /vim
 ---
 
-# vim 命令
+# vim 命令 - 文本编辑器
 
 
 

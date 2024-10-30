@@ -4,7 +4,7 @@ sidebar_position: 54
 slug: /locale
 ---
 
-# locale 命令
+# locale 命令 - 显示区域设置
 
 
 

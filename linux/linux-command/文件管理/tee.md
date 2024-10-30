@@ -4,7 +4,7 @@ sidebar_position: 20
 slug: /tee
 ---
 
-# tee 命令
+# tee 命令 - 读取并输出到文件
 
 
 

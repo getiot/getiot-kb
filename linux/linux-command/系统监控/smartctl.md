@@ -4,7 +4,7 @@ sidebar_position: 6
 slug: /smartctl
 ---
 
-# smartctl 命令
+# smartctl 命令 - 管理 SMART 磁盘
 
 
 

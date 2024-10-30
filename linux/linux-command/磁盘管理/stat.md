@@ -4,7 +4,7 @@ sidebar_position: 15
 slug: /stat
 ---
 
-# stat 命令
+# stat 命令 - 显示文件或文件系统状态
 
 
 

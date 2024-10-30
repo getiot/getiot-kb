@@ -4,7 +4,7 @@ sidebar_position: 9
 slug: /i2cset
 ---
 
-# i2cset 命令
+# i2cset 命令 - 向 I2C 设备写入数据
 
 
 

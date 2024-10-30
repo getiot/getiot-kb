@@ -4,7 +4,7 @@ sidebar_position: 11
 slug: /grep
 ---
 
-# grep 命令
+# grep 命令 - 搜索文本内容
 
 
 

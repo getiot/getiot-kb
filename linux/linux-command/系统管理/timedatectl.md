@@ -4,7 +4,7 @@ sidebar_position: 50
 slug: /timedatectl
 ---
 
-# timedatectl 命令
+# timedatectl 命令 - 时间日期控制
 
 
 

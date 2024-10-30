@@ -4,7 +4,7 @@ sidebar_position: 2
 slug: /info
 ---
 
-# info 命令
+# info 命令 - 查看命令和程序的文档
 
 
 

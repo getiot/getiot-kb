@@ -4,7 +4,7 @@ sidebar_position: 26
 slug: /swapoff
 ---
 
-# swapoff 命令
+# swapoff 命令 - 禁用交换空间
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 31
 slug: /who
 ---
 
-# who 命令
+# who 命令 - 显示当前登录用户
 
 
 

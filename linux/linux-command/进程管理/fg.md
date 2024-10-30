@@ -4,7 +4,7 @@ sidebar_position: 10
 slug: /fg
 ---
 
-# fg 命令
+# fg 命令 - 将作业置于前台运行
 
 
 

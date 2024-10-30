@@ -4,7 +4,7 @@ sidebar_position: 15
 slug: /delgroup
 ---
 
-# delgroup 命令
+# delgroup 命令 - 删除用户组
 
 
 

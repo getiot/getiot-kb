@@ -4,7 +4,7 @@ sidebar_position: 52
 slug: /lsb_release
 ---
 
-# lsb_release 命令
+# lsb_release 命令 - 显示 LSB 信息
 
 
 

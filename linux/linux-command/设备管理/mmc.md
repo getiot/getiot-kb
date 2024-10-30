@@ -4,7 +4,7 @@ sidebar_position: 15
 slug: /mmc
 ---
 
-# mmc 命令
+# mmc 命令 - 管理 MMC/SD 卡
 
 
 

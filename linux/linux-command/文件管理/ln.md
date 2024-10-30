@@ -4,7 +4,7 @@ sidebar_position: 32
 slug: /ln
 ---
 
-# ln 命令
+# ln 命令 - 创建文件链接
 
 
 

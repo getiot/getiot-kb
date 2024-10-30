@@ -4,7 +4,7 @@ sidebar_position: 22
 slug: /rsync
 ---
 
-# rsync 命令
+# rsync 命令 - 远程数据同步工具
 
 
 

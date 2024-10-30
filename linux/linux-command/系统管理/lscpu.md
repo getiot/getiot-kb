@@ -4,7 +4,7 @@ sidebar_position: 41
 slug: /lscpu
 ---
 
-# lscpu 命令
+# lscpu 命令 - 显示 CPU 架构信息
 
 
 

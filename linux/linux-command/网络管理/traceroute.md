@@ -4,7 +4,7 @@ sidebar_position: 19
 slug: /traceroute
 ---
 
-# traceroute 命令
+# traceroute 命令 - 路由追踪显示路径
 
 
 

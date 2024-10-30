@@ -4,7 +4,7 @@ sidebar_position: 30
 slug: /unzip
 ---
 
-# unzip 命令
+# unzip 命令 - 解压缩 zip 文件
 
 
 

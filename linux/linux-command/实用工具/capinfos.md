@@ -4,13 +4,13 @@ sidebar_position: 19
 slug: /capinfos
 ---
 
-# capinfos 命令
+# capinfos 命令 - 显示 pcap 文件信息
 
 
 
 ## 介绍
 
-**capinfos** 是 Wireshark 工具集中的一个命令，用于查看 pcap 文件的基本信息，包括文件大小、记录数量、时间戳范围等信息。
+**capinfos** 是 Wireshark 工具集中的一个命令，用于查看 pcap 文件（网络捕获文件）的基本信息，包括文件大小、记录数量、时间戳范围等信息。
 
 使用前请确保你的系统上已经安装 Wireshark 工具，如果未安装，可以参考下面安装方法：
 

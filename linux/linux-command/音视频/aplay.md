@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /aplay
 ---
 
-# aplay 命令
+# aplay 命令 - 播放音频文件
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 25
 slug: /tail
 ---
 
-# tail 命令
+# tail 命令 - 显示文件尾部
 
 
 

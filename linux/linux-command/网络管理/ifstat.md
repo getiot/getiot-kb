@@ -4,7 +4,7 @@ sidebar_position: 23
 slug: /ifstat
 ---
 
-# ifstat 命令
+# ifstat 命令 - 网络接口流量监控
 
 
 

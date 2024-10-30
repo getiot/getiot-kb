@@ -4,7 +4,7 @@ sidebar_position: 30
 slug: /nethogs
 ---
 
-# nethogs 命令
+# nethogs 命令 - 按进程监控网络流量
 
 
 

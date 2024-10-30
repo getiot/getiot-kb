@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /strace
 ---
 
-# strace 命令
+# strace 命令 - 跟踪系统调用和信号
 
 
 

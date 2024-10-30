@@ -4,7 +4,7 @@ sidebar_position: 6
 slug: /cwebp
 ---
 
-# cwebp 命令
+# cwebp 命令 - 将图像转换为 WebP 格式
 
 
 

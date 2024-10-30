@@ -4,7 +4,7 @@ sidebar_position: 25
 slug: /swapon
 ---
 
-# swapon 命令
+# swapon 命令 - 启用交换空间
 
 
 

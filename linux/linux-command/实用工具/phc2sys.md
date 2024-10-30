@@ -4,7 +4,7 @@ sidebar_position: 11
 slug: /phc2sys
 ---
 
-# phc2sys 命令
+# phc2sys 命令 - 同步 PTP 时钟与系统时钟
 
 
 

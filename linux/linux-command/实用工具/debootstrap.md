@@ -4,7 +4,7 @@ sidebar_position: 18
 slug: /debootstrap
 ---
 
-# debootstrap 命令
+# debootstrap 命令 - 创建 Debian 基础文件系统
 
 
 

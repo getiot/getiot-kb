@@ -4,7 +4,7 @@ sidebar_position: 22
 slug: /jq
 ---
 
-# jq 命令
+# jq 命令 - JSON 数据处理器
 
 
 

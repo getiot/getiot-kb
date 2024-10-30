@@ -4,7 +4,7 @@ sidebar_position: 13
 slug: /curl
 ---
 
-# curl 命令
+# curl 命令 - 网络请求传输工具
 
 
 

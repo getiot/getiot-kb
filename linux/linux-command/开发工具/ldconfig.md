@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /ldconfig
 ---
 
-# ldconfig 命令
+# ldconfig 命令 - 更新共享库缓存
 
 
 

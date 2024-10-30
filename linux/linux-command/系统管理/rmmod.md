@@ -4,7 +4,7 @@ sidebar_position: 26
 slug: /rmmod
 ---
 
-# rmmod 命令
+# rmmod 命令 - 移除内核模块
 
 
 

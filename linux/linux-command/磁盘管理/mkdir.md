@@ -4,7 +4,7 @@ sidebar_position: 10
 slug: /mkdir
 ---
 
-# mkdir 命令
+# mkdir 命令 - 创建目录
 
 
 

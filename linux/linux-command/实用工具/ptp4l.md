@@ -4,7 +4,7 @@ sidebar_position: 10
 slug: /ptp4l
 ---
 
-# ptp4l 命令
+# ptp4l 命令 - PTP 时间同步
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 9
 slug: /telnet
 ---
 
-# telnet 命令
+# telnet 命令 - 远程登录协议命令
 
 
 

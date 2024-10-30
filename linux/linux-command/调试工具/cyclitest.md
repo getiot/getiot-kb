@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /cyclitest
 ---
 
-# cyclitest 命令
+# cyclitest 命令 - 测试 CPU 负载和响应时间
 
 
 

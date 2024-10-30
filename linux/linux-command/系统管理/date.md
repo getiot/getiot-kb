@@ -4,7 +4,7 @@ sidebar_position: 18
 slug: /date
 ---
 
-# date 命令
+# date 命令 - 显示/设置日期时间
 
 
 

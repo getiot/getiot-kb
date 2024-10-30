@@ -4,7 +4,7 @@ sidebar_position: 14
 slug: /eject
 ---
 
-# eject 命令
+# eject 命令 - 弹出可移动介质
 
 
 

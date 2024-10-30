@@ -4,7 +4,7 @@ sidebar_position: 14
 slug: /gpsd
 ---
 
-# gpsd 命令
+# gpsd 命令 - 管理 GPS 接收器服务
 
 
 

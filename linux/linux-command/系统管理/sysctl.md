@@ -4,7 +4,7 @@ sidebar_position: 53
 slug: /sysctl
 ---
 
-# sysctl 命令
+# sysctl 命令 - 读取/设置内核参数
 
 
 

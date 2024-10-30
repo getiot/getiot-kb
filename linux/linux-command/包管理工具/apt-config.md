@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /apt-config
 ---
 
-# apt-config 命令
+# apt-config 命令 - 管理 APT 配置文件
 
 
 

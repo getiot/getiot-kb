@@ -4,7 +4,7 @@ sidebar_position: 8
 slug: /declare
 ---
 
-# declare 命令
+# declare 命令 - 声明变量和属性
 
 
 

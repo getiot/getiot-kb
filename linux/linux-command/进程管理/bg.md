@@ -4,7 +4,7 @@ sidebar_position: 9
 slug: /bg
 ---
 
-# bg 命令
+# bg 命令 - 将作业置于后台运行
 
 
 

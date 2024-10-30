@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /hexdump
 ---
 
-# hexdump 命令
+# hexdump 命令 - 查看二进制文件
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 10
 slug: /ssh
 ---
 
-# ssh 命令
+# ssh 命令 - 远程登录安全协议
 
 
 

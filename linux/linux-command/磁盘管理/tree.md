@@ -4,7 +4,7 @@ sidebar_position: 16
 slug: /tree
 ---
 
-# tree 命令
+# tree 命令 - 以树形结构显示目录
 
 
 

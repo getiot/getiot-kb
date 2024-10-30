@@ -4,7 +4,7 @@ sidebar_position: 7
 slug: /ipcs
 ---
 
-# ipcs 命令
+# ipcs 命令 - 显示系统 IPC 资源信息
 
 
 

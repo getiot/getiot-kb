@@ -4,7 +4,7 @@ sidebar_position: 6
 slug: /size
 ---
 
-# size 命令
+# size 命令 - 显示目标文件的大小
 
 
 

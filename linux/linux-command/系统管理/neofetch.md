@@ -4,7 +4,7 @@ sidebar_position: 30
 slug: /neofetch
 ---
 
-# neofetch 命令
+# neofetch 命令 - 系统信息展示
 
 
 

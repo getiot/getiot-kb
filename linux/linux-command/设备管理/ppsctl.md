@@ -4,7 +4,7 @@ sidebar_position: 25
 slug: /ppsctl
 ---
 
-# ppsctl 命令
+# ppsctl 命令 - 管理 PPS 信号
 
 
 
@@ -14,7 +14,7 @@ slug: /ppsctl
 
 :::tip
 
-pps-tools 软件包提供了与 PPS（Pulse-Per-Second）信号相关的工具，该软件包提供了 ppscheck、ppsctl、ppsfind、ppsldisc、ppstest、ppswatch 等命令。
+pps-tools 软件包提供了与 PPS（Pulse-Per-Second，脉冲每秒）信号相关的工具，该软件包提供了 ppscheck、ppsctl、ppsfind、ppsldisc、ppstest、ppswatch 等命令。
 
 关于 LinuxPPS 命令和 API 接口的详细介绍可查阅 [http://linuxpps.org](http://linuxpps.org) 上的 Wiki 文档。
 

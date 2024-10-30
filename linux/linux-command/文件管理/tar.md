@@ -4,7 +4,7 @@ sidebar_position: 26
 slug: /tar
 ---
 
-# tar 命令
+# tar 命令 - 压缩或解压缩文件
 
 
 

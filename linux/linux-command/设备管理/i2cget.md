@@ -4,7 +4,7 @@ sidebar_position: 8
 slug: /i2cget
 ---
 
-# i2cget 命令
+# i2cget 命令 - 从 I2C 设备读取数据
 
 
 

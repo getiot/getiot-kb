@@ -4,7 +4,7 @@ sidebar_position: 11
 slug: /scp
 ---
 
-# scp 命令
+# scp 命令 - 远程安全复制文件
 
 
 

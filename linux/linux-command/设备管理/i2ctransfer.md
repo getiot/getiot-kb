@@ -4,7 +4,7 @@ sidebar_position: 10
 slug: /i2ctransfer
 ---
 
-# i2ctransfer 命令
+# i2ctransfer 命令 - 执行 I2C 数据传输操作
 
 
 

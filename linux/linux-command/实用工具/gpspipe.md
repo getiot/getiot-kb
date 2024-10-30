@@ -4,7 +4,7 @@ sidebar_position: 17
 slug: /gpspipe
 ---
 
-# gpspipe 命令
+# gpspipe 命令 - 显示 GPS 数据流
 
 
 

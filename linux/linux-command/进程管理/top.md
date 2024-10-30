@@ -4,7 +4,7 @@ sidebar_position: 2
 slug: /top
 ---
 
-# top 命令
+# top 命令 - 实时显示进程和系统状态
 
 
 

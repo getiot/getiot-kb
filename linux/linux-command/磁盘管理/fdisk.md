@@ -4,7 +4,7 @@ sidebar_position: 17
 slug: /fdisk
 ---
 
-# fdisk 命令
+# fdisk 命令 - 管理磁盘分区表
 
 
 

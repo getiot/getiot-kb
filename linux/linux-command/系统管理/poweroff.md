@@ -4,7 +4,7 @@ sidebar_position: 47
 slug: /poweroff
 ---
 
-# poweroff 命令
+# poweroff 命令 - 关闭系统电源
 
 
 

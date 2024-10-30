@@ -4,7 +4,7 @@ sidebar_position: 7
 slug: /userdel
 ---
 
-# userdel 命令
+# userdel 命令 - 删除用户
 
 
 

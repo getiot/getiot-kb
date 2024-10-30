@@ -4,7 +4,7 @@ sidebar_position: 16
 slug: /uptime
 ---
 
-# uptime 命令
+# uptime 命令 - 显示系统运行时间
 
 
 

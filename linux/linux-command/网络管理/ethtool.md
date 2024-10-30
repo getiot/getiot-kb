@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /ethtool
 ---
 
-# ethtool 命令
+# ethtool 命令 - 查询设置网卡参数
 
 
 

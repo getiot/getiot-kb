@@ -4,7 +4,7 @@ sidebar_position: 22
 slug: /udevadm
 ---
 
-# udevadm 命令
+# udevadm 命令 - 管理设备事件和属性
 
 
 

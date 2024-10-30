@@ -4,7 +4,7 @@ sidebar_position: 56
 slug: /getcap
 ---
 
-# getcap 命令
+# getcap 命令 - 查看文件的特殊权限
 
 
 

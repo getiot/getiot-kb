@@ -4,7 +4,7 @@ sidebar_position: 21
 slug: /sync
 ---
 
-# sync 命令
+# sync 命令 - 同步文件系统缓存
 
 
 

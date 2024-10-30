@@ -4,7 +4,7 @@ sidebar_position: 7
 slug: /timeout
 ---
 
-# timeout 命令
+# timeout 命令 - 限制命令执行时间
 
 
 

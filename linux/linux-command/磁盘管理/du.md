@@ -4,7 +4,7 @@ sidebar_position: 9
 slug: /du
 ---
 
-# du 命令
+# du 命令 - 显示文件和目录大小
 
 
 

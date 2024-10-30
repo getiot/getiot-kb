@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /spi-pipe
 ---
 
-# spi-pipe 命令
+# spi-pipe 命令 - SPI 数据传输工具
 
 
 

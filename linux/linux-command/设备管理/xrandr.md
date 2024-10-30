@@ -4,7 +4,7 @@ sidebar_position: 14
 slug: /xrandr
 ---
 
-# xrandr 命令
+# xrandr 命令 - 管理显示输出设置
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 13
 slug: /umask
 ---
 
-# umask 命令
+# umask 命令 - 设置文件权限掩码
 
 
 

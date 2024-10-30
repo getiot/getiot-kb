@@ -4,7 +4,7 @@ sidebar_position: 6
 slug: /less
 ---
 
-# less 命令
+# less 命令 - 分页查看文件
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 2
 slug: /ifconfig
 ---
 
-# ifconfig 命令
+# ifconfig 命令 - 网络接口配置命令
 
 
 

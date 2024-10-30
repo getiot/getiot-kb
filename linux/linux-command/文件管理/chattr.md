@@ -4,7 +4,7 @@ sidebar_position: 31
 slug: /chattr
 ---
 
-# chattr 命令
+# chattr 命令 - 改变文件属性
 
 
 

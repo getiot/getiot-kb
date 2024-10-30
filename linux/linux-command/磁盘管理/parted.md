@@ -4,7 +4,7 @@ sidebar_position: 19
 slug: /parted
 ---
 
-# parted 命令
+# parted 命令 - 管理磁盘分区
 
 
 

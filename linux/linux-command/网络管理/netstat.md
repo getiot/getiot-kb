@@ -4,7 +4,7 @@ sidebar_position: 7
 slug: /netstat
 ---
 
-# netstat 命令
+# netstat 命令 - 显示网络统计信息
 
 
 

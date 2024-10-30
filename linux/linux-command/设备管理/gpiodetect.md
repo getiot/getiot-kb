@@ -4,7 +4,7 @@ sidebar_position: 16
 slug: /gpiodetect
 ---
 
-# gpiodetect 命令
+# gpiodetect 命令 - 检测 GPIO 控制器
 
 
 

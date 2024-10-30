@@ -4,7 +4,7 @@ sidebar_position: 21
 slug: /hwclock
 ---
 
-# hwclock 命令
+# hwclock 命令 - 显示/设置硬件时钟
 
 
 

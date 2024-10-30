@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /lsusb
 ---
 
-# lsusb 命令
+# lsusb 命令 - 列出 USB 设备信息
 
 
 

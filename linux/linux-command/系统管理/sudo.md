@@ -4,7 +4,7 @@ sidebar_position: 36
 slug: /sudo
 ---
 
-# sudo 命令
+# sudo 命令 - 以超级用户执行
 
 
 

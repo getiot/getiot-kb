@@ -4,7 +4,7 @@ sidebar_position: 2
 slug: /lsblk
 ---
 
-# lsblk 命令
+# lsblk 命令 - 列出块设备信息
 
 
 

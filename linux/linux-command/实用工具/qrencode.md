@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /qrencode
 ---
 
-# qrencode 命令
+# qrencode 命令 - 生成二维码的工具
 
 
 

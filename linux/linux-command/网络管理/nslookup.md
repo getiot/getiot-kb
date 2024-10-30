@@ -4,7 +4,7 @@ sidebar_position: 8
 slug: /nslookup
 ---
 
-# nslookup 命令
+# nslookup 命令 - 查询 DNS 域名和 IP
 
 
 

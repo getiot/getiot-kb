@@ -4,7 +4,7 @@ sidebar_position: 33
 slug: /whois
 ---
 
-# whois 命令
+# whois 命令 - 查询域名信息
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /alsamixer
 ---
 
-# alsamixer 命令
+# alsamixer 命令 - ALSA 混音器控制
 
 
 

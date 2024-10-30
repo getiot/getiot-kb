@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /env
 ---
 
-# env 命令
+# env 命令 - 显示环境变量
 
 
 

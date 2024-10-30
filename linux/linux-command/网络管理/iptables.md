@@ -4,7 +4,7 @@ sidebar_position: 35
 slug: /iptables
 ---
 
-# iptables 命令
+# iptables 命令 - 配置 Linux 防火墙
 
 
 

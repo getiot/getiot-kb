@@ -4,7 +4,7 @@ sidebar_position: 46
 slug: /reboot
 ---
 
-# reboot 命令
+# reboot 命令 - 重启系统
 
 
 

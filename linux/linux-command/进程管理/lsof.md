@@ -4,7 +4,7 @@ sidebar_position: 12
 slug: /lsof
 ---
 
-# lsof 命令
+# lsof 命令 - 列出打开的文件和进程
 
 
 

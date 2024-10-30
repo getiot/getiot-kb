@@ -4,7 +4,7 @@ sidebar_position: 19
 slug: /dmesg
 ---
 
-# dmesg 命令
+# dmesg 命令 - 显示内核消息
 
 
 

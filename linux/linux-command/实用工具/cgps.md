@@ -4,7 +4,7 @@ sidebar_position: 15
 slug: /cgps
 ---
 
-# cgps 命令
+# cgps 命令 - 显示 GPS 信息和位置
 
 
 

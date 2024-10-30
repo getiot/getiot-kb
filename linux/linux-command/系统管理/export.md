@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /export
 ---
 
-# export 命令
+# export 命令 - 导出环境变量
 
 
 

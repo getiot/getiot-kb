@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /ps
 ---
 
-# ps 命令
+# ps 命令 - 显示当前运行的进程
 
 
 

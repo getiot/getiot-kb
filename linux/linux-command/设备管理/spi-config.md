@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /spi-config
 ---
 
-# spi-config 命令
+# spi-config 命令 - 配置 SPI 接口
 
 
 

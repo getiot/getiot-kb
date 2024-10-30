@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /passwd
 ---
 
-# passwd 命令
+# passwd 命令 - 更改用户密码
 
 
 

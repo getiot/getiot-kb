@@ -4,7 +4,7 @@ sidebar_position: 24
 slug: /dd
 ---
 
-# dd 命令
+# dd 命令 - 数据复制和转换
 
 
 

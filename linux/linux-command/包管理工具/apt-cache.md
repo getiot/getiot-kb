@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /apt-cache
 ---
 
-# apt-cache 命令
+# apt-cache 命令 - 查询软件包信息
 
 
 

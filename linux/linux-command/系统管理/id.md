@@ -4,7 +4,7 @@ sidebar_position: 37
 slug: /id
 ---
 
-# id 命令
+# id 命令 - 显示用户 ID 信息
 
 
 

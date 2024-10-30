@@ -4,7 +4,7 @@ sidebar_position: 51
 slug: /nproc
 ---
 
-# nproc 命令
+# nproc 命令 - 显示可用处理器数
 
 
 

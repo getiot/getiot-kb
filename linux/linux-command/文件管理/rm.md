@@ -4,7 +4,7 @@ sidebar_position: 16
 slug: /rm
 ---
 
-# rm 命令
+# rm 命令 - 删除文件或目录
 
 
 

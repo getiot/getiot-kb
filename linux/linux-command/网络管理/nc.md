@@ -4,7 +4,7 @@ sidebar_position: 29
 slug: /nc
 ---
 
-# nc 命令
+# nc 命令 - netcat 的别名
 
 
 

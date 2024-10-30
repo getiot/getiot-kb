@@ -4,7 +4,7 @@ sidebar_position: 19
 slug: /gpioinfo
 ---
 
-# gpioinfo 命令
+# gpioinfo 命令 - 显示 GPIO 控制器和引脚信息
 
 
 

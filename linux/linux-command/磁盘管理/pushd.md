@@ -4,7 +4,7 @@ sidebar_position: 7
 slug: /pushd
 ---
 
-# pushd 命令
+# pushd 命令 - 将目录压入目录栈
 
 
 

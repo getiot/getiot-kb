@@ -4,7 +4,7 @@ sidebar_position: 14
 slug: /renice
 ---
 
-# renice 命令
+# renice 命令 - 改变运行中进程的优先级
 
 
 

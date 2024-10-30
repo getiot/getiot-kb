@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /chmod
 ---
 
-# chmod 命令
+# chmod 命令 - 改变文件权限
 
 
 

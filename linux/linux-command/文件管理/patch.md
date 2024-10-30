@@ -4,7 +4,7 @@ sidebar_position: 9
 slug: /patch
 ---
 
-# patch 命令
+# patch 命令 - 应用文件补丁
 
 
 

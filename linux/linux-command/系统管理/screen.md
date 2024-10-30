@@ -4,7 +4,7 @@ sidebar_position: 22
 slug: /screen
 ---
 
-# screen 命令
+# screen 命令 - 多窗口终端
 
 
 

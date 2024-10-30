@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /echo
 ---
 
-# echo 命令
+# echo 命令 - 输出字符串内容
 
 
 

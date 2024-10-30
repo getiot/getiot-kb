@@ -4,7 +4,7 @@ sidebar_position: 13
 slug: /nice
 ---
 
-# nice 命令
+# nice 命令 - 设置进程优先级
 
 
 

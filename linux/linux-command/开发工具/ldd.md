@@ -4,7 +4,7 @@ sidebar_position: 2
 slug: /ldd
 ---
 
-# ldd 命令
+# ldd 命令 - 显示可执行文件的依赖库
 
 
 

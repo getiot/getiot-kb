@@ -4,7 +4,7 @@ sidebar_position: 43
 slug: /chroot
 ---
 
-# chroot 命令
+# chroot 命令 - 改变根目录
 
 
 

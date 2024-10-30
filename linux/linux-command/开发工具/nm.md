@@ -4,7 +4,7 @@ sidebar_position: 7
 slug: /nm
 ---
 
-# nm 命令
+# nm 命令 - 列出目标文件的符号表
 
 
 

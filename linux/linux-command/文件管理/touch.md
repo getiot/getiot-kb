@@ -4,7 +4,7 @@ sidebar_position: 14
 slug: /touch
 ---
 
-# touch 命令
+# touch 命令 - 创建或更新文件
 
 
 

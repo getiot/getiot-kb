@@ -4,7 +4,7 @@ sidebar_position: 11
 slug: /pwd
 ---
 
-# pwd 命令
+# pwd 命令 - 显示当前工作目录
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 6
 slug: /i2cdetect
 ---
 
-# i2cdetect 命令
+# i2cdetect 命令 - 扫描 I2C 设备地址
 
 
 

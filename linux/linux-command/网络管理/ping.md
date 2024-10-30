@@ -4,7 +4,7 @@ sidebar_position: 15
 slug: /ping
 ---
 
-# ping 命令
+# ping 命令 - 测试网络连接状态
 
 
 

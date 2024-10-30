@@ -4,7 +4,7 @@ sidebar_position: 43
 slug: /wvdial
 ---
 
-# wvdial 命令
+# wvdial 命令 - PPP 拨号工具
 
 
 

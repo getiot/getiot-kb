@@ -4,7 +4,7 @@ sidebar_position: 16
 slug: /taskset
 ---
 
-# taskset 命令
+# taskset 命令 - 设置进程的 CPU 亲和性
 
 
 

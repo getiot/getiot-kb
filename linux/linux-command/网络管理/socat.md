@@ -4,7 +4,7 @@ sidebar_position: 42
 slug: /socat
 ---
 
-# socat 命令
+# socat 命令 - 双向数据传输工具
 
 
 

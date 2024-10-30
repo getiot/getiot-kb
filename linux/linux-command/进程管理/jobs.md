@@ -4,7 +4,7 @@ sidebar_position: 8
 slug: /jobs
 ---
 
-# jobs 命令
+# jobs 命令 - 列出当前作业
 
 
 

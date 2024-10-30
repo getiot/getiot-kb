@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /dos2unix
 ---
 
-# dos2unix 命令
+# dos2unix 命令 - 转换文本文件格式
 
 
 

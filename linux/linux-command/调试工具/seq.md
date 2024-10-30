@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /seq
 ---
 
-# seq 命令
+# seq 命令 - 生成数字序列
 
 
 

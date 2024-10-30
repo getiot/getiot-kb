@@ -4,7 +4,7 @@ sidebar_position: 20
 slug: /trippy
 ---
 
-# trippy 命令
+# trippy 命令 - 网络调试分析工具
 
 
 

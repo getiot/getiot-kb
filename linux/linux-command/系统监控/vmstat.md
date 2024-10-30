@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /vmstat
 ---
 
-# vmstat 命令
+# vmstat 命令 - 统计虚拟内存情况
 
 
 

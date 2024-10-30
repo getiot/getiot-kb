@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /readelf
 ---
 
-# readelf 命令
+# readelf 命令 - 显示 ELF 文件信息
 
 
 

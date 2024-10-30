@@ -4,7 +4,7 @@ sidebar_position: 17
 slug: /pidof
 ---
 
-# pidof 命令
+# pidof 命令 - 获取进程的 PID
 
 
 

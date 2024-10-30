@@ -4,7 +4,7 @@ sidebar_position: 16
 slug: /gpsmon
 ---
 
-# gpsmon 命令
+# gpsmon 命令 - 监控 GPS 数据和状态
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 10
 slug: /snap
 ---
 
-# snap 命令
+# snap 命令 - 管理 Snap 应用包
 
 
 

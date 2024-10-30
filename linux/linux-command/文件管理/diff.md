@@ -4,7 +4,7 @@ sidebar_position: 8
 slug: /diff
 ---
 
-# diff 命令
+# diff 命令 - 比较文件差异
 
 
 

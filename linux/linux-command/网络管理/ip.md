@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /ip
 ---
 
-# ip 命令
+# ip 命令 - 显示或设置网络设备
 
 
 

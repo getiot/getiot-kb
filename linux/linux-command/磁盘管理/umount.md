@@ -4,7 +4,7 @@ sidebar_position: 13
 slug: /umount
 ---
 
-# umount 命令
+# umount 命令 - 卸载文件系统
 
 
 

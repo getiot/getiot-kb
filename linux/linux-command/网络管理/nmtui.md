@@ -4,7 +4,7 @@ sidebar_position: 41
 slug: /nmtui
 ---
 
-# nmtui 命令
+# nmtui 命令 - 文本界面网络设置
 
 
 

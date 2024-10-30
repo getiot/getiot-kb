@@ -4,7 +4,7 @@ sidebar_position: 20
 slug: /fsck
 ---
 
-# fsck 命令
+# fsck 命令 - 检查和修复文件系统
 
 
 
