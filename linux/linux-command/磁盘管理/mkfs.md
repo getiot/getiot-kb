@@ -29,8 +29,8 @@ mkfs [options] [-t type] [fs-options] device [size]
 
 **参数**：
 
-- device：指定要创建的文件系统对应的设备文件名。
-- size：指定文件系统的磁盘块数。
+- `device`：指定要创建的文件系统对应的设备文件名。
+- `size`：指定文件系统的磁盘块数。
 
 
 

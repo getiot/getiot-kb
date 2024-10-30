@@ -59,7 +59,7 @@ ethtool [选项] [devname]
 - `-t` ：让网卡执行自我检测，有两种模式（offline 或 online）。
 - `-s` ：修改网卡的部分配置，包括网卡速度、单工/全双工模式、mac 地址等。
 
-**参数**：devname（网卡名称，可通过 ip 或 ifconfig 命令查看）
+**参数**：`devname`（网卡名称，可通过 [ip](/linux-command/ip) 或 [ifconfig](/linux-command/ifconfig) 命令查看）
 
 
 

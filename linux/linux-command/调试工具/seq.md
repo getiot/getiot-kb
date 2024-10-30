@@ -28,7 +28,7 @@ seq [OPTION]... FIRST INCREMENT LAST
 - `--help` ：显示帮助信息并退出。
 - `--version` ：输出版本信息并退出。
 
-**参数**：FIRST 为首数，INCREMENT 为增量，LAST 为尾数。
+**参数**：`FIRST` 为首数，`INCREMENT` 为增量，`LAST` 为尾数。
 
 
 

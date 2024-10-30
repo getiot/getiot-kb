@@ -55,5 +55,5 @@ touch file{1..5}.txt
 touch -a file.txt
 ```
 
-提示：文件的 access（访问）时间可通过 [stat](/linux-command/stat) 命令查看
+提示：文件的 access（访问）时间可通过 [stat](/linux-command/stat) 命令查看。
 

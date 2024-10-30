@@ -15,7 +15,7 @@ slug: /netstat
 **语法**：
 
 ```bash
-nfsstat [OPTION]...
+netstat [OPTION]...
 ```
 
 **选项**：

@@ -52,7 +52,7 @@ zcat [OPTION]... [FILE]...
 
 当 Linux 内核配置 `CONFIG_IKCONFIG` 和 `CONFIG_IKCONFIG_PROC` 为 `y` 时，在 /proc 会中出现 config.gz 文件。它是内核提供给用户的当前 Linux 内核配置文件副本，并且是经过 gzip 格式压缩的。
 
-例如，在 /proc/config.gz 文件中查找 IKCONFIG 配置信息
+例如，在 /proc/config.gz 文件中查找 IKCONFIG 配置信息：
 
 ```bash
 root@npi:~# zcat /proc/config.gz | grep IKCONFIG
@@ -60,7 +60,7 @@ CONFIG_IKCONFIG=y
 CONFIG_IKCONFIG_PROC=y
 ```
 
-列出 /proc/config.gz 文件信息
+列出 /proc/config.gz 文件信息：
 
 ```bash
 root@npi:~# zcat -l /proc/config.gz

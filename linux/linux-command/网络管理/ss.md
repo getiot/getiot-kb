@@ -45,7 +45,7 @@ ss [options] [ FILTER ]
 - `-D`, `--diag=FILE` ：将原始 TCP 套接字信息转储到文件 FILE。
 - `-F`, `--filter=FILE` ：从文件 FILE 中读取过滤器信息。
 
-**参数**：FILTER（可选），过滤器表达式。
+**参数**：`FILTER`（可选），过滤器表达式。
 
 
 
