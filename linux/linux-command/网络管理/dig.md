@@ -4,7 +4,7 @@ sidebar_position: 16
 slug: /dig
 ---
 
-# dig 命令 - 域名查询工具
+# Linux dig 命令 - 域名查询工具
 
 
 

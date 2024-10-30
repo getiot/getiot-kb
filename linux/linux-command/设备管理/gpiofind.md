@@ -4,7 +4,7 @@ sidebar_position: 17
 slug: /gpiofind
 ---
 
-# gpiofind 命令 - 查找指定名称的 GPIO 引脚
+# Linux gpiofind 命令 - 查找指定名称的 GPIO 引脚
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /apt
 ---
 
-# apt 命令 - APT软件包管理工具
+# Linux apt 命令 - APT软件包管理工具
 
 
 

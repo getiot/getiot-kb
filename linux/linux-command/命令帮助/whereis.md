@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /whereis
 ---
 
-# whereis 命令 - 查找命令的路径和相关文件
+# Linux whereis 命令 - 查找命令的路径和相关文件
 
 
 

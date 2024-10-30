@@ -4,7 +4,7 @@ sidebar_position: 32
 slug: /whoami
 ---
 
-# whoami 命令 - 显示当前用户
+# Linux whoami 命令 - 显示当前用户
 
 
 

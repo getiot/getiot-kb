@@ -4,7 +4,7 @@ sidebar_position: 8
 slug: /pv
 ---
 
-# pv 命令 - 显示数据传输进度
+# Linux pv 命令 - 显示数据传输进度
 
 
 

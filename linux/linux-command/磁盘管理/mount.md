@@ -4,7 +4,7 @@ sidebar_position: 12
 slug: /mount
 ---
 
-# mount 命令 - 挂载文件系统
+# Linux mount 命令 - 挂载文件系统
 
 
 

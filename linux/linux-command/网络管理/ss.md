@@ -4,7 +4,7 @@ sidebar_position: 46
 slug: /ss
 ---
 
-# ss 命令 - 显示套接字统计信息
+# Linux ss 命令 - 显示套接字统计信息
 
 
 

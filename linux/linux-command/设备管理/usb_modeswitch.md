@@ -4,7 +4,7 @@ sidebar_position: 24
 slug: /usb_modeswitch
 ---
 
-# usb_modeswitch 命令 - 切换 USB 设备模式
+# Linux usb_modeswitch 命令 - 切换 USB 设备模式
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 25
 slug: /ppsctl
 ---
 
-# ppsctl 命令 - 管理 PPS 信号
+# Linux ppsctl 命令 - 管理 PPS 信号
 
 
 

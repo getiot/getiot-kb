@@ -4,7 +4,7 @@ sidebar_position: 22
 slug: /awk
 ---
 
-# awk 命令 - 文本处理工具
+# Linux awk 命令 - 文本处理工具
 
 
 

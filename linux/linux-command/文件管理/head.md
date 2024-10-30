@@ -4,7 +4,7 @@ sidebar_position: 24
 slug: /head
 ---
 
-# head 命令 - 显示文件头部
+# Linux head 命令 - 显示文件头部
 
 
 

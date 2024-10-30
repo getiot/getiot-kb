@@ -4,7 +4,7 @@ sidebar_position: 44
 slug: /wvdialconf
 ---
 
-# wvdialconf 命令 - 配置调制解调器
+# Linux wvdialconf 命令 - 配置调制解调器
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 14
 slug: /wget
 ---
 
-# wget 命令 - 网络文件下载工具
+# Linux wget 命令 - 网络文件下载工具
 
 
 

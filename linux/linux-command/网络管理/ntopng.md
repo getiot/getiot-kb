@@ -4,7 +4,7 @@ sidebar_position: 26
 slug: /ntopng
 ---
 
-# ntopng 命令 - 网络流量监控分析
+# Linux ntopng 命令 - 网络流量监控分析
 
 
 

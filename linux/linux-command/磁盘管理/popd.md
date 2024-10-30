@@ -4,7 +4,7 @@ sidebar_position: 8
 slug: /popd
 ---
 
-# popd 命令 - 恢复目录栈顶部目录
+# Linux popd 命令 - 恢复目录栈顶部目录
 
 
 

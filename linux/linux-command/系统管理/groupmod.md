@@ -4,7 +4,7 @@ sidebar_position: 11
 slug: /groupmod
 ---
 
-# groupmod 命令 - 修改用户组
+# Linux groupmod 命令 - 修改用户组
 
 
 

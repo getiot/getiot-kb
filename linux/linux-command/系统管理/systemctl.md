@@ -4,7 +4,7 @@ sidebar_position: 49
 slug: /systemctl
 ---
 
-# systemctl 命令 - 系统和服务管理
+# Linux systemctl 命令 - 系统和服务管理
 
 
 

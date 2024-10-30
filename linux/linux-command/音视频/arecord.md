@@ -4,7 +4,7 @@ sidebar_position: 2
 slug: /arecord
 ---
 
-# arecord 命令 - 录制音频文件
+# Linux arecord 命令 - 录制音频文件
 
 
 

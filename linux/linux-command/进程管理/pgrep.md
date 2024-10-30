@@ -4,7 +4,7 @@ sidebar_position: 18
 slug: /pgrep
 ---
 
-# pgrep 命令 - 根据名称查找进程 ID
+# Linux pgrep 命令 - 根据名称查找进程 ID
 
 
 

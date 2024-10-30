@@ -4,7 +4,7 @@ sidebar_position: 23
 slug: /modpoll
 ---
 
-# modpoll 命令 - Modbus 测试工具
+# Linux modpoll 命令 - Modbus 测试工具
 
 
 

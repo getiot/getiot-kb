@@ -4,7 +4,7 @@ sidebar_position: 10
 slug: /groupdel
 ---
 
-# groupdel 命令 - 删除用户组
+# Linux groupdel 命令 - 删除用户组
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 15
 slug: /chrt
 ---
 
-# chrt 命令 - 查看或设置进程的调度策略
+# Linux chrt 命令 - 查看或设置进程的调度策略
 
 
 

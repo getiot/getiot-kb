@@ -4,7 +4,7 @@ sidebar_position: 42
 slug: /chsh
 ---
 
-# chsh 命令 - 更改登录 Shell
+# Linux chsh 命令 - 更改登录 Shell
 
 
 

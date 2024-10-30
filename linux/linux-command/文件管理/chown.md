@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /chown
 ---
 
-# chown 命令 - 改变文件所有者
+# Linux chown 命令 - 改变文件所有者
 
 
 

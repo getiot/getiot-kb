@@ -4,7 +4,7 @@ sidebar_position: 44
 slug: /getconf
 ---
 
-# getconf 命令 - 查询系统配置变量
+# Linux getconf 命令 - 查询系统配置变量
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /which
 ---
 
-# which 命令 - 查找命令的完整路径
+# Linux which 命令 - 查找命令的完整路径
 
 
 

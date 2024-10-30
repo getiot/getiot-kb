@@ -4,7 +4,7 @@ sidebar_position: 6
 slug: /command
 ---
 
-# command 命令 - 执行外部命令
+# Linux command 命令 - 执行外部命令
 
 
 

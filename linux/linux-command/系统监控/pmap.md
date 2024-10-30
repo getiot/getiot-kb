@@ -4,7 +4,7 @@ sidebar_position: 2
 slug: /pmap
 ---
 
-# pmap 命令 - 显示进程内存映射
+# Linux pmap 命令 - 显示进程内存映射
 
 
 

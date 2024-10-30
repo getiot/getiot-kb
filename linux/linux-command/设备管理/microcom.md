@@ -4,7 +4,7 @@ sidebar_position: 13
 slug: /microcom
 ---
 
-# microcom 命令 - 串口通信工具
+# Linux microcom 命令 - 串口通信工具
 
 
 

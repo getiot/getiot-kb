@@ -4,7 +4,7 @@ sidebar_position: 39
 slug: /history
 ---
 
-# history 命令 - 显示命令历史
+# Linux history 命令 - 显示命令历史
 
 
 

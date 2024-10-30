@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /ps
 ---
 
-# ps 命令 - 显示当前运行的进程
+# Linux ps 命令 - 显示当前运行的进程
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /printenv
 ---
 
-# printenv 命令 - 打印环境变量
+# Linux printenv 命令 - 打印环境变量
 
 
 

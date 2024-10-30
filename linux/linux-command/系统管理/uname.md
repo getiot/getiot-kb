@@ -4,7 +4,7 @@ sidebar_position: 20
 slug: /uname
 ---
 
-# uname 命令 - 显示系统信息
+# Linux uname 命令 - 显示系统信息
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 40
 slug: /last
 ---
 
-# last 命令 - 显示登录记录
+# Linux last 命令 - 显示登录记录
 
 
 

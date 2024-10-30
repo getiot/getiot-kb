@@ -4,7 +4,7 @@ sidebar_position: 23
 slug: /fbset
 ---
 
-# fbset 命令 - 帧缓冲设置
+# Linux fbset 命令 - 帧缓冲设置
 
 
 

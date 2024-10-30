@@ -4,7 +4,7 @@ sidebar_position: 12
 slug: /adduser
 ---
 
-# adduser 命令 - 添加新用户
+# Linux adduser 命令 - 添加新用户
 
 
 

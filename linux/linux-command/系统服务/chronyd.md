@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /chronyd
 ---
 
-# chronyd 命令 - Chrony 服务守护进程
+# Linux chronyd 命令 - Chrony 服务守护进程
 
 
 

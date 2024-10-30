@@ -4,7 +4,7 @@ sidebar_position: 25
 slug: /lsmod
 ---
 
-# lsmod 命令 - 列出加载模块
+# Linux lsmod 命令 - 列出加载模块
 
 
 

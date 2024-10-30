@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /cat
 ---
 
-# cat 命令 - 显示文件内容
+# Linux cat 命令 - 显示文件内容
 
 
 

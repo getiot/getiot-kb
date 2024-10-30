@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /gcc
 ---
 
-# gcc 命令 - GNU C 编译器
+# Linux gcc 命令 - GNU C 编译器
 
 
 

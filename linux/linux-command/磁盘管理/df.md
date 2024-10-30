@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /df
 ---
 
-# df 命令 - 显示磁盘使用情况
+# Linux df 命令 - 显示磁盘使用情况
 
 
 

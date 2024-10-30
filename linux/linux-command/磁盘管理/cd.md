@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /cd
 ---
 
-# cd 命令 - 切换当前目录
+# Linux cd 命令 - 切换当前目录
 
 
 

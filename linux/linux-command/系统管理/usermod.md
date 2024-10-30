@@ -4,7 +4,7 @@ sidebar_position: 8
 slug: /usermod
 ---
 
-# usermod 命令 - 修改用户属性
+# Linux usermod 命令 - 修改用户属性
 
 
 

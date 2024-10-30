@@ -4,7 +4,7 @@ sidebar_position: 21
 slug: /gpioset
 ---
 
-# gpioset 命令 - 设置 GPIO 引脚的值
+# Linux gpioset 命令 - 设置 GPIO 引脚的值
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /man
 ---
 
-# man 命令 - 查看命令手册页
+# Linux man 命令 - 查看命令手册页
 
 
 

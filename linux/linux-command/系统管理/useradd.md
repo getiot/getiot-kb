@@ -4,7 +4,7 @@ sidebar_position: 6
 slug: /useradd
 ---
 
-# useradd 命令 - 添加新用户
+# Linux useradd 命令 - 添加新用户
 
 
 

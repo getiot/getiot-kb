@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /route
 ---
 
-# route 命令 - 显示或操作 IP 路由表
+# Linux route 命令 - 显示或操作 IP 路由表
 
 
 

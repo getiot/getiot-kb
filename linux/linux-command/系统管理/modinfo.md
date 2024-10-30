@@ -4,7 +4,7 @@ sidebar_position: 27
 slug: /modinfo
 ---
 
-# modinfo 命令 - 显示模块信息
+# Linux modinfo 命令 - 显示模块信息
 
 
 

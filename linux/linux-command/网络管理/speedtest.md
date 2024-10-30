@@ -4,7 +4,7 @@ sidebar_position: 18
 slug: /speedtest
 ---
 
-# speedtest 命令 - 网络速度测试工具
+# Linux speedtest 命令 - 网络速度测试工具
 
 
 

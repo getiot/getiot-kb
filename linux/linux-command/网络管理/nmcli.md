@@ -4,7 +4,7 @@ sidebar_position: 40
 slug: /nmcli
 ---
 
-# nmcli 命令 - 网络管理配置工具
+# Linux nmcli 命令 - 网络管理配置工具
 
 
 

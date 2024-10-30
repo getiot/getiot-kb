@@ -4,7 +4,7 @@ sidebar_position: 33
 slug: /locate
 ---
 
-# locate 命令 - 快速查找文件
+# Linux locate 命令 - 快速查找文件
 
 
 

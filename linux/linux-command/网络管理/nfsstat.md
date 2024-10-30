@@ -4,7 +4,7 @@ sidebar_position: 37
 slug: /nfsstat
 ---
 
-# nfsstat 命令 - 显示 NFS 统计信息
+# Linux nfsstat 命令 - 显示 NFS 统计信息
 
 
 

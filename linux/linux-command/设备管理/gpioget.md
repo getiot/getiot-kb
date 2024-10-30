@@ -4,7 +4,7 @@ sidebar_position: 18
 slug: /gpioget
 ---
 
-# gpioget 命令 - 获取 GPIO 引脚的当前值
+# Linux gpioget 命令 - 获取 GPIO 引脚的当前值
 
 
 

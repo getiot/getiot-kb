@@ -4,7 +4,7 @@ sidebar_position: 35
 slug: /su
 ---
 
-# su 命令 - 切换用户身份
+# Linux su 命令 - 切换用户身份
 
 
 

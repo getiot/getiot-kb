@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /kill
 ---
 
-# kill 命令 - 终止进程
+# Linux kill 命令 - 终止进程
 
 
 

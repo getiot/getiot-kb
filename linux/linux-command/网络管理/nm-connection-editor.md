@@ -4,7 +4,7 @@ sidebar_position: 39
 slug: /nm-connection-editor
 ---
 
-# nm-connection-editor 命令 - 图形界面网络设置
+# Linux nm-connection-editor 命令 - 图形界面网络设置
 
 
 

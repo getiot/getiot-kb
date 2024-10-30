@@ -4,7 +4,7 @@ sidebar_position: 24
 slug: /insmod
 ---
 
-# insmod 命令 - 加载内核模块
+# Linux insmod 命令 - 加载内核模块
 
 
 

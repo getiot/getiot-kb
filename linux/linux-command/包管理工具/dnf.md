@@ -4,7 +4,7 @@ sidebar_position: 6
 slug: /dnf
 ---
 
-# dnf 命令 - 软件包管理工具
+# Linux dnf 命令 - 软件包管理工具
 
 
 

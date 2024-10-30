@@ -4,7 +4,7 @@ sidebar_position: 45
 slug: /networkctl
 ---
 
-# networkctl 命令 - 查询控制网络状态
+# Linux networkctl 命令 - 查询控制网络状态
 
 
 

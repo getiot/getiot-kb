@@ -4,7 +4,7 @@ sidebar_position: 19
 slug: /capinfos
 ---
 
-# capinfos 命令 - 显示 pcap 文件信息
+# Linux capinfos 命令 - 显示 pcap 文件信息
 
 
 

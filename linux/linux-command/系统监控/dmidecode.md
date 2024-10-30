@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /dmidecode
 ---
 
-# dmidecode 命令 - 读取 DMI 信息
+# Linux dmidecode 命令 - 读取 DMI 信息
 
 
 

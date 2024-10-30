@@ -4,7 +4,7 @@ sidebar_position: 20
 slug: /editcap
 ---
 
-# editcap 命令 - 编辑和转换 pcap 文件
+# Linux editcap 命令 - 编辑和转换 pcap 文件
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 38
 slug: /type
 ---
 
-# type 命令 - 显示命令类型
+# Linux type 命令 - 显示命令类型
 
 
 

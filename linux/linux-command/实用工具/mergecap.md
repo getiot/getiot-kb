@@ -4,7 +4,7 @@ sidebar_position: 21
 slug: /mergecap
 ---
 
-# mergecap 命令 - 合并多个 pcap 文件
+# Linux mergecap 命令 - 合并多个 pcap 文件
 
 
 

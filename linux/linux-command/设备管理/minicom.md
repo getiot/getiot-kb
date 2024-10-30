@@ -4,7 +4,7 @@ sidebar_position: 12
 slug: /minicom
 ---
 
-# minicom 命令 - 串口调试工具
+# Linux minicom 命令 - 串口调试工具
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 28
 slug: /netcat
 ---
 
-# netcat 命令 - 多功能网络工具
+# Linux netcat 命令 - 多功能网络工具
 
 
 

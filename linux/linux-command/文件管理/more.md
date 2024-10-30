@@ -4,7 +4,7 @@ sidebar_position: 7
 slug: /more
 ---
 
-# more 命令 - 分页查看文件
+# Linux more 命令 - 分页查看文件
 
 
 

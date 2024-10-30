@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /ethtool
 ---
 
-# ethtool 命令 - 查询设置网卡参数
+# Linux ethtool 命令 - 查询设置网卡参数
 
 
 
@@ -17,19 +17,19 @@ slug: /ethtool
 默认情况下，大多数 Linux 发行版应该已经安装了 ethtool 工具，如果没有，可以参考如下命令进行安装。
 
 ```bash
-# 对于 RHEL/CentOS 6/7 系统，使用 yum 命令安装
+# Linux 对于 RHEL/CentOS 6/7 系统，使用 yum 命令安装
 sudo yum install -y ethtool
 
-# 对于 RHEL/CentOS 8 和 Fedora 系统，使用 dnf 命令安装
+# Linux 对于 RHEL/CentOS 8 和 Fedora 系统，使用 dnf 命令安装
 sudo dnf install -y ethtool
 
-# 对于基于 Debian/Ubuntu 的系统，使用 apt 或 apt-get 命令安装
+# Linux 对于基于 Debian/Ubuntu 的系统，使用 apt 或 apt-get 命令安装
 sudo apt-get install ethtool
 
-# 对于 openSUSE 系统，使用 zypper 命令安装
+# Linux 对于 openSUSE 系统，使用 zypper 命令安装
 sudo zypper install -y ethtool
 
-# 对于 Arch Linux 系统，使用 pacman 命令安装
+# Linux 对于 Arch Linux 系统，使用 pacman 命令安装
 sudo pacman -S ethtool
 ```
 

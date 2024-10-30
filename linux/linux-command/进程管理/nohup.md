@@ -4,7 +4,7 @@ sidebar_position: 11
 slug: /nohup
 ---
 
-# nohup 命令 - 后台运行程序
+# Linux nohup 命令 - 后台运行程序
 
 
 

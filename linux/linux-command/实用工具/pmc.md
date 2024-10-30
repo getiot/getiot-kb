@@ -4,7 +4,7 @@ sidebar_position: 13
 slug: /pmc
 ---
 
-# pmc 命令 - 管理 PTP 网络
+# Linux pmc 命令 - 管理 PTP 网络
 
 
 

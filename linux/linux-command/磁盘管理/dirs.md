@@ -4,7 +4,7 @@ sidebar_position: 6
 slug: /dirs
 ---
 
-# dirs 命令 - 显示当前目录栈
+# Linux dirs 命令 - 显示当前目录栈
 
 
 

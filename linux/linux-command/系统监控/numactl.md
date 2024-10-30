@@ -4,7 +4,7 @@ sidebar_position: 7
 slug: /numactl
 ---
 
-# numactl 命令 - 设置 NUMA 策略
+# Linux numactl 命令 - 设置 NUMA 策略
 
 
 

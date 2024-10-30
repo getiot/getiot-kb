@@ -4,7 +4,7 @@ sidebar_position: 21
 slug: /mtr
 ---
 
-# mtr 命令 - 网络诊断路由跟踪
+# Linux mtr 命令 - 网络诊断路由跟踪
 
 
 

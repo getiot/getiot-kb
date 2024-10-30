@@ -4,7 +4,7 @@ sidebar_position: 6
 slug: /ltrace
 ---
 
-# ltrace 命令 - 跟踪程序的库调用
+# Linux ltrace 命令 - 跟踪程序的库调用
 
 
 

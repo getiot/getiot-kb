@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /iostat
 ---
 
-# iostat 命令 - 显示 I/O 统计信息
+# Linux iostat 命令 - 显示 I/O 统计信息
 
 
 

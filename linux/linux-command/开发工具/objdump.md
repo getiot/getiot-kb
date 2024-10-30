@@ -4,7 +4,7 @@ sidebar_position: 4
 slug: /objdump
 ---
 
-# objdump 命令 - 显示目标文件信息
+# Linux objdump 命令 - 显示目标文件信息
 
 
 

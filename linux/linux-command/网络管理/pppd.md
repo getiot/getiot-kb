@@ -4,7 +4,7 @@ sidebar_position: 38
 slug: /pppd
 ---
 
-# pppd 命令 - 点对点协议守护进程
+# Linux pppd 命令 - 点对点协议守护进程
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 18
 slug: /sfdisk
 ---
 
-# sfdisk 命令 - 管理磁盘分区表
+# Linux sfdisk 命令 - 管理磁盘分区表
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 27
 slug: /nmap
 ---
 
-# nmap 命令 - 网络扫描探测工具
+# Linux nmap 命令 - 网络扫描探测工具
 
 
 

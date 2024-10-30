@@ -4,7 +4,7 @@ sidebar_position: 12
 slug: /ftp
 ---
 
-# ftp 命令 - 文件传输协议客户端
+# Linux ftp 命令 - 文件传输协议客户端
 
 
 

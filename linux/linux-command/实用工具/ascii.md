@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /ascii
 ---
 
-# ascii 命令 - 显示字符的 ASCII 码
+# Linux ascii 命令 - 显示字符的 ASCII 码
 
 
 

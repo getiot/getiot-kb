@@ -4,7 +4,7 @@ sidebar_position: 8
 slug: /install
 ---
 
-# install 命令 - 复制并安装文件
+# Linux install 命令 - 复制并安装文件
 
 
 

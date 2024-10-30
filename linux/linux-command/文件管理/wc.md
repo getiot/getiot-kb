@@ -4,7 +4,7 @@ sidebar_position: 21
 slug: /wc
 ---
 
-# wc 命令 - 统计文件内容
+# Linux wc 命令 - 统计文件内容
 
 
 

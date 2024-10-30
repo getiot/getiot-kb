@@ -4,7 +4,7 @@ sidebar_position: 34
 slug: /watch
 ---
 
-# watch 命令 - 重复执行命令
+# Linux watch 命令 - 重复执行命令
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 19
 slug: /file
 ---
 
-# file 命令 - 识别文件类型
+# Linux file 命令 - 识别文件类型
 
 
 

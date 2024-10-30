@@ -4,7 +4,7 @@ sidebar_position: 2
 slug: /unset
 ---
 
-# unset 命令 - 取消环境变量
+# Linux unset 命令 - 取消环境变量
 
 
 

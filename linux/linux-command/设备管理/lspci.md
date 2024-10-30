@@ -4,7 +4,7 @@ sidebar_position: 2
 slug: /lspci
 ---
 
-# lspci 命令 - 列出 PCI 设备信息
+# Linux lspci 命令 - 列出 PCI 设备信息
 
 
 

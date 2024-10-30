@@ -4,7 +4,7 @@ sidebar_position: 55
 slug: /setcap
 ---
 
-# setcap 命令 - 设置文件特殊权限
+# Linux setcap 命令 - 设置文件特殊权限
 
 
 

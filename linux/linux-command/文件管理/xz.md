@@ -4,7 +4,7 @@ sidebar_position: 27
 slug: /xz
 ---
 
-# xz 命令 - 压缩或解压缩文件
+# Linux xz 命令 - 压缩或解压缩文件
 
 
 

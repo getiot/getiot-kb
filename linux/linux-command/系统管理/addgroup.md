@@ -4,7 +4,7 @@ sidebar_position: 14
 slug: /addgroup
 ---
 
-# addgroup 命令 - 添加用户组
+# Linux addgroup 命令 - 添加用户组
 
 
 

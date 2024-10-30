@@ -4,7 +4,7 @@ sidebar_position: 20
 slug: /gpiomon
 ---
 
-# gpiomon 命令 - 监控 GPIO 引脚的状态变化
+# Linux gpiomon 命令 - 监控 GPIO 引脚的状态变化
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 8
 slug: /pkg
 ---
 
-# pkg 命令 - 管理 FreeBSD 软件包
+# Linux pkg 命令 - 管理 FreeBSD 软件包
 
 
 

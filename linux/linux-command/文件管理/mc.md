@@ -4,7 +4,7 @@ sidebar_position: 28
 slug: /mc
 ---
 
-# mc 命令 - 字符界面文件管理器
+# Linux mc 命令 - 字符界面文件管理器
 
 
 

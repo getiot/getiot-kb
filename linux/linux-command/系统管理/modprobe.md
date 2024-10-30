@@ -4,7 +4,7 @@ sidebar_position: 28
 slug: /modprobe
 ---
 
-# modprobe 命令 - 自动加载模块
+# Linux modprobe 命令 - 自动加载模块
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 9
 slug: /redshift
 ---
 
-# redshift 命令 - 护眼色温调节工具
+# Linux redshift 命令 - 护眼色温调节工具
 
 
 

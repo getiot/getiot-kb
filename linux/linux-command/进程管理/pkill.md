@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /pkill
 ---
 
-# pkill 命令 - 根据名称终止进程
+# Linux pkill 命令 - 根据名称终止进程
 
 
 

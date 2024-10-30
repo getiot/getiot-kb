@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /amixer
 ---
 
-# amixer 命令 - ALSA 音频控制
+# Linux amixer 命令 - ALSA 音频控制
 
 
 

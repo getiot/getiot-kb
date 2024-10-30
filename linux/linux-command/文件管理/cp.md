@@ -4,7 +4,7 @@ sidebar_position: 15
 slug: /cp
 ---
 
-# cp 命令 - 复制文件或目录
+# Linux cp 命令 - 复制文件或目录
 
 
 

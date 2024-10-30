@@ -4,7 +4,7 @@ sidebar_position: 7
 slug: /i2cdump
 ---
 
-# i2cdump 命令 - 显示 I2C 设备的寄存器内容
+# Linux i2cdump 命令 - 显示 I2C 设备的寄存器内容
 
 
 

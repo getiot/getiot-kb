@@ -4,7 +4,7 @@ sidebar_position: 11
 slug: /stty
 ---
 
-# stty 命令 - 配置终端行属性
+# Linux stty 命令 - 配置终端行属性
 
 
 

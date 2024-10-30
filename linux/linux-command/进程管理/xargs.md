@@ -4,7 +4,7 @@ sidebar_position: 19
 slug: /xargs
 ---
 
-# xargs 命令 - 构建并执行命令行参数
+# Linux xargs 命令 - 构建并执行命令行参数
 
 
 

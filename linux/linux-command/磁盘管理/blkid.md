@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /blkid
 ---
 
-# blkid 命令 - 显示块设备信息
+# Linux blkid 命令 - 显示块设备信息
 
 
 

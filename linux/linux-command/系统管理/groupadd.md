@@ -4,7 +4,7 @@ sidebar_position: 9
 slug: /groupadd
 ---
 
-# groupadd 命令 - 添加用户组
+# Linux groupadd 命令 - 添加用户组
 
 
 

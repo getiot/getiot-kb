@@ -4,7 +4,7 @@ sidebar_position: 23
 slug: /mkfs
 ---
 
-# mkfs 命令 - 创建文件系统
+# Linux mkfs 命令 - 创建文件系统
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 48
 slug: /shutdown
 ---
 
-# shutdown 命令 - 系统关机命令
+# Linux shutdown 命令 - 系统关机命令
 
 
 

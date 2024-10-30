@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /htop
 ---
 
-# htop 命令 - 交互式进程查看器
+# Linux htop 命令 - 交互式进程查看器
 
 
 

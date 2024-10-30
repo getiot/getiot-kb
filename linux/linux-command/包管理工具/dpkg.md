@@ -4,7 +4,7 @@ sidebar_position: 5
 slug: /dpkg
 ---
 
-# dpkg 命令 - 管理 Debian 软件包
+# Linux dpkg 命令 - 管理 Debian 软件包
 
 
 

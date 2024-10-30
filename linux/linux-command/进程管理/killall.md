@@ -4,7 +4,7 @@ sidebar_position: 6
 slug: /killall
 ---
 
-# killall 命令 - 终止指定名称的所有进程
+# Linux killall 命令 - 终止指定名称的所有进程
 
 
 

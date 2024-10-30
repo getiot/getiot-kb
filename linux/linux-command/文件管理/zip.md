@@ -4,7 +4,7 @@ sidebar_position: 29
 slug: /zip
 ---
 
-# zip 命令 - 压缩文件为 zip 格式
+# Linux zip 命令 - 压缩文件为 zip 格式
 
 
 

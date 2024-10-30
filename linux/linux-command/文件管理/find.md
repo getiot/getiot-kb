@@ -4,7 +4,7 @@ sidebar_position: 10
 slug: /find
 ---
 
-# find 命令 - 查找文件或目录
+# Linux find 命令 - 查找文件或目录
 
 
 

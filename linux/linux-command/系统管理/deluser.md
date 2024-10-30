@@ -4,7 +4,7 @@ sidebar_position: 13
 slug: /deluser
 ---
 
-# deluser 命令 - 删除用户
+# Linux deluser 命令 - 删除用户
 
 
 

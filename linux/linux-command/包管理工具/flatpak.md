@@ -4,7 +4,7 @@ sidebar_position: 9
 slug: /flatpak
 ---
 
-# flatpak 命令 - 管理 Flatpak 应用程序
+# Linux flatpak 命令 - 管理 Flatpak 应用程序
 
 
 

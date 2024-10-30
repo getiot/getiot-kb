@@ -4,7 +4,7 @@ sidebar_position: 29
 slug: /depmod
 ---
 
-# depmod 命令 - 处理模块依赖
+# Linux depmod 命令 - 处理模块依赖
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 7
 slug: /yum
 ---
 
-# yum 命令 - 管理 RPM 软件包
+# Linux yum 命令 - 管理 RPM 软件包
 
 
 

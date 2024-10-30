@@ -4,7 +4,7 @@ sidebar_position: 12
 slug: /read
 ---
 
-# read 命令 - 读取用户输入
+# Linux read 命令 - 读取用户输入
 
 
 

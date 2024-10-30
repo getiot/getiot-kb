@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /free
 ---
 
-# free 命令 - 显示内存使用情况
+# Linux free 命令 - 显示内存使用情况
 
 
 

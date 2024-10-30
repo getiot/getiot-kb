@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /ls
 ---
 
-# ls 命令 - 列出目录内容
+# Linux ls 命令 - 列出目录内容
 
 
 

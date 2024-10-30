@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /lshw
 ---
 
-# lshw 命令 - 列出硬件配置详细信息
+# Linux lshw 命令 - 列出硬件配置详细信息
 
 
 

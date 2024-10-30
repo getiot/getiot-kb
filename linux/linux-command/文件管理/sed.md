@@ -4,7 +4,7 @@ sidebar_position: 23
 slug: /sed
 ---
 
-# sed 命令 - 流编辑器
+# Linux sed 命令 - 流编辑器
 
 
 

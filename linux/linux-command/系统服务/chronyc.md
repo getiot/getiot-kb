@@ -4,7 +4,7 @@ sidebar_position: 2
 slug: /chronyc
 ---
 
-# chronyc 命令 - Chrony 服务交互工具
+# Linux chronyc 命令 - Chrony 服务交互工具
 
 
 

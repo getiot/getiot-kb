@@ -4,7 +4,7 @@ sidebar_position: 2
 slug: /zcat
 ---
 
-# zcat 命令 - 查看压缩文件内容
+# Linux zcat 命令 - 查看压缩文件内容
 
 
 

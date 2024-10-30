@@ -4,7 +4,7 @@ sidebar_position: 17
 slug: /mv
 ---
 
-# mv 命令 - 移动或重命名文件
+# Linux mv 命令 - 移动或重命名文件
 
 
 

@@ -4,7 +4,7 @@ sidebar_position: 3
 slug: /whatis
 ---
 
-# whatis 命令 - 显示命令简要说明
+# Linux whatis 命令 - 显示命令简要说明
 
 
 

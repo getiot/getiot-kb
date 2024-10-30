@@ -4,7 +4,7 @@ sidebar_position: 24
 slug: /iftop
 ---
 
-# iftop 命令 - 实时流量监控工具
+# Linux iftop 命令 - 实时流量监控工具
 
 
 

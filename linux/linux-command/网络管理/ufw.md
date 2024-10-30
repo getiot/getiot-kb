@@ -4,7 +4,7 @@ sidebar_position: 36
 slug: /ufw
 ---
 
-# ufw 命令 - 防火墙配置管理工具
+# Linux ufw 命令 - 防火墙配置管理工具
 
 
 

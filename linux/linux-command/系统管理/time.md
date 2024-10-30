@@ -4,7 +4,7 @@ sidebar_position: 17
 slug: /time
 ---
 
-# time 命令 - 计时命令执行时间
+# Linux time 命令 - 计时命令执行时间
 
 
 

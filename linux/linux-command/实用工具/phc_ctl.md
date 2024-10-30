@@ -4,7 +4,7 @@ sidebar_position: 12
 slug: /phc_ctl
 ---
 
-# phc_ctl 命令 - 管理 PTP 硬件时钟
+# Linux phc_ctl 命令 - 管理 PTP 硬件时钟
 
 
 
