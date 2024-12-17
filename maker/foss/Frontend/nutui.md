@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /nutui
 sidebar_label: NutUI
 ---
 

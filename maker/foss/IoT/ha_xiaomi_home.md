@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+slug: /ha_xiaomi_home
+---
+
 # Home Assistant 米家集成
 
 2024年12月，小米在 GitHub 开源了「Home Assistant 米家集成」，允许用户在 Home Assistant 中使用小米 IoT 智能设备！
