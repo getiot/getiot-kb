@@ -4,7 +4,7 @@ sidebar_position: 0
 
 # FOSS 专栏
 
-
+![](https://static.getiot.tech/cover-foss-tutorial.webp#center)
 
 这里收集各种实用、有趣的开源软件项目，它们可能是一个框架、一个库、一个文档项目，但它们都采用自由或开源的方式分发。
 
