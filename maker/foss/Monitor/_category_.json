@@ -1,0 +1,8 @@
+{
+  "label": "Monitor",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "监控软件 ..."
+  }
+}
