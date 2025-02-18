@@ -5,8 +5,7 @@ slug: /avif
 
 # AVIF 格式（新一代图片）
 
-
-**AVIF**（AV1 Image File Format）是一种基于 AV1 编码的视频压缩技术的图像文件格式，由 Alliance for Open Media（简称 AOM，开放媒体联盟）开发。它是一种现代、高效的图像格式，具有出色的压缩比和画质，特别适用于需要高质量图像和低存储空间的场景。相对于JPEG、WEBP 等图片格式，AVIF 的压缩率更高，画面细节更好。
+**AVIF**（AV1 Image File Format）是基于 AV1 视频压缩技术的图像文件格式，由 Alliance for Open Media（简称 AOM，开放媒体联盟）开发。它是一种现代、高效的图像格式，具有出色的压缩比和画质，支持 10/12 bit 色深、HDR 和广色域（BT.2020），采用分块编码和内容自适应优化，压缩效率比 JPEG 高 50% 以上。特别适用于需要高质量图像和低存储空间的场景，现已成为 Netflix 等流媒体平台的新一代图像标准，但解码复杂度较高。
 
 
 

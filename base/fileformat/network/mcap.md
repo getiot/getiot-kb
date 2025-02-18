@@ -5,7 +5,7 @@ slug: /mcap
 
 # MCAP 文件格式
 
-
+**MCAP**（Modular Container for Autonomous Platforms，自主平台模块化容器）是由机器人技术公司 Foxglove 于 2021 年推出，专为自动驾驶和机器人系统设计的一种数据存储格式。支持 ROS/ROS2 消息、点云、传感器数据的高效存储，内置时间同步索引和 CRC 校验，提供零拷贝读取优化，适配 Kafka 流式传输，是无人系统数据记录的开源标准。
 
 MCAP (pronounced "em-cap") is an open source container file format for multimodal log data. It supports multiple channels of timestamped pre-serialized data, and is ideal for use in pub/sub or robotics applications.
 

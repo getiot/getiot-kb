@@ -5,6 +5,8 @@ slug: /yaml
 
 # YAML 文件格式
 
+**YAML**（YAML Ain't Markup Language）格式最早于 2001 年由 Clark Evans 等人设计，名称采用递归缩写强调其以数据为中心的特性 —— 直译为“YAML 不是标记语言”。YAML 以**缩进和换行**为语法核心，支持注释、锚点引用和复杂数据类型（时间戳、二进制）。可无缝转换为 JSON，凭借高可读性成为 Docker Compose、Kubernetes 和 Ansible 等工具的默认配置格式，但空格敏感特性易引发解析错误。
+
 
 
 ## YAML 简介

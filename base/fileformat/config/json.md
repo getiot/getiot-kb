@@ -5,11 +5,9 @@ slug: /json
 
 # JSON 文件格式
 
-**JSON** 全称 JavaScript Object Notation，即 JS对象简谱，是一种轻量级的数据格式。
+**JSON**（JavaScript Object Notation，JavaScript 对象表示法）是一种轻量级的数据格式，由 Douglas Crockford 于 2001 年规范并命名，源于 JavaScript 的对象字面量语法。采用**轻量级键值树形结构**，语法简洁、层次结构清晰，同时也易于机器解析和生成，有效的提升了网络传输效率。现为 ECMA-404 国际标准，是 RESTful API 和 NoSQL 数据库的主流数据交换格式。
 
-它采用完全独立于编程语言的文本格式来存储和表示数据，语法简洁、层次结构清晰，易于人阅读和编写，同时也易于机器解析和生成，有效的提升了网络传输效率。
-
-官方网站：[https://www.json.org](https://www.json.org)
+虽然 JSON 格式起源于 JavaScript，但它采用完全独立于编程语言的文本格式来存储和表示数据，因此得到广泛的应用。
 
 
 
@@ -50,4 +48,10 @@ JSON 对象是一个无序的 “名称/值” 键值对的集合：
     "business": true
 }
 ```
+
+
+
+## 相关链接
+
+- [https://www.json.org](https://www.json.org)
 

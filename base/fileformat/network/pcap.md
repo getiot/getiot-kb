@@ -5,9 +5,9 @@ slug: /pcap
 
 # PCAP 文件格式
 
+**PCAP**（Packet Capture，网络数据包捕获格式）由 libpcap/WinPcap 开发团队于 1990 年代提出，是网络流量分析的通用存储格式。以二进制形式记录原始网络数据包（含帧头、载荷和时间戳），支持 Wireshark 等工具解析，但缺乏元数据扩展能力，仅保存单一网卡捕获数据。
 
-
-Pcap 是 Packet Capture 的英文缩写，是一种行业标准的网络数据包捕获格式。如果你是网络开发人员，那么通常会使用 Wireshark、Tcpdump 或 WinDump 等网络分析器捕获 TCP/IP 数据包，而抓包后存盘的文件格式就是 .pcap 文件。
+如今，PCAP 已成为行业标准的网络数据包捕获格式。如果你是网络开发人员，那么通常会使用 Wireshark、Tcpdump 或 WinDump 等网络分析器捕获 TCP/IP 数据包，而抓包后存盘的文件格式就是 .pcap 文件。
 
 
 
