@@ -2,9 +2,9 @@
 sidebar_position: 0
 ---
 
-# 文件格式
+# 文件格式 💾
 
-
+![](https://static.getiot.tech/cover-fileformat-tutorial.webp#center)
 
 本教程介绍各种常见的文件格式，包括普通文本、图像、音频、视频、网络数据等等。了解这些格式的定义、用途，为后续的开发打下坚实的基础。
 
