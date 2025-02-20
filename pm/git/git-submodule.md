@@ -111,7 +111,27 @@ git submodule update
 
 ## 删除子模块
 
-传统在在 Git 中，为了能够删除一个子模块，需要如下繁琐的流程：
+在旧版本的 Git 中，删除子模块是挺繁琐的一件事。而在新版本的 Git 中，增加了 `deinit` 命令，简化了删除子模块的流程。
+
+- 首先是从 .git/config 中删除子模块条目：
+
+  ```bash
+  git submodule deinit -f path/to/submodule
+  ```
+
+- 然后从顶层项目的 .git/modules 目录中删除子模块目录：
+
+  ```bash
+  rm -rf .git/modules/path/to/submodule
+  ```
+
+- 最后删除 .gitmodules 中的条目并删除位于 path/to/submodule 的子模块目录：
+
+  ```bash
+  git rm -f path/to/submodule
+  ```
+
+作为对比，我们保留了旧版本 Git 中删除一个子模块的繁琐流程：
 
 - 首先在 `.gitmodules` 文件中删除相关记录
 
@@ -146,17 +166,4 @@ git submodule update
   ```bash
   rm -rf path_to_submodule
   ```
-
-现在 Git 更新了，有了 `deinit` 命令，流程简化如下：
-
-- Remove the submodule entry from .git/config
-  - `git submodule deinit -f path/to/submodule`
-- Remove the submodule directory from the superproject’s .git/modules directory
-  - `rm -rf .git/modules/path/to/submodule`
-- Remove the entry in .gitmodules and remove the submodule directory located at path/to/submodule
-  - `git rm -f path/to/submodule`
-
-
-
-
 
