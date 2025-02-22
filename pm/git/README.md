@@ -4,6 +4,8 @@ sidebar_position: 0
 
 # Git 教程
 
+![Git 入门教程](https://static.getiot.tech/cover-git-tutorial.webp#center)
+
 Git 是一款分布式版本控制系统，广泛应用于软件开发和团队协作。无论是个人开发者还是大型团队，Git 都提供了强大的工具，用于追踪项目的变化、协同开发和版本管理。
 
 ## 学习目标
