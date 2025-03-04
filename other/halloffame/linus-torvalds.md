@@ -1,5 +1,5 @@
 ---
-sidebar_position: 19
+sidebar_position: 20
 sidebar_label: 李纳斯·托瓦兹
 slug: /linus-torvalds
 ---

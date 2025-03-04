@@ -1,5 +1,5 @@
 ---
-sidebar_position: 21
+sidebar_position: 22
 sidebar_label: 谢尔盖·布林
 slug: /sergey-brin
 ---

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 27
+sidebar_position: 28
 sidebar_label: 雷军
 slug: /lei-jun
 ---

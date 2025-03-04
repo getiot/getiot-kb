@@ -1,5 +1,5 @@
 ---
-sidebar_position: 31
+sidebar_position: 32
 sidebar_label: 勒内·笛卡尔
 slug: /rene-descartes
 ---

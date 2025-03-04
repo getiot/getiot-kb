@@ -1,5 +1,5 @@
 ---
-sidebar_position: 37
+sidebar_position: 38
 sidebar_label: 詹姆斯·克拉克·麦克斯韦
 slug: /james-clerk-maxwell
 ---

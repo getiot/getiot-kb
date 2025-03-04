@@ -1,5 +1,5 @@
 ---
-sidebar_position: 16
+sidebar_position: 17
 sidebar_label: 比尔·盖茨
 slug: /bill-gates
 ---

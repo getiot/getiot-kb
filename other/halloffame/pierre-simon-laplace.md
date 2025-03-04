@@ -1,5 +1,5 @@
 ---
-sidebar_position: 35
+sidebar_position: 36
 sidebar_label: 皮埃尔-西蒙·拉普拉斯
 slug: /pierre-simon-laplace
 ---

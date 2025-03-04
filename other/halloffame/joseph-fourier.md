@@ -1,5 +1,5 @@
 ---
-sidebar_position: 32
+sidebar_position: 33
 sidebar_label: 约瑟夫·傅里叶
 slug: /joseph-fourier
 ---

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 38
+sidebar_position: 39
 sidebar_label: 海因里希·赫兹
 slug: /heinrich-hertz
 ---

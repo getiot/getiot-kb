@@ -1,5 +1,5 @@
 ---
-sidebar_position: 40
+sidebar_position: 41
 sidebar_label: 亚历山大·格拉汉姆·贝尔
 slug: /alexander-graham-bell
 ---

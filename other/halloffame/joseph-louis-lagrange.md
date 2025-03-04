@@ -1,5 +1,5 @@
 ---
-sidebar_position: 36
+sidebar_position: 37
 sidebar_label: 约瑟夫-路易·拉格朗日
 slug: /joseph-louis-lagrange
 ---

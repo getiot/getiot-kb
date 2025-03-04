@@ -1,5 +1,5 @@
 ---
-sidebar_position: 41
+sidebar_position: 42
 sidebar_label: 克劳德·香农
 slug: /claude-shannon
 ---

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 34
+sidebar_position: 35
 sidebar_label: 亨利·德雷伯
 slug: /henry-draper
 ---

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 39
+sidebar_position: 40
 sidebar_label: 塞缪尔·莫尔斯
 slug: /samuel-morse
 ---

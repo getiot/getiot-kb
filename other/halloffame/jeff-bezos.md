@@ -1,5 +1,5 @@
 ---
-sidebar_position: 23
+sidebar_position: 24
 sidebar_label: 杰夫·贝佐斯
 slug: /jeff-bezos
 ---

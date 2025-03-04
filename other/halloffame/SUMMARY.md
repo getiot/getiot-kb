@@ -14,6 +14,7 @@
 * [约翰·冯·诺依曼](john-von-neumann.md)
 * [高德纳](donald-knuth.md)
 * [格蕾丝·霍珀](grace-hopper.md)
+* [约翰·麦卡锡](john-mccarthy.md)
 * [蒂姆·伯纳斯-李](tim-berners-lee.md)
 * [法布里斯·贝拉](fabrice-bellard.md)
 * [比尔·盖茨](bill-gates.md)

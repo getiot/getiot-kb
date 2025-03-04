@@ -1,5 +1,5 @@
 ---
-sidebar_position: 14
+sidebar_position: 15
 sidebar_label: 蒂姆·伯纳斯-李
 slug: /tim-berners-lee
 ---
