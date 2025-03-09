@@ -251,7 +251,7 @@
     * [hexdump](调试工具/hexdump.md)
     * [memtester](调试工具/memtester.md)
     * [seq](调试工具/seq.md)
-    * [cyclitest](调试工具/cyclitest.md)
+    * [cyclictest](调试工具/cyclictest.md)
     * [strace](调试工具/strace.md)
     * [ltrace](调试工具/ltrace.md)
     * [timeout](调试工具/timeout.md)

@@ -1,18 +1,18 @@
 ---
 sidebar_label: cyclitest 命令
 sidebar_position: 4
-slug: /cyclitest
+slug: /cyclictest
 ---
 
-# Linux cyclitest 命令 - 测试 CPU 负载和响应时间
+# Linux cyclictest 命令 - 测试 CPU 负载和响应时间
 
 
 
 ## 介绍
 
-**cyclitest** 是一个用于测试 Linux 内核实时性的命令行程序，是 rt-tests 下的一个测试工具，也是 rt-tests 下使用最广泛的测试工具，一般用来测试 Linux 内核的延迟。
+**cyclictest** 是一个用于测试 Linux 内核实时性的命令行程序，是 rt-tests 下的一个测试工具，也是 rt-tests 下使用最广泛的测试工具，一般用来测试 Linux 内核的延迟。
 
-cyclitest 命令由 rt-tests 软件包提供，在 Debian/Ubuntu 系统上可以使用如下命令进行安装。
+cyclictest 命令由 rt-tests 软件包提供，在 Debian/Ubuntu 系统上可以使用如下命令进行安装。
 
 ```bash
 sudo apt install rt-tests
