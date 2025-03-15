@@ -5,11 +5,13 @@ slug: /picture-host-management-software
 
 # 图床管理工具
 
+![](https://static.getiot.tech/picture-host-management-software-banner.webp)
+
 **图床**（Image Hosting Service）是专门用于存储和托管图片的在线服务。用户将图片上传到图床服务器后，会生成一个公开的访问链接（URL），可以直接嵌入到网页、博客、社交媒体或其他应用中，无需将图片存储在本地服务器上。
 
 国内外常见图床平台有七牛云、Imgur、Cloudinary、阿里云 OSS、腾讯云 COS、GitHub 等。图床除了提供上传、存储、访问、删除等基本功能，通常还提供图片格式转换、压缩、裁剪、打水印等图片处理功能，以及防盗链、访问权限等安全相关功能。
 
-图床平台通常会提供网页端的操作界面，但有时候操作起来不是很方便，这个时候就需要用到图床管理工具来提高效率了。本文收集并整理了一些好用的图床管理工具，使用这些工具可以高效的完成图片文件上传、删除等管理工作。
+图床平台通常会提供网页端的操作界面，但有时候操作起来不是很方便，这个时候就需要用到图床管理工具来提高效率了。本文收集并整理了一些好用的图床管理工具，使用这些工具可以高效地完成图片文件上传、删除等管理工作。
 
 
 
@@ -43,7 +45,7 @@ GitHub 地址：[https://github.com/Molunerfinn/PicGo](https://github.com/Molune
 
 ## qshell
 
-qshell 是七牛云官方提供的命令行工具，因此是七牛云专用，暂时不支持，支持文件上传、删除、批量管理、资源状态查询。它使用 Go 语言开发，支持 Windows、Linux、macOS 操作系统。 
+qshell 是七牛云官方提供的命令行工具，支持文件上传、删除、批量管理、资源状态查询。它使用 Go 语言开发，支持 Windows、Linux、macOS 操作系统。 但由于是七牛云专用的工具，因此不支持其他图床。
 
 qshell 工具有两类命令，一类需要鉴权，另一类不需要。上传、删除等操作是需要鉴权的命令，所以这类命令运行之前，需要使用 `account` 命令来设置七牛账号的 `AccessKey` 和 `SecretKey`。设置命令如下：
 
@@ -122,5 +124,5 @@ cld admin          # Lists Admin API methods.
 cld uploader       # Lists Upload API methods.
 ```
 
-GitHub：[https://github.com/cloudinary/cloudinary-cli](https://github.com/cloudinary/cloudinary-cli)
+GitHub 地址：[https://github.com/cloudinary/cloudinary-cli](https://github.com/cloudinary/cloudinary-cli)
 
