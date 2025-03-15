@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+slug: /electronic-toolbox
 ---
 
 # 实用电子工具箱

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /all-of-serial-tools
 ---
 
 # 好用的串口工具合集

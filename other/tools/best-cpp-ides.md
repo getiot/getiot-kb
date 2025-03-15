@@ -1,5 +1,6 @@
 ---
 sidebar_position: 38
+slug: /best-cpp-ides
 ---
 
 # C++ 集成开发环境

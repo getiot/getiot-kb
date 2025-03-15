@@ -52,4 +52,5 @@
 * [局域网文件传输工具](lan-file-sharing-software.md)
 * [云服务器管理工具](cloud-server-management-tools.md)
 * [好用的看板软件工具](kanban-software.md)
+* [图床管理工具](picture-host-management-software.md)
 

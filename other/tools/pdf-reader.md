@@ -1,5 +1,6 @@
 ---
 sidebar_position: 46
+slug: /pdf-reader
 ---
 
 # PDF 阅读器

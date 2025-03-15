@@ -1,5 +1,6 @@
 ---
 sidebar_position: 47
+slug: /vofa-plus
 ---
 
 # VOFA+ 调试工具

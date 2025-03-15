@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+slug: /team-collaboration-tools
 ---
 
 # 团队协作工具

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 41
+slug: /note-taking-apps
 ---
 
 # 好用的笔记软件

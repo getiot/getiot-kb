@@ -1,5 +1,6 @@
 ---
 sidebar_position: 11
+slug: /design-collaboration-tools
 ---
 
 # 设计协作工具

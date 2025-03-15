@@ -1,5 +1,6 @@
 ---
 sidebar_position: 21
+slug: /best-content-management-systems
 ---
 
 # 内容管理系统

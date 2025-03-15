@@ -1,5 +1,6 @@
 ---
 sidebar_position: 15
+slug: /3d-modeling-software
 ---
 
 # 三维绘图软件

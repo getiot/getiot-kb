@@ -1,5 +1,6 @@
 ---
 sidebar_position: 28
+slug: /video-editing-software
 ---
 
 # 视频剪辑软件

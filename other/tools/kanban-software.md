@@ -1,5 +1,6 @@
 ---
 sidebar_position: 51
+slug: /kanban-software
 sidebar_label: 看板软件工具
 ---
 

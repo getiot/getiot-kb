@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: /vscode
 ---
 
 # VSCode 编辑器

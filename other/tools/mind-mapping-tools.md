@@ -1,5 +1,6 @@
 ---
 sidebar_position: 13
+slug: /mind-mapping-tools
 ---
 
 # 思维导图工具

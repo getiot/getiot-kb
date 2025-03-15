@@ -1,5 +1,6 @@
 ---
 sidebar_position: 18
+slug: /disk-imager-tools
 ---
 
 # 镜像烧录工具

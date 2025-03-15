@@ -1,5 +1,6 @@
 ---
 sidebar_position: 30
+slug: /audio-recording-software
 ---
 
 # 音频录制软件

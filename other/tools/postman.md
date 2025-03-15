@@ -1,5 +1,6 @@
 ---
 sidebar_position: 34
+slug: /postman
 ---
 
 # Postman 接口调试工具

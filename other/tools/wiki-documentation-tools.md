@@ -1,5 +1,6 @@
 ---
 sidebar_position: 19
+slug: /wiki-documentation-tools
 ---
 
 # Wiki 文档管理工具

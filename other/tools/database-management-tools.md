@@ -1,5 +1,6 @@
 ---
 sidebar_position: 36
+slug: /database-management-tools
 ---
 
 # 数据库管理工具

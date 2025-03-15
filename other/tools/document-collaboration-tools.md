@@ -1,5 +1,6 @@
 ---
 sidebar_position: 10
+slug: /document-collaboration-tools
 ---
 
 # 文档协作工具

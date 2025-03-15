@@ -1,5 +1,6 @@
 ---
 sidebar_position: 33
+slug: /web-develop-tools
 ---
 
 # Web 开发工具

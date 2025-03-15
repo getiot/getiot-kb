@@ -1,5 +1,6 @@
 ---
 sidebar_position: 20
+slug: /static-site-generators
 ---
 
 # 静态网站生成工具

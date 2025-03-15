@@ -1,5 +1,6 @@
 ---
 sidebar_position: 49
+slug: /lan-file-sharing-software
 ---
 
 # 局域网文件传输工具

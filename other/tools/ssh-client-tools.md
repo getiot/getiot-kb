@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: /ssh-client-tools
 ---
 
 # SSH 客户端工具

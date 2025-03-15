@@ -1,5 +1,6 @@
 ---
 sidebar_position: 14
+slug: /cad-software
 ---
 
 # CAD 制图软件

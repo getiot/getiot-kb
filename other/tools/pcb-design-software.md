@@ -1,5 +1,6 @@
 ---
 sidebar_position: 27
+slug: /pcb-design-software
 ---
 
 # PCB 设计工具

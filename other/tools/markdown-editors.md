@@ -1,5 +1,6 @@
 ---
 sidebar_position: 22
+slug: /markdown-editors
 ---
 
 # Markdown 编辑器

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+slug: /drawio
 ---
 
 # Draw.io

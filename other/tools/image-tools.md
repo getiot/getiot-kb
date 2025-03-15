@@ -1,5 +1,6 @@
 ---
 sidebar_position: 24
+slug: /image-tools
 ---
 
 # 图像处理工具

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 16
+slug: /prototype-design-tools
 ---
 
 # 原型设计工具

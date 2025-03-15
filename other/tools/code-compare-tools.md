@@ -1,5 +1,6 @@
 ---
 sidebar_position: 45
+slug: /code-compare-tools
 ---
 
 # 代码对比工具

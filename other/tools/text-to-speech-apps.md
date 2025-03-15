@@ -1,5 +1,6 @@
 ---
 sidebar_position: 42
+slug: /text-to-speech-apps
 ---
 
 # 文字转语音软件

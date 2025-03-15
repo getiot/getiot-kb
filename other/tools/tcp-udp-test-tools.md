@@ -1,5 +1,6 @@
 ---
 sidebar_position: 48
+slug: /tcp-udp-test-tools
 ---
 
 # TCP/UDP 测试工具

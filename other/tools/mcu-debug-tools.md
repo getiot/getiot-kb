@@ -1,5 +1,6 @@
 ---
 sidebar_position: 37
+slug: /mcu-debug-tools
 ---
 
 # 单片机调试工具

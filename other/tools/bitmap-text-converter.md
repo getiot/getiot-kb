@@ -1,5 +1,6 @@
 ---
 sidebar_position: 25
+slug: /bitmap-text-converter
 ---
 
 # 字体取模软件

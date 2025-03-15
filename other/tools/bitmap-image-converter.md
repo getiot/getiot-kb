@@ -1,5 +1,6 @@
 ---
 sidebar_position: 26
+slug: /bitmap-image-converter
 ---
 
 # 图片取模软件

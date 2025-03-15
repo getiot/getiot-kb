@@ -1,5 +1,6 @@
 ---
 sidebar_position: 12
+slug: /project-management-tools
 ---
 
 # 项目管理工具

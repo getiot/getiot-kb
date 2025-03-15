@@ -1,5 +1,6 @@
 ---
 sidebar_position: 35
+slug: /chrome-devtools
 ---
 
 # Chrome 开发者工具

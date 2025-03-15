@@ -1,5 +1,6 @@
 ---
 sidebar_position: 50
+slug: /cloud-server-management-tools
 ---
 
 # 云服务器管理工具

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+slug: /code-management-tools
 ---
 
 # 代码管理工具

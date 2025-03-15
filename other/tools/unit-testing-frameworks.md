@@ -1,5 +1,6 @@
 ---
 sidebar_position: 40
+slug: /unit-testing-frameworks
 ---
 
 # 单元测试框架

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 23
+slug: /text-editors
 ---
 
 # 文本编辑器

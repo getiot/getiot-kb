@@ -1,5 +1,6 @@
 ---
 sidebar_position: 39
+slug: /static-code-analysis
 ---
 
 # 静态代码分析工具
