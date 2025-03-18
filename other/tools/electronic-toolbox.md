@@ -15,5 +15,5 @@ slug: /electronic-toolbox
 - 字体取模
 - SPWM 正弦表计算
 
-![](./images/lingguang-electronic-toolbox.png)
+![](https://static.getiot.tech/lingguang-electronic-toolbox.webp)
 

@@ -45,7 +45,7 @@ MobaXterm 是一个支持 X11 服务器、SSH 客户端，并提供多种网络�
 - 项目官网：[https://mobaxterm.mobatek.net](https://mobaxterm.mobatek.net)
 - 插件：[https://mobaxterm.mobatek.net/plugins.html](https://mobaxterm.mobatek.net/plugins.html)
 
-![](./images/mobxterm-screenshot-20210916.png)
+![](https://static.getiot.tech/mobxterm-screenshot-20210916.webp#center)
 
 
 

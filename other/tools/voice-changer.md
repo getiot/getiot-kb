@@ -9,6 +9,9 @@ slug: /voice-changer
 
 ## Lyrebird
 
-![](./images/Lyrebird.png)
+Lyrebird 是一个开源的语音转换器项目，旨在通过人工智能（AI）技术实现高质量的语音合成和转换。
 
-https://github.com/lyrebird-voice-changer/lyrebird
+GitHub 地址：[https://github.com/lyrebird-voice-changer/lyrebird](https://github.com/lyrebird-voice-changer/lyrebird)
+
+![](https://static.getiot.tech/Lyrebird.webp)
+

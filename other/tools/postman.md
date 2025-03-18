@@ -42,9 +42,9 @@ Postman 支持 Windows、macOS 和 Linux 操作系统，另外还提供了 Chrom
 
 参考《Web 全栈项目开发入门与实战》
 
-![](./images/postman-screenshot-02.jpeg)
+![](https://static.getiot.tech/postman-screenshot-02.jpeg)
 
-![](./images/postman-screenshot-01.jpeg)
+![](https://static.getiot.tech/postman-screenshot-01.jpeg)
 
 
 
