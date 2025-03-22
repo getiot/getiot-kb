@@ -5,7 +5,7 @@ slug: /picture-host-management-software
 
 # 图床管理工具
 
-![](https://static.getiot.tech/picture-host-management-software-banner.webp)
+![](https://static.getiot.tech/picture-host-management-software-banner.webp#center)
 
 **图床**（Image Hosting Service）是专门用于存储和托管图片的在线服务。用户将图片上传到图床服务器后，会生成一个公开的访问链接（URL），可以直接嵌入到网页、博客、社交媒体或其他应用中，无需将图片存储在本地服务器上。
 
