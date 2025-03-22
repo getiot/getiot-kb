@@ -43,6 +43,35 @@ GitHub 地址：[https://github.com/Molunerfinn/PicGo](https://github.com/Molune
 
 
 
+## PicFlow
+
+**PicFlow** 是一个用于自动化处理（缩放/压缩）图片并上传到云存储平台（如七牛云）的命令行工具，它使用 Python 语言编写，支持 Windows、Linux 和 macOS。除了上传功能外，PicFlow 还提供了许多图片处理功能，包括缩放、格式转换、质量压缩等等，它的目标是成为一个好用的图片处理和上传工具。
+
+使用 `pip` 命令即可安装 PicFlow：
+
+```bash
+pip install picflow
+```
+
+使用前需要执行 `picflow config init` 命令配置 `ACCESS_KEY` 和 `SECRET_KEY` 等信息。
+
+PicFlow 通过 process、batch、upload、info 等子命令提供相应的功能，下面是一些命令示例：
+
+```bash
+# 压缩为 WebP 并上传
+picflow process --format webp --quality 85 ~/images/photo.jpg
+# 递归处理整个文件夹
+picflow batch ~/gallery --scale 50% --output ~/compressed_gallery
+# 直接上传图片
+picflow upload ~/images/photo.jpg
+# 同时上传多张图片
+picflow upload test.jpg test2.jpg test3.jpg
+# 先处理后上传图片
+picflow process --scale 256 --format webp --quality 85 test.jpg
+```
+
+
+
 ## qshell
 
 qshell 是七牛云官方提供的命令行工具，支持文件上传、删除、批量管理、资源状态查询。它使用 Go 语言开发，支持 Windows、Linux、macOS 操作系统。 但由于是七牛云专用的工具，因此不支持其他图床。
