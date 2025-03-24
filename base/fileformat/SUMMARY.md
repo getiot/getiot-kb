@@ -22,6 +22,7 @@
     * [HEIC 格式（高效压缩）](image/heic.md)
     * [PSD 格式（Photoshop）](image/psd.md)
     * [RAW 格式（相机原始数据）](image/raw.md)
+    * [CDR 格式（矢量图形文件）](image/cdr.md)
 * [音频格式](audio/README.md)
     * [MP3 格式（通用音频）](audio/mp3.md)
     * [WAV 格式（未压缩）](audio/wav.md)
