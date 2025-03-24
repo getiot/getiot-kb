@@ -5,8 +5,6 @@ slug: /tcp-udp-test-tools
 
 # TCP/UDP 测试工具
 
-
-
 本文收集一些好用的 TCP/UDP 测试工具，包括 Windows、Linux、macOS 等系统平台。
 
 
@@ -25,7 +23,31 @@ TCP&UDP测试工具支持以下功能：
 - 支持 UDP 和 UDP 广播方式发送和接收；
 - 支持十六进制发送和接收方式。
 
-【[下载地址](http://www.downza.cn/soft/297268.html)】
+👉【[下载地址](http://www.downza.cn/soft/297268.html)】
+
+
+
+## ZapNet
+
+ZapNet 是一个使用 Python 编写的高性能 TCP/UDP 网络测试诊断工具包，提供 TCP/UDP 服务端/客户端测试功能，支持UDP 广播，支持 UTF-8 和十六进制显示，具有良好的命令行交互界面，以及流量分析统计。
+
+使用 pip 命令安装：
+
+```bash
+pip install zapnet
+```
+
+使用示例：
+
+```bash
+# 启动 TCP 服务端
+zapnet tcp server --port 5555
+
+# 新终端运行 TCP 客户端测试
+zapnet tcp client --host 127.0.0.1 --port 5555 --data "Hello, World"
+```
+
+👉【[GitHub 地址](https://github.com/luhuadong/zapnet)】
 
 
 
@@ -39,7 +61,7 @@ TCP&UDP测试工具支持以下功能：
 - [Ubuntu 安装 Jperf 工具](/ubuntu/ubuntu-jperf)
 - [Linux 网络性能测试方法](/linux-note/linux-network-performance-testing)
 
-【[下载地址](https://iperf.fr)】
+👉【[下载地址](https://iperf.fr)】
 
 
 
@@ -53,7 +75,7 @@ Netcat 又称为 nc，是一个功能强大的网络工具，可以用于 TCP �
 
 一种简单易用的工具，可以测试 TCP 连接是否可用，包括端口开放性、延迟和丢包率等信息。
 
-【[下载地址](https://www.elifulkerson.com/projects/tcping.php)】
+👉【[下载地址](https://www.elifulkerson.com/projects/tcping.php)】
 
 
 
@@ -61,7 +83,7 @@ Netcat 又称为 nc，是一个功能强大的网络工具，可以用于 TCP �
 
 类似于 TCPing，是一个网络探测工具，可以测试 TCP 和 UDP 端口的开放性，还可以进行 Ping 测试等。
 
-【[下载地址](https://nmap.org/nping/)】
+👉【[下载地址](https://nmap.org/nping/)】
 
 
 
@@ -69,7 +91,7 @@ Netcat 又称为 nc，是一个功能强大的网络工具，可以用于 TCP �
 
 一个灵活的网络测试工具，可以发送自定义的 TCP、UDP、ICMP 和 RAW IP 数据包，还可以进行端口扫描、防火墙测试和 DoS 攻击测试等。
 
-【[下载地址](http://wiki.hping.org)】
+👉【[下载地址](http://wiki.hping.org)】
 
 
 
