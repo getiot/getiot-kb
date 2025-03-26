@@ -45,4 +45,6 @@
 * [Python 游戏引擎](python-game-engines.md)
 * [Python HTTP 服务](python-http-server.md)
 * [Python 之禅](the-zen-of-python.md)
+* [Python 练习项目](projects/README.md)
+    * [Python 小项目：MBTI 测试](projects/mbti-test.md)
 
