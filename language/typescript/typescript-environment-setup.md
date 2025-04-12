@@ -98,7 +98,7 @@ tsc --init
 
 这个命令会生成一个 `tsconfig.json` 文件，该配置文件提供了许多编译选项。你可以尝试修改配置，例如：
 
-```json
+```json showLineNumbers title="tsconfig.json"
 {
   "compilerOptions": {
     "target": "es5",       // 编译为兼容旧浏览器的 ES5 代码
