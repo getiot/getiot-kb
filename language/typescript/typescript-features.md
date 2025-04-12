@@ -1,52 +1,250 @@
 ---
 sidebar_position: 5
 slug: /typescript-features
-draft: true
 ---
 
 # TypeScript 核心特性
 
+TypeScript 作为一种静态类型语言，提供了许多强大的特性，帮助开发者编写更可靠、更易维护的代码。在本文，我们将介绍一些 TypeScript 的核心特性，加深你对 TypeScript 的理解。
 
 
-### 静态类型
 
-通过类型注解（如 `let age: number = 25`）定义变量类型，支持原始类型（`boolean`、`string`）、联合类型（`string | number`）、泛型等。
+## 类型注解
 
-### 类与接口
+类型注解（Type Annotation）是 TypeScript 的核心特性之一。它允许你在编写代码时声明变量、函数参数和返回值的类型。这种静态类型系统可以在编译时捕获类型相关的错误，而不是等到运行时才发现问题。这使得代码更加可靠。
 
-```typescript showLineNumbers
-interface Person {
-    name: string;
-    age: number;
-}
-
-class Student implements Person {
-    constructor(public name: string, public age: number) {}
-}
-```
-
-接口定义对象结构，类则支持面向对象编程（如继承、封装）。
-
-### 模块化
-
-通过 `import` 和 `export` 管理代码模块，避免全局污染：
+一个简单的类型注解示例：
 
 ```typescript showLineNumbers
-// math.ts
-export function sum(a: number, b: number): number {
-    return a + b;
+let a: number = 10;
+function printNumber(num: number) {
+  console.log(num);
 }
-
-// app.ts
-import { sum } from './math';
-console.log(sum(1, 2)); // 输出 3
+printNumber(a);
 ```
 
-### 类型推断与断言
+编译后生成的 JavaScript 代码如下：
 
-TypeScript 能自动推断变量类型（如 `let str = "hello"` 推断为 `string`），也可用类型断言手动指定类型：
+```javascript showLineNumbers
+var a = 10;
+function printNumber(num) {
+    console.log(num);
+}
+printNumber(a);
+```
+
+
+
+## 接口
+
+接口（Interfaces）类似于其他编程语言（如 Java）中的抽象类。它允许开发者定义对象的结构，但不提供实现。通过接口，开发者可以确保相似对象的结构一致性。
+
+一个简单的接口示例：
 
 ```typescript showLineNumbers
-let value: any = "123";
-let num: number = (value as string).length; // 断言为 string 类型
+interface IPerson {
+  firstName: string;
+  lastName: string;
+  getFullName(): string;
+}
+
+// 定义一个实现接口的对象
+let obj: IPerson = {
+  firstName: "John",
+  lastName: "Doe",
+  getFullName(): string {
+    return this.firstName + " " + this.lastName;
+  }
+};
+console.log(obj.getFullName());
 ```
+
+编译后生成的 JavaScript 代码如下：
+
+```javascript showLineNumbers
+let obj = {
+   firstName: "John",
+   lastName: "Doe",
+   getFullName() {
+      return this.firstName + " " + this.lastName;
+   }
+};
+console.log(obj.getFullName());
+```
+
+
+
+## 类
+
+类（Classes）是对象（Objects）的蓝图。类可以包含属性和方法，这些属性和方法可以通过类的实例来访问。你可以使用构造函数来初始化类的属性，还可以定义静态成员，这些成员可以通过类名直接访问，而无需创建类的实例。
+
+一个简单的类示例：
+
+```typescript showLineNumbers
+class Greeter {
+  greeting: string;
+  // 构造函数
+  constructor(message: string) {
+    this.greeting = message;
+  }
+  // 类方法
+  greet() {
+    return "Hello, " + this.greeting;
+  }
+}
+
+// 创建类的实例
+let greeter = new Greeter("world");
+console.log(greeter.greet()); // Hello, world
+```
+
+编译后生成的 JavaScript 代码如下：
+
+```javascript showLineNumbers
+class Greeter {
+    constructor(message) {
+        this.greeting = message;
+    }
+    greet() {
+        return "Hello, " + this.greeting;
+    }
+}
+let greeter = new Greeter("world");
+console.log(greeter.greet());
+```
+
+
+
+## 继承
+
+TypeScript 支持面向对象编程的所有特性，包括多态（polymorphism）、抽象（abstraction）、封装（encapsulation）和继承（Inheritance）。继承允许你重用其他类的属性和方法。
+
+```typescript showLineNumbers
+// 基类
+class Person {
+  name: string;
+  constructor(name: string) {
+    this.name = name;
+  }
+  display(): void {
+    console.log(this.name);
+  }
+}
+
+// 派生类
+class Employee extends Person {
+  empCode: number;
+  constructor(name: string, code: number) {
+    super(name);
+    this.empCode = code;
+  }
+  show(): void {
+    console.log(this.empCode);
+  }
+}
+
+let emp: Employee = new Employee("John", 123);
+emp.display(); // John
+emp.show(); // 123
+```
+
+编译后生成的 JavaScript 代码如下：
+
+```javascript showLineNumbers
+class Person {
+    constructor(name) {
+        this.name = name;
+    }
+    display() {
+        console.log(this.name);
+    }
+}
+
+class Employee extends Person {
+    constructor(name, code) {
+        super(name);
+        this.empCode = code;
+    }
+    show() {
+        console.log(this.empCode);
+    }
+}
+let emp = new Employee("John", 123);
+emp.display();
+emp.show();
+```
+
+
+
+## 枚举
+
+枚举（Enums）用于定义命名常量。它允许你为常量值命名，使代码更具可读性和可靠性。
+
+一个简单的枚举示例：
+
+```typescript showLineNumbers
+enum Direction {
+  Up = 1,
+  Down,
+  Left,
+  Right
+}
+
+console.log(Direction.Up);    // 1
+console.log(Direction.Down);  // 2
+console.log(Direction.Left);  // 3
+console.log(Direction.Right); // 4
+```
+
+编译后生成的 JavaScript 代码如下：
+
+```javascript showLineNumbers
+var Direction;
+(function (Direction) {
+    Direction[Direction["Up"] = 1] = "Up";
+    Direction[Direction["Down"] = 2] = "Down";
+    Direction[Direction["Left"] = 3] = "Left";
+    Direction[Direction["Right"] = 4] = "Right";
+})(Direction || (Direction = {}));
+console.log(Direction.Up);
+console.log(Direction.Down);
+console.log(Direction.Left);
+console.log(Direction.Right);
+```
+
+
+
+## 泛型
+
+泛型（Generic types）允许你创建可重用的组件、函数或类，这些组件可以处理多种类型的数据，而不是特定的类型。这使得开发者可以使用相同的函数或类来处理多种类型的数据。
+
+一个简单的泛型示例：
+
+```typescript showLineNumbers
+function printArray(arr: T[]): void {
+  for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
+}
+
+printArray([1, 2, 3]); // 数组
+printArray(["a", "b", "c"]); // 字符串数组
+```
+
+编译后生成的 JavaScript 代码如下：
+
+```javascript showLineNumbers
+function printArray(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+    }
+}
+printArray([1, 2, 3]);
+printArray(["a", "b", "c"]);
+```
+
+
+
+## 小结
+
+TypeScript 的核心特性为开发者提供了强大的工具，帮助编写更可靠、更易维护的代码。通过类型注解、接口、类、继承、枚举和泛型等功能，TypeScript 使得代码结构更加清晰，错误更容易在编译时被发现。这些特性在大型项目中尤为重要，可以显著提高开发效率和代码质量。如果你正在寻找一种更强大的 JavaScript 超集，TypeScript 是一个值得尝试的选择。
