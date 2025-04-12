@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /typescript-types
 ---
 
-# TypeScript 数据类型
+# TypeScript - 数据类型
 
 TypeScript 是一种**静态类型语言**，这意味着你在编写代码时就需要为变量指定类型，编译器会在编译阶段对类型进行检查。这不仅能让你的代码更安全，也能让工具如 VS Code 提供更智能的代码补全和错误提示。
 
