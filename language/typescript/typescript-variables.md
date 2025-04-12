@@ -67,7 +67,7 @@ TypeScript 是强类型语言，你可以在声明变量时指定类型。TypeSc
 
 ### 示例：TypeScript 中的变量
 
-```typescript
+```typescript showLineNumbers
 var name: string = "John";
 var score1: number = 50;
 var score2: number = 42.50;
@@ -81,7 +81,7 @@ console.log("sum of the scores: " + sum);
 
 编译后生成的 JavaScript 代码如下：
 
-```javascript
+```javascript showLineNumbers
 var name = "John";
 var score1 = 50;
 var score2 = 42.50;
@@ -114,7 +114,7 @@ var num: number = "hello"; // 会报编译错误
 
 TypeScript 允许将变量从一种类型转换为另一种类型，这个过程称为类型断言（Type Assertion）。语法是将目标类型放在 `< >` 符号中，并放在变量或表达式前面。
 
-```typescript
+```typescript showLineNumbers
 var str = '1';
 var str2: number = <number> <any> str; // 将 str 断言为 number 类型
 console.log(typeof(str2));
@@ -127,7 +127,7 @@ console.log(typeof(str2));
 
 这段代码编译后生成的 JavaScript 代码如下：
 
-```javascript
+```javascript showLineNumbers
 "use strict";
 var str = '1';
 var str2 = str; // str 被断言为 number 类型
@@ -136,7 +136,7 @@ console.log(typeof (str2));
 
 输出结果为：
 
-```
+```bash
 string
 ```
 
@@ -148,7 +148,7 @@ string
 
 TypeScript 支持类型推断（Inferred Typing），即在不指定类型的情况下，编译器会根据初始赋值推断变量类型。
 
-```typescript
+```typescript showLineNumbers
 var num = 2; // 类型被推断为 number
 console.log("value of num: " + num);
 
@@ -174,7 +174,7 @@ TypeScript 中变量的作用域（Scope）决定了变量在程序中的可访�
 
 示例：
 
-```typescript
+```typescript showLineNumbers
 var global_num = 12; // 全局变量
 
 class Numbers {
@@ -194,7 +194,7 @@ console.log("Global num: " + obj.num_val);
 
 编译后的 JavaScript 代码：
 
-```javascript
+```javascript showLineNumbers
 var global_num = 12;
 var Numbers = (function () {
    function Numbers() {
