@@ -37,7 +37,7 @@ example@getiot.tech
 object
 ```
 
-:::warning 注意
+:::tip
 
 `string` 是原始类型，而 `String` 是包装对象。建议优先使用 `string`，因为 `String` 对象在某些情况下可能会导致意外行为。
 
@@ -144,7 +144,7 @@ Character at index 6 is => W
 
 ```typescript
 let str: string;
-str = new String('shahid');
+str = new String('GetIoT');
 ```
 
 报错信息：
