@@ -4,7 +4,7 @@ sidebar_label: TypeScript - 字符串
 slug: /typescript-strings
 ---
 
-# TypeScript - Strings 字符串
+# TypeScript - String 字符串
 
 在 TypeScript 中，字符串（`string`）用于表示一系列字符。字符串是 TypeScript 中的基本数据类型之一，用于存储文本数据。与 JavaScript 类似，TypeScript 也支持字符串原始类型和字符串对象（`String`）。
 
