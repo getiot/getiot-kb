@@ -1,7 +1,6 @@
 ---
 sidebar_position: 13
 slug: /typescript-literal-types
-draft: true
 ---
 
 # TypeScript - 字面量类型
@@ -28,7 +27,7 @@ type lit_type = type_1 | type_2 | type_3 | ...
 
 字符串字面量类型允许你将变量或函数参数定义为包含一组特定字符串的值。例如：
 
-```typescript
+```typescript showLineNumbers
 type Direction = "North" | "East" | "South" | "West";
 
 function move(direction: Direction) {
@@ -47,7 +46,7 @@ Moving in the direction: East
 
 如果你尝试赋值其他值，将会报错。例如：
 
-```typescript
+```typescript showLineNumbers
 let dir: Direction;
 
 dir = "North"; // ✅ 合法
@@ -60,7 +59,7 @@ dir = "Up";    // ❌ 报错：不能将 "Up" 赋值给类型 "Direction"
 
 字面量类型不仅限于字符串，也可以使用数字。例如：
 
-```typescript
+```typescript showLineNumbers
 type StatusCode = 200 | 404 | 500;
 
 let code: StatusCode;
@@ -77,7 +76,7 @@ code = 403; // ❌
 
 虽然布尔值只有两个，但你依然可以通过字面量方式限制某个值只能是 `true` 或 `false`：
 
-```typescript
+```typescript showLineNumbers
 type Truth = true;
 
 let isTrue: Truth = true;   // ✅
