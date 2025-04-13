@@ -35,7 +35,7 @@ let value: number | string | boolean;
 
 **示例：联合类型变量**
 
-```typescript
+```typescript showLineNumbers
 var val: string | number;
 
 val = 12;
@@ -60,7 +60,7 @@ string value of val: This is a string
 
 **示例：联合类型函数参数**
 
-```typescript
+```typescript showLineNumbers
 function disp(name: string | string[]) {
     if (typeof name === "string") {
         console.log(name);
@@ -70,6 +70,7 @@ function disp(name: string | string[]) {
         }
     }
 }
+
 disp("mark");
 console.log("Printing names array....");
 disp(["Mark", "Tom", "Mary", "John"]);
@@ -94,7 +95,7 @@ John
 
 **示例：联合类型数组**
 
-```typescript
+```typescript showLineNumbers
 var arr: number[] | string[];
 var i: number;
 
