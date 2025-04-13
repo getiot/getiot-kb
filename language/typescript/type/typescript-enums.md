@@ -1,7 +1,6 @@
 ---
 sidebar_position: 9
 slug: /typescript-enums
-draft: true
 ---
 
 # TypeScript - Enum 枚举
