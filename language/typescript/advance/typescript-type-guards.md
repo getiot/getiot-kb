@@ -19,7 +19,7 @@ TypeScript 提供了几个内置的类型保护操作符：
 
 示例代码：
 
-```typescript
+```typescript showLineNumbers
 function add(x: number | string, y: number | string): number | string {
    if (typeof x === "number" && typeof y === "number") {
       return x + y; // 数值相加
@@ -49,7 +49,7 @@ Hello, World
 
 示例代码：
 
-```typescript
+```typescript showLineNumbers
 let obj1: { id: number; name: string } = { id: 1, name: 'GetIoT' };
 let obj2: { name: string; roll: number } = { name: 'XYZ', roll: 12 };
 let obj3: { id: number; marks: { english: number; math: number } } = {
@@ -83,7 +83,7 @@ Is math in obj3.marks? => true
 
 示例代码：
 
-```typescript
+```typescript showLineNumbers
 class Parent {
     id: number;
     constructor(id: number) {
