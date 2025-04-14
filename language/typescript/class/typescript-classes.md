@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /typescript-classes
 ---
 
-# TypeScript - 类（Class）
+# TypeScript - 类（Classes）
 
 在 TypeScript 中，类（Classes）是实现面向对象编程的核心概念之一。类是一种蓝图，用于创建具有特定属性和方法的对象。TypeScript 的类基于 ES6 标准，提供了更简洁和直观的语法来定义类。
 
