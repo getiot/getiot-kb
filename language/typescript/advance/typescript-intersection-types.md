@@ -23,7 +23,7 @@ type InterseptedType = Type1 & Type2 [ & Type3 ... ];
 
 ### 示例 1：合并两个接口
 
-```typescript
+```typescript showLineNumbers
 interface Book {
     book_id: number;
     book_name: string;
@@ -64,7 +64,7 @@ Author name: GetIoT!
 
 交叉类型具有交换律和结合律，这意味着合并类型的顺序不会影响最终结果。
 
-```typescript
+```typescript showLineNumbers
 interface Student {
     student_id: number;
     student_name: string;
@@ -114,7 +114,7 @@ true
 
 ### 示例3：不兼容属性的交叉
 
-```typescript
+```typescript showLineNumbers
 interface A {
    id: number;
 }
