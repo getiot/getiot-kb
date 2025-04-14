@@ -106,7 +106,7 @@ console.log(userRoute);
 
 你甚至可以用模板字面量类型来限制某些变量的取值范围，比如 URL 前缀：
 
-```typescript
+```typescript showLineNumbers
 type HTTPSUrl = `https://${string}`;
 
 let url1: HTTPSUrl = "https://example.com"; // ✅
