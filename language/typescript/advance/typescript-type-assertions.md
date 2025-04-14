@@ -21,7 +21,7 @@ slug: /typescript-type-assertions
 
 示例：
 
-```typescript
+```typescript showLineNumbers
 let variable_unknown: unknown = "TypeScript";
 console.log("variable_unknown value is: ", variable_unknown);
 let variable_number: number = (variable_unknown as string).length;
@@ -43,7 +43,7 @@ Length of variable_unknown: 10
 
 示例：
 
-```typescript
+```typescript showLineNumbers
 let my_number: unknown = 12345;
 console.log('my_number value is: ', my_number);
 let num: number = <number>my_number;
@@ -65,7 +65,7 @@ typeof num is: number
 
 示例：
 
-```typescript
+```typescript showLineNumbers
 interface Info {
     name: string;
     value: string;
