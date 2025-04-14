@@ -3,7 +3,7 @@ sidebar_position: 6
 slug: /typescript-static-methods-and-properties
 ---
 
-# TypeScript - 静态方法与属性
+# TypeScript - 静态属性和方法
 
 在 TypeScript 中，**静态成员**（static members）是属于类本身的，而不是某个类的实例。你可以把它们理解为“**类级别**”的变量和方法，它们不需要实例化类就可以被访问。你可以使用关键字 `static` 在类中定义静态属性和静态方法。
 
