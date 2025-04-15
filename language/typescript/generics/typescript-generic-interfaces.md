@@ -136,7 +136,7 @@ type KeyValuePair<T, U> = {
 
 从 TypeScript 2.3 起，你可以为泛型接口中的类型参数提供默认值：
 
-```typescript
+```typescript showLineNumbers
 interface ApiResponse<T = any> {
   data: T;
   status: number;
