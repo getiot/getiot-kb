@@ -3,7 +3,7 @@ sidebar_position: 12
 slug: /typescript-union
 ---
 
-# TypeScript - Union 类型
+# TypeScript - Union 联合类型
 
 在 TypeScript 中，**联合类型（Union Type）** 允许你为一个变量指定多个可能的类型。这意味着一个变量可以在不同场景中接受多种类型的值，从而提供更大的灵活性。联合类型通过竖线（`|`）将多个类型组合在一起。
 
