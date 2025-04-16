@@ -20,9 +20,9 @@ VS Code（Visual Studio Code）是一款由微软开发且跨平台的免费源�
 
 WebStorm 是 JetBrains 出品的一款 Web 集成开发环境（IDE），不仅支持 HTML 网页开发，更是一个强大的 JavaScript 开发工具。但它不是免费软件，对于一些高级功能需要付费。
 
-:::info
+:::info 好消息 🎉
 
-好消息：在2024年10月24日程序员节这一天，JetBrains 官方宣布 WebStorm 和 Rider 对非商业用途免费开放。这意味着，初学者可以免费使用 WebStorm 啦！
+在2024年10月24日程序员节这一天，JetBrains 官方宣布 WebStorm 和 Rider 对非商业用途免费开放。这意味着，初学者可以免费使用 WebStorm 啦！
 
 :::
 
