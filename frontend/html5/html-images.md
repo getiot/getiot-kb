@@ -40,7 +40,7 @@ sidebar_position: 14
 
 
 
-## 图像大小的设置方式
+## 设置图像的大小
 
 你可以通过 `width` 和 `height` 属性来控制图片的大小。如下所示：
 
@@ -58,7 +58,7 @@ sidebar_position: 14
 
 
 
-## 图像的样式设置
+## 设置图像的样式
 
 你可以用 CSS 给图片加上边框、圆角等效果。例如：
 
@@ -68,13 +68,53 @@ sidebar_position: 14
 
 
 
-## 图片作为链接
+## 居中显示图像
+
+在 HTML 中，如果你想让图片在网页中水平居中显示，可以使用 CSS 来实现。下面介绍几种常见的方式：
+
+**方法一：使用块级元素 + `margin: auto`**
+
+你可以通过将图片转换为块级元素（默认是行内元素），再设置左右 `margin` 为 `auto`，实现居中对齐：
+
+```html
+<img src="pic.jpg" style="display: block; margin: auto;" alt="示例图片">
+```
+
+这种方式简单且语义清晰，推荐使用。
+
+**方法二：使用文本居中的父容器**
+
+你也可以将图片放在一个设置了 `text-align: center` 的容器中：
+
+```html
+<div style="text-align: center;">
+  <img src="pic.jpg" alt="示例图片">
+</div>
+```
+
+这个方法尤其适用于快速布局，适合简单页面结构。
+
+**方法三：使用 Flexbox（高级方式）**
+
+如果你熟悉 CSS Flexbox，还可以通过如下方式实现更强大的居中对齐控制：
+
+```html
+<div style="display: flex; justify-content: center;">
+  <img src="pic.jpg" alt="示例图片">
+</div>
+```
+
+这种方式不仅可以让图片居中，还能与其他元素组合使用，适合响应式布局。
+
+
+
+## 将图片作为链接
 
 你还可以把图片作为超链接的内容，这样点击图片就可以跳转到指定页面：
 
 ```html
 <a href="https://www.getiot.tech">
-  <img src="example.jpg" alt="跳转链接">
+  <img src="logo.png" alt="跳转链接">
 </a>
 ```
 
