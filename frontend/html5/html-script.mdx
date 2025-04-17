@@ -1,0 +1,130 @@
+---
+sidebar_position: 27
+---
+
+# HTML script 标签
+
+`<script>` 标签是 HTML 中用于定义客户端脚本的标签。它通常用于嵌入 JavaScript 代码，或引用外部 JavaScript 文件。通过 `<script>` 标签，你可以实现网页的动态效果和交互功能。
+
+这个标签最初由 Netscape 创造，并在 Netscape Navigator 2 中首次实现，后来被正式加入到 HTML 规范中。
+
+
+
+## 基本语法
+
+`<script>` 标签用于将 JavaScript 代码嵌入到 HTML 页面中。通常，你会在 `<head>` 或 `<body>` 中使用它来插入脚本。
+
+基本的用法如下：
+
+### 内嵌脚本
+
+你可以直接在 `<script>` 标签内编写 JavaScript 代码：
+
+```html
+<script>
+  alert("你好，世界！");
+</script>
+```
+
+在上面的例子中，页面加载时会弹出一个对话框，显示 "你好，世界！"。
+
+显示效果：<button onClick={() => alert('你好，世界！')}>点击我</button>
+
+### 引用外部脚本
+
+你也可以通过 `src` 属性引用外部的 JavaScript 文件：
+
+```html
+<script src="script.js"></script>
+```
+
+在这种情况下，浏览器会加载并执行 `script.js` 文件中的 JavaScript 代码。
+
+
+
+## `type` 属性
+
+在 HTML5 中，`<script>` 标签的 `type` 属性已变得不再必需，浏览器会自动识别 JavaScript 脚本类型。早期的 HTML 中，`type="text/javascript"` 用于声明脚本类型：
+
+```html
+<script type="text/javascript">
+  alert("你好，世界！");
+</script>
+```
+
+不过，在 HTML5 中，你可以省略 `type` 属性，直接使用默认的 JavaScript 类型：
+
+```html
+<script>
+  alert("你好，世界！");
+</script>
+```
+
+
+
+## `async` 和 `defer` 属性
+
+当你使用 `<script>` 标签加载外部 JavaScript 文件时，`async` 和 `defer` 属性可以帮助你控制脚本的加载和执行顺序。
+
+### `async` 属性
+
+`async` 属性告诉浏览器异步加载脚本，意味着浏览器会在下载脚本的同时继续解析 HTML 页面。下载完脚本后，脚本会立即执行，这可能会打断 HTML 的解析。
+
+```html
+<script src="script.js" async></script>
+```
+
+### `defer` 属性
+
+`defer` 属性则是延迟执行脚本，直到整个 HTML 文档解析完成之后再执行。这是用于确保脚本不会阻止页面的其他内容加载。
+
+```html
+<script src="script.js" defer></script>
+```
+
+使用 `defer` 属性时，脚本会按照在文档中的顺序执行，且只有在页面完全加载后才会执行。
+
+
+
+## 放置 `<script>` 标签的位置
+
+### 放置在 `<head>` 中
+
+将 `<script>` 标签放在 `<head>` 标签中时，脚本会在 HTML 页面加载之前执行。这可能会影响页面的渲染速度，因此大多数开发者倾向于将脚本放在文档的底部，以提高页面加载速度。
+
+```html
+<head>
+  <script src="script.js"></script>
+</head>
+```
+
+### 放置在 `<body>` 底部
+
+将 `<script>` 标签放在 `<body>` 底部可以确保脚本在 HTML 内容完全加载之后才会执行，从而提高页面的加载速度。
+
+```html
+<body>
+  <script src="script.js"></script>
+</body>
+```
+
+
+
+## `<script>` 属性列表
+
+|       属性       | 值                                                           | 描述                                                         |
+| :--------------: | :----------------------------------------------------------- | :----------------------------------------------------------- |
+|     `async`      | async                                                        | 指定脚本与解析页面并行下载，并在可用时立即执行（在解析完成之前）<br />注意：仅适用于外部脚本 |
+|  `crossorigin`   | anonymous<br />use-credentials                               | 将请求的模式设置为 HTTP CORS 请求                            |
+|     `defer`      | defer                                                        | 指定与解析页面并行下载脚本，并在页面解析完成后执行<br />注意：仅适用于外部脚本 |
+|   `integrity`    | filehash                                                     | 允许浏览器检查获取的脚本，以确保如果源已被操纵，则永远不会加载代码 |
+|    `nomodule`    | True False                                                   | 指定脚本不应在支持 ES2015 模块的浏览器中执行                 |
+| `referrerpolicy` | no-referrer<br />no-referrer-when-downgrade<br />origin<br />origin-when-cross-origin<br />same-origin<br />strict-origin<br />strict-origin-when-cross-origin<br />unsafe-url | 指定在获取脚本时要发送的引荐来源信息                         |
+|      `src`       | URL                                                          | 指定外部脚本文件的 URL                                       |
+|      `type`      | scripttype                                                   | 指定脚本的媒体类型                                           |
+
+
+
+## 小结
+
+HTML5 中的 `<script>` 标签是网页实现动态效果和交互功能的核心工具。你可以通过它嵌入 JavaScript 代码或引用外部脚本。了解如何使用 `async` 和 `defer` 属性，可以帮助你优化网页加载速度，使页面在加载时更流畅。虽然在 HTML5 中不再强制要求 `type` 属性，但仍然需要理解其历史背景，确保在需要时能够使用正确的语法。在开发时，根据页面需求选择合适的脚本位置和加载方式，可以有效提高页面性能和用户体验。
