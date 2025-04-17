@@ -227,8 +227,8 @@ HTML 提供了 `<caption>` 元素为表格添加标题。在使用上，它必�
     <th>年龄</th>
   </tr>
   <tr>
-    <td>张</td>
-    <td>三</td>
+    <td>阿基米</td>
+    <td>东</td>
     <td>28</td>
   </tr>
 </table>
@@ -244,8 +244,8 @@ HTML 提供了 `<caption>` 元素为表格添加标题。在使用上，它必�
 >     <th>年龄</th>
 >   </tr>
 >   <tr>
->     <td>张</td>
->     <td>三</td>
+>     <td>阿基米</td>
+>     <td>东</td>
 >     <td>28</td>
 >   </tr>
 > </table>
