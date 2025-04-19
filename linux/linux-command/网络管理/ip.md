@@ -10,7 +10,7 @@ slug: /ip
 
 ## 介绍
 
-**ip** 命令是 Linux 系统中的一个网络配置工具，主要用于显示或设置网络设备，功能非常全面，可完全替代 [ifconfig](/linux-command/ifconfig) 命令。
+**ip** 命令是 Linux 系统中的一个网络配置工具，主要用于显示或设置网络设备，功能非常全面，可完全替代 [ifconfig](/linux-command/ifconfig/) 命令。
 
 **语法**：
 

@@ -44,7 +44,7 @@ wvdial [ OPTIONS ] [ SECTION ] ...
 
 **参数**：
 
-参数 `SECTION` 是配置文件（类似 windows 里的 ini 文件）中的某一段，一个 wvdial.conf 配置文件可以有好多个 section，每一个 section 由一些变量组成，可以使用 [wvdialconf](/linux-command/wvdialconf) 命令自动生成配置文件。
+参数 `SECTION` 是配置文件（类似 windows 里的 ini 文件）中的某一段，一个 wvdial.conf 配置文件可以有好多个 section，每一个 section 由一些变量组成，可以使用 [wvdialconf](/linux-command/wvdialconf/) 命令自动生成配置文件。
 
 wvdial 通常在没有命令行选项的情况下运行，在这种情况下，它从 /etc/wvdial.conf 的 `[Dialer Defaults]` 部分读取其配置。关于配置文件的详细说明，可以通过 `man wvdial.conf` 命令获取。下面是一个 wvdial.conf 配置文件的示例：
 

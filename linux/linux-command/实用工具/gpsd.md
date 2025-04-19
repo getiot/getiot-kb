@@ -14,7 +14,7 @@ slug: /gpsd
 
 gpsd 服务是 [GPSD](https://gitlab.com/gpsd/gpsd) 项目的一部分，该项目提供一系列管理 GPS 设备和其他用于导航与精确计时的传感器的工具。
 
-扩展阅读：《[Linux 使用 gpsd 获取 GPS 数据](/linux-note/linux-get-gps-data-using-gpsd)》、《[libgps 使用教程](/awesome-c/libgps)》。
+扩展阅读：《[Linux 使用 gpsd 获取 GPS 数据](/linux-note/linux-get-gps-data-using-gpsd/)》、《[libgps 使用教程](/awesome-c/libgps/)》。
 
 **安装**：
 

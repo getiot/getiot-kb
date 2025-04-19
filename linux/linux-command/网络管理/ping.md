@@ -78,7 +78,7 @@ ping getiot.tech
 ping 192.168.0.2
 ```
 
-指定网卡进行 ping 测试（网卡名称可通过 [ifconfig](/linux-command/ifconfig) 命令查看）
+指定网卡进行 ping 测试（网卡名称可通过 [ifconfig](/linux-command/ifconfig/) 命令查看）
 
 ```bash
 ping -I eth0 192.168.0.2

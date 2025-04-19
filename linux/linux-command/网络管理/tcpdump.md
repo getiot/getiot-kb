@@ -166,7 +166,7 @@ tcpdump -n src 192.168.1.100 and not dst port 22
 tcpdump -n -i any > file.out
 ```
 
-如果你想在保存到文件的同时在终端观看数据，可以借助 [tee](/linux-command/tee) 命令
+如果你想在保存到文件的同时在终端观看数据，可以借助 [tee](/linux-command/tee/) 命令
 
 ```bash
 tcpdump -n -l | tee file.out
@@ -190,7 +190,7 @@ tcpdump -n -w data.pcap
 tcpdump -r data.pcap
 ```
 
-如果想要捕获一段时间内的数据包，可以与 [timeout](/linux-command/timeout) 命令配合使用。例如捕获 5 分钟的网络数据：
+如果想要捕获一段时间内的数据包，可以与 [timeout](/linux-command/timeout/) 命令配合使用。例如捕获 5 分钟的网络数据：
 
 ```bash
 timeout 300 tcpdump -n -w data.pcap

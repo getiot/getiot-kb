@@ -12,7 +12,7 @@ slug: /swapon
 
 **swapon** 命令用于检查或启用 Linux 系统中用于分页和交换的设备和文件。
 
-相关命令：[swapoff](/linux-command/swapoff)
+相关命令：[swapoff](/linux-command/swapoff/)
 
 **语法**：
 

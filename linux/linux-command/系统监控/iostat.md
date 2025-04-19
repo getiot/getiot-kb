@@ -12,7 +12,7 @@ slug: /iostat
 
 **iostat**（英文全拼：I/O statistics）是 Linux 系统中用于查看系统的磁盘 I/O（输入/输出）统计信息的命令。它能够提供关于磁盘和 CPU 使用情况的详细报告，对于监控系统性能和磁盘活动非常有用。
 
-和 [vmstat](/linux-command/vmstat) 一样，iostat 也有一个弱点，就是它不能对某个进程进行深入分析，仅对系统的整体情况进行分析。iostat 命令由 sysstat 软件包提供，使用前需要安装，安装命令如下。
+和 [vmstat](/linux-command/vmstat/) 一样，iostat 也有一个弱点，就是它不能对某个进程进行深入分析，仅对系统的整体情况进行分析。iostat 命令由 sysstat 软件包提供，使用前需要安装，安装命令如下。
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

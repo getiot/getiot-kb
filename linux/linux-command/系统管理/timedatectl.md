@@ -14,7 +14,7 @@ slug: /timedatectl
 
 systemd 是目前 Linux 系统上主要的系统守护进程管理工具，由于 init 一方面对于进程的管理是串行化的，容易出现阻塞情况，另一方面 init 也仅仅是执行启动脚本，并不能对服务本身进行更多的管理。所以许多 Linux 发行版都由 systemd 取代了 init 作为默认的系统进程管理工具。
 
-systemd 所管理的所有系统资源都称作 Unit，通过 systemd 命令集可以方便的对这些 Unit 进行管理。比如 [systemctl](/linux-command/systemctl)、hostnamectl、timedatectl、localctl 等命令，这些命令虽然改写了 init 时代用户的命令使用习惯（不再使用 chkconfig、service 等命令），但确实也提供了很大的便捷性。
+systemd 所管理的所有系统资源都称作 Unit，通过 systemd 命令集可以方便的对这些 Unit 进行管理。比如 [systemctl](/linux-command/systemctl/)、hostnamectl、timedatectl、localctl 等命令，这些命令虽然改写了 init 时代用户的命令使用习惯（不再使用 chkconfig、service 等命令），但确实也提供了很大的便捷性。
 
 从版本号 213 的 systemd 开始，包括了一个名为 **systemd-timesyncd** 的守护进程，将能够和远程的 NTP 服务器同步时间。此守护进程并不是为了取代已有的 NTP 服务，而是作为 SNTP 协议的实现客户端，它可用于更高级的任务和资源有限的系统。从版本号 216 的 systemd 开始，systemd-timesyncd 守护进程默认启用。
 
@@ -161,7 +161,7 @@ Root distance: 29.922ms (max: 5s)
 
 systemd-timedated 可能默认配置了谷歌的 NTP 服务器（如 time1.google.com），为了顺利完成网络时间同步，您可以编辑 /etc/systemd/timesyncd.conf 文件添加自己的 NTP 服务器地址。
 
-相关文章：[Linux 时间同步](/linux/linux-date-time-synchronization)
+相关文章：[Linux 时间同步](/linux/linux-date-time-synchronization/)
 
 
 

@@ -12,9 +12,9 @@ slug: /phc_ctl
 
 **phc_ctl**（英文全拼：PTP hardware clock control）是 linuxptp 套件中的一个命令，可以用来直接控制 PHC 时钟设备。`phc_ctl` 命令通常用于调试目的，很少用于设备的一般控制。对于 PHC 时钟设备的一般控制，应该使用 `phc2sys` 命令。
 
-相关命令：[ptp4l](/linux-command/ptp4l)、[phc2sys](/linux-command/phc2sys)、[pmc](/linux-command/pmc)
+相关命令：[ptp4l](/linux-command/ptp4l/)、[phc2sys](/linux-command/phc2sys/)、[pmc](/linux-command/pmc/)
 
-关于 PTP 详细介绍，请参考《[PTP 精确时间协议](/protocol/ptp)》。
+关于 PTP 详细介绍，请参考《[PTP 精确时间协议](/protocol/ptp/)》。
 
 **安装**：
 

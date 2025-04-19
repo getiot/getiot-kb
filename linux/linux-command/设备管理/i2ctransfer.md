@@ -47,7 +47,7 @@ i2ctransfer -V
 
 - `data`：要传输的数据。
 
-相关命令：[i2cdetect](/linux-command/i2cdetect)、[i2cdump](/linux-command/i2cdump)、[i2cget](/linux-command/i2cget)、[i2cset](/linux-command/i2cset)、sensors-detect、i2c-stub-from-dump
+相关命令：[i2cdetect](/linux-command/i2cdetect/)、[i2cdump](/linux-command/i2cdump/)、[i2cget](/linux-command/i2cget/)、[i2cset](/linux-command/i2cset/)、sensors-detect、i2c-stub-from-dump
 
 
 

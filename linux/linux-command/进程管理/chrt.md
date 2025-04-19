@@ -20,7 +20,7 @@ Linux 内核有三种常见调度策略：
 
 在 Linux 系统中，所有优先级值在 0-99 范围内的，都是实时进程。因此，0-99 优先级也被称为实时进程优先级，而 100-139 范围内的则是非实时进程。
 
-相关命令：[nice](/linux-command/nice), [renice](/linux-command/renice)
+相关命令：[nice](/linux-command/nice/), [renice](/linux-command/renice/)
 
 **语法**：
 
@@ -89,7 +89,7 @@ $ chrt -r -p 30 137619
 $ chrt -o -p 0 137619
 ```
 
-借助 [`pidof`](/linux-command/pidof) 和 [`xargs`](/linux-command/xargs) 命令可以直接使用进程名称查询 PID，并传递给 chrt 命令。例如将 rviz2 进程优先级设置为 10：
+借助 [`pidof`](/linux-command/pidof/) 和 [`xargs`](/linux-command/xargs/) 命令可以直接使用进程名称查询 PID，并传递给 chrt 命令。例如将 rviz2 进程优先级设置为 10：
 
 ```bash
 $ pidof rviz2 | sudo xargs chrt -r -p 10

@@ -82,7 +82,7 @@ Swap:        15Gi          0B        15Gi
 $ free -h -s 1
 ```
 
-利用 [watch](/linux-command/watch) 命令也能达到循环输出的效果
+利用 [watch](/linux-command/watch/) 命令也能达到循环输出的效果
 
 ```bash
 $ watch -n 1 free -h

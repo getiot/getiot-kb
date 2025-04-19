@@ -14,7 +14,7 @@ slug: /nice
 
 优先级（priority）是操作系统用来决定 CPU 调度的一个重要参数，Linux 使用 Round-Robin 算法来处理 CPU 调度，优先级越高，所可能获得的 CPU 时间就越多。
 
-相关命令：[renice](/linux-command/renice), [chrt](/linux-command/chrt)
+相关命令：[renice](/linux-command/renice/), [chrt](/linux-command/chrt/)
 
 **语法**：
 

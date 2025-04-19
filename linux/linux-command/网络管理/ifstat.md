@@ -18,7 +18,7 @@ slug: /ifstat
 sudo apt install ifstat
 ```
 
-类似命令：[iostat](/linux-command/iostat)、[vmstat](/linux-command/vmstat)
+类似命令：[iostat](/linux-command/iostat/)、[vmstat](/linux-command/vmstat/)
 
 **语法**：
 

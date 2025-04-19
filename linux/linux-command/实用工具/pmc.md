@@ -14,9 +14,9 @@ slug: /pmc
 
 pmc 从标准输入或命令行读取按名称和管理 ID（MANAGEMENT IDS）指定的操作。然后通过选定的传输发送操作，并列显收到的任何答复。支持三种操作：`GET` 检索指定的信息，`SET` 更新指定的信息，`CMD`（或 `COMMAND`）发起指定的事件。默认情况下，管理命令针对所有端口。
 
-相关命令：[ptp4l](/linux-command/ptp4l)、[phc2sys](/linux-command/phc2sys)、[phc_ctl](/linux-command/phc_ctl)
+相关命令：[ptp4l](/linux-command/ptp4l/)、[phc2sys](/linux-command/phc2sys/)、[phc_ctl](/linux-command/phc_ctl/)
 
-关于 PTP 详细介绍，请参考《[PTP 精确时间协议](/protocol/ptp)》。
+关于 PTP 详细介绍，请参考《[PTP 精确时间协议](/protocol/ptp/)》。
 
 **安装**：
 

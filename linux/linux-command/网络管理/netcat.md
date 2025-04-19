@@ -10,14 +10,14 @@ slug: /netcat
 
 ## 介绍
 
-**`netcat`**（别名：**`nc`**）是 Linux 下的一个多功能的网络工具，可用于与 TCP 或 UDP 相关的各种任务，例如创建连接和侦听、执行端口扫描，以及处理 IPv4 和 IPv6 等。与 [telnet](/linux-command/telnet) 不同，netcat 可以精细地编写脚本，并将错误消息分隔到标准错误中，而不是将错误消息发送到标准输出。
+**`netcat`**（别名：**`nc`**）是 Linux 下的一个多功能的网络工具，可用于与 TCP 或 UDP 相关的各种任务，例如创建连接和侦听、执行端口扫描，以及处理 IPv4 和 IPv6 等。与 [telnet](/linux-command/telnet/) 不同，netcat 可以精细地编写脚本，并将错误消息分隔到标准错误中，而不是将错误消息发送到标准输出。
 
 netcat 命令通常用于以下任务：
 
 - 简单 TCP 代理
 - 基于 HTTP 客户机和服务器的 shell 脚本
 - 网络守护进程测试
-- 适用于 [ssh](/linux-command/ssh) 的 SOCKS 或 HTTP `ProxyCommand`
+- 适用于 [ssh](/linux-command/ssh/) 的 SOCKS 或 HTTP `ProxyCommand`
 
 netcat/nc 命令由 netcat 软件包提供，在 Debian/Ubuntu 系统上可以使用如下命令进行安装。
 

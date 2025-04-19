@@ -47,7 +47,7 @@ i2cdump -V
 
 另外，还可以将 `p` 附加到模式参数（`i` 和 `W` 除外）以启用 PEC。如果省略 `MODE` 参数，i2cdump 默认使用不带 PEC 的字节访问。
 
-相关命令：[i2cdetect](/linux-command/i2cdetect)、[i2cget](/linux-command/i2cget)、[i2cset](/linux-command/i2cset)、[i2ctransfer](/linux-command/i2ctransfer)、sensors-detect、i2c-stub-from-dump
+相关命令：[i2cdetect](/linux-command/i2cdetect/)、[i2cget](/linux-command/i2cget/)、[i2cset](/linux-command/i2cset/)、[i2ctransfer](/linux-command/i2ctransfer/)、sensors-detect、i2c-stub-from-dump
 
 
 

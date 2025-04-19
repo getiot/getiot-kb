@@ -28,7 +28,7 @@ slug: /from-javascript-to-typescript
 npm install -g typescript
 ```
 
-参考《[TypeScript 环境搭建](/ts/typescript-environment-setup)》。
+参考《[TypeScript 环境搭建](/ts/typescript-environment-setup/)》。
 
 
 

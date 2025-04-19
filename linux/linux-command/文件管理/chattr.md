@@ -53,7 +53,7 @@ chattr [ -RVf ] [ -v version ] [ -p project ] [ mode ] files...
 chattr +i /opt/test.txt
 ```
 
-然后试一下 [rm](/linux-command/rm)、[mv](/linux-command/mv)、rename 等命令操作于该文件，都是得到 “Operation not permitted” 的结果。
+然后试一下 [rm](/linux-command/rm/)、[mv](/linux-command/mv/)、rename 等命令操作于该文件，都是得到 “Operation not permitted” 的结果。
 
 执行下面命令可以解锁该文件：
 

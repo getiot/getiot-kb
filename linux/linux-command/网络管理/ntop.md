@@ -14,7 +14,7 @@ slug: /ntop
 
 :::tip
 
-ntop 目前已被 **[ntopng](/linux-command/ntopng)** 取代，可在其官网 [https://www.ntop.org](https://www.ntop.org) 了解更多信息。
+ntop 目前已被 **[ntopng](/linux-command/ntopng/)** 取代，可在其官网 [https://www.ntop.org](https://www.ntop.org) 了解更多信息。
 
 :::
 

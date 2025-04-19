@@ -71,5 +71,5 @@ nohup ./getiot.sh > getiot.log 2>&1 &
 - 1 – stdout（standard output，标准输出）
 - 2 – stderr（standard error，标准错误输出）
 
-如果需要终止运行程序，可以使用 [ps](/linux-command/ps) 或 [jobs](/linux-command/jobs) 命令查找到 nohup 运行命令的 PID，然后使用 [kill](/linux-command/kill) 命令来删除即可。
+如果需要终止运行程序，可以使用 [ps](/linux-command/ps/) 或 [jobs](/linux-command/jobs/) 命令查找到 nohup 运行命令的 PID，然后使用 [kill](/linux-command/kill/) 命令来删除即可。
 

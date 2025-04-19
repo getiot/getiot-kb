@@ -10,7 +10,7 @@ slug: /adduser
 
 ## 介绍
 
-**adduser** 命令用于在 Linux 系统中添加新用户。在一些发行版中，`adduser` 实际上是 [`useradd`](/linux-command/useradd) 命令的一个符号链接，而另一些发行版中，`adduser` 是一个对 [`useradd`](/linux-command/useradd)、[`groupadd`](/linux-command/groupadd) 和 [`usermod`](/linux-command/usermod) 命令进行封装的脚本程序，提供一些交互式的步骤以更方便地配置用户信息。大多数情况下，两者可以互相替代。
+**adduser** 命令用于在 Linux 系统中添加新用户。在一些发行版中，`adduser` 实际上是 [`useradd`](/linux-command/useradd/) 命令的一个符号链接，而另一些发行版中，`adduser` 是一个对 [`useradd`](/linux-command/useradd/)、[`groupadd`](/linux-command/groupadd/) 和 [`usermod`](/linux-command/usermod/) 命令进行封装的脚本程序，提供一些交互式的步骤以更方便地配置用户信息。大多数情况下，两者可以互相替代。
 
 :::tip
 

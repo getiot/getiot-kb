@@ -69,7 +69,7 @@ React 官方提供的 CDN 链接如下：
 
 create-react-app 是 React 官方推荐的用于快速构建 React 开发环境的工具。它在内部使用 Babel 和 Webpack，用户不需要任何配置，也不需要了解它的任何细节。
 
-create-react-app 依赖 [Node.js](/nodejs/nodejs-intro)（Node 版本 8.10 以上，npm 版本 5.6 以上），步骤如下：
+create-react-app 依赖 [Node.js](/nodejs/nodejs-intro/)（Node 版本 8.10 以上，npm 版本 5.6 以上），步骤如下：
 
 **1、全局安装 create-react-app 工具**
 

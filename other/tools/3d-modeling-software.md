@@ -39,7 +39,7 @@ Cinema 4D（简称 C4D）是一套由德国公司 Maxon Computer 开发的三维
 
 ## Fusion 360
 
-[Fusion 360](/fusion360/fusion360-intro) 是 Autodesk 推出的一款整合工业设计、机械设计和数字加工的 3D 建模软件，同时也是全球第一款基于云端协作的 CAD、CAE、CAM 以及 Project Management 的产品创作平台。使用 Fusion 360，用户不仅可以随时随地进行设计和仿真，还可以即时与世界各地的合作厂商进行实时检查和沟通。
+[Fusion 360](/fusion360/fusion360-intro/) 是 Autodesk 推出的一款整合工业设计、机械设计和数字加工的 3D 建模软件，同时也是全球第一款基于云端协作的 CAD、CAE、CAM 以及 Project Management 的产品创作平台。使用 Fusion 360，用户不仅可以随时随地进行设计和仿真，还可以即时与世界各地的合作厂商进行实时检查和沟通。
 
 ![](https://static.getiot.tech/Fusion360-screenshot.webp#center)
 

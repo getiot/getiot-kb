@@ -10,7 +10,7 @@ slug: /less
 
 ## 介绍
 
-**less** 与 [more](/linux-command/more) 类似，less 可以随意浏览文件，支持翻页和搜索，支持向上翻页和向下翻页。（less 命令允许用户向前或向后浏览文件，而 more 命令只能向前浏览 ）
+**less** 与 [more](/linux-command/more/) 类似，less 可以随意浏览文件，支持翻页和搜索，支持向上翻页和向下翻页。（less 命令允许用户向前或向后浏览文件，而 more 命令只能向前浏览 ）
 
 **语法**：
 

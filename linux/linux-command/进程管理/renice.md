@@ -14,7 +14,7 @@ slug: /renice
 
 注意：只有系统管理员可以改变其他用户程序的优先权，也仅有系统管理员可以设置负数等级。
 
-相关命令：[nice](/linux-command/nice), [chrt](/linux-command/chrt)
+相关命令：[nice](/linux-command/nice/), [chrt](/linux-command/chrt/)
 
 **语法**：
 

@@ -29,7 +29,7 @@ slug: /linuxcnc
 
 LinuxCNC 的架构设计以**实时性**和**可扩展性**为核心，分为以下关键模块：
 
-- **实时内核（RTOS）**：LinuxCNC 依赖实时补丁的 Linux 内核（如 `PREEMPT_RT`），确保控制循环的确定性延迟（通常 < 50μs）。开发者可通过 [`cyclictest`](/linux-command/cyclictest) 工具验证系统实时性能。
+- **实时内核（RTOS）**：LinuxCNC 依赖实时补丁的 Linux 内核（如 `PREEMPT_RT`），确保控制循环的确定性延迟（通常 < 50μs）。开发者可通过 [`cyclictest`](/linux-command/cyclictest/) 工具验证系统实时性能。
 - **运动控制器**：核心算法包括轨迹规划（如速度前瞻、加速度限制）、PID 控制及非线性补偿（如摩擦模型）。开发者可通过自定义插件扩展运动学模型（例如并联机器人逆解算法）。
 - **硬件抽象层（HAL）**：HAL 是 LinuxCNC 的灵魂，允许开发者以“软接线”方式连接逻辑组件（如编码器输入、PWM输出）。通过图形化工具（如HALscope）或脚本，可动态配置信号流，无需重新编译代码。
 - **用户界面（UI）**：提供多种界面选项：基于 Tcl/Tk 的经典界面（Axis）、触摸屏优化的 Touchy，或通过 Python、ROS 集成自定义 HMI。

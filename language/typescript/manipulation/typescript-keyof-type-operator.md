@@ -155,7 +155,7 @@ function prop<T, K extends keyof T>(obj: T, key: K) {
 
 - `keyof` 运算符返回的类型是联合类型（即多个值用 `|` 连接），你可以使用它进行进一步类型操作。
 - 如果你对 `any` 或 `unknown` 使用 `keyof`，结果是 `string | number | symbol`，因为它们可以拥有任意键。
-- 如果你使用的是 `type SomeType = string | number` 这样的联合类型，那么 `keyof SomeType` 会返回一个[**交叉类型的键**](/ts/typescript-intersection-types)，这通常不是你想要的结果。要小心这类情况。
+- 如果你使用的是 `type SomeType = string | number` 这样的联合类型，那么 `keyof SomeType` 会返回一个[**交叉类型的键**](/ts/typescript-intersection-types/)，这通常不是你想要的结果。要小心这类情况。
 
 
 

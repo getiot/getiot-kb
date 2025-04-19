@@ -11,7 +11,7 @@ TypeScript 代码需要通过编译器（tsc）转换为 JavaScript 才能在浏
 
 ### 安装 Node.js 与 npm
 
-TypeScript 依赖 Node.js 的包管理工具 npm 进行安装和管理。（具体步骤可参考 [Node.js 安装](/nodejs/nodejs-installation)）
+TypeScript 依赖 Node.js 的包管理工具 npm 进行安装和管理。（具体步骤可参考 [Node.js 安装](/nodejs/nodejs-installation/)）
 1. **下载 Node.js**：访问 [Node.js 官网](https://nodejs.org/) ，选择 LTS（长期支持版）安装包下载。  
 2. **验证安装**：安装完成后，在终端输入以下命令，确保版本号正常显示：
 ```bash
@@ -43,7 +43,7 @@ tsc -v  # 示例输出：Version 5.8.3
 
 ## 开发工具
 
-[VS Code](/vscode) 是 TypeScript 官方推荐的编辑器，它内置了对 TypeScript 的支持，可提供智能提示和调试支持。安装 VS Code 编辑器后可通过快捷键 `Ctrl+Shift+B` 自动将 `.ts` 文件编译为 `.js`。
+[VS Code](/vscode/) 是 TypeScript 官方推荐的编辑器，它内置了对 TypeScript 的支持，可提供智能提示和调试支持。安装 VS Code 编辑器后可通过快捷键 `Ctrl+Shift+B` 自动将 `.ts` 文件编译为 `.js`。
 
 推荐插件：
 

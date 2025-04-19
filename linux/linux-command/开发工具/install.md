@@ -12,7 +12,7 @@ slug: /install
 
 **install** 命令用于安装、升级软件，或者备份数据。
 
-install 的功能和 [cp](/linux-command/cp) 命令类似，都可以将文件/目录拷贝到指定的位置。不同的是，install 允许你控制目标文件的属性，通常用于程序的 Makefile 文件（执行 `make install`），使用它来将程序拷贝到目标（安装）目录。
+install 的功能和 [cp](/linux-command/cp/) 命令类似，都可以将文件/目录拷贝到指定的位置。不同的是，install 允许你控制目标文件的属性，通常用于程序的 Makefile 文件（执行 `make install`），使用它来将程序拷贝到目标（安装）目录。
 
 **语法**：
 

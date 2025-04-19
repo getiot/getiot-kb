@@ -12,7 +12,7 @@ slug: /depmod
 
 **depmod**（英文全拼：dependency modules）命令用于分析可载入模块的相依性，生成内核模块及其关联映射文件的依赖关系描述列表。
 
-执行 depmod 命令将分析 `/lib/modules/'uname -r'` 目录中的内核模块（`uname -r` 是内核版本），并根据模块集中存在的符号创建一个类似于 Makefile 的依赖文件，名为 modules.dep。通常在构建嵌入式系统时，需要由这个命令来生成相应的文件，供 [modprobe](/linux-command/modprobe) 在安装模块时使用。
+执行 depmod 命令将分析 `/lib/modules/'uname -r'` 目录中的内核模块（`uname -r` 是内核版本），并根据模块集中存在的符号创建一个类似于 Makefile 的依赖文件，名为 modules.dep。通常在构建嵌入式系统时，需要由这个命令来生成相应的文件，供 [modprobe](/linux-command/modprobe/) 在安装模块时使用。
 
 实际上，depmod 和 modprobe 命令工具简化了 Linux 模块化内核，方便系统维护人员进行管理。
 

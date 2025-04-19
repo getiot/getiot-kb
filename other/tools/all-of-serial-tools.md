@@ -22,7 +22,7 @@ slug: /all-of-serial-tools
 
 Minicom 是 Linux 下一款常用的命令行串口调试工具。其功能与 Windows 下的超级终端相似，可以通过串口控制外部的硬件设备，通常用于对嵌入式设备进行管理。
 
-- 使用教程：[minicom 命令](/linux-command/minicom)
+- 使用教程：[minicom 命令](/linux-command/minicom/)
 
 
 
@@ -89,7 +89,7 @@ SecureCRT 是 VanDyke Software 公司所开发销售的一个商业 SSH、Telnet
 
 ### Microcom
 
-Linux 的命令行工具，参考使用教程：[microcom 命令](/linux-command/microcom)。
+Linux 的命令行工具，参考使用教程：[microcom 命令](/linux-command/microcom/)。
 
 
 

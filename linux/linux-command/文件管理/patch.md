@@ -29,7 +29,7 @@ patch [options] [originalfile [patchfile]]
 
 ## 示例
 
-使用 patch 命令将文件 testfile1 升级，其升级补丁文件为 testfile.patch（补丁文件可由 [diff](/linux-command/diff) 命令生成）：
+使用 patch 命令将文件 testfile1 升级，其升级补丁文件为 testfile.patch（补丁文件可由 [diff](/linux-command/diff/) 命令生成）：
 
 ```bash
 patch -p0 testfile1 testfile.patch 

@@ -125,7 +125,7 @@ HELLO, GETIOT.TECH  # 按组合键Ctrl+D退出，转换成大写结果
 
 ### 读写测试
 
-在 Linux 系统中，我们经常用 dd 命令使用 /dev/zero 和 /dev/null 设备来测试硬盘读写速度，配合 [time](/linux-command/time) 命令可以计算 dd 命令执行过程的资源使用情况（比如 cpu 时间）。
+在 Linux 系统中，我们经常用 dd 命令使用 /dev/zero 和 /dev/null 设备来测试硬盘读写速度，配合 [time](/linux-command/time/) 命令可以计算 dd 命令执行过程的资源使用情况（比如 cpu 时间）。
 
 **测试硬盘写能力**
 

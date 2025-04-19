@@ -10,7 +10,7 @@ slug: /find
 
 ## 介绍
 
-**find** 命令是 Linux 系统管理员中最强大的工具之一。find 命令会根据用户指定的表达式（权限、类型、日期、所有权、大小等条件）在目录层次结构中搜索文件和目录，并且可以对每个匹配的文件执行用户指定的操作。另外，也可以将 find 命令与其他工具结合使用，例如 [`grep`](/linux-command/grep) 或 [`sed`](/linux-command/sed)，实现更复杂的功能。
+**find** 命令是 Linux 系统管理员中最强大的工具之一。find 命令会根据用户指定的表达式（权限、类型、日期、所有权、大小等条件）在目录层次结构中搜索文件和目录，并且可以对每个匹配的文件执行用户指定的操作。另外，也可以将 find 命令与其他工具结合使用，例如 [`grep`](/linux-command/grep/) 或 [`sed`](/linux-command/sed/)，实现更复杂的功能。
 
 **语法**：
 
@@ -71,11 +71,11 @@ find /var/log/nginx -type f -not -name '*.log.gz'
 
 要根据文件的类型搜索文件，请使用 find 的 `-type` 选项指定文件类型。这里我们列出了 Linux 中所有文件的类型。
 
-`f` 是常规文件，`d` 是目录，`l` 是[符号链接](/linux/linux-hard-soft-link)，`c` 是字符设备，`b` 是块设备，`p` 是命名管道 FIFO，`s` 是 socket 套接字。
+`f` 是常规文件，`d` 是目录，`l` 是[符号链接](/linux/linux-hard-soft-link/)，`c` 是字符设备，`b` 是块设备，`p` 是命名管道 FIFO，`s` 是 socket 套接字。
 
 例如，要在当前工作目录中查找所有目录，可以使用命令 `find . -type d`，这里 `.` 表是当前目录，`-type d` 指定文件类型是目录。
 
-常见示例是使用 [`chmod`](/linux-command/chmod) 命令将网站文件权限递归更改为 `644`，目录权限更改为 `755`：
+常见示例是使用 [`chmod`](/linux-command/chmod/) 命令将网站文件权限递归更改为 `644`，目录权限更改为 `755`：
 
 ```bash
 find /var/www/my_website -type d -exec chmod 0755 {} \;

@@ -10,7 +10,7 @@ slug: /deluser
 
 ## 介绍
 
-在许多 Linux 发行版中，**deluser** 是一个命令行工具，是对 [`userdel`](/linux-command/userdel) 和 [`groupdel`](/linux-command/groupdel) 命令进行封装的脚本，用于删除系统中的用户账户。这个命令通常会删除用户的主目录以及与之相关的文件和组。
+在许多 Linux 发行版中，**deluser** 是一个命令行工具，是对 [`userdel`](/linux-command/userdel/) 和 [`groupdel`](/linux-command/groupdel/) 命令进行封装的脚本，用于删除系统中的用户账户。这个命令通常会删除用户的主目录以及与之相关的文件和组。
 
 :::tip
 

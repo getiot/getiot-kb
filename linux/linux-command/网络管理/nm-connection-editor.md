@@ -28,4 +28,4 @@ $ nm-connection-editor
 
 ![](https://static.getiot.tech/nm-connection-editor.png#center)
 
-相关命令：[nmcli](/linux-command/nmcli)、[nmtui](/linux-command/nmtui)。
+相关命令：[nmcli](/linux-command/nmcli/)、[nmtui](/linux-command/nmtui/)。

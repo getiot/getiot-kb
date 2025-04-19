@@ -10,7 +10,7 @@ slug: /addgroup
 
 ## 介绍
 
-在 Linux 系统中，**addgroup** 命令用于创建新的用户组（group）。`addgroup` 在不同的发行版中有不同的实现，它可能是 [`groupadd`](/linux-command/groupadd) 的别名，也可能是一个脚本程序，可以更方便地创建用户组。
+在 Linux 系统中，**addgroup** 命令用于创建新的用户组（group）。`addgroup` 在不同的发行版中有不同的实现，它可能是 [`groupadd`](/linux-command/groupadd/) 的别名，也可能是一个脚本程序，可以更方便地创建用户组。
 
 :::tip
 

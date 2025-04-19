@@ -12,7 +12,7 @@ slug: /mount
 
 **mount** 命令用于挂载系统外的文件系统到指定加载点。
 
-相关命令：[umount](/linux-command/umount)
+相关命令：[umount](/linux-command/umount/)
 
 **语法**：
 

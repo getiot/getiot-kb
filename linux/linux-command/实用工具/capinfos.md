@@ -30,7 +30,7 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
-相关命令：[editcap](/linux-command/editcap), [mergecap](/linux-command/mergecap)
+相关命令：[editcap](/linux-command/editcap/), [mergecap](/linux-command/mergecap/)
 
 **语法**：
 

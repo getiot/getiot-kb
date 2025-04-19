@@ -10,7 +10,7 @@ slug: /killall
 
 ## 介绍
 
-**killall** 命令用于杀死指定名字的所有进程。与 [kill](/linux-command/kill) 命令不同，killall 不需要事先查找进程 PID，直接对进程对名字进行操作，更加方便。
+**killall** 命令用于杀死指定名字的所有进程。与 [kill](/linux-command/kill/) 命令不同，killall 不需要事先查找进程 PID，直接对进程对名字进行操作，更加方便。
 
 **语法**：
 

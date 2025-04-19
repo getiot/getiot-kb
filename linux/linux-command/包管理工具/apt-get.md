@@ -14,7 +14,7 @@ slug: /apt-get
 
 :::warning
 
-老版本的 Linux 系统只支持 apt-get 命令，在新版本的 Linux 系统中，[apt](/linux-command/apt) 集成了 apt-get、apt-cache 的常用命令，因此可用 apt 命令代替 apt-get 命令。
+老版本的 Linux 系统只支持 apt-get 命令，在新版本的 Linux 系统中，[apt](/linux-command/apt/) 集成了 apt-get、apt-cache 的常用命令，因此可用 apt 命令代替 apt-get 命令。
 
 :::
 

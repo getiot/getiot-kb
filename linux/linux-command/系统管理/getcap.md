@@ -18,7 +18,7 @@ slug: /getcap
 
 需要注意的是，`getcap` 命令同样需要超级用户（root）权限才能查看特殊权限。可能并不是每个文件或目录都会设置特殊权限，所以返回结果中可能会有空白行。同时，应当只赋予可信任的程序特殊权限，并遵循安全最佳实践。
 
-相关命令：[setcap](/linux-command/setcap)
+相关命令：[setcap](/linux-command/setcap/)
 
 **语法**：
 

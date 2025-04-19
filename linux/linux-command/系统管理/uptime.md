@@ -12,7 +12,7 @@ slug: /uptime
 
 **uptime** 命令用于显示系统运行时间。
 
-和 [who](/linux-command/who) 命令一样，uptime 命令也会从 /var/run/utmp 文件获取系统信息，也可以从 /proc/uptime 中读取。
+和 [who](/linux-command/who/) 命令一样，uptime 命令也会从 /var/run/utmp 文件获取系统信息，也可以从 /proc/uptime 中读取。
 
 **语法**：
 

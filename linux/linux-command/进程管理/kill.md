@@ -12,7 +12,7 @@ slug: /kill
 
 **kill** 命令用于删除执行中的程序或任务。
 
-kill 的工作原理是将指定的信息发送至指定程序，预设的信息为 `SIGTERM(15)`，可将指定程序终止。若仍无法终止该程序，可使用 `SIGKILL(9)` 信息尝试强制删除程序。程序或任务的编号（PID）可利用 [ps](/linux-command/ps) 或 [jobs](/linux-command/jobs) 命令查看。
+kill 的工作原理是将指定的信息发送至指定程序，预设的信息为 `SIGTERM(15)`，可将指定程序终止。若仍无法终止该程序，可使用 `SIGKILL(9)` 信息尝试强制删除程序。程序或任务的编号（PID）可利用 [ps](/linux-command/ps/) 或 [jobs](/linux-command/jobs/) 命令查看。
 
 **语法**：
 

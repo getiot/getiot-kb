@@ -34,7 +34,7 @@ unset 是 bash 内建命令，相关的帮助信息可通过命令 `help unset` 
 
 ## 示例
 
-先使用 [export](/linux-command/export) 创建一个环境变量 `GETIOT_ROOT` 及其对应的值：
+先使用 [export](/linux-command/export/) 创建一个环境变量 `GETIOT_ROOT` 及其对应的值：
 
 ```bash
 $ export GETIOT_ROOT=/opt/getiot
@@ -55,7 +55,7 @@ $ unset GETIOT_ROOT
 
 再次查看该环境变量可发现其值为空。
 
-在 Shell 脚本编程中，通常使用 [declare](/linux-command/declare) 声明变量，例如声明一个整型变量：
+在 Shell 脚本编程中，通常使用 [declare](/linux-command/declare/) 声明变量，例如声明一个整型变量：
 
 ```bash
 $ declare -i paper_size=100

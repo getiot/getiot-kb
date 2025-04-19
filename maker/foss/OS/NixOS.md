@@ -20,7 +20,7 @@ NixOS 基于 [Nix 包管理器](https://nixos.org/nix)构建，采用「陈述�
 
 ## 发展历程
 
-NixOS 项目最早由 [Eelco Dolstra](https://github.com/edolstra) 于 2004 年发起。NixOS 最大的特点是引入了函数式编程的概念来管理软件包和系统配置。传统的 Linux 发行版采用类似 [`apt`](/linux-command/apt) 或 [`yum`](/linux-command/yum) 等包管理工具来安装软件，而 NixOS 使用 `Nix` 作为其包管理器，它支持原子性操作和完全的软件包隔离，使用户可以轻松地在系统中配置和切换不同版本的软件。
+NixOS 项目最早由 [Eelco Dolstra](https://github.com/edolstra) 于 2004 年发起。NixOS 最大的特点是引入了函数式编程的概念来管理软件包和系统配置。传统的 Linux 发行版采用类似 [`apt`](/linux-command/apt/) 或 [`yum`](/linux-command/yum/) 等包管理工具来安装软件，而 NixOS 使用 `Nix` 作为其包管理器，它支持原子性操作和完全的软件包隔离，使用户可以轻松地在系统中配置和切换不同版本的软件。
 
 自从 NixOS 项目成立以来，它的发展一直稳步前进。NixOS 的用户基础在不断扩大，而且吸引了许多技术爱好者、开发人员和系统管理员的关注。NixOS 社区中的积极开发者和贡献者不断投入时间和精力，为 NixOS 增加新的特性、改进用户体验并维护软件包。现在，NixOS 已经成为一个备受关注的先进 Linux 发行版。
 

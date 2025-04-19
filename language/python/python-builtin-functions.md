@@ -34,7 +34,7 @@ Python 作为一门高级语言，提供了许多内置函数。本文就来简�
 | `exec()`         | 用于执行储存在字符串或文件中的 Python 语句，与 eval 不同的是，exec 可以执行更复杂的 Python 代码。 |
 | `filter()`       | 用于过滤序列，过滤掉不符合条件的元素，返回由符合条件元素组成的新列表。 |
 | `float()`        | 用于将整数和字符串转换成浮点数。                             |
-| `format()`       | 用于格式化字符串，参考 [Python 字符串](python-string)、[Python 输入输出](python-input-output)。 |
+| `format()`       | 用于格式化字符串，参考 [Python 字符串](/python/python-string/)、[Python 输入输出](/python/python-input-output/)。 |
 | `frozenset()`    | 返回一个冻结的集合，冻结后集合不能再添加或删除任何元素。     |
 | `getattr()`      | 用于返回一个对象属性值。                                     |
 | `globals()`      | 以字典类型返回当前位置的全部全局变量。                       |
@@ -43,7 +43,7 @@ Python 作为一门高级语言，提供了许多内置函数。本文就来简�
 | `help()`         | 用于查看函数或模块用途的详细说明。                           |
 | `hex()`          | 用于将 10 进制整数转换成 16 进制整数。                       |
 | `id()`           | 用于获取对象的内存地址。                                     |
-| `input()`        | 用于获取控制台的输入，参考 [Python 输入输出](python-input-output)。 |
+| `input()`        | 用于获取控制台的输入，参考 [Python 输入输出](/python/python-input-output/)。 |
 | `int()`          | 用于将一个字符串会数字转换为整型。                           |
 | `isinstance()`   | 可以判断一个对象是否是一个已知的类型，类似于 type() 函数。   |
 | `issubclass()`   | 用于判断参数 class 是否是类型参数 classinfo 的子类。         |
@@ -61,7 +61,7 @@ Python 作为一门高级语言，提供了许多内置函数。本文就来简�
 | `open()`         | 用于打开一个文件，创建一个 file 对象。                       |
 | `ord()`          | 该函数是 chrI() 函数或 unichr() 函数的配对函数，以一个字符作为参数，返回对应的 ASCII 数值，或者 Unicode 数值。 |
 | `pow()`          | 返回 x 的 y 次方的值。                                       |
-| `print()`        | 用于打印输出，参考 [Python 输入输出](python-input-output)。 |
+| `print()`        | 用于打印输出，参考 [Python 输入输出](/python/python-input-output/)。 |
 | `property()`     | 用于在新式类中返回属性值。                                   |
 | `range()`        | 用于创建一个整数列表，一般用在 for 循环中。                  |
 | `repr()`         | 将对象转化为供解释器读取的形式。                             |

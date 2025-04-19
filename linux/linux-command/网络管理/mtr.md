@@ -10,7 +10,7 @@ slug: /mtr
 
 ## 介绍
 
-**mtr**（英文全拼：my traceroute）是一个用于网络诊断和网络性能测量的命令行工具，它在单个网络诊断工具中结合了 [traceroute](/linux-command/traceroute) 和 [ping](/linux-command/ping) 程序的功能，提供了更全面的网络路径跟踪和性能统计。
+**mtr**（英文全拼：my traceroute）是一个用于网络诊断和网络性能测量的命令行工具，它在单个网络诊断工具中结合了 [traceroute](/linux-command/traceroute/) 和 [ping](/linux-command/ping/) 程序的功能，提供了更全面的网络路径跟踪和性能统计。
 
 `mtr` 命令的主要应用场景包括：
 

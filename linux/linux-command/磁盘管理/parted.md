@@ -12,7 +12,7 @@ slug: /parted
 
 **parted** 是 GNU 组织开发的一个磁盘/硬盘分区操作的程序。它支持多种分区表格式，包括 MS-DOS 和 GPT。可用于为新操作系统创建空间、重新组织磁盘使用（例如调整分区大小）以及将数据复制到新硬盘等操作。
 
-与 [fdisk](/linux-command/fdisk) 命令不同，parted 支持调整分区的大小，作为一种设计用于 GNU/Linux 的工具，它没有构建成处理与 fdisk 关联的多种分区类型。但是，parted 可以处理最常见的分区格式，包括：ext2、ext3、fat16、fat32、NTFS、ReiserFS、JFS、XFS、UFS、HFS 以及 Linux 交换分区。
+与 [fdisk](/linux-command/fdisk/) 命令不同，parted 支持调整分区的大小，作为一种设计用于 GNU/Linux 的工具，它没有构建成处理与 fdisk 关联的多种分区类型。但是，parted 可以处理最常见的分区格式，包括：ext2、ext3、fat16、fat32、NTFS、ReiserFS、JFS、XFS、UFS、HFS 以及 Linux 交换分区。
 
 **语法**：
 

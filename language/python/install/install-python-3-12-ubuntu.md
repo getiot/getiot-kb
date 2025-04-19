@@ -74,7 +74,7 @@ python3.12 --version && pip3.12 --version
 
 ## 将 Python 3.12 设为默认
 
-通常，不建议将 Python 3.12（或其他 Python 版本）设为系统默认的 Python 解释器，因为这会破坏一些核心应用程序。我们更推荐你使用 [Python 虚拟环境](/python/python-virtualenv) 的方式。
+通常，不建议将 Python 3.12（或其他 Python 版本）设为系统默认的 Python 解释器，因为这会破坏一些核心应用程序。我们更推荐你使用 [Python 虚拟环境](/python/python-virtualenv/) 的方式。
 
 不过，如果你确实要这么做的话，可以尝试通过下面命令来设置。
 

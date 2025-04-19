@@ -52,4 +52,4 @@ cgps
 
 ![](https://static.getiot.tech/linux-gpsd-cgps.png#center)
 
-提示：可参考《[Linux 使用 gpsd 获取 GPS 数据](/linux-note/linux-get-gps-data-using-gpsd)》。
+提示：可参考《[Linux 使用 gpsd 获取 GPS 数据](/linux-note/linux-get-gps-data-using-gpsd/)》。

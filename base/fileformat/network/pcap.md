@@ -128,7 +128,7 @@ libpcap 是用 C 语言编写的 pcap 库，在类 Unix 系统中透过 libpcap 
 
 我们自己设计的监控软件可以使用 libpcap 来捕获在计算机网络上传输的网络数据包。
 
-详细请参阅《[libpcap 使用教程](/awesome-c/libpcap)》。
+详细请参阅《[libpcap 使用教程](/awesome-c/libpcap/)》。
 
 
 

@@ -35,7 +35,7 @@ namespace SomeNamespace {
 SomeNamespace.SomeClass;
 ```
 
-如果命名空间定义在单独的 TypeScript 文件中，则需要使用[三斜线指令](/ts/typescript-triple-slash-directives)来引用该文件。
+如果命名空间定义在单独的 TypeScript 文件中，则需要使用[三斜线指令](/ts/typescript-triple-slash-directives/)来引用该文件。
 
 ```typescript
 /// <reference path="SomeFileName.ts" />

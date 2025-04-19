@@ -41,7 +41,7 @@ intel_rapl_common      28672  1 intel_rapl_msr
 ......
 ```
 
-如果内核模块很多，不利于阅读，可以配合 [grep](/linux-command/grep) 等命令进行过滤。
+如果内核模块很多，不利于阅读，可以配合 [grep](/linux-command/grep/) 等命令进行过滤。
 
 比如查看是否已加载 coretemp 模块
 

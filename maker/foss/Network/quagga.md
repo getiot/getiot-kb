@@ -9,7 +9,7 @@ slug: /quagga
 
 Quagga 中文翻译斑驴，是一种先进的路由软件包，提供一套基于 TCP/IP 的路由协议。
 
-实际上，Quagga 是 [GNU Zebra](/foss/zebra) 的一个分支，它为类 Unix 平台提供了所有主流路由协议的实现，例如开放最短路径优先（OSPF），路由信息协议（RIP），边界网关协议（BGP）和中间系统到中间系统协议（IS-IS）。尽管 Quagga 实现了 IPv4 和 IPv6 的路由协议，但它并不是一个完整的路由器。一个真正的路由器不仅实现了所有路由协议，而且还有转发网络流量的能力。 Quagga 仅仅实现了路由协议栈，而转发网络流量的工作则由 Linux 内核处理。
+实际上，Quagga 是 [GNU Zebra](/foss/zebra/) 的一个分支，它为类 Unix 平台提供了所有主流路由协议的实现，例如开放最短路径优先（OSPF），路由信息协议（RIP），边界网关协议（BGP）和中间系统到中间系统协议（IS-IS）。尽管 Quagga 实现了 IPv4 和 IPv6 的路由协议，但它并不是一个完整的路由器。一个真正的路由器不仅实现了所有路由协议，而且还有转发网络流量的能力。 Quagga 仅仅实现了路由协议栈，而转发网络流量的工作则由 Linux 内核处理。
 
 ![](https://static.getiot.tech/quagga-logo.png#center)
 

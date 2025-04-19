@@ -10,7 +10,7 @@ slug: /ascii
 
 ## 介绍
 
-**ascii** 命令用于查询 [ASCII 码字符](/computerbasics/ascii) 与字节（数字）的对应关系。
+**ascii** 命令用于查询 [ASCII 码字符](/computerbasics/ascii/) 与字节（数字）的对应关系。
 
 **语法**：
 

@@ -30,7 +30,7 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
-相关命令：[capinfos](/linux-command/capinfos), [mergecap](/linux-command/mergecap)
+相关命令：[capinfos](/linux-command/capinfos/), [mergecap](/linux-command/mergecap/)
 
 **语法**：
 
@@ -54,7 +54,7 @@ editcap [options] ... <infile> <outfile> [ <packet#>[-<packet#>] ... ]
 
 ## 示例
 
-假设有个 30 秒的 pcap 文件 2023-09-26-14-31-42-30s.pcap，我们先用 [`capinfos`](/linux-command/capinfos) 命令查看它的起始和结束时间：
+假设有个 30 秒的 pcap 文件 2023-09-26-14-31-42-30s.pcap，我们先用 [`capinfos`](/linux-command/capinfos/) 命令查看它的起始和结束时间：
 
 ```bash showLineNumbers {3,6}
 $ capinfos -a 2023-09-26-14-31-42-30s.pcap

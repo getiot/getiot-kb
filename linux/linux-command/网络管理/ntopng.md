@@ -10,7 +10,7 @@ slug: /ntopng
 
 ## 介绍
 
-**ntopng** 是 [ntop](/linux-command/ntop) 的下一代版本，它是一个用于监控网络流量的工具。相较于 ntop，ntopng 提供了一个更现代化和交互式的 Web 界面，以及支持更多的功能和详细的统计信息，包括网络流量、协议使用情况、主机信息等。
+**ntopng** 是 [ntop](/linux-command/ntop/) 的下一代版本，它是一个用于监控网络流量的工具。相较于 ntop，ntopng 提供了一个更现代化和交互式的 Web 界面，以及支持更多的功能和详细的统计信息，包括网络流量、协议使用情况、主机信息等。
 
 使用前请确保你的系统上已经安装 ntopng 工具，在 Debian/Ubuntu 系统上可通过 apt 进行安装：
 

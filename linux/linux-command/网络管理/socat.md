@@ -10,7 +10,7 @@ slug: /socat
 
 ## 介绍
 
-**socat**（英文全拼：Socket CAT）是 Linux 下的一个多功能的网络工具，其功能与有瑞士军刀之称的 [Netcat](/linux-command/netcat) 类似，可以看作是 Netcat 的加强版。socat 的主要特点就是在两个数据流之间建立通道，这些数据通道包含文件、管道、设备（终端或调制解调器等）、Socket、SSL、SOCKS4 客户端或代理 CONNECT。
+**socat**（英文全拼：Socket CAT）是 Linux 下的一个多功能的网络工具，其功能与有瑞士军刀之称的 [Netcat](/linux-command/netcat/) 类似，可以看作是 Netcat 的加强版。socat 的主要特点就是在两个数据流之间建立通道，这些数据通道包含文件、管道、设备（终端或调制解调器等）、Socket、SSL、SOCKS4 客户端或代理 CONNECT。
 
 socat 支持众多协议和链接方式，如 IP、TCP、 UDP、IPv6、PIPE、EXEC、System、Open、Proxy、Openssl、Socket 等。支持广播和多播、抽象 Unix sockets、Linux tun/tap、GNU readline 和 PTY，并提供了分叉、记录和进程间通信的不同模式。
 

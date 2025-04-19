@@ -10,7 +10,7 @@ slug: /trippy
 
 ## 介绍
 
-**trippy** 是一个命令行工具（别名 **trip**），支持 Linux、Windows、macOS 等平台，可以代替 [traceroute](/linux-command/traceroute) 查看互联网通信的路径，分析网络状况。
+**trippy** 是一个命令行工具（别名 **trip**），支持 Linux、Windows、macOS 等平台，可以代替 [traceroute](/linux-command/traceroute/) 查看互联网通信的路径，分析网络状况。
 
 trippy 使用 Rust 语言实现，使用前需要安装，安装方法如下：
 

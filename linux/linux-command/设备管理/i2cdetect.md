@@ -41,7 +41,7 @@ i2cdetect -l
 
 - `I2CBUS`：I2C 总线数字序号，对应于 `i2cdetect -l` 扫描的序号。
 
-相关命令：[i2cdump](/linux-command/i2cdump)、[i2cget](/linux-command/i2cget)、[i2cset](/linux-command/i2cset)、[i2ctransfer](/linux-command/i2ctransfer)、sensors-detect、i2c-stub-from-dump
+相关命令：[i2cdump](/linux-command/i2cdump/)、[i2cget](/linux-command/i2cget/)、[i2cset](/linux-command/i2cset/)、[i2ctransfer](/linux-command/i2ctransfer/)、sensors-detect、i2c-stub-from-dump
 
 
 

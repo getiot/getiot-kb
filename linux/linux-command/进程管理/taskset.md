@@ -60,7 +60,7 @@ pid 7589's new affinity list: 6,7
 taskset -c 0-3 ./simple_viewer -type A1 -pcap test.pcap
 ```
 
-启动后可借助 [pgrep](/linux-command/pgrep) 命令查看该进程 ID，查询当前使用的 CPU 核心信息：
+启动后可借助 [pgrep](/linux-command/pgrep/) 命令查看该进程 ID，查询当前使用的 CPU 核心信息：
 
 ```bash
 taskset -pc $(pgrep simple_viewer)

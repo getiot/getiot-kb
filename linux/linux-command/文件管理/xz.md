@@ -95,7 +95,7 @@ xz 命令的默认的压缩率预设值为 -6 ，对于大多数系统来说，�
 
 :::
 
-借助 [`xargs`](/linux-command/xargs) 命令并行压缩多文件，例如将 /var/log 目录下所有的扩展名为 .log 的文件压缩在一起：
+借助 [`xargs`](/linux-command/xargs/) 命令并行压缩多文件，例如将 /var/log 目录下所有的扩展名为 .log 的文件压缩在一起：
 
 ```bash
 find /var/log -type f -iname "*.log" -print0 | xargs -P4 -n16 xz -T1

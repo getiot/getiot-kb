@@ -6,7 +6,7 @@ sidebar_position: 28
 
 
 
-在 Python 中，除了使用 [try 语句](python-exceptions)来处理程序运行中出现的异常，还可以使用断言（Assertions）也可以处理异常。
+在 Python 中，除了使用 [try 语句](/python/python-exceptions/)来处理程序运行中出现的异常，还可以使用断言（Assertions）也可以处理异常。
 
 
 

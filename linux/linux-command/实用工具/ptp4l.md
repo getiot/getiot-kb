@@ -14,9 +14,9 @@ slug: /ptp4l
 
 ptp4l 是根据适用于 Linux 的 IEEE 标准 1588 的精确时间协议（PTP）的实现，它实现了边界时钟（Boundary Clock）和普通时钟（Ordinary Clock），支持硬件时钟同步和软件时间同步（系统时钟同步）。
 
-相关命令：[phc2sys](/linux-command/phc2sys)、[phc_ctl](/linux-command/phc_ctl)、[pmc](/linux-command/pmc)
+相关命令：[phc2sys](/linux-command/phc2sys/)、[phc_ctl](/linux-command/phc_ctl/)、[pmc](/linux-command/pmc/)
 
-关于 PTP 详细介绍，请参考《[PTP 精确时间协议](/protocol/ptp)》。
+关于 PTP 详细介绍，请参考《[PTP 精确时间协议](/protocol/ptp/)》。
 
 **安装**：
 
@@ -74,7 +74,7 @@ ptp4l  [ -AEP246HSLmqsv ]
 
 ## 示例
 
-要使用 ptp4l，首先得确定网卡支持的同步类型，可通过 [ethtool](/linux-command/ethtool) 命令测试。
+要使用 ptp4l，首先得确定网卡支持的同步类型，可通过 [ethtool](/linux-command/ethtool/) 命令测试。
 
 ```bash
 sudo ethtool -T eth0

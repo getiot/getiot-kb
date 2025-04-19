@@ -14,7 +14,7 @@ slug: /last
 
 执行 last 命令时，它会读取 /var/log/wtmp 文件，并把该文件记录的登录系统或终端的用户名单全部显示出来。默认显示 /var/log/wtmp 的记录，/var/log/btmp 能显示的更详细，可以显示远程登录，例如 ssh 登录。
 
-相关命令：[uptime](/linux-command/uptime)，[who](/linux-command/who)
+相关命令：[uptime](/linux-command/uptime/)，[who](/linux-command/who/)
 
 **语法**：
 

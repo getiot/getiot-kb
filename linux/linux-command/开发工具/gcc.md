@@ -329,7 +329,7 @@ Hello, GetIoT
 Here is a shared library
 ```
 
-如果 hello 程序仍然运行失败，请尝试执行 [ldconfig](/linux-command/ldconfig) 命令更新共享库的缓存列表。
+如果 hello 程序仍然运行失败，请尝试执行 [ldconfig](/linux-command/ldconfig/) 命令更新共享库的缓存列表。
 
 此时，再次查看 hello 程序的共享库依赖
 

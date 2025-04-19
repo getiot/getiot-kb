@@ -10,7 +10,7 @@ slug: /ufw
 
 ## 介绍
 
-**ufw**（英文全拼：Uncomplicated Firewall）命令用于管理 Linux 系统防火墙服务。由于 Linux 系统早期使用的 [iptables](/linux-command/iptables) 防火墙完全基于命令行工作，操作参数及配置方法特别复杂，因此 Ubuntu 系统率先发布了这款基于 iptables 之上的全新、简单防火墙服务管理工具。ufw 支持图形化界面操作，弥补了 iptables 防火墙只支持命令行配置的缺点，使用起来简单很多。
+**ufw**（英文全拼：Uncomplicated Firewall）命令用于管理 Linux 系统防火墙服务。由于 Linux 系统早期使用的 [iptables](/linux-command/iptables/) 防火墙完全基于命令行工作，操作参数及配置方法特别复杂，因此 Ubuntu 系统率先发布了这款基于 iptables 之上的全新、简单防火墙服务管理工具。ufw 支持图形化界面操作，弥补了 iptables 防火墙只支持命令行配置的缺点，使用起来简单很多。
 
 **语法**：
 

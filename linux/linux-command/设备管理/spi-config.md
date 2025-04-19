@@ -55,7 +55,7 @@ spi-config [options...]
 | mode 2 | high iddle level, sample on leading edge.  |
 | mode 3 | high iddle level, sample on trailing edge. |
 
-相关命令：[spi-pipe](/linux-command/spi-pipe)
+相关命令：[spi-pipe](/linux-command/spi-pipe/)
 
 
 

@@ -9,7 +9,7 @@ slug: /libqrencode
 
 Libqrencode 是一个快速、紧凑的二维码（QR Code）编码库，使用 C 语言设计，遵循 LGPL-2.1 开源许可证。
 
-Libqrencode 接受一个字符串或数据块列表，然后在二维码符号中编码为位图数组。 虽然其他二维码应用程序生成图像文件，但使用 libqrencode 允许应用程序直接从原始位图数据渲染二维码符号。 该库还包含一个命令行实用程序 [qrencode](/linux-command/qrencode)，可输出各种格式的 QR 码图像。
+Libqrencode 接受一个字符串或数据块列表，然后在二维码符号中编码为位图数组。 虽然其他二维码应用程序生成图像文件，但使用 libqrencode 允许应用程序直接从原始位图数据渲染二维码符号。 该库还包含一个命令行实用程序 [qrencode](/linux-command/qrencode/)，可输出各种格式的 QR 码图像。
 
 - GitHub 仓库：[https://github.com/fukuchi/libqrencode](https://github.com/fukuchi/libqrencode)
 

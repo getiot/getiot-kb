@@ -10,7 +10,7 @@ slug: /chmod
 
 ## 介绍
 
-**chmod**（英文全拼：change mode）是 Linux 系统中用于改变文件权限的一个命令。对于文件或者目录的普通权限，共有 3 种，分别是 r（读取）、w（写入）和 x（执行）。chmod 是 Linux 系统中关于权限的重要命令之一，另外一个是 [`chown`](/linux-command/chown) 命令。
+**chmod**（英文全拼：change mode）是 Linux 系统中用于改变文件权限的一个命令。对于文件或者目录的普通权限，共有 3 种，分别是 r（读取）、w（写入）和 x（执行）。chmod 是 Linux 系统中关于权限的重要命令之一，另外一个是 [`chown`](/linux-command/chown/) 命令。
 
 **语法**：
 

@@ -57,9 +57,9 @@ zapnet tcp client --host 127.0.0.1 --port 5555 --data "Hello, World"
 
 使用方法可以参考：
 
-- [iperf 命令](/linux-command/iperf)
-- [Ubuntu 安装 Jperf 工具](/ubuntu/ubuntu-jperf)
-- [Linux 网络性能测试方法](/linux-note/linux-network-performance-testing)
+- [iperf 命令](/linux-command/iperf/)
+- [Ubuntu 安装 Jperf 工具](/ubuntu/ubuntu-jperf/)
+- [Linux 网络性能测试方法](/linux-note/linux-network-performance-testing/)
 
 👉【[下载地址](https://iperf.fr)】
 
@@ -67,7 +67,7 @@ zapnet tcp client --host 127.0.0.1 --port 5555 --data "Hello, World"
 
 ## Netcat
 
-Netcat 又称为 nc，是一个功能强大的网络工具，可以用于 TCP 和 UDP 连接的创建、数据传输和端口扫描等。使用方法可以参考《[netcat 命令](/linux-command/netcat)》。
+Netcat 又称为 nc，是一个功能强大的网络工具，可以用于 TCP 和 UDP 连接的创建、数据传输和端口扫描等。使用方法可以参考《[netcat 命令](/linux-command/netcat/)》。
 
 
 

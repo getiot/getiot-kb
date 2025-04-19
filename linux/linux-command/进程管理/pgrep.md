@@ -10,7 +10,7 @@ slug: /pgrep
 
 ## 介绍
 
-**pgrep**（英文全拼：process global regular expression print）是 Linux 系统中用于检索进程 PID 的命令。与 [pidof](/linux-command/pidof) 命令必须准确输入服务名称不同，pgrep 命令通过正则表达式进行检索，因此用户只需要输入服务名称中的一部分即可进行搜索操作，对于不记得全名的服务程序特别好用。
+**pgrep**（英文全拼：process global regular expression print）是 Linux 系统中用于检索进程 PID 的命令。与 [pidof](/linux-command/pidof/) 命令必须准确输入服务名称不同，pgrep 命令通过正则表达式进行检索，因此用户只需要输入服务名称中的一部分即可进行搜索操作，对于不记得全名的服务程序特别好用。
 
 pgrep 常用于通过进程名快速定位正在运行的进程，尤其在脚本或命令行中很有用。
 

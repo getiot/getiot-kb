@@ -10,7 +10,7 @@ slug: /pkill
 
 ## 介绍
 
-**pkill** 用于杀死一个进程，类似于 [killall](/linux-command/killall) 命令。
+**pkill** 用于杀死一个进程，类似于 [killall](/linux-command/killall/) 命令。
 
 **语法**：
 

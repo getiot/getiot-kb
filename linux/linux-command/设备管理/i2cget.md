@@ -44,7 +44,7 @@ i2cget -V
   - `w`（word）
   - `c`（consecutive byte）
 
-相关命令：[i2cdetect](/linux-command/i2cdetect)、[i2cdump](/linux-command/i2cdump)、[i2cset](/linux-command/i2cset)、[i2ctransfer](/linux-command/i2ctransfer)、sensors-detect、i2c-stub-from-dump
+相关命令：[i2cdetect](/linux-command/i2cdetect/)、[i2cdump](/linux-command/i2cdump/)、[i2cset](/linux-command/i2cset/)、[i2ctransfer](/linux-command/i2ctransfer/)、sensors-detect、i2c-stub-from-dump
 
 
 

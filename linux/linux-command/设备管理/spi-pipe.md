@@ -33,7 +33,7 @@ spi-pipe [options...]
 - `-h`, `--help` ：查看帮助并退出
 - `-v`, `--version` ：查看版本信息并退出
 
-相关命令：[spi-config](/linux-command/spi-config)
+相关命令：[spi-config](/linux-command/spi-config/)
 
 
 

@@ -10,9 +10,9 @@ slug: /scp
 
 ## 介绍
 
-**scp**（SecureCopy 的缩写）命令是 OpenSSH 套件的组成部分，是一个具有类 RCP 命令接口的文件传输客户端。用于在 Linux 下进行远程拷贝文件的命令，和它类似的命令有 [`cp`](/linux-command/cp)，不过 `cp` 只是在本机进行拷贝不能跨服务器，而且 scp 传输是加密的。
+**scp**（SecureCopy 的缩写）命令是 OpenSSH 套件的组成部分，是一个具有类 RCP 命令接口的文件传输客户端。用于在 Linux 下进行远程拷贝文件的命令，和它类似的命令有 [`cp`](/linux-command/cp/)，不过 `cp` 只是在本机进行拷贝不能跨服务器，而且 scp 传输是加密的。
 
-scp 占用资源少，不会对系统负荷造成太大影响，与之类似的 [`rsync`](/linux-command/rsync) 虽然速度相当快，但会导致硬盘 I/O 非常高，而 scp 基本不影响系统正常使用。
+scp 占用资源少，不会对系统负荷造成太大影响，与之类似的 [`rsync`](/linux-command/rsync/) 虽然速度相当快，但会导致硬盘 I/O 非常高，而 scp 基本不影响系统正常使用。
 
 **语法**：
 

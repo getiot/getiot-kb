@@ -52,7 +52,7 @@ hello (Ctrl + D)
 hello
 ```
 
-由于 xargs 后面的命令默认是 [`echo`](/linux-command/echo)，因此当输入 xargs 按下回车以后，命令行就会等待用户输入，作为标准输入。你可以输入任意内容，然后按下 `Ctrl + D` 键结束，此时 echo 命令就会把前面的输入打印出来。
+由于 xargs 后面的命令默认是 [`echo`](/linux-command/echo/)，因此当输入 xargs 按下回车以后，命令行就会等待用户输入，作为标准输入。你可以输入任意内容，然后按下 `Ctrl + D` 键结束，此时 echo 命令就会把前面的输入打印出来。
 
 当然，单独使用时 xargs 后面可以带上其他命令，例如：
 

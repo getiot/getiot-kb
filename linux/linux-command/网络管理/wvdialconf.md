@@ -10,7 +10,7 @@ slug: /wvdialconf
 
 ## 介绍
 
-**wvdialconf** 命令用于为 [wvdial](/linux-command/wvdial) 生成一个配置文件，默认为 /etc/wvdial.conf。通常在首次安装 wvdial 工具，还没有配置文件时使用。
+**wvdialconf** 命令用于为 [wvdial](/linux-command/wvdial/) 生成一个配置文件，默认为 /etc/wvdial.conf。通常在首次安装 wvdial 工具，还没有配置文件时使用。
 
 wvdialconf 会检测 Linux 系统当前接入的调制解调器，获取最大波特率和初始化字符串信息，并根据这些信息生成或更新 wvdial 配置文件。
 

@@ -10,7 +10,7 @@ slug: /chown
 
 ## 介绍
 
-**chown**（英文全拼：change owner）是 Linux 系统中用于改变文件所有者和文件关联组的一个命令。chown 是 Linux 系统中关于权限的重要命令之一，另外一个是 [`chmod`](/linux-command/chmod) 命令。
+**chown**（英文全拼：change owner）是 Linux 系统中用于改变文件所有者和文件关联组的一个命令。chown 是 Linux 系统中关于权限的重要命令之一，另外一个是 [`chmod`](/linux-command/chmod/) 命令。
 
 **语法**：
 

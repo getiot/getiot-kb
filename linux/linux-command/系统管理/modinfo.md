@@ -27,7 +27,7 @@ modinfo [-0] [-F field] [modulename|filename...]
 - `-a`、`-d`、`-l`、`-p`、`-n` ：这些分别是 author、description、license、param、filename 的简短形式，用于显示对应的信息。
 - `-V`, `--version` ：显示版本信息。
 
-**参数**：模块名或文件名。如果使用模块名，而没有指定文件名，则会在 `/lib/modules/$(uname -r)` 目录中搜索，就像 [modprobe](/linux-command/modprobe) 一样。
+**参数**：模块名或文件名。如果使用模块名，而没有指定文件名，则会在 `/lib/modules/$(uname -r)` 目录中搜索，就像 [modprobe](/linux-command/modprobe/) 一样。
 
 
 

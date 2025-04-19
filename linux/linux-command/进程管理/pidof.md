@@ -10,7 +10,7 @@ slug: /pidof
 
 ## 介绍
 
-**pidof** 命令用于查找 Linux 系统中指定名称的进程的进程号（PID），功能类似 [pgrep](/linux-command/pgrep) 和 [ps](/linux-command/ps)。
+**pidof** 命令用于查找 Linux 系统中指定名称的进程的进程号（PID），功能类似 [pgrep](/linux-command/pgrep/) 和 [ps](/linux-command/ps/)。
 
 **语法**：
 

@@ -12,7 +12,7 @@ slug: /swapoff
 
 **swapoff** 命令用于关闭 Linux 系统中用于分页和交换的设备和文件。
 
-相关命令：[swapon](/linux-command/swapon)
+相关命令：[swapon](/linux-command/swapon/)
 
 **语法**：
 

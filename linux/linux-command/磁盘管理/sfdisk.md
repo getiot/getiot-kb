@@ -12,7 +12,7 @@ slug: /sfdisk
 
 **sfdisk** 命令用于显示或操作磁盘分区表。
 
-与 [fdisk](/linux-command/fdisk) 菜单式交互操作不同，sfdisk 是一个面向脚本的工具，由命令驱动（从文件或 stdin 读取输入），因此通常用于在 shell 脚本中对硬盘进行分区或对分区表进行备份和恢复。
+与 [fdisk](/linux-command/fdisk/) 菜单式交互操作不同，sfdisk 是一个面向脚本的工具，由命令驱动（从文件或 stdin 读取输入），因此通常用于在 shell 脚本中对硬盘进行分区或对分区表进行备份和恢复。
 
 **语法**：
 

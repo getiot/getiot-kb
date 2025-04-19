@@ -10,7 +10,7 @@ slug: /alsamixer
 
 ## 介绍
 
-**alsamixer** 是 Linux 系统中的一个命令行工具，用于调整 ALSA（Advanced Linux Sound Architecture）音频设置，例如调整音频设备的音量、通道、输入输出等参数。和 [amixer](/linux-command/amixer) 不同，alsamixer 提供一个交互式的文本界面。
+**alsamixer** 是 Linux 系统中的一个命令行工具，用于调整 ALSA（Advanced Linux Sound Architecture）音频设置，例如调整音频设备的音量、通道、输入输出等参数。和 [amixer](/linux-command/amixer/) 不同，alsamixer 提供一个交互式的文本界面。
 
 **语法**：
 

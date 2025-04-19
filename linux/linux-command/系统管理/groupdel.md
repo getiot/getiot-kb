@@ -12,7 +12,7 @@ slug: /groupdel
 
 **groupdel** 命令用于在 Linux 系统中删除指定用户组。它允许系统管理员通过命令行删除不再需要的用户组，本质上是修改的系统中的 /ect/group 和 /ect/gshadow 文件。
 
-你可以使用 [`userdel`](/linux-command/userdel) 命令修改系统用户文件，删除与 GROUP 相关的所有项目。需要注意的是，若该群组中仍包括某些用户，则必须先删除这些用户后，才能删除群组。
+你可以使用 [`userdel`](/linux-command/userdel/) 命令修改系统用户文件，删除与 GROUP 相关的所有项目。需要注意的是，若该群组中仍包括某些用户，则必须先删除这些用户后，才能删除群组。
 
 :::tip
 

@@ -12,7 +12,7 @@ slug: /locate
 
 **locate** 命令用于在 Linux 系统中查找符合条件的文档，作用类似于 find 命令。不过，locate 命令会去保存文档和目录名称的数据库内，查找合乎范本样式条件的文档或目录。一般情况，我们只需要输入 `locate <filename>` 即可查找指定文件。
 
-相关命令：[which](/linux-command/which)、[whereis](/linux-command/whereis)、[find](/linux-command/find)
+相关命令：[which](/linux-command/which/)、[whereis](/linux-command/whereis/)、[find](/linux-command/find/)
 
 **安装**：
 

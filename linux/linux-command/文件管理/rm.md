@@ -64,7 +64,7 @@ rm -rf /*
 
 如果不小心创建了一些特殊文件，可不好删除，比如一个名为 `-D` 的文件。执行 `rm -D` 会将文件名误认为选项，这时候可以通过文件的 inode 硬链接编号来删除。
 
-首先，使用 [stat](/linux-command/stat) 命令查看 inode 号：
+首先，使用 [stat](/linux-command/stat/) 命令查看 inode 号：
 
 ```bash
   文件：./-D
@@ -76,14 +76,14 @@ rm -rf /*
 最近改动：2021-04-14 15:12:32.962045401 +0800
 ```
 
-或者，使用 [ls](/linux-command/ls) 命令加 `-i` 选项查看 inode 号：
+或者，使用 [ls](/linux-command/ls/) 命令加 `-i` 选项查看 inode 号：
 
 ```bash
 $ ls -il
 9568258 -rw-rw-r--   1 rudy rudy         0 4月  14 15:12 -D
 ```
 
-接着使用 [find](/linux-command/find) 命令通过 inode 号查找文件并使用 rm 命令删除：
+接着使用 [find](/linux-command/find/) 命令通过 inode 号查找文件并使用 rm 命令删除：
 
 ```bash
 $ find . -inum 9568258 -exec rm -i {} \;

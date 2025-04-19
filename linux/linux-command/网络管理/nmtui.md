@@ -24,7 +24,7 @@ nmtui [OPTIONS]
 
 nmtui 支持以下三种活动：
 
-- `edit`：显示连接编辑器，支持添加、修改、查看和删除连接。它提供与 [`nm-connection-editor`](/linux-command/nm-connection-editor) 类似的功能。
+- `edit`：显示连接编辑器，支持添加、修改、查看和删除连接。它提供与 [`nm-connection-editor`](/linux-command/nm-connection-editor/) 类似的功能。
 - `connect`：显示可用连接的列表，以及激活或停用它们的选项。它提供与 `nm-applet` 类似的功能。
 - `hostname`：设置系统主机名。
 

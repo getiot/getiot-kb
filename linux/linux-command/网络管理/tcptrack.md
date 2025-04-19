@@ -39,7 +39,7 @@ tcptrack [ -dfhvp ] [ -r seconds ] -i interface [ filter expression ]
 
 **过滤表达式**：
 
-tcptrack 还可以将 pcap 过滤器表达式作为参数。过滤器表达式的格式与 [tcpdump](/linux-command/tcpdump) 和其他基于 libpcap 的嗅探器的格式相同。
+tcptrack 还可以将 pcap 过滤器表达式作为参数。过滤器表达式的格式与 [tcpdump](/linux-command/tcpdump/) 和其他基于 libpcap 的嗅探器的格式相同。
 
 
 

@@ -7,7 +7,7 @@ slug: /code-compare-tools
 
 
 
-代码对比工具对程序员非常重要，帮助程序员们在大量的代码中查看修改差异。Linux 系统中的 [diff](/linux-command/diff) 命令就是一个非常常用的命令行形式的文本对比工具，但命令行展示形式不够直观，因此本文推荐一些好用的 GUI 图形化代码对比工具，包括 Beyond compare、Diffuse、Meld、winMerge 等等。
+代码对比工具对程序员非常重要，帮助程序员们在大量的代码中查看修改差异。Linux 系统中的 [diff](/linux-command/diff/) 命令就是一个非常常用的命令行形式的文本对比工具，但命令行展示形式不够直观，因此本文推荐一些好用的 GUI 图形化代码对比工具，包括 Beyond compare、Diffuse、Meld、winMerge 等等。
 
 
 

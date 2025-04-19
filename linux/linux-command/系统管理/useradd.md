@@ -12,7 +12,7 @@ slug: /useradd
 
 在 Linux 系统中，**useradd** 命令用来创建新的用户或更改用户的信息。
 
-useradd 可用来建立用户帐号，而当帐号建好之后，再通过 [passwd](/linux-command/passwd) 命令设定帐号的密码。使用 useradd 命令所建立的帐号，实际上是保存在 /etc/passwd 文本文件中。
+useradd 可用来建立用户帐号，而当帐号建好之后，再通过 [passwd](/linux-command/passwd/) 命令设定帐号的密码。使用 useradd 命令所建立的帐号，实际上是保存在 /etc/passwd 文本文件中。
 
 :::tip
 

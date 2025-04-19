@@ -12,9 +12,9 @@ slug: /phc2sys
 
 **phc2sys**（英文全拼：PTP hardware clock to system）命令用于同步两个或多个时钟。最常见的用法是，将系统时钟同步到网卡上的 PTP 硬件时钟（PHC）。PHC 本身可以使用 `ptp4l` 同步，系统时钟被视为从属时钟，而网卡上的时钟则为主时钟。
 
-相关命令：[ptp4l](/linux-command/ptp4l)、[phc_ctl](/linux-command/phc_ctl)、[pmc](/linux-command/pmc)
+相关命令：[ptp4l](/linux-command/ptp4l/)、[phc_ctl](/linux-command/phc_ctl/)、[pmc](/linux-command/pmc/)
 
-关于 PTP 详细介绍，请参考《[PTP 精确时间协议](/protocol/ptp)》。
+关于 PTP 详细介绍，请参考《[PTP 精确时间协议](/protocol/ptp/)》。
 
 **安装**：
 

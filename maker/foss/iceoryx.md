@@ -44,7 +44,7 @@ Eclipse iceoryx 高效的通信机制使其可以应用于更广泛的领域，�
 - RTA-VRTE（来自 ETAS）
 - Apex.OS（来自 Apex.AI）
 
-由于 iceoryx 是一种与数据无关的基于共享内存的传输机制，因此它仅仅提供了相当底层的 API。因此，官方不建议开发者直接使用该 API，而是将其集成到一个更大的能够提供高级 API 和工具的框架中去，比如 [AUTOSAR](/autosar/autosar-intro) Adaptive Platform 和 [ROS](/ros/ros-intro)（Robotic Operating System）。
+由于 iceoryx 是一种与数据无关的基于共享内存的传输机制，因此它仅仅提供了相当底层的 API。因此，官方不建议开发者直接使用该 API，而是将其集成到一个更大的能够提供高级 API 和工具的框架中去，比如 [AUTOSAR](/autosar/autosar-intro/) Adaptive Platform 和 [ROS](/ros/ros-intro/)（Robotic Operating System）。
 
 
 

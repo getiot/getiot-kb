@@ -12,7 +12,7 @@ slug: /modprobe
 
 **modprobe**（英文全拼：modules probe）命令用于智能地向内核中加载模块或者从内核中移除模块。
 
-modprobe 可载入指定的个别模块，或是载入一组相依的模块。modprobe 会根据 [depmod](/linux-command/depmod) 所产生的相依关系，决定要载入哪些模块。若在载入过程中发生错误，则 modprobe 会卸载整组的模块。需要注意的是为了方便，模块名中的 `-` 和 `_` 是没有区别的。
+modprobe 可载入指定的个别模块，或是载入一组相依的模块。modprobe 会根据 [depmod](/linux-command/depmod/) 所产生的相依关系，决定要载入哪些模块。若在载入过程中发生错误，则 modprobe 会卸载整组的模块。需要注意的是为了方便，模块名中的 `-` 和 `_` 是没有区别的。
 
 modprobe 命令会查找 `/lib/modules/'uname -r'` 目录中的模块和文件 (`uname -r` 是内核版本），但是不会查找 `/etc/modprobe.conf` 和 `/etc/modprobe.d/` 目录下配置所排除的内容。
 

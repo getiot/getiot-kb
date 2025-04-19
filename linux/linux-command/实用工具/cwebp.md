@@ -20,7 +20,7 @@ cwebp 命令由 webp 软件包提供，在 Debian/Ubuntu 系统上可以使用�
 sudo apt install webp
 ```
 
-相关命令：[dwebp](/linux-command/dwebp)
+相关命令：[dwebp](/linux-command/dwebp/)
 
 **语法**：
 

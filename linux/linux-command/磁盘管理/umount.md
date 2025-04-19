@@ -14,7 +14,7 @@ slug: /umount
 
 利用设备名或挂载点都能 umount 文件系统，不过最好还是通过挂载点卸载，以免使用绑定挂载（一个设备，多个挂载点）时产生混乱。如果存在多个挂载点，每次执行 umount 会按先进后出的方式卸载。
 
-相关命令：[mount](/linux-command/mount)
+相关命令：[mount](/linux-command/mount/)
 
 **语法**：
 
@@ -69,7 +69,7 @@ $ sudo umount -v /mnt
 umount: /mnt: target is busy.
 ```
 
-有时，导致设备忙的原因并不好找。碰到这种情况时，可以用 [lsof](/linux-command/lsof) 列出已打开文件，然后搜索列表查找待卸载的挂载点。
+有时，导致设备忙的原因并不好找。碰到这种情况时，可以用 [lsof](/linux-command/lsof/) 列出已打开文件，然后搜索列表查找待卸载的挂载点。
 
 ```bash
 $ lsof | grep mnt
@@ -84,7 +84,7 @@ bash    1894    rudy  cwd    DIR    8,33    4096    1 /mnt
 $ sudo umount -vl /mnt
 ```
 
-延迟卸载（lazy unmount）会立即卸载目录树里的文件系统，等到设备不再繁忙时才清理所有相关资源。卸载可移动存储介质还可以用 [eject](/linux-command/eject) 命令。
+延迟卸载（lazy unmount）会立即卸载目录树里的文件系统，等到设备不再繁忙时才清理所有相关资源。卸载可移动存储介质还可以用 [eject](/linux-command/eject/) 命令。
 
 下面命令会卸载 cdrom 分区并弹出 CD：
 

@@ -69,5 +69,5 @@ Doxygen 可以通过三种方式帮助你创建文档：
 
 - 官方网站：[https://doxygen.nl](https://doxygen.nl/)
 - GitHub 主页：[https://github.com/doxygen](https://github.com/doxygen/doxygen)
-- 应用示例：[从 C++ 源代码生成 UML 类图](/article/how-to-generate-uml-from-cpp-source-code)
+- 应用示例：[从 C++ 源代码生成 UML 类图](/article/how-to-generate-uml-from-cpp-source-code/)
 

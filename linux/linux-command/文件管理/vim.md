@@ -95,4 +95,4 @@ vim hello.txt
 - 然后在 vim 中输入 `:split world.txt`，打开另一个文件（默认是上下分隔窗口）；
 - 如果想要左右分割窗口，则输入 `:vsplit world.txt`。
 
-关于 vim 编辑器的详细使用方法，可参考《[Vim 文本编辑器](/linux/linux-vim-text-editor)》。
+关于 vim 编辑器的详细使用方法，可参考《[Vim 文本编辑器](/linux/linux-vim-text-editor/)》。

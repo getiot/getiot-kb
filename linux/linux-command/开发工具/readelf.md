@@ -12,7 +12,7 @@ slug: /readelf
 
 **readelf** 命令用于显示一个或者多个 ELF 格式目标文件的信息。可以支持 32 位或 64 位的 elf 格式文件，也支持包含 elf 文件的文档（这里一般指的是使用 ar 命令将一些 elf 文件打包之后生成的例如 lib*.a 之类的静态库文件）。
 
-readelf 和 [objdump](/linux-command/objdump) 提供的功能类似，但是它显示的信息更为具体，并且它不依赖 BFD 库（BFD 库是一个 GNU 项目，它的目标就是希望通过一种统一的接口来处理不同的目标文件），所以即使 BFD 库有什么 bug 存在的话也不会影响到 readelf 程序。
+readelf 和 [objdump](/linux-command/objdump/) 提供的功能类似，但是它显示的信息更为具体，并且它不依赖 BFD 库（BFD 库是一个 GNU 项目，它的目标就是希望通过一种统一的接口来处理不同的目标文件），所以即使 BFD 库有什么 bug 存在的话也不会影响到 readelf 程序。
 
 **语法**
 

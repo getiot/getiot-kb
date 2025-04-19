@@ -21,8 +21,8 @@ shutdown [OPTIONS...] [TIME] [WALL...]
 **选项**：
 
 - `-c`：当执行 `shutdown -h 11:50` 指令时，只要按 `+` 键就可以中断关机的指令。
-- `-f`：重新启动时不执行 [fsck](/linux-command/fsck)。
-- `-F`：重新启动时执行 [fsck](/linux-command/fsck)。
+- `-f`：重新启动时不执行 [fsck](/linux-command/fsck/)。
+- `-F`：重新启动时执行 [fsck](/linux-command/fsck/)。
 - `-h`：将系统关机。
 - `-k`：只是送出信息给所有用户，但不会实际关机。
 - `-n`：不调用init程序进行关机，而由 shutdown 自己进行。
