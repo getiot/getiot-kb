@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [jQuery 还值得学习吗？](is-jquery-worth-learning.md)
 * [jQuery 简介](jquery-intro.md)
 * [jQuery 安装](jquery-installation.md)
 * [jQuery Hello World](jquery-helloworld.md)
