@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# jQuery 教程
+# jQuery 教程 📚
 
 ![jQuery 教程](https://static.getiot.tech/cover-jquery-tutorial.webp#center)
 

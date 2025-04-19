@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# jQuery 
-
-![jQuery 简介](https://static.getiot.tech/jquery-logo-blue.png#center)
+# jQuery 简介
 
 **jQuery** 是 [John Resig](https://github.com/jeresig) 于 2006 年创建的一个 JavaScript 库，目标是 “Write less, do more.”（用更简洁的代码，完成更多的功能）。现在由 jQuery 团队和社区共同维护，主要包括核心库、UI、插件和 jQuery Mobile 等项目。
 
 发展至今，jQuery 已经成为最广泛使用的 JavaScript 库之一，根据 w3cook.com 在 2015 年公布的统计数据，其普及率高达 94%。
+
+![jQuery 口号](https://static.getiot.tech/jquery-logo-blue.png#center-600)
 
 
 
