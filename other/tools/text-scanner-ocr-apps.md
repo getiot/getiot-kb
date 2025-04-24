@@ -1,5 +1,5 @@
 ---
-sidebar_position: 43
+sidebar_position: 44
 slug: /text-scanner-ocr-apps
 ---
 

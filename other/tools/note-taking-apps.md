@@ -1,5 +1,5 @@
 ---
-sidebar_position: 41
+sidebar_position: 42
 slug: /note-taking-apps
 ---
 

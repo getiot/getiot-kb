@@ -4,6 +4,7 @@
 * [串口工具合集](all-of-serial-tools.md)
 * [SSH 客户端工具](ssh-client-tools.md)
 * [VSCode 编辑器](vscode.md)
+* [AI 编程工具](ai-coding-ide.md)
 * [DiskGenius](diskgenius.md)
 * [Draw.io](drawio.md)
 * [实用电子工具箱](electronic-toolbox.md)
