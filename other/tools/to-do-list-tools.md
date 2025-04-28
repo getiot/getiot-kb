@@ -15,7 +15,7 @@ slug: /to-do-list-tools
 
 -  官方网站：[https://todo.microsoft.com](https://todo.microsoft.com)
 
-![](https://static.getiot.tech/microsoft-to-do.webp#center)
+![](https://static.getiot.tech/microsoft-to-do.webp#center-600)
 
 虽然微软没有提供 Linux 版本的 To Do 软件，不过 Ubuntu 用户可以通过 Snap 包方式安装一个非官方发布的 To Do 软件，你可以点击[这里](https://snapcraft.io/install/microsoft-todo-unofficial/ubuntu)了解详细情况。安装命令如下：
 
