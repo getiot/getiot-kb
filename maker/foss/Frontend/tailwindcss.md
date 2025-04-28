@@ -32,6 +32,30 @@ Tailwind CSS 的核心理念是通过提供低层级的样式工具，使开发�
 
 
 
+## 使用示例
+
+Tailwind CSS 是一个实用类优先的 CSS 框架，允许您直接在 HTML 中使用类名来快速构建界面。下面是一个简单的按钮示例：
+
+```html showLineNumbers title="index.html"
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tailwind CSS 示例</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex items-center justify-center h-screen bg-gray-100">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      点击我
+    </button>
+  </body>
+</html>
+```
+
+在这个示例中，首先加载 Tailwind CSS 的 Play CDN，这样你就能够在 HTML 文件中直接使用 Tailwind 的实用类（utility classes）来快速构建界面，而无需进行任何构建步骤。接着添加一个 button 按钮，使用 Tailwind CSS 提供的实用类，实现设置背景色、悬停效果、字体样式、内边距和圆角等样式。
+
+
+
 ## 相关链接
 
 - 官方网站：[https://tailwindcss.com](https://tailwindcss.com)

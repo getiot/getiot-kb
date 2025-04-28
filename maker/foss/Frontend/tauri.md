@@ -30,6 +30,57 @@ slug: /tauri
 
 
 
+## 使用示例
+
+Tauri 允许使用 Web 技术构建桌面应用，前端使用 HTML/CSS/JavaScript，后端使用 Rust。下面是一个简单的示例，展示如何在前端调用 Rust 后端函数。
+
+前端 HTML 代码：
+
+```html showLineNumbers title="index.html"
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tauri 示例</title>
+  </head>
+  <body>
+    <input id="name" placeholder="输入你的名字" />
+    <button onclick="greet()">问候</button>
+    <p id="greeting"></p>
+
+    <script>
+      const { invoke } = window.__TAURI__.tauri;
+
+      async function greet() {
+        const name = document.getElementById("name").value;
+        const greeting = await invoke("greet", { name });
+        document.getElementById("greeting").textContent = greeting;
+      }
+    </script>
+  </body>
+</html>
+```
+
+后端 Rust 代码：
+
+```rust showLineNumbers title="src-tauri/src/main.rs"
+#[tauri::command]
+fn greet(name: &str) -> String {
+  format!("你好，{}！", name)
+}
+
+fn main() {
+  tauri::Builder::default()
+    .invoke_handler(tauri::generate_handler![greet])
+    .run(tauri::generate_context!())
+    .expect("error while running tauri application");
+}
+```
+
+在这个示例中，前端通过 `invoke` 方法调用 Rust 后端的 `greet` 函数，实现前后端的通信。
+
+
+
 ## 相关链接
 
 - 官方网站：[https://tauri.app](https://tauri.app)

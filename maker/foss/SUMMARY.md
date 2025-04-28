@@ -72,7 +72,7 @@
     * [NutUI 京东开源的移动端组件库](Frontend/nutui.md)
     * [Taro](Frontend/taro.md)
     * [Tauri](Frontend/tauri.md)
-    * [Tailwind](Frontend/tailwind.md)
+    * [Tailwind CSS](Frontend/tailwindcss.md)
 * [物联网](IoT/README.md)
     * [Home Assistant 米家集成](IoT/ha_xiaomi_home.md)
 * [Avem](avem.md)

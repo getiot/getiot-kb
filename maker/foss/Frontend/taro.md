@@ -37,6 +37,33 @@ Taro 致力于帮助开发者在不牺牲用户体验的前提下，大幅提升
 
 
 
+## 使用示例
+
+下面是一个使用 React 编写的 Taro 页面组件示例，适用于微信小程序、H5 和 React Native 等平台。
+
+```javascript showLineNumbers title="pages/index/index.jsx"
+import React from 'react';
+import { View, Text, Button } from '@tarojs/components';
+import Taro from '@tarojs/taro';
+
+export default function Index() {
+  const handleClick = () => {
+    Taro.showToast({ title: '你好，Taro！', icon: 'success' });
+  };
+
+  return (
+    <View className="container">
+      <Text>欢迎使用 Taro！</Text>
+      <Button onClick={handleClick}>点击提示</Button>
+    </View>
+  );
+}
+```
+
+在 Taro 中，你可以使用 React 的语法和组件来开发应用，Taro 会将其编译为对应平台的代码。
+
+
+
 ## 相关链接
 
 - 官方网站：[https://taro.zone](https://taro.zone)
