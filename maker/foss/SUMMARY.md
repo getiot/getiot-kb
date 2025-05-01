@@ -69,6 +69,7 @@
     * [CloudCompare](Utilities/cloudcompare.md)
     * [Foxglove Studio](Utilities/foxglove-studio.md)
 * [Frontend](Frontend/README.md)
+    * [Vant 小程序 UI 组件库](Frontend/vant.md)
     * [NutUI 京东开源的移动端组件库](Frontend/nutui.md)
     * [Taro](Frontend/taro.md)
     * [Tauri](Frontend/tauri.md)
