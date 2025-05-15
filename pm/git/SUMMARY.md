@@ -31,6 +31,7 @@
 * [软件版本周期](software-release-life-cycle.md)
 * [Git LFS 大文件存储](git-lfs.md)
 * [Git 常见问题（FAQs）](git-faq.md)
+* [Git 命令大全](git-commands-list.md)
 * [Git 命令汇总](git-commands/README.md)
     * [git init 命令](git-commands/git-command-init.md)
     * [git clone 命令](git-commands/git-command-clone.md)
