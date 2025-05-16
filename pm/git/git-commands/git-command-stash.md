@@ -6,52 +6,94 @@ slug: /git-command-stash
 # git stash 命令
 
 
+`git stash` 命令用于临时保存当前工作区和暂存区的修改内容，让你可以先切换到其他分支或执行其他操作，之后再恢复这些修改。
 
-如果我们在本地工作区作了修改，但还没有提交或者暂存，那么当执行 `git pull` 同步远程仓库时，会出现类似如下的提示：
+它的作用类似于“临时抽屉”，适合在你还没完成当前修改但又需要切换分支或处理紧急任务时使用。被保存的修改不会被提交，但也不会丢失，而是存放在 Git 的一个栈（stack）中，稍后可选择恢复。
 
-```bash
-更新 3f0ce92..65e1b98
-error: 您对下列文件的本地修改将被合并操作覆盖：
-	CMakeLists.txt
-	demo/demo_online.cpp
-	src/common/version.hpp
-	src/driver/decoder/decoder.hpp
-请在合并前提交或贮藏您的修改。
-正在终止
-```
 
-这种情况通常出现在多人协同开发中，由于别人修改了文件并且提交到远程仓库，同时你也修改了此文件并且没有 add 和 commit，然后你想在 pull 或 merge 远程仓库时就会出现此提示。
 
-执行 `git status` 命令，查看此时的仓库状态，输出可能如下：
+## 命令语法
 
 ```bash
-$ git status
-位于分支 master
-您的分支落后 'origin/master' 共 5 个提交，并且可以快进。
-  （使用 "git pull" 来更新您的本地分支）
-
-尚未暂存以备提交的变更：
-  （使用 "git add <文件>..." 更新要提交的内容）
-  （使用 "git restore <文件>..." 丢弃工作区的改动）
-	修改：     CMakeLists.txt
-	修改：     demo/demo_online.cpp
-	修改：     src/common/version.hpp
-	修改：     src/driver/decoder/decoder.hpp
-
-未跟踪的文件:
-  （使用 "git add <文件>..." 以包含要提交的内容）
-	CMakeLists.txt.user
-
-修改尚未加入提交（使用 "git add" 和/或 "git commit -a"）
+git stash [选项]
 ```
 
-如果不想舍弃对本地的修改，就需要在合并前提交或贮藏你的修改。而贮藏修改，就要用到 `git stash` 命令。
+**常用选项参数**
 
-操作步骤如下：
+- `save "<message>"`：为 stash 添加说明信息（已过时，但仍被支持）。
+- `push [-m "<message>"]`：保存修改并添加说明信息。
+- `list`：列出所有 stash。
+- `pop`：恢复最近一次 stash 并将其从栈中移除。
+- `apply [<stash@{n}>]`：恢复指定 stash，但不会将其删除。
+- `drop [<stash@{n}>]`：删除指定 stash。
+- `clear`：删除所有 stash。
+- `show [-p]`：查看 stash 内容（可加 `-p` 查看具体差异）。
 
-- 首先，执行 `git stash`，将本地工作区备份（即放入 Git 存储堆栈中），此时当前工作目录和暂存区是干净的，恢复到上一个提交的状态；
-- 然后，使用 `git pull` 或者 `git merge` 命令拉取最新修改；
-- 最后，执行 `git stash pop` 取出备份，这个过程自动合并。如果成功，则自动将此备份从暂存区中删除；如果有冲突，则需要手动解决冲突，然后执行 `git stash drop` 从存储堆栈中移除该储藏项。
 
-请注意，执行 `git stash drop` 命令后，储藏项中的更改将无法恢复。如果你仍然需要这些更改，请在删除储藏项之前使用 `git stash apply` 命令或 `git stash pop` 命令将其应用到工作目录。
 
+## 使用示例
+
+临时保存当前的修改内容：
+
+```bash
+git stash
+```
+
+保存当前修改，并添加说明信息（推荐写明 stash 的目的）：
+
+```bash
+git stash push -m "修复 bug 前保存当前开发状态"
+```
+
+查看所有保存的 stash：
+
+```bash
+git stash list
+```
+
+恢复最近一次 stash，并将其从列表中移除：
+
+```bash
+git stash pop
+```
+
+恢复指定 stash，但保留在列表中（适合多次使用）：
+
+```bash
+git stash apply stash@{1}
+```
+
+删除指定 stash：
+
+```bash
+git stash drop stash@{0}
+```
+
+清空所有 stash：
+
+```bash
+git stash clear
+```
+
+查看某个 stash 的改动内容（默认显示最近一次）：
+
+```bash
+git stash show -p
+```
+
+
+
+## 小贴士
+
+- 如果你 stash 的内容包含未跟踪文件或被 `.gitignore` 忽略的文件，可以加上 `-u` 或 `-a` 参数来一并保存它们：
+
+  ```bash
+  git stash -u  # 包含未跟踪文件
+  git stash -a  # 包含所有文件（包括忽略文件）
+  ```
+
+- `git stash` 适用于快速切换分支时暂存未完成的修改，但不要将其当作长期保存方案。
+
+- `git stash pop` 会尝试将修改套用到当前分支上，如有冲突需手动解决。
+
+- 每次 `stash` 都会创建一条记录，可通过 `git stash list` 找到并管理多个保存点。
