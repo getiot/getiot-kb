@@ -1,5 +1,5 @@
 ---
-sidebar_position: 25
+sidebar_position: 11
 slug: /git-command-fetch
 ---
 

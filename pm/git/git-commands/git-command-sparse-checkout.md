@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 25
 slug: /git-command-sparse-checkout
 ---
 

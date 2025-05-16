@@ -77,7 +77,7 @@ git commit
 
 ## 场景2：多人直接提交到 `main`
 
-假设你和同事同时在 GitHub 上克隆了同一个项目，并都在 `main` 分支上开发。
+假设你和你的同事同时在 GitHub 上克隆了同一个项目，并都在 `main` 分支上开发。
 
 你先修改了 `README.md` 文件并推送：
 
@@ -120,10 +120,10 @@ git push origin main
 
 ## 场景3：通过 PR 合并时出现冲突
 
-你和同事都基于 `main` 分支新建了分支进行开发：
+你和你的同事都基于 `main` 分支新建了分支进行开发：
 
-- 你建了 `feature-a`
-- 同事建了 `feature-b`
+- 你创建了 `feature-a`
+- 同事创建了 `feature-b`
 
 你先提交了 Pull Request 并成功合并进 `main`，而你的同事的 `feature-b` 分支也修改了同一个文件的同一行，但没有及时同步 `main` 的最新内容。
 

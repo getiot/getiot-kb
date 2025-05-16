@@ -1,5 +1,5 @@
 ---
-sidebar_position: 18
+sidebar_position: 6
 slug: /git-command-cherry
 ---
 

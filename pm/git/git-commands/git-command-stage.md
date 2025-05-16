@@ -1,5 +1,5 @@
 ---
-sidebar_position: 29
+sidebar_position: 26
 slug: /git-command-stage
 ---
 

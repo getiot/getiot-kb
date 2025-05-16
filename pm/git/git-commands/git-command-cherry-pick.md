@@ -1,5 +1,5 @@
 ---
-sidebar_position: 19
+sidebar_position: 7
 slug: /git-command-cherry-pick
 ---
 

@@ -1,5 +1,6 @@
 ---
-sidebar_position: 32
+sidebar_position: 33
+slug: /git-glossary
 ---
 
 # Git 相关名词解释
