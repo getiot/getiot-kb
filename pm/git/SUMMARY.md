@@ -34,6 +34,7 @@
 * [Git 命令大全](git-commands-list.md)
 * [Git 命令汇总](git-commands/README.md)
     * [git add 命令](git-commands/git-command-add.md)
+    * [git archive 命令](git-commands/git-command-archive.md)
     * [git bisect 命令](git-commands/git-command-bisect.md)
     * [git blame 命令](git-commands/git-command-blame.md)
     * [git branch 命令](git-commands/git-command-branch.md)
