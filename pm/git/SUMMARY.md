@@ -54,6 +54,7 @@
     * [git push 命令](git-commands/git-command-push.md)
     * [git rebase 命令](git-commands/git-command-rebase.md)
     * [git reflog 命令](git-commands/git-command-reflog.md)
+    * [git remote 命令](git-commands/git-command-remote.md)
     * [git reset 命令](git-commands/git-command-reset.md)
     * [git restore 命令](git-commands/git-command-restore.md)
     * [git revert 命令](git-commands/git-command-revert.md)
