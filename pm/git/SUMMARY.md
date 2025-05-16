@@ -40,6 +40,7 @@
     * [git checkout 命令](git-commands/git-command-checkout.md)
     * [git cherry 命令](git-commands/git-command-cherry.md)
     * [git cherry-pick 命令](git-commands/git-command-cherry-pick.md)
+    * [git clean 命令](git-commands/git-command-clean.md)
     * [git clone 命令](git-commands/git-command-clone.md)
     * [git commit 命令](git-commands/git-command-commit.md)
     * [git config 命令](git-commands/git-command-config.md)
