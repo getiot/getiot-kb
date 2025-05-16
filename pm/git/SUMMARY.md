@@ -55,6 +55,7 @@
     * [git reflog 命令](git-commands/git-command-reflog.md)
     * [git reset 命令](git-commands/git-command-reset.md)
     * [git restore 命令](git-commands/git-command-restore.md)
+    * [git revert 命令](git-commands/git-command-revert.md)
     * [git rm 命令](git-commands/git-command-rm.md)
     * [git show 命令](git-commands/git-command-show.md)
     * [git sparse-checkout 命令](git-commands/git-command-sparse-checkout.md)
