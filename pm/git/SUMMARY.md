@@ -42,6 +42,7 @@
     * [git cherry-pick 命令](git-commands/git-command-cherry-pick.md)
     * [git clone 命令](git-commands/git-command-clone.md)
     * [git commit 命令](git-commands/git-command-commit.md)
+    * [git config 命令](git-commands/git-command-config.md)
     * [git diff 命令](git-commands/git-command-diff.md)
     * [git fetch 命令](git-commands/git-command-fetch.md)
     * [git grep 命令](git-commands/git-command-grep.md)
