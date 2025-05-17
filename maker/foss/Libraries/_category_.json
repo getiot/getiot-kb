@@ -1,8 +1,8 @@
 {
-  "label": "Libraries",
+  "label": "软件库",
   "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "各种软件库 ..."
+    "description": "各种实用的开源软件库 ..."
   }
 }
