@@ -1,9 +1,10 @@
 ---
 sidebar_position: 1
+sidebar_label: libqrencode
 slug: /libqrencode
 ---
 
-# libqrencode
+# libqrencode 二维码生成库
 
 **libqrencode** 是一个快速、紧凑的二维码（QR Code）编码库，使用 C 语言设计，遵循 LGPL-2.1 开源许可证。它支持将字符串或数据块编码为二维码，并以位图数组的形式输出，适用于嵌入式系统、桌面应用和命令行工具等多种场景。
 
