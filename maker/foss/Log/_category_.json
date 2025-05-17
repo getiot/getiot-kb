@@ -1,8 +1,8 @@
 {
-  "label": "Log",
+  "label": "日志记录",
   "position": 6,
   "link": {
     "type": "generated-index",
-    "description": "日志库 ..."
+    "description": "开源的 Log 日志库 ..."
   }
 }
