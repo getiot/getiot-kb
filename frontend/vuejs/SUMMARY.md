@@ -18,7 +18,7 @@
 * [Vue.js 插槽与作用域插槽](vuejs-slots.md)
 * [Vue.js 动态组件与组件的复用](vuejs-dynamic-components.md)
 * [Vue.js 组件生命周期钩子](vuejs-component-lifecycle-hooks.md)
-* [Vuex 状态管理](vuejs-vuex-state-management.md)
+* [Vuex 状态管理](vuex-state-management.md)
 * [Vue Router 路由管理](vuejs-router.md)
 * [Vue Pinia 状态管理](vuejs-pinia.md)
 * [Vue Mixins 与组件组合](vuejs-mixins-and-composition.md)
