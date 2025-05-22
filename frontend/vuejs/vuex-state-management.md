@@ -270,4 +270,4 @@ Vuex 和 Composition API 是可以很好配合的。但如果你喜欢使用更�
 
 ## 小结
 
-Vuex 是 Vue 官方提供的状态管理工具，适合中大型项目中统一管理共享状态。它基于集中式存储和严格的状态流转，帮助你构建可维护、结构清晰的应用。你学会了如何创建 store，使用 state、mutations、actions、getters，以及如何模块化管理状态。未来如果项目需要更轻量的方案，也可以考虑迁移到 Pinia。
+Vuex 是 Vue 官方提供的状态管理工具，适合中大型项目中统一管理共享状态。它基于集中式存储和严格的状态流转，帮助你构建可维护、结构清晰的应用。你学会了如何创建 store，使用 state、mutations、actions、getters，以及如何模块化管理状态。未来如果项目需要更轻量的方案，也可以考虑迁移到 [Pinia](/vue/vuejs-pinia/)。
