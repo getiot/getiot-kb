@@ -8,6 +8,12 @@ slug: /vuejs-demo-todo-app-overview
 
 在本系列中，你将一步步用 Vue.js 实现一个功能完整的 ToDo 应用。通过这个项目，你可以学会如何在实际开发中使用 Vue 的核心功能，比如组件、数据绑定、事件处理、条件渲染、表单处理等。更重要的是，你会掌握如何将这些零散的知识点整合成一个完整的应用。
 
+:::tip
+
+项目完整代码可在 [GitHub](https://github.com/getiot/vue-courses/tree/main/vue-todo-demo) 获取。
+
+:::
+
 
 
 ## 项目目标
