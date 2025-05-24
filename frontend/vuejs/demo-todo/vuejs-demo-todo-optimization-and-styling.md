@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+sidebar_label: 项目优化与样式美化
 slug: /vuejs-demo-todo-optimization-and-styling
 ---
 

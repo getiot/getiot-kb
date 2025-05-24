@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+sidebar_label: 本地存储与数据持久化
 slug: /vuejs-demo-todo-local-storage
 ---
 
