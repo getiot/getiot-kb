@@ -121,13 +121,24 @@ Nuxt 的目录驱动（convention over configuration）特性可以极大地提�
 </template>
 ```
 
+修改 `app.vue` 文件：
+
+```html showLineNumbers {4} title="app.vue"
+<template>
+  <div>
+    <NuxtRouteAnnouncer />
+    <NuxtPage />
+  </div>
+</template>
+```
+
 然后访问 `http://localhost:3000/hello`，就能看到你刚创建的页面啦！
 
 
 
 :::tip
 
-Nuxt 会根据 `pages` 目录自动生成路由，无需手动配置。
+Nuxt 会根据 `pages` 目录自动生成路由，无需其他配置。
 
 :::
 
