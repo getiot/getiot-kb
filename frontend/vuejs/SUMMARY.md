@@ -34,5 +34,4 @@
     * [Vue.js 实现 ToDo 应用：任务添加与删除](demo-todo/vuejs-demo-todo-task-addition-and-deletion.md)
     * [Vue.js 实现 ToDo 应用：任务编辑与状态管理](demo-todo/vuejs-demo-todo-task-editing-and-state-management.md)
     * [Vue.js 实现 ToDo 应用：本地存储与数据持久化](demo-todo/vuejs-demo-todo-local-storage.md)
-    * [Vue.js 实现 ToDo 应用：项目优化与样式美化](demo-todo/vuejs-demo-todo-optimization-and-styling.md)
 

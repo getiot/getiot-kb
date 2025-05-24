@@ -175,10 +175,14 @@ const cancelEdit = () => {
 <style scoped>
 li {
   list-style: none;
-  padding: 4px 0;
   display: flex;
-  align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  padding: 8px 0px;
+  border-bottom: 1px solid #eee;
+}
+li button {
+  padding: 4px 8px;
+  font-size: 0.8rem;
 }
 /* 已完成任务样式：加删除线、灰色文字 */
 .done span {
@@ -278,6 +282,14 @@ ul {
 }
 </style>
 ```
+
+
+
+## 演示效果
+
+打开浏览器访问 `http://localhost:5173`，你将看到 Todo 应用的页面，你可以在这里进行添加或删除待办事项、设置事项状态、根据状态过滤显示，以及编辑事项等操作。
+
+![Vue Todo 应用](https://static.getiot.tech/vue-todo-app-02.webp#center)
 
 
 
