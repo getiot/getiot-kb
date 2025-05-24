@@ -98,8 +98,8 @@ mkdir src/components
 
 然后创建以下组件文件（文件可以暂时留空）：
 
-- `TodoInput.vue`：输入框组件
-- `TodoItem.vue`：单个待办项组件
+- `TodoInput.vue`：输入框组件（管理任务输入和添加逻辑）
+- `TodoItem.vue`：单个待办项组件（渲染任务项、实现删除功能）
 - `TodoFilter.vue`：过滤器组件（例如“全部 / 已完成 / 未完成”）
 
 结构如下：
