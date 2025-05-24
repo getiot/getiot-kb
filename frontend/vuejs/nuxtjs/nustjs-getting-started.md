@@ -121,7 +121,7 @@ Nuxt 的目录驱动（convention over configuration）特性可以极大地提�
 </template>
 ```
 
-修改 `app.vue` 文件：
+删除 `app.vue` 文件，或者将原来默认的修改为：
 
 ```html showLineNumbers {4} title="app.vue"
 <template>
