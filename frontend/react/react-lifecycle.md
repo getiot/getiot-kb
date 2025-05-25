@@ -1,11 +1,10 @@
 ---
-sidebar_position: 9
+sidebar_position: 11
 slug: /react-lifecycle
+authors: [luhuadong]
 ---
 
 # React 生命周期
-
-
 
 React 生命周期是指组件在运行过程中会经历的初始化、更新、卸载 3 个阶段，而每个阶段又有不同的生命周期，在 React 生命周期内可以通过钩子函数来完成不同的业务逻辑。
 

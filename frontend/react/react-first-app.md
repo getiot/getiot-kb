@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 slug: /react-first-app
+authors: [luhuadong]
 ---
 
 # 创建第一个 React 项目

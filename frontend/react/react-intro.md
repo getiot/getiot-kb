@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 slug: /react-intro
+authors: [luhuadong]
 ---
 
 # React 简介

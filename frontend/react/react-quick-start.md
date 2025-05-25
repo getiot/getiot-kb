@@ -2,6 +2,7 @@
 sidebar_position: 3
 slug: /react-quick-start
 draft: true
+authors: [luhuadong]
 ---
 
 # React 快速入门

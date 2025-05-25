@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 slug: /react-installation
+authors: [luhuadong]
 ---
 
 # React 安装
