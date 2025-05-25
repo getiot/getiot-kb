@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# Vue.js 教程 📚
+# Vue.js 开发教程 📚
 
 ![Vue.js 教程](https://static.getiot.tech/cover-vue-tutorial.webp#center)
 

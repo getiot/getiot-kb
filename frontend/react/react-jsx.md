@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+slug: /react-jsx
 ---
 
 # React JSX 语法糖

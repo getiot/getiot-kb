@@ -1,9 +1,10 @@
 ---
 sidebar_position: 4
+slug: /react-first-app
 draft: true
 ---
 
-# 第一个 React 示例
+# 创建第一个 React 项目
 
 
 

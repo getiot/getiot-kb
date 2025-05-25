@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+slug: /react-lifecycle
 ---
 
 # React 生命周期

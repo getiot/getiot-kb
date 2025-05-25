@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: /react-installation
 ---
 
 # React 安装

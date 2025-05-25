@@ -1,5 +1,6 @@
 ---
 sidebar_position: 12
+slug: /react-diff-with-native-web-pages
 ---
 
 # React 框架与原生网页的区别

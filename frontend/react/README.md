@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# React 教程
+# React 开发教程 📚
 
 ![React 教程](https://static.getiot.tech/cover-react-tutorial.webp#center)
 
@@ -19,4 +19,3 @@ React 是 Facebook 开源的一款 JavaScript 库，已经成为构建交互式�
 - **React Hooks**：掌握 React Hooks，一种更灵活的状态和生命周期管理方式。
 - **实际项目**：通过一个实际项目，将所学知识应用于实践，提升实战能力。
 
-![](https://static.getiot.tech/react-logo.svg#center-100)

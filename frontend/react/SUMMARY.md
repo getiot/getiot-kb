@@ -4,7 +4,7 @@
 * [React 简介](react-intro.md)
 * [React 安装](react-installation.md)
 * [React 快速入门](react-quick-start.md)
-* [第一个 React 示例](react-first-app.md)
+* [创建第一个 React 项目](react-first-app.md)
 * [React JSX 语法糖](react-jsx.md)
 * [React 组件](react-component.md)
 * [React 属性 Props](react-props.md)
