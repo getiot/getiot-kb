@@ -6,8 +6,6 @@ draft: true
 
 # React 快速入门
 
-
-
 本文通过一系列的示例代码，带大家快速入门 React.js。为了更快达成目的并减少困扰，我们会直接引入 react 的 JS 文件，而不使用脚手架或其他工具。因此，你只需要准备一个编辑器和一个浏览器即可开始！
 
 声明：本文示例参考 [React Demos](https://github.com/ruanyf/react-demos)（阮一峰），并在此基础上做了一些调整和补充说明。
