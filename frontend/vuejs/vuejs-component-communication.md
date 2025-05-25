@@ -1,6 +1,7 @@
 ---
 sidebar_position: 12
 slug: /vuejs-component-communication
+authors: [luhuadong]
 ---
 
 # Vue.js 组件通信：Props

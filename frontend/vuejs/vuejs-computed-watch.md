@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 slug: /vuejs-computed-watch
+authors: [luhuadong]
 ---
 
 # Vue.js 计算属性与侦听器

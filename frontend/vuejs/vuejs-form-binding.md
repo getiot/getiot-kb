@@ -1,6 +1,7 @@
 ---
 sidebar_position: 10
 slug: /vuejs-form-binding
+authors: [luhuadong]
 ---
 
 # Vue.js 表单输入绑定

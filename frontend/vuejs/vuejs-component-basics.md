@@ -1,6 +1,7 @@
 ---
 sidebar_position: 11
 slug: /vuejs-component-basics
+authors: [luhuadong]
 ---
 
 # Vue.js 组件基础

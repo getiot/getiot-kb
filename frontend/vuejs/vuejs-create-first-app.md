@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 slug: /vuejs-create-first-app
+authors: [luhuadong]
 ---
 
 # 创建第一个 Vue 应用

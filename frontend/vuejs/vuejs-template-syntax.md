@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 slug: /vuejs-template-syntax
+authors: [luhuadong]
 ---
 
 # Vue.js 模板语法

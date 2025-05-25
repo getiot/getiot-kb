@@ -2,6 +2,7 @@
 sidebar_position: 2
 sidebar_label: 创建第一个 Nuxt 应用
 slug: /nustjs-getting-started
+authors: [luhuadong]
 ---
 
 # 创建你的第一个 Nuxt 应用

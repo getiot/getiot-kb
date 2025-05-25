@@ -1,6 +1,7 @@
 ---
 sidebar_position: 27
 slug: /vuejs-unit-testing
+authors: [luhuadong]
 ---
 
 # Vue 项目单元测试

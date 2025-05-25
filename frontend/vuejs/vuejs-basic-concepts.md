@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 slug: /vuejs-basic-concepts
+authors: [luhuadong]
 ---
 
 # Vue.js 基本概念

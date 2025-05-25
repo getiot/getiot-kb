@@ -1,6 +1,7 @@
 ---
 sidebar_position: 22
 slug: /vuejs-custom-directives
+authors: [luhuadong]
 ---
 
 # Vue 自定义指令

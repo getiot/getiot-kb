@@ -2,6 +2,7 @@
 sidebar_position: 2
 sidebar_label: 搭建项目与页面结构
 slug: /vuejs-demo-todo-init-project
+authors: [luhuadong]
 ---
 
 # Vue.js 实现 ToDo 应用：搭建项目与页面结构

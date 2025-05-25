@@ -1,6 +1,7 @@
 ---
 sidebar_position: 8
 slug: /nustjs-middleware-plugins
+authors: [luhuadong]
 ---
 
 # Nuxt.js 中间件与插件

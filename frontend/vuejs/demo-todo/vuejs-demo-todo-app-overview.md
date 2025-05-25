@@ -2,6 +2,7 @@
 sidebar_position: 1
 sidebar_label: ToDo 项目概述
 slug: /vuejs-demo-todo-app-overview
+authors: [luhuadong]
 ---
 
 # Vue.js 实现 ToDo 应用：项目概述

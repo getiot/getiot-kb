@@ -2,6 +2,7 @@
 sidebar_position: 13
 sidebar_label: Vue.js 父子组件通信
 slug: /vuejs-parent-child-communication
+authors: [luhuadong]
 ---
 
 # Vue.js 父子组件通信（发送事件）

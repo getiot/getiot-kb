@@ -1,6 +1,7 @@
 ---
 sidebar_position: 8
 slug: /vuejs-conditional-list-rendering
+authors: [luhuadong]
 ---
 
 # Vue.js 条件渲染与列表渲染

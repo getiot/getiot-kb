@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 slug: /nustjs-state-management
+authors: [luhuadong]
 ---
 
 # Nuxt.js 状态管理（使用 Pinia）

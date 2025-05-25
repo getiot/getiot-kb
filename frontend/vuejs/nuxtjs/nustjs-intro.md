@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 slug: /nustjs-intro
+authors: [luhuadong]
 ---
 
 # Nuxt.js 框架简介

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 25
 slug: /vuejs-build-tools
+authors: [luhuadong]
 ---
 
 # Vue 项目构建与开发工具链

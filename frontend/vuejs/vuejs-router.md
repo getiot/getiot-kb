@@ -1,6 +1,7 @@
 ---
 sidebar_position: 19
 slug: /vuejs-router
+authors: [luhuadong]
 ---
 
 # Vue Router 路由管理

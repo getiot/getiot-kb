@@ -1,6 +1,7 @@
 ---
 sidebar_position: 24
 slug: /vuejs-optimization-and-performance
+authors: [luhuadong]
 ---
 
 # Vue 项目优化与性能提升

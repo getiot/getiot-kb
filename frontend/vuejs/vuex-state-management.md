@@ -1,6 +1,7 @@
 ---
 sidebar_position: 18
 slug: /vuex-state-management
+authors: [luhuadong]
 ---
 
 # Vuex 状态管理

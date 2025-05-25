@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 slug: /vuejs-data-binding
+authors: [luhuadong]
 ---
 
 # Vue.js 数据绑定

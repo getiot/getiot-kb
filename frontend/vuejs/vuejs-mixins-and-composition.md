@@ -1,6 +1,7 @@
 ---
 sidebar_position: 21
 slug: /vuejs-mixins-and-composition
+authors: [luhuadong]
 ---
 
 # Vue Mixins 与组件组合

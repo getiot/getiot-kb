@@ -1,6 +1,7 @@
 ---
 sidebar_position: 20
 slug: /vuejs-pinia
+authors: [luhuadong]
 ---
 
 # Vue Pinia 状态管理

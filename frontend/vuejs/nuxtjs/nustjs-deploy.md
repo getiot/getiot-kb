@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 slug: /nustjs-deploy
+authors: [luhuadong]
 ---
 
 # 构建和部署 Nuxt 应用

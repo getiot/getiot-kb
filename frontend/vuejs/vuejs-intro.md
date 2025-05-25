@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 slug: /vuejs-intro
+authors: [luhuadong]
 ---
 
 # Vue.js 简介

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 slug: /vuejs-dev-environment
+authors: [luhuadong]
 ---
 
 # Vue.js 开发环境
