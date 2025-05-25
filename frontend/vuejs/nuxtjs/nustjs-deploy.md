@@ -104,7 +104,7 @@ npm run generate
 
 
 
-### 3. 部署到 Netlify（适用于静态站点）
+### 3. 部署到 Netlify（适用于 SSG）
 
 Netlify 适合部署使用 `nuxi generate` 命令生成的静态网站。
 
@@ -115,7 +115,7 @@ Netlify 适合部署使用 `nuxi generate` 命令生成的静态网站。
 
 
 
-### 4. 部署到 GitHub Pages（适用于静态站点）
+### 4. 部署到 GitHub Pages（适用于 SSG）
 
 GitHub Pages 也可以托管 Nuxt 的静态站点。
 
