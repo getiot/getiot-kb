@@ -141,7 +141,11 @@ nuxi init my-nuxt-app
 npm install @nuxt/content
 ```
 
+:::warning
 
+有些模块国内开发者可能无法正常使用，例如 `@nuxt/icon` 模块是基于 [Iconify](https://iconify.design/) 的（依赖 Google Fonts），需要访问 Google 服务。那么建议不要安装这些模块，你完全可以其他方式替代，例如直接使用纯前端方式加载图标。
+
+:::
 
 ### 步骤 2：安装依赖
 
