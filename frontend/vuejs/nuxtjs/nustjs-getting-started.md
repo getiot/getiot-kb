@@ -55,6 +55,92 @@ npx nuxi init my-nuxt-app
 nuxi init my-nuxt-app
 ```
 
+创建过程会询问你是否需要预装一些官方模块：
+
+```bash
+❯ Would you like to install any of the official modules?
+◻ @nuxt/content – The file-based CMS with support for Markdown, YAML, JSON
+◻ @nuxt/eslint – Project-aware, easy-to-use, extensible and future-proof ESLint integration
+◻ @nuxt/fonts – Add custom web fonts with performance in mind
+◻ @nuxt/icon – Icon module for Nuxt with 200,000+ ready to use icons from Iconify
+◻ @nuxt/image – Add images with progressive processing, lazy-loading, resizing and providers support
+◻ @nuxt/scripts – Add 3rd-party scripts without sacrificing performance
+◻ @nuxt/test-utils – Test utilities for Nuxt
+◻ @nuxt/ui – The Intuitive UI Library powered by Reka UI and Tailwind CSS
+```
+
+这些模块并非必选，但能为你的开发工作带来方便、增强功能。下面简单介绍这些模块的用途，你可以根据自己的需要决定是否安装。
+
+1. `@nuxt/content`
+
+   **功能**：基于文件系统的 CMS，支持 Markdown、YAML、JSON 文件读取。你可以用它构建博客、文档等内容驱动型网站，无需数据库。
+
+   **适合人群**：写博客、建文档站点（如 VuePress、Docusaurus 的替代方案）。
+
+   **新手建议**：如果你打算写 Markdown 内容或做内容管理，推荐勾选。否则可以先跳过。
+
+2. `@nuxt/eslint`
+
+   **功能**：整合 ESLint（JavaScript 和 TypeScript 的代码检查工具），自动检查代码风格和潜在错误。
+
+   **适合人群**：任何想保持代码整洁、团队协作开发的人。
+
+   **新手建议**：推荐勾选，它可以帮你保持代码风格一致。
+
+3. `@nuxt/fonts`
+
+   **功能**：优化网页字体的加载方式，支持自定义字体、Google Fonts 等，提升页面性能。
+
+   **适合人群**：想在项目中使用个性化字体、设计讲究的项目。
+
+   **新手建议**：非必需，默认字体够用时可以不选，后续再添加也不难。
+
+4. `@nuxt/icon`
+
+   **功能**：支持 Iconify 提供的 20 万+ 图标（如 FontAwesome、Material Icons 等），使用方式简单且性能优化良好。
+
+   **适合人群**：想方便快捷地在项目中加入图标。
+
+   **新手建议**：推荐勾选，图标是网站开发中常用的 UI 元素。
+
+5. `@nuxt/image`
+
+   **功能**：对图片进行性能优化（懒加载、自动压缩、大小裁剪等），支持本地和第三方图床（如 Cloudinary）。
+
+   **适合人群**：对图片有性能要求的网站（如图片展示、相册、电商网站等）。
+
+   **新手建议**：推荐勾选，有助于提高网站加载速度，尤其是图片较多时。
+
+6. `@nuxt/scripts`
+
+   **功能**：用于加载第三方脚本（如 Google Analytics、Chat 插件）时提供性能优化的方式。
+
+   **适合人群**：需要引入广告、埋点、监控等外部脚本的网站。
+
+   **新手建议**：如果暂时不使用第三方脚本，可不选，后期按需添加即可。
+
+7. `@nuxt/test-utils`
+
+   **功能**：为 Nuxt 项目提供测试工具（如组件测试、E2E 测试等）。
+
+   **适合人群**：有自动化测试需求的开发者。
+
+   **新手建议**：初学阶段可不勾选，等你熟悉基本开发流程后再尝试自动化测试。
+
+8. `@nuxt/ui`
+
+   **功能**：Nuxt 官方推出的 UI 组件库，基于 Tailwind CSS，组件丰富，样式优雅，使用方便。
+
+   **适合人群**：希望快速构建界面、避免手写大量样式的人。
+
+   **新手建议**：推荐勾选，它能帮你快速搭建出漂亮的页面界面，学习成本低。
+
+如果你是初学者，不确定怎么选，我们推荐你可以勾选 `@nuxt/eslint`、`@nuxt/icon`、`@nuxt/image` 和 `@nuxt/ui` 试试。非内容站点不需要安装 `@nuxt/content`，如果未来你想添加这些模块，也可以随时手动安装，比如：
+
+```bash
+npm install @nuxt/content
+```
+
 
 
 ### 步骤 2：安装依赖
