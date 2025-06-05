@@ -1,6 +1,6 @@
 ---
 sidebar_position: 9
-slug: /nustjs-seo-head
+slug: /nuxtjs-seo-head
 authors: [luhuadong]
 ---
 

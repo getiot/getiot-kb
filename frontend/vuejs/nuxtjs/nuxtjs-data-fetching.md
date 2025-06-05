@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-slug: /nustjs-data-fetching
+slug: /nuxtjs-data-fetching
 authors: [luhuadong]
 ---
 

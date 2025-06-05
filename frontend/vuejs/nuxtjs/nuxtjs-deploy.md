@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-slug: /nustjs-deploy
+slug: /nuxtjs-deploy
 authors: [luhuadong]
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-slug: /nustjs-layouts-and-components
+slug: /nuxtjs-layouts-and-components
 authors: [luhuadong]
 ---
 

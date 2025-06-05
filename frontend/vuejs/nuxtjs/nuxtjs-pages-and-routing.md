@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-slug: /nustjs-pages-and-routing
+slug: /nuxtjs-pages-and-routing
 authors: [luhuadong]
 ---
 
