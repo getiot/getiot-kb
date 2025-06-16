@@ -29,6 +29,8 @@ FastAPI 被广泛用于构建 RESTful API、微服务架构，甚至可以作为
 
 FastAPI 的作者是一位哥伦比亚软件工程师 **[Sebastián Ramírez](https://github.com/tiangolo)**。他创建 FastAPI 的初衷，是为了构建一个同时拥有 **现代开发体验** 和 **高性能运行能力** 的 Python Web 框架，尤其适合构建 API 服务。
 
+![FastAPI 作者 Sebastián Ramírez](https://static.getiot.tech/fastapi-author-tiangolo.jpeg#center-200)
+
 在创建 FastAPI 之前，Sebastián 经常使用 Flask 和 Django，但他希望有一个框架可以：
 
 - 自动生成交互式文档；
