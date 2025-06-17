@@ -2,6 +2,7 @@
 sidebar_position: 9
 sidebar_label: FastAPI 中间件
 slug: /fastapi-middleware
+authors: [luhuadong]
 ---
 
 # FastAPI 中间件机制

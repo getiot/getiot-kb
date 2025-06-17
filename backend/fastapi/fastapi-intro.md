@@ -2,6 +2,7 @@
 sidebar_position: 1
 sidebar_label: FastAPI 框架简介
 slug: /fastapi-intro
+authors: [luhuadong]
 ---
 
 # FastAPI 框架简介

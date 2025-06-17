@@ -2,6 +2,7 @@
 sidebar_position: 15
 sidebar_label: FastAPI 用户认证
 slug: /fastapi-authentication
+authors: [luhuadong]
 ---
 
 # FastAPI 用户认证（OAuth2 和 JWT 方式）

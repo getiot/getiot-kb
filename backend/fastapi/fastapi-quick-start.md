@@ -2,6 +2,7 @@
 sidebar_position: 3
 sidebar_label: FastAPI 快速上手
 slug: /fastapi-quick-start
+authors: [luhuadong]
 ---
 
 # FastAPI 快速上手
