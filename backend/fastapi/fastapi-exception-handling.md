@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 11
 sidebar_label: FastAPI 异常处理
 slug: /fastapi-exception-handling
 ---

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 15
+sidebar_position: 16
 sidebar_label: FastAPI 权限控制
 slug: /fastapi-permission-dependencies
 ---
