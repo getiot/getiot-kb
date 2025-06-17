@@ -46,7 +46,7 @@ def read_items(params: dict = Depends(common_params)):
 {"q": "hello"}
 ```
 
-### 说明：
+**说明：**
 
 - `common_params` 是一个依赖函数；
 - 使用 `Depends(common_params)` 表示将返回值注入到 `read_items` 中；
