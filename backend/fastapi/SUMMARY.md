@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [FastAPI 框架简介](fastapi-intro.md)
 * [FastAPI 开发环境](fastapi-setup-environment.md)
-* [第一个 FastAPI 应用](fastapi-helloworld.md)
+* [第一个 FastAPI 应用](fastapi-quick-start.md)
 * [FastAPI 路由与请求方法](fastapi-routing-and-methods.md)
 * [FastAPI 路径参数与查询参数](fastapi-path-and-query-params.md)
 * [FastAPI 请求体和数据模型](fastapi-request-body-and-models.md)

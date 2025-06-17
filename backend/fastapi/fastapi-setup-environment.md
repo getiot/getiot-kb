@@ -77,7 +77,7 @@ pip install "fastapi[all]"
 
 
 
-:::tip `standard` 和 `all` 有什么区别？
+:::info `standard` 和 `all` 有什么区别？
 
 `fastapi[standard]` 是**官方推荐**的安装方式，用于开发大多数 API 应用。它包含了 FastAPI 的核心功能以及实现常用特性的标准依赖，例如：
 
@@ -107,7 +107,7 @@ pip install "fastapi[all]"
 
 创建一个名为 `main.py` 的文件，并写入以下代码：
 
-```python
+```python showLineNumbers
 from fastapi import FastAPI
 
 app = FastAPI()

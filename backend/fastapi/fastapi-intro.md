@@ -29,7 +29,7 @@ FastAPI 被广泛用于构建 RESTful API、微服务架构，甚至可以作为
 
 FastAPI 的作者是一位哥伦比亚软件工程师 **[Sebastián Ramírez](https://github.com/tiangolo)**。他创建 FastAPI 的初衷，是为了构建一个同时拥有 **现代开发体验** 和 **高性能运行能力** 的 Python Web 框架，尤其适合构建 API 服务。
 
-![FastAPI 作者 Sebastián Ramírez](https://static.getiot.tech/fastapi-author-tiangolo.jpeg#center-200)
+![FastAPI 作者 Sebastián Ramírez](https://static.getiot.tech/fastapi-author-tiangolo.jpeg#center-300)
 
 在创建 FastAPI 之前，Sebastián 经常使用 Flask 和 Django，但他希望有一个框架可以：
 
@@ -62,7 +62,7 @@ FastAPI 的核心特性包括：
 
 FastAPI 自动根据类型注解生成 Swagger UI 和 ReDoc API 文档，无需额外配置。你只需定义数据模型，文档就自动准备好了，非常适合前后端协作开发。例如：
 
-```python
+```python showLineNumbers
 from fastapi import FastAPI
 
 app = FastAPI()
