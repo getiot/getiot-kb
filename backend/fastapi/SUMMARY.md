@@ -10,7 +10,7 @@
 * [FastAPI 响应模型与状态码](fastapi-response-models.md)
 * [FastAPI 表单、文件上传与请求验证](fastapi-forms-file-upload-validation.md)
 * [FastAPI 中间件](fastapi-middleware.md)
-* [FastAPI 依赖注入](fastapi-dependencies.md)
+* [FastAPI 依赖注入](fastapi-dependency-injection.md)
 * [FastAPI 异常处理与统一错误响应](fastapi-exception-handling.md)
 * [FastAPI 构建 RESTful API 项目结构](fastapi-project-structure.md)
 * [FastAPI 连接数据库：SQLModel 快速入门](fastapi-database-sqlmodel.md)
