@@ -7,7 +7,7 @@
 * [FastAPI 路由与请求方法](fastapi-routing-and-methods.md)
 * [FastAPI 路径参数与查询参数](fastapi-path-and-query-params.md)
 * [FastAPI 请求体和数据模型](fastapi-request-body-and-models.md)
-* [FastAPI 响应模型与状态码](fastapi-response-models-status-codes.md)
+* [FastAPI 响应模型与状态码](fastapi-response-models.md)
 * [FastAPI 表单、文件上传与请求验证](fastapi-forms-file-upload-validation.md)
 * [FastAPI 中间件与依赖注入](fastapi-middleware-and-dependencies.md)
 * [FastAPI 异常处理与统一错误响应](fastapi-exception-handling.md)

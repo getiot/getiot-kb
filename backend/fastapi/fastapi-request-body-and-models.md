@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-sidebar_label: FastAPI 请求体
+sidebar_label: FastAPI 请求体和数据模型
 slug: /fastapi-request-body-and-models
 ---
 
