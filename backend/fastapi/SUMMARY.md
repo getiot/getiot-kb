@@ -15,7 +15,7 @@
 * [FastAPI 构建 RESTful API 项目结构](fastapi-project-structure.md)
 * [FastAPI 连接数据库：SQLModel 快速入门](fastapi-database-sqlmodel.md)
 * [FastAPI 与前端交互](fastapi-with-frontend.md)
-* [FastAPI 使用 JWT 实现用户认证](fastapi-jwt-authentication.md)
+* [FastAPI 用户认证](fastapi-authentication.md)
 * [FastAPI 使用依赖项实现权限控制](fastapi-permission-dependencies.md)
 * [FastAPI 项目部署与上线](fastapi-deploy-production.md)
 * [FastAPI 常用插件与工具推荐](fastapi-appendix-tools.md)
