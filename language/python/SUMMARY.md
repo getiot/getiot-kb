@@ -7,7 +7,7 @@
 * [Python 安装](install/README.md)
     * [Python 安装指南](install/python-installation.md)
     * [Ubuntu 安装 Python 3.12](install/install-python-3-12-ubuntu.md)
-    * [PIP 命令介绍](install/pip-command-intro.md)
+    * [PIP 命令用法](install/pip-command-usage.md)
 * [Python 快速上手](python-quick-start.md)
 * [Python 虚拟环境](python-virtualenv.md)
 * [Python 基础语法](python-basic-syntax.md)

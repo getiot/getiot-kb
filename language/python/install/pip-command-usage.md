@@ -1,9 +1,9 @@
 ---
 sidebar_position: 3
-slug: /pip-command-intro
+slug: /pip-command-usage
 ---
 
-# PIP 命令介绍
+# PIP 命令用法
 
 在 Python 的开发过程中，我们经常会用到各种第三方库，例如 `requests` 用于发送网络请求，`flask` 用于构建 Web 应用。而这些库并不会默认包含在 Python 的安装包中，因此我们需要使用 Python 的包管理工具——`pip`，来安装和管理这些库。
 
