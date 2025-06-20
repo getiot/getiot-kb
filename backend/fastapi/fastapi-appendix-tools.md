@@ -34,7 +34,7 @@ class Item(SQLModel, table=True):
 
 
 
-### 2. [Tortoise ORM](https://tortoise-orm.readthedocs.io/)
+### 2. [Tortoise ORM](https://github.com/tortoise/tortoise-orm)
 
 - 异步支持优秀的 ORM；
 - 适合异步框架如 FastAPI；
