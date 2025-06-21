@@ -7,7 +7,7 @@ authors: [luhuadong]
 
 # FastAPI 用户认证（OAuth2 和 JWT 方式）
 
-本篇将带你了解 FastAPI 中实现用户认证（Authentication）的基础方法，包括使用 OAuth2 密码模式、JWT（JSON Web Token）进行令牌签发和验证，以及如何保护需要登录访问的接口。你将学会如何构建一个基本的登录系统，为后续权限控制打好基础。
+本篇教程将带你了解 FastAPI 中实现用户认证（Authentication）的基础方法，包括使用 OAuth2 密码模式、JWT（JSON Web Token）进行令牌签发和验证，以及如何保护需要登录访问的接口。你将学会如何构建一个基本的登录系统，为后续权限控制打好基础。
 
 
 
