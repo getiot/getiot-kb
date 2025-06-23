@@ -1,7 +1,6 @@
 ---
 sidebar_position: 2
 slug: /postgresql-installation
-draft: true
 authors: [luhuadong]
 ---
 
@@ -132,6 +131,36 @@ ss -tnlp | grep 5432
 # 或
 netstat -tnlp | grep 5432
 ```
+
+
+
+:::tip
+
+💡 **Windows/macOS 用户说明：**
+
+- Windows 用户可以在“服务”中搜索 `postgresql-x64-16`，检查其状态是否为“正在运行”；
+- macOS 用户可使用 `brew services list` 查看 PostgreSQL 是否在运行状态。
+
+:::
+
+
+
+## PostgreSQL 登录测试
+
+切换到 PostgreSQL 默认超级用户并进入交互界面：
+
+```bash
+sudo -i -u postgres
+psql
+```
+
+如果能进入如下提示符，说明数据库启动正常且可连接：
+
+```bash
+postgres=#
+```
+
+输入 `\q` 可退出 `psql`。
 
 
 
