@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 slug: /postgresql-alter-database
 draft: true
 authors: [luhuadong]

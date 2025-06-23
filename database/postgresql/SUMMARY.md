@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [PostgreSQL 简介](postgresql-intro.md)
 * [PostgreSQL 安装](postgresql-installation.md)
+* [pgAdmin 图形化数据库管理工具](pgadmin-tool.md)
 * [PostgreSQL 快速上手](postgresql-quick-start.md)
 * [PostgreSQL 基本语法](postgresql-syntax.md)
 * [PostgreSQL 数据类型](postgresql-data-types.md)
