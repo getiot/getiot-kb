@@ -31,9 +31,9 @@ ssh-keygen -t rsa -b 4096 -m PEM -f ~/.ssh/my_server
 | `my_server`     | 私钥（*.pem 文件）永远不要给别人 |
 | `my_server.pub` | 公钥，可以放服务器               |
 
-⚠ 
 
-:::warning 
+
+:::tip
 
 默认 `ssh-keygen` 会生成 OpenSSH 格式的私钥，如果你要严格使用 `.pem` 格式，请加上 `-m PEM`（上面命令已包含）。
 
