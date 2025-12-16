@@ -1,8 +1,4 @@
 {
-  "label": "Monitor",
-  "position": 8,
-  "link": {
-    "type": "generated-index",
-    "description": "监控软件 ..."
-  }
+  "label": "监控 | 日志 | 运维",
+  "position": 7
 }
