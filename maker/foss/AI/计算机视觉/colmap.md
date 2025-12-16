@@ -1,5 +1,5 @@
 ---
-sidebar_position: 17
+sidebar_position: 8
 sidebar_label: Colmap 计算机视觉软件
 slug: /colmap
 ---

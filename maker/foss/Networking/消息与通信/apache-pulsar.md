@@ -1,5 +1,5 @@
 ---
-sidebar_position: 32
+sidebar_position: 6
 slug: /apache-pulsar
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 33
+sidebar_position: 14
 sidebar_label: TinyGo
 slug: /tinygo
 ---

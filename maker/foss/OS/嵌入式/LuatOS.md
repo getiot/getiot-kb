@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 4
 slug: /luatos
 sidebar_label: LuatOS
 ---

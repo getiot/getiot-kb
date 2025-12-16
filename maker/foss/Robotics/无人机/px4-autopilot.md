@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 7
 sidebar_label: PX4 Autopilot
 slug: /px4-autopilot
 ---
