@@ -21,6 +21,7 @@
         * [OpenCloudOS 操作系统](OS/桌面服务器/opencloudos.md)
         * [FydeOS 操作系统](OS/桌面服务器/FydeOS.md)
         * [NixOS 操作系统](OS/桌面服务器/NixOS.md)
+        * [SteamOS 操作系统](OS/桌面服务器/steamos.md)
 * [Database](Database/README.md)
     * [关系型数据库](Database/关系型数据库/README.md)
         * [MySQL](Database/关系型数据库/mysql.md)
