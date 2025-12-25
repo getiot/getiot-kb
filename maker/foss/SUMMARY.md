@@ -94,6 +94,7 @@
         * [Pixhawk](Robotics/无人机/pixhawk.md)
         * [Avem](Robotics/无人机/avem.md)
     * [机器人](Robotics/机器人/README.md)
+        * [Dora-rs](Robotics/机器人/dora-rs.md)
         * [wukong-robot](Robotics/机器人/wukong-robot.md)
     * [工业与制造](Robotics/工业与制造/README.md)
         * [LinuxCNC](Robotics/工业与制造/linuxcnc.md)
