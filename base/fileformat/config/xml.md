@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+sidebar_label: XML 格式
 slug: /xml
 ---
 
@@ -61,15 +62,121 @@ XML 文档遵循分层结构，包括以下组成部分：
 
 
 
-## XML 应用场景
+## 使用场景
 
-- **网页开发**：XML 用于 SOAP 等网络服务，以及 RSS 和 Atom 等数据源。
-- **配置文件**：许多软件应用使用 XML 存储配置信息。
-- **数据交换**：XML 是系统之间数据交换的标准格式，特别是在企业环境中。
-- **文档存储**：XML 用于存储结构化文档，例如发票、简历和电子书（如 EPUB 格式）。
+### 适用场景
+
+- **网页开发**：XML 用于 SOAP 等网络服务，以及 RSS 和 Atom 等数据源
+- **配置文件**：许多软件应用使用 XML 存储配置信息（如 Android 布局文件、Maven 配置等）
+- **数据交换**：XML 是系统之间数据交换的标准格式，特别是在企业环境中
+- **文档存储**：XML 用于存储结构化文档，例如发票、简历和电子书（如 EPUB 格式）
+- **Web 服务**：SOAP、RESTful API 的响应格式
+
+### 优缺点
+
+**优点：**
+
+- 人类和机器都可读
+- 自描述性，结构清晰
+- 跨平台、跨语言支持
+- 可扩展，支持自定义标签
+- 支持验证（DTD/XSD）
+- 支持转换（XSLT）
+
+**缺点：**
+
+- 语法冗余，文件体积较大
+- 解析性能相对较低
+- 学习曲线相对较陡
+- 在某些场景下已被 JSON 替代
 
 
 
-## 小结
+## 代码示例
 
-XML 经受住了时间的考验，作为一种可靠且灵活的结构化数据文件格式被广泛应用。它在各行业中的广泛采用确保了其在数据交换和存储中的核心地位。无论是构建网络应用程序、设计配置文件，还是实现数据交换协议，XML 都提供了一个稳健的解决方案。
+### Python 解析 XML
+
+```python showLineNumbers
+import xml.etree.ElementTree as ET
+
+# 解析 XML 文件
+tree = ET.parse('data.xml')
+root = tree.getroot()
+
+# 遍历元素
+for child in root:
+    print(child.tag, child.text)
+
+# 查找特定元素
+for book in root.findall('book'):
+    title = book.find('title').text
+    author = book.find('author').text
+    print(f"{title} by {author}")
+```
+
+### Python 创建 XML
+
+```python showLineNumbers
+import xml.etree.ElementTree as ET
+
+# 创建根元素
+root = ET.Element('books')
+
+# 添加子元素
+book1 = ET.SubElement(root, 'book', id='1')
+ET.SubElement(book1, 'title').text = '人人都懂物联网'
+ET.SubElement(book1, 'author').text = '阿基米东'
+
+# 保存为文件
+tree = ET.ElementTree(root)
+tree.write('output.xml', encoding='utf-8', xml_declaration=True)
+```
+
+### JavaScript 解析 XML
+
+```javascript showLineNumbers
+// 使用 DOMParser
+const parser = new DOMParser();
+const xmlString = '<books><book><title>人人都懂物联网</title></book></books>';
+const xmlDoc = parser.parseFromString(xmlString, 'text/xml');
+
+// 获取元素
+const books = xmlDoc.getElementsByTagName('book');
+for (let book of books) {
+    const title = book.getElementsByTagName('title')[0].textContent;
+    console.log(title);
+}
+```
+
+
+
+## 相关工具
+
+- **编辑器**：
+  - XMLSpy：专业 XML 编辑器
+  - Notepad++：支持 XML 语法高亮
+  - VS Code：支持 XML 验证和格式化
+- **验证工具**：
+  - XML Validator：在线验证工具
+  - xmllint：命令行验证工具
+- **转换工具**：
+  - XSLT 处理器：Saxon、Xalan
+- **编程库**：
+  - Python: `xml.etree.ElementTree`（标准库）、`lxml`
+  - Java: `javax.xml`、`DOM4J`
+  - JavaScript: `DOMParser`、`xml2js`
+
+
+
+## 相关链接
+
+- [XML 标准 (W3C)](https://www.w3.org/XML/)
+- [XML 教程 (W3Schools)](https://www.w3schools.com/xml/)
+- [XPath 教程](https://www.w3schools.com/xml/xpath_intro.asp)
+
+
+
+## 参考
+
+- [XML - Wikipedia](https://en.wikipedia.org/wiki/XML)
+- [XML 1.0 规范](https://www.w3.org/TR/xml/)

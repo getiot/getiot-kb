@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+sidebar_label: AVIF 格式
 slug: /avif
 ---
 
@@ -66,8 +67,105 @@ img.show()
 
 
 
+## 使用场景
+
+### 适用场景
+
+- **Web 图像优化**：网站图片、产品图片
+- **流媒体平台**：Netflix、YouTube 等平台
+- **移动应用**：应用图标、界面元素
+- **高质量图像存储**：需要高质量和低体积的场景
+- **HDR 图像**：高动态范围图像
+
+### 优缺点
+
+**优点：**
+
+- 压缩效率极高，比 JPEG 高 50% 以上
+- 支持 HDR 和广色域
+- 支持透明度和动画
+- 开源免费，无专利限制
+- 质量优秀
+
+**缺点：**
+
+- 解码复杂度较高
+- 某些旧浏览器不支持
+- 编码速度相对较慢
+- 某些工具支持有限
+
+
+
+## 代码示例
+
+### Python 处理 AVIF
+
+```python showLineNumbers
+from PIL import Image
+
+# 注意：Pillow 需要 pillow-avif-plugin 支持 AVIF
+try:
+    from pillow_avif import register_avif_opener
+    register_avif_opener()
+    
+    # 打开 AVIF 图像
+    img = Image.open('image.avif')
+    print(f"图像尺寸: {img.size}")
+    print(f"图像模式: {img.mode}")
+    
+    # 转换为其他格式
+    img.save('output.jpg', 'JPEG', quality=95)
+except ImportError:
+    print("需要安装 pillow-avif-plugin: pip install pillow-avif-plugin")
+```
+
+### 命令行工具
+
+```bash showLineNumbers
+# 使用 ffmpeg
+ffmpeg -i input.jpg -c:v libaom-av1 -still-picture 1 output.avif
+ffmpeg -i input.avif output.jpg
+
+# 使用 libavif 工具
+avifenc -c aom -s 4 input.png output.avif
+avifdec output.avif output.png
+
+# 使用 ImageMagick
+magick convert input.jpg output.avif
+magick convert input.avif output.jpg
+```
+
+
+
+## 相关工具
+
+- **图像编辑器**：
+  - GIMP：支持 AVIF（需要插件）
+  - ImageMagick：支持 AVIF
+- **命令行工具**：
+  - `avifenc`：AVIF 编码器
+  - `avifdec`：AVIF 解码器
+  - FFmpeg：支持 AVIF
+- **在线工具**：
+  - Squoosh：Google 在线图像压缩工具
+- **编程库**：
+  - Python: `pillow-avif-plugin`、`pyavif`
+  - C/C++: `libavif`
+  - JavaScript: `sharp`（支持 AVIF）
+
+
+
 ## 相关链接
 
-- [What is AVIF?](https://aomedia.org/specifications/avif/)
+- [AVIF 官方网站](https://aomedia.org/av1/avif/)
+- [AVIF 规范](https://aomedia.org/av1/avif/)
 - [libavif 库代码仓库](https://github.com/AOMediaCodec/libavif)
+
+
+
+## 参考
+
+- [AVIF - Wikipedia](https://en.wikipedia.org/wiki/AV1#AV1_Image_File_Format_(AVIF))
+- [AVIF 格式详解](https://aomedia.org/av1/avif/)
+- [AVIF vs JPEG 对比](https://jakearchibald.com/2020/avif-has-landed/)
 

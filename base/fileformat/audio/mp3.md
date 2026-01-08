@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+side_label: MP3 格式
 slug: /mp3
 ---
 
@@ -33,9 +34,22 @@ MPEG Audio Layer1、2、3 三个层使用相同的滤波器组、位流结构和
 
 
 
-## MP3 文件结构
+## 文件结构
 
 MP3 文件大体分为三部分：TAG_V2（ID3V2），Frame, TAG_V1（ID3V1）。其中，音频数据由帧（frame）构成的，帧是 MP3 文件最小的组成单位。 
+
+```bash showLineNumbers
+[ID3V2 标签]             # 可选的元数据标签（文件开头）
+[音频帧 1]               # MP3 音频帧
+  - 帧头（同步字、版本、层、比特率等）
+  - 音频数据
+[音频帧 2]
+...
+[音频帧 N]
+[ID3V1 标签]             # 可选的元数据标签（文件末尾，128 字节）
+```
+
+### 关键组件
 
 | 组成  | 描述                                                         |
 | ----- | ------------------------------------------------------------ |
@@ -45,9 +59,127 @@ MP3 文件大体分为三部分：TAG_V2（ID3V2），Frame, TAG_V1（ID3V1）�
 
 
 
+## 使用场景
+
+### 适用场景
+
+- **音乐播放**：个人音乐收藏和播放
+- **音乐分发**：在线音乐平台和下载
+- **播客**：播客音频文件
+- **音频存储**：需要压缩存储的场景
+- **移动设备**：手机、MP3 播放器
+
+### 优缺点
+
+**优点：**
+
+- 压缩率高，文件体积小
+- 广泛支持，几乎所有设备都支持
+- 专利已过期，完全免费
+- 兼容性极好
+- 适合网络传输
+
+**缺点：**
+
+- 有损压缩，会丢失音频信息
+- 高频细节可能损失
+- 低码率下音质明显下降
+- 逐渐被 AAC 等格式替代
+
+
+
+## 代码示例
+
+### Python 读取 MP3
+
+```python showLineNumbers
+from pydub import AudioSegment
+
+# 读取 MP3 文件
+audio = AudioSegment.from_mp3("audio.mp3")
+print(f"时长: {len(audio) / 1000} 秒")
+print(f"采样率: {audio.frame_rate} Hz")
+print(f"声道数: {audio.channels}")
+print(f"比特率: {audio.frame_width * 8} 位")
+```
+
+### Python 读取 MP3 元数据
+
+```python showLineNumbers
+from mutagen.mp3 import MP3
+from mutagen.id3 import ID3NoHeaderError
+
+try:
+    audio = MP3('audio.mp3')
+    print(f"时长: {audio.info.length} 秒")
+    print(f"比特率: {audio.info.bitrate} bps")
+    
+    # 读取 ID3 标签
+    if audio.tags:
+        print(f"标题: {audio.tags.get('TIT2', ['未知'])[0]}")
+        print(f"艺术家: {audio.tags.get('TPE1', ['未知'])[0]}")
+        print(f"专辑: {audio.tags.get('TALB', ['未知'])[0]}")
+except ID3NoHeaderError:
+    print("文件没有 ID3 标签")
+```
+
+### Python 转换 MP3
+
+```python showLineNumbers
+from pydub import AudioSegment
+
+# 转换为 MP3
+audio = AudioSegment.from_file("input.wav", format="wav")
+audio.export("output.mp3", format="mp3", bitrate="192k")
+
+# 调整质量
+audio.export("high_quality.mp3", format="mp3", bitrate="320k")
+audio.export("low_quality.mp3", format="mp3", bitrate="128k")
+```
+
+### 命令行工具
+
+```bash showLineNumbers
+# 使用 ffmpeg 转换
+ffmpeg -i input.wav -b:a 192k output.mp3
+ffmpeg -i input.mp3 output.wav
+
+# 使用 lame 编码器
+lame -b 192 input.wav output.mp3
+lame --preset standard input.wav output.mp3  # VBR 编码
+```
+
+
+
+## 相关工具
+
+- **播放器**：
+  - VLC Media Player：跨平台播放器
+  - Windows Media Player：Windows 播放器
+  - iTunes：Apple 播放器
+- **编码工具**：
+  - LAME：开源 MP3 编码器
+  - FFmpeg：支持 MP3 编码
+- **音频编辑器**：
+  - Audacity：开源音频编辑器
+  - Adobe Audition：专业音频编辑
+- **编程库**：
+  - Python: `pydub`、`mutagen`、`eyeD3`
+  - C/C++: `libmp3lame`、`libmad`
+  - JavaScript: `jsmediatags`、`music-metadata`
+
+
+
+## 相关链接
+
+- [MP3 标准 (ISO/IEC 11172-3)](https://www.iso.org/standard/22412.html)
+- [LAME MP3 编码器](https://lame.sourceforge.io/)
+- [FFmpeg MP3 编码指南](https://trac.ffmpeg.org/wiki/Encode/MP3)
+
 
 
 ## 参考
 
-- [https://zh.m.wikipedia.org/zh-sg/MP3](https://zh.m.wikipedia.org/zh-sg/MP3)
-- [MP3格式音频文件结构解析](https://www.cnblogs.com/ranson7zop/p/7655474.html)
+- [MP3 - Wikipedia](https://zh.m.wikipedia.org/zh-sg/MP3)
+- [MP3 格式音频文件结构解析](https://www.cnblogs.com/ranson7zop/p/7655474.html)
+- [MP3 编码原理](https://en.wikipedia.org/wiki/MP3#Encoding_and_decoding)

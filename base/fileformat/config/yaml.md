@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+sidebar_label: YAML 格式
 slug: /yaml
 ---
 

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+side_label: AAC 格式
 slug: /aac
 ---
 
@@ -52,24 +53,104 @@ typedef struct {
 
 
 
-## 未来发展
+## 使用场景
 
-尽管 AAC 仍是主流，但面临 **Opus**（低延迟/高鲁棒性）和 **FLAC**（无损压缩）的竞争。其技术瓶颈在于：
+### 适用场景
 
-1. **高频细节损失**：有损压缩无法完全避免信息丢失。
-2. **实时性限制**：复杂编码算法导致编码延迟较高（约50-100ms）。
+- **流媒体服务**：Spotify、Apple Music、YouTube Music
+- **移动设备**：手机、平板电脑音频播放
+- **数字广播**：数字电台和广播
+- **视频音频**：MP4 视频的音频轨道
+- **播客**：播客音频文件
+
+### 优缺点
+
+**优点：**
+
+- 相同码率下音质优于 MP3
+- 支持多声道（5.1、7.1）
+- 广泛支持，主流设备都支持
+- 文件体积相对较小
+- 适合流媒体传输
+
+**缺点：**
+
+- 有损压缩，会丢失音频信息
+- 某些编码器需要授权费用
+- 编码延迟相对较高
+- 高频细节可能损失
 
 
 
-## 学习建议
+## 代码示例
 
-1. **深入标准文档**：研读 MPEG-4 Part 3（ISO/IEC 14496-3）了解编码细节。
+### Python 转换 AAC
 
-2. **动手实验**：使用 FFmpeg 命令行工具进行 AAC 转码与参数调优：
+```python showLineNumbers
+from pydub import AudioSegment
 
-   ```bash
-   ffmpeg -i input.wav -c:a libfdk_aac -b:a 128k output.aac
-   ```
+# 转换为 AAC
+audio = AudioSegment.from_file("input.wav", format="wav")
+audio.export("output.m4a", format="ipod", bitrate="192k")  # M4A 使用 AAC
+```
 
-3. **扩展阅读**：对比 AAC 与 Opus 的算法差异（如线性预测 vs. MDCT）。
+### 命令行工具
+
+```bash showLineNumbers
+# 使用 ffmpeg 编码 AAC
+ffmpeg -i input.wav -c:a libfdk_aac -b:a 128k output.aac
+ffmpeg -i input.wav -c:a aac -b:a 192k output.m4a
+
+# 使用 faac 编码器
+faac -b 128 input.wav -o output.aac
+
+# 解码 AAC
+ffmpeg -i input.aac output.wav
+```
+
+### 使用 ffmpeg-python
+
+```python showLineNumbers
+import ffmpeg
+
+# 编码为 AAC
+stream = ffmpeg.input('input.wav')
+stream = ffmpeg.output(stream, 'output.aac', acodec='libfdk_aac', audio_bitrate='128k')
+ffmpeg.run(stream)
+```
+
+
+
+## 相关工具
+
+- **播放器**：
+  - iTunes：Apple 官方播放器
+  - VLC Media Player：跨平台播放器
+  - Windows Media Player：Windows 播放器
+- **编码工具**：
+  - FFmpeg：支持多种 AAC 编码器
+  - faac：开源 AAC 编码器
+  - iTunes：可以转换音频格式
+- **音频编辑器**：
+  - Audacity：支持 AAC 导入导出
+  - Adobe Audition：专业音频编辑
+- **编程库**：
+  - Python: `pydub`、`ffmpeg-python`
+  - C/C++: `libfdk-aac`、`faac`、`libavcodec`（FFmpeg）
+
+
+
+## 相关链接
+
+- [AAC 标准 (ISO/IEC 14496-3)](https://www.iso.org/standard/53943.html)
+- [FFmpeg AAC 编码指南](https://trac.ffmpeg.org/wiki/Encode/AAC)
+- [AAC 编码器对比](https://trac.ffmpeg.org/wiki/Encode/AAC#Encoder%20comparison)
+
+
+
+## 参考
+
+- [AAC - Wikipedia](https://en.wikipedia.org/wiki/Advanced_Audio_Coding)
+- [MPEG-4 Part 3 标准](https://www.iso.org/standard/53943.html)
+- [AAC 编码原理](https://en.wikipedia.org/wiki/Advanced_Audio_Coding#Technical_details)
 

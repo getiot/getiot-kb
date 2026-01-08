@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+sidebar_label: PCAP 格式
 slug: /pcap
 ---
 

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 12
+sidebar_label: CDR 格式
 slug: /cdr
 ---
 
@@ -34,14 +35,117 @@ CDR 文件格式的数据存储方式具有以下特点：
 - **矢量数据存储**：CDR 文件采用矢量图形的存储方式，将图形表示为一系列数学定义的点、线、面等几何元素。这种方式使得图形在缩放时不会失真，且文件大小相对较小，便于存储和传输。
 - **二进制与XML结合**：在 CorelDRAW X4 及以后的版本中，CDR 文件格式从纯二进制格式转变为结合了 XML 和 RIFF 结构的 ZIP 存档格式。这意味着文件内容可以被解压缩并以 XML 格式查看和编辑，便于数据的解析和处理。
 
-## 格式转换
+## 文件结构
+
+CDR 文件格式在不同版本中有所不同：
+
+- **CDR 早期版本**：纯二进制格式
+- **CDR X4 及以后**：基于 ZIP 压缩的 XML 和 RIFF 结构
+
+现代 CDR 文件（X4+）结构：
+
+```bash showLineNumbers
+document.cdr (ZIP 文件)
+├── content/
+│   ├── metadata.xml      # 元数据
+│   ├── pages/            # 页面内容
+│   └── resources/        # 资源文件
+└── [其他 XML 文件]
+```
+
+
+
+## 使用场景
+
+### 适用场景
+
+- **平面广告设计**：广告设计、海报设计
+- **企业形象设计**：Logo、名片、信纸设计
+- **产品包装设计**：包装盒、标签设计
+- **印刷制版**：书籍、杂志排版
+- **网页设计**：网页布局和元素设计
+
+### 优缺点
+
+**优点：**
+
+- 矢量图形，可无损缩放
+- 文件体积相对较小
+- 功能丰富，专业设计工具
+- 支持复杂的设计项目
+
+**缺点：**
+
+- 专有格式，需要 CorelDRAW 打开
+- 某些功能其他软件可能不支持
+- 不同版本格式可能不兼容
+- 开源工具支持有限
+
+
+
+## 代码示例
+
+### 格式转换
 
 下面提供将 CDR 格式转换成其他文件格式（如 SVG、PNG）的方法：
 
-- **使用 [Inkscape](https://inkscape.org) 桌面应用程序**：这是一个免费的开源矢量图形编辑器，可以打开和编辑 CDR 文件。虽然可能不支持某些高级特性，但对于基本的格式转换需求已经足够。
-- **使用 Adobe Illustrator 软件**：虽然不是专门的转换工具，但作为广泛使用的矢量图形编辑器，可以打开和编辑 CDR 文件，并将其导出为其他格式。
-- **使用 [CDR Converter](https://cdrconverter.com) 在线网页**：一个简单、漂亮的网页应用，用于将 CorelDRAW（.cdr）文件转换为 .PDF（可编辑矢量）和 .SVG 格式。
-- **使用 Convertio 在线网页**：这是一个功能强大的在线转换工具，支持将 CDR 文件转换为多种格式，用户只需上传CDR文件，选择目标格式，即可完成转换。
-- **使用 Aspose.Imaging 库**：这是一个功能强大的图像处理和转换API，支持多种图像格式的转换，包括 CDR 到 JPG、PNG、PDF 等。
-- **使用 UniConvertor 工具**：这是一个开源的格式转换工具，可以将 CDR 文件转换为 SVG、PDF 等多种格式。
+#### 使用 Inkscape
+
+```bash showLineNumbers
+# Inkscape 可以打开和转换 CDR 文件
+inkscape input.cdr --export-filename=output.svg
+inkscape input.cdr --export-filename=output.png
+```
+
+#### 使用 UniConvertor
+
+```bash showLineNumbers
+# UniConvertor 支持 CDR 转换
+uniconvertor input.cdr output.svg
+uniconvertor input.cdr output.pdf
+```
+
+#### Python 使用 Aspose.Imaging
+
+```python showLineNumbers
+import aspose.imaging as ai
+
+# 加载 CDR 文件
+with ai.Image.load("input.cdr") as image:
+    # 保存为其他格式
+    image.save("output.png", ai.imageoptions.PngOptions())
+    image.save("output.jpg", ai.imageoptions.JpegOptions())
+```
+
+
+
+## 相关工具
+
+- **编辑器**：
+  - CorelDRAW：官方编辑器
+  - Inkscape：开源矢量编辑器（部分支持）
+  - Adobe Illustrator：可以打开部分 CDR 文件
+- **转换工具**：
+  - [CDR Converter](https://cdrconverter.com)：在线转换工具
+  - [Convertio](https://convertio.co/)：在线转换工具
+  - UniConvertor：开源转换工具
+  - Aspose.Imaging：编程库
+- **编程库**：
+  - Python: `aspose-imaging`
+  - C#: `Aspose.Imaging`
+
+
+
+## 相关链接
+
+- [CorelDRAW 官方网站](https://www.coreldraw.com)
+- [Inkscape 官方网站](https://inkscape.org)
+- [UniConvertor 项目](https://sk1project.net/uc2/)
+
+
+
+## 参考
+
+- [CDR - Wikipedia](https://en.wikipedia.org/wiki/CorelDRAW#File_formats)
+- [CDR 文件格式](https://en.wikipedia.org/wiki/CorelDRAW#File_formats)
 
