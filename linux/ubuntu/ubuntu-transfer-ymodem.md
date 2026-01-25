@@ -1,10 +1,9 @@
 ---
 sidebar_position: 19
+sidebar_label: Ubuntu 使用 Ymodem 传输文件
 ---
 
 # Ubuntu 使用 Ymodem 协议传输文件
-
-
 
 YMODEM 协议是一个文件传输协议，由 Chuck Forsberg 于上世纪 90 年代开发完成，通常用于资源受限的设备。在 Windows 系统中，很多[串口工具](/tools/all-of-serial-tools/)如 SecureCRT 和 Xshell 等都支持 ASCII、Xmodem、Ymodem、Zmodem 传输协议。
 
