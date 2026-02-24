@@ -83,25 +83,27 @@ ssh [OPTIONS] [-p PORT] [USER@]HOSTNAME [COMMAND]
 
 ## 示例
 
-使用指定用户名（root）登录远程主机
+使用指定用户名（root）登录远程主机：
 
 ```bash
-ssh root@192.168.1.100
+ssh root@192.168.1.101
 ```
 
-使用指定用户名（root）和端口（3600）登录远程主机
+使用指定用户名（root）和端口（3600）登录远程主机：
 
 ```bash
-ssh -p3600 root@192.168.1.100
+ssh -p3600 root@192.168.1.101
 ```
 
 输入用户登录密码后完成登录。
 
-如果未指明端口和用户名，则分别由配置文件 ~/.ssh/ssh_config 和 /etc/ssh/ssh_config 中的 Port 和 User 选项决定。如果配置文件未指定，则端口默认为 22 ，用户名默认为当前用户。
+:::tip
 
-也可以在 ~/.ssh/config 配置文件中设置远程服务器别名，格式如下：
+如果未指明端口和用户名，则分别由配置文件 `~/.ssh/ssh_config` 和 `/etc/ssh/ssh_config` 中的 `Port` 和 `User` 选项决定。如果配置文件未指定，则端口默认为 22 ，用户名默认为当前用户。
 
-```bash
+也可以在 `~/.ssh/config` 配置文件中设置远程服务器别名，格式如下：
+
+```bash showLineNumbers
 Host 服务器名A
     User 用户名
     Hostname 服务器ip
@@ -111,9 +113,9 @@ Host 服务器名A
 
 例如：
 
-```bash
+```bash showLineNumbers
 Host nanopi
-	HostName 192.168.1.100
+	HostName 192.168.1.101
 	User pi
 	Port 22
 	IdentityFile ~/.ssh/id_ed25519
@@ -121,15 +123,37 @@ Host nanopi
 
 这样，你就可以直接指定 nanopi 配置登录远程主机，命令如下：
 
-```
+```bash
 ssh nanopi
+```
+
+:::
+
+强制 SSH 只使用密码登录：
+
+```bash
+ssh -o PreferredAuthentications=password \
+    -o PubkeyAuthentication=no \
+    root@192.168.1.101
+```
+
+这在有些情况下非常有用，例如当你的 Linux PC 上配置了很多 SSH key，默认登录时出现“Too many authentication failures”错误。那么，使用这个选项参数组合可以跳过所有 SSH key，只尝试一次密码登录。
+
+如果你经常需要通过密码连接这块板子，可以将配置写在 `~/.ssh/config` 文件中，如下所示。
+
+```bash showLineNumbers {4-5}
+Host dev-board
+    HostName 192.168.1.101
+    User root
+    PreferredAuthentications password
+    PubkeyAuthentication no
 ```
 
 
 
 ## 配置说明
 
-下面是 ~/.ssh/config 配置文件的配置选项：
+下面是 `~/.ssh/config` 配置文件的配置选项：
 
 - 必须配置
   - `Host`：指定配置块。
@@ -145,8 +169,10 @@ ssh nanopi
     - `ask`：默认值，第一次连接陌生服务器时提示是否添加，同时如果远程服务器公钥改变时拒绝连接。
     - `yes`：不会自动添加服务器公钥到 `~/.ssh/known_hosts` 中，同时如果远程服务器公钥改变时拒绝连接。
     - `no`：自动增加新的主机键到 `~/.ssh/known_hosts` 中。
+  - `PreferredAuthentications`：指定客户端在连接时尝试认证方法的顺序。包括公钥认证（`publickey`）和密码认证（`password`）
+  - `PubkeyAuthentication`：控制是否启用公钥认证，值为 `yes` 或 `no`，默认为 `yes`。
 
-另外，编辑 ~/.ssh/config 配置文件时还需要注意以下几点：
+另外，编辑 `~/.ssh/config` 配置文件时还需要注意以下几点：
 
 - 通过 `Host` 指定配置块，用 `tab` 键来区分配置头和内置参数。
 - 所有参数值都可使用通配符设定，比如可以设置一个 `Host` 值为星号（`*`），用于设置全局配置。
