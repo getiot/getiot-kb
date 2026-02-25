@@ -8,7 +8,7 @@ slug: /syncthing
 
 **Syncthing** 是一款开源、跨平台的连续文件同步工具，可以帮助用户在多台设备之间自动、安全地同步文件。它采用点对点（P2P）架构运行，无需依赖第三方云服务器或中心节点，所有数据直接在设备之间传输，确保用户对数据的完全控制和隐私保护。
 
-该项目采用 Go 语言开发，遵循 MPL-2.0 开源许可证，目前拥有 79.5k 个 Star（2026年1月），是一个成熟的 P2P 文件同步解决方案，适用于 Windows、macOS、Linux 等多种操作系统。
+该项目采用 Go 语言开发，遵循 MPL-2.0 开源许可证，目前拥有 80.3k 个 Star（2026年2月），是一个成熟的 P2P 文件同步解决方案，适用于 Windows、macOS、Linux 等多种操作系统。
 
 
 
@@ -114,13 +114,22 @@ Syncthing 适合多种使用场景，包括但不限于：
 
 ### 1. 安装与启动
 
-1. 访问官网或 GitHub Releases 下载适合操作系统的版本。
+1. 访问 [官网](https://syncthing.net) 或 [GitHub Releases](https://github.com/syncthing/syncthing/releases) 下载适合操作系统的版本。
+
 2. 解压并启动 Syncthing，可选择系统服务/守护进程模式运行。
+
+   ```bash
+   tar zxvf syncthing-linux-amd64-v2.0.14.tar.gz
+   cd syncthing-linux-amd64-v2.0.14/
+   ./syncthing
+   ```
 
 ### 2. 管理界面设置
 
 1. 打开浏览器访问 `http://127.0.0.1:8384/`。
 2. 设置用户名/密码（可选）、界面语言等基本首选项。
+
+![](https://static.getiot.tech/syncthing-screenshot-20260224-01.png)
 
 ### 3. 添加设备
 
@@ -128,17 +137,25 @@ Syncthing 适合多种使用场景，包括但不限于：
 2. 在主设备的 Web 界面中输入远程设备的 ID 进行配对。
 3. 在对方设备确认配对请求。
 
+![](https://static.getiot.tech/syncthing-screenshot-20260224-02.png)
+
+![](https://static.getiot.tech/syncthing-screenshot-20260224-03.png)
+
 ### 4. 配置同步文件夹
 
 1. 在界面中添加要同步的本地文件夹。
 2. 为该文件夹选择共享的远程设备。
 3. 设置同步策略（双向 / 单向 / 版本控制 / 忽略文件等）。
 
+![](https://static.getiot.tech/syncthing-screenshot-20260224-04.png)
+
+![](https://static.getiot.tech/syncthing-screenshot-20260224-05.png)
+
 ### 5. 启动同步
 
 一切配置完成后，Syncthing 会自动开始同步任务，并在 Web 界面中实时显示同步状态。
 
-
+![](https://static.getiot.tech/syncthing-screenshot-20260224-06.png)
 
 ## 相关链接
 
