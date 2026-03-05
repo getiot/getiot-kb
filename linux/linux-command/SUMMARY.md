@@ -112,6 +112,7 @@
     * [uname](系统管理/uname.md)
     * [hwclock](系统管理/hwclock.md)
     * [screen](系统管理/screen.md)
+    * [tmux](系统管理/tmux.md)
     * [fbset](系统管理/fbset.md)
     * [insmod](系统管理/insmod.md)
     * [lsmod](系统管理/lsmod.md)

@@ -1,6 +1,6 @@
 ---
 sidebar_label: reboot 命令
-sidebar_position: 46
+sidebar_position: 47
 slug: /reboot
 ---
 

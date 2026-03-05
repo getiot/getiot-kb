@@ -1,6 +1,6 @@
 ---
 sidebar_label: locale 命令
-sidebar_position: 54
+sidebar_position: 55
 slug: /locale
 ---
 

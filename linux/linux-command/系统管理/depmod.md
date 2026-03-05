@@ -1,6 +1,6 @@
 ---
 sidebar_label: depmod 命令
-sidebar_position: 29
+sidebar_position: 30
 slug: /depmod
 ---
 

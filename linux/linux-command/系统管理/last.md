@@ -1,6 +1,6 @@
 ---
 sidebar_label: last 命令
-sidebar_position: 40
+sidebar_position: 41
 slug: /last
 ---
 

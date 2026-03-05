@@ -1,6 +1,6 @@
 ---
 sidebar_label: nproc 命令
-sidebar_position: 51
+sidebar_position: 52
 slug: /nproc
 ---
 

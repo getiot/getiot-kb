@@ -1,6 +1,6 @@
 ---
 sidebar_label: lsb_release 命令
-sidebar_position: 52
+sidebar_position: 53
 slug: /lsb_release
 ---
 

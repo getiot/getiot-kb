@@ -1,6 +1,6 @@
 ---
 sidebar_label: timedatectl 命令
-sidebar_position: 50
+sidebar_position: 51
 slug: /timedatectl
 ---
 

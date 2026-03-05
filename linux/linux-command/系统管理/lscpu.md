@@ -1,6 +1,6 @@
 ---
 sidebar_label: lscpu 命令
-sidebar_position: 41
+sidebar_position: 42
 slug: /lscpu
 ---
 

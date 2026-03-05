@@ -1,6 +1,6 @@
 ---
 sidebar_label: chsh 命令
-sidebar_position: 42
+sidebar_position: 43
 slug: /chsh
 ---
 

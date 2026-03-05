@@ -1,6 +1,6 @@
 ---
 sidebar_label: insmod 命令
-sidebar_position: 24
+sidebar_position: 25
 slug: /insmod
 ---
 

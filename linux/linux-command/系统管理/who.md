@@ -1,6 +1,6 @@
 ---
 sidebar_label: who 命令
-sidebar_position: 31
+sidebar_position: 32
 slug: /who
 ---
 

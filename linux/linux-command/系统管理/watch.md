@@ -1,6 +1,6 @@
 ---
 sidebar_label: watch 命令
-sidebar_position: 34
+sidebar_position: 35
 slug: /watch
 ---
 
