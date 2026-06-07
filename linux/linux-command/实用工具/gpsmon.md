@@ -1,6 +1,6 @@
 ---
 sidebar_label: gpsmon 命令
-sidebar_position: 16
+sidebar_position: 17
 slug: /gpsmon
 ---
 

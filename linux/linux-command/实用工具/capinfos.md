@@ -1,6 +1,6 @@
 ---
 sidebar_label: capinfos 命令
-sidebar_position: 19
+sidebar_position: 20
 slug: /capinfos
 ---
 

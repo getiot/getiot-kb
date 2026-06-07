@@ -1,6 +1,6 @@
 ---
 sidebar_label: phc_ctl 命令
-sidebar_position: 12
+sidebar_position: 13
 slug: /phc_ctl
 ---
 

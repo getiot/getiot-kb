@@ -1,6 +1,6 @@
 ---
 sidebar_label: cgps 命令
-sidebar_position: 15
+sidebar_position: 16
 slug: /cgps
 ---
 

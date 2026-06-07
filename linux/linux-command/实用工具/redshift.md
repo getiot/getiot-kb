@@ -1,6 +1,6 @@
 ---
 sidebar_label: redshift 命令
-sidebar_position: 9
+sidebar_position: 10
 slug: /redshift
 ---
 

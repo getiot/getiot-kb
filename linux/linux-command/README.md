@@ -30,7 +30,7 @@ arp、ftp、ip、nethogs、nmap、ntop、route、ss、trippy、curl、ifconfig�
 
 ### 设备管理
 
-gpiodetect、gpioinfo、i2cdetect、i2cset、lspci、minicom、ppsctl、spi-pipe、usb_modeswitch、gpiofind、gpiomon、i2cdump、i2ctransfer、lsusb、mmc、stty、xrandr、gpioget、gpioset、i2cget、lshw、microcom、modpoll、spi-config、udevadm ......
+gpiodetect、gpioinfo、i2cdetect、i2cset、lspci、minicom、ppsctl、spi-pipe、usb_modeswitch、gpiofind、gpiomon、i2cdump、i2ctransfer、candump、cansend、cangen、canfdtest、canbusload、lsusb、mmc、stty、xrandr、gpioget、gpioset、i2cget、lshw、microcom、modpoll、spi-config、udevadm ......
 
 ### 系统监控
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: dos2unix 命令
-sidebar_position: 4
+sidebar_position: 5
 slug: /dos2unix
 ---
 

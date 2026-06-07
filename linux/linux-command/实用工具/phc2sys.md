@@ -1,6 +1,6 @@
 ---
 sidebar_label: phc2sys 命令
-sidebar_position: 11
+sidebar_position: 12
 slug: /phc2sys
 ---
 
