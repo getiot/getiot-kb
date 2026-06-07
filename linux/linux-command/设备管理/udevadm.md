@@ -1,6 +1,6 @@
 ---
 sidebar_label: udevadm 命令
-sidebar_position: 22
+sidebar_position: 33
 slug: /udevadm
 ---
 

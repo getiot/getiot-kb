@@ -1,6 +1,6 @@
 ---
 sidebar_label: xrandr 命令
-sidebar_position: 14
+sidebar_position: 25
 slug: /xrandr
 ---
 

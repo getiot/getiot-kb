@@ -1,6 +1,6 @@
 ---
 sidebar_label: gpioset 命令
-sidebar_position: 21
+sidebar_position: 32
 slug: /gpioset
 ---
 

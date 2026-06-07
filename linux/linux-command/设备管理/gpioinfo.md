@@ -1,6 +1,6 @@
 ---
 sidebar_label: gpioinfo 命令
-sidebar_position: 19
+sidebar_position: 30
 slug: /gpioinfo
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: gpiomon 命令
-sidebar_position: 20
+sidebar_position: 31
 slug: /gpiomon
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: usb_modeswitch 命令
-sidebar_position: 24
+sidebar_position: 35
 slug: /usb_modeswitch
 ---
 

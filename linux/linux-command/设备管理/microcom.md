@@ -1,6 +1,6 @@
 ---
 sidebar_label: microcom 命令
-sidebar_position: 13
+sidebar_position: 24
 slug: /microcom
 ---
 

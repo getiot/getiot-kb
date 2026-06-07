@@ -1,6 +1,6 @@
 ---
 sidebar_label: gpiodetect 命令
-sidebar_position: 16
+sidebar_position: 27
 slug: /gpiodetect
 ---
 

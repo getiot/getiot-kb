@@ -1,6 +1,6 @@
 ---
 sidebar_label: gpioget 命令
-sidebar_position: 18
+sidebar_position: 29
 slug: /gpioget
 ---
 
