@@ -6,6 +6,7 @@
     * [CMake 安装](basic/cmake-installation.md)
     * [CMake 快速上手](basic/cmake-quick-start.md)
     * [CMake 图形界面](basic/cmake-gui.md)
+    * [CMake 发展历史](basic/cmake-history.md)
 * [第二部分：核心语法](syntax/README.md)
     * [CMake 基础语法（CMakeLists.txt 基础结构）](syntax/cmake-basic-syntax.md)
     * [CMake 常用变量](syntax/cmake-variables.md)
@@ -61,5 +62,4 @@
     * [CMake 错误解决](reference/cmake-error-resolution.md)
     * [CMake 情景速查](reference/cmake-scene-how-to.md)
     * [CMake 最佳实践](reference/cmake-best-practices.md)
-    * [CMake 发展历史](reference/cmake-history.md)
 
