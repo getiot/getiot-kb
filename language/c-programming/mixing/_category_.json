@@ -1,0 +1,8 @@
+{
+  "label": "跨语言调用",
+  "position": 60,
+  "link": {
+    "type": "generated-index",
+    "description": "如何在 C 程序中调用其他编程语言的功能，包括 C++、Python、Lua 等语言。"
+  }
+}
