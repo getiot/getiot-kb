@@ -1,9 +1,10 @@
 ---
 sidebar_position: 3
+sidebar_label: pkg-config 集成
 slug: /cmake-pkg-config
 ---
 
-# pkg-config 集成
+# CMake pkg-config 集成
 
 `pkg-config` 是 Linux/Unix 生态里非常常见的“库元数据查询工具”，通过 `.pc` 文件提供 **编译参数（cflags）** 和 **链接参数（libs）**。当某些库没有提供 `<Package>Config.cmake`、或者你希望优先走系统包时，`pkg-config` 非常实用。
 

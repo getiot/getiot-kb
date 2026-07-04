@@ -1,9 +1,10 @@
 ---
 sidebar_position: 5
+sidebar_label: ExternalProject 使用
 slug: /cmake-external-project
 ---
 
-# ExternalProject 使用
+# CMake ExternalProject 使用
 
 `ExternalProject`（来自 `ExternalProject` 模块）用于把“第三方项目”作为 **独立的外部构建步骤** 来管理：下载/更新 → 配置 → 构建 → 安装。它与 `FetchContent` 最大区别是：依赖通常不混进主工程的 `add_subdirectory`，而是独立 build，并通过“安装前缀”再被主工程消费。
 

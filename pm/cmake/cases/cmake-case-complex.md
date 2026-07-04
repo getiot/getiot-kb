@@ -14,7 +14,9 @@ slug: /cmake-case-complex
 - 提供一个可选功能开关 `ENABLE_FEATURE_X`
 - 集成 CTest + GoogleTest（示例）
 
-## 目录结构（建议模板）
+## 目录结构
+
+推荐使用的目录结构模板：
 
 ```bash
 complex-demo/
@@ -179,13 +181,15 @@ include(GNUInstallDirs)
 install(TARGETS demo-cli RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 ```
 
-## 这个骨架的关键点
+
+
+## 小结
+
+这套骨架的关键点如下：
 
 - **库是中心**：应用与测试都链接库，避免重复编译/复制源码。
 - **目录内聚**：每个子目录有自己的 `CMakeLists.txt`，顶层只做“组装”。
 - **可选特性用 compile definitions 表达**：让特性对依赖方可见/不可见由 `PUBLIC/PRIVATE` 控制。
 - **测试在 BUILD_TESTING 开关下启用**：与 CMake/CTest 生态一致。
-
-## 小结
 
 这套结构足以支撑中型项目，并能自然扩展到依赖管理、安装打包、交叉编译与 CI。你可以把它作为后续章节（依赖/测试/安装/工具链）的“贯穿示例工程”。  

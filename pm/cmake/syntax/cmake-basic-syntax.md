@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+sidebar_label: CMake 基础语法
 slug: /cmake-basic-syntax
 authors: [luhuadong]
 ---

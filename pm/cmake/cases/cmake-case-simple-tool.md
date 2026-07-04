@@ -13,7 +13,7 @@ slug: /cmake-case-simple-tool
 - 支持 Debug/Release
 - 给出最小可复制的目录结构、CMakeLists、构建命令
 
-## 场景 A：单文件项目（最小可用）
+## 场景 A：单文件项目
 
 目录结构：
 
@@ -51,7 +51,7 @@ cmake --build build -j
 ./build/hello
 ```
 
-## 场景 B：多文件 + include 目录（更贴近真实项目）
+## 场景 B：多文件 + include 目录
 
 目录结构：
 
@@ -138,7 +138,7 @@ cmake -S . -B build-release -DCMAKE_BUILD_TYPE=Release
 cmake --build build-release -j
 ```
 
-## 场景 D：安装（可选，但很实用）
+## 场景 D：安装
 
 给可执行文件加安装规则：
 
@@ -156,7 +156,7 @@ cmake --install build
 ~/.local/bin/hello
 ```
 
-## 常见坑
+## 常见问题
 
 - **忘了用 `-S`/`-B` 分离源代码与构建目录**：推荐统一用 `cmake -S . -B build`。
 - **头文件找不到**：优先用 `target_include_directories()` 绑定到目标，不要用全局 `include_directories()`。

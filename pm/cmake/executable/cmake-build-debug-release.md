@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+sidebar_label: CMake 编译模式
 slug: /cmake-build-debug-release
 authors: [luhuadong]
 ---

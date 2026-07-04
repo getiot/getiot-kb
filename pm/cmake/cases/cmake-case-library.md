@@ -95,7 +95,7 @@ cmake -S . -B build-shared -DBUILD_SHARED_LIBS=ON
 cmake --build build-shared -j
 ```
 
-## 加一点“像项目”的内容：安装与导出（可选）
+## 安装与导出（可选）
 
 如果希望 `mylib` 能被别的工程 `find_package`，通常需要安装并导出 target（这一块属于“打包/安装”章节重点，这里只给最小骨架）：
 
@@ -112,7 +112,9 @@ install(TARGETS mylib
 install(DIRECTORY include/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 ```
 
-## 常见坑
+提示：加上安装与导出，会让你的项目更像一个可靠的项目，可供他们使用。
+
+## 常见问题
 
 - **把头文件路径写成 PRIVATE**：库自身能编译，但下游链接后找不到头文件；对外提供的头文件目录应是 `PUBLIC`（或 `INTERFACE`）。
 - **库与应用混用全局 include_directories**：短期能跑，长期会变成依赖地狱；优先把依赖绑定到 target。

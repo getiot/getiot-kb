@@ -1,9 +1,10 @@
 ---
 sidebar_position: 2
+sidebar_label: find_package 详解
 slug: /cmake-find-package
 ---
 
-# find_package 详解
+# CMake find_package 详解
 
 `find_package()` 是 CMake 里最常用、也最容易“看起来能用但用法不规范”的依赖查找方式。写好它的关键是：**让依赖以 target 的形式进入你的工程**，再用 `target_link_libraries()` 连接起来，而不是手动拼 include/lib 路径。
 

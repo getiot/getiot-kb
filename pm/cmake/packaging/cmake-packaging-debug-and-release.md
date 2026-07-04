@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 slug: /cmake-packaging-debug-and-release
+sidebar_label: CMake 打包 Debug 和 Release
 authors: [luhuadong]
 ---
 

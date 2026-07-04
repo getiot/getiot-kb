@@ -1,9 +1,10 @@
 ---
 sidebar_position: 4
+sidebar_label: FetchContent 使用
 slug: /cmake-fetchcontent
 ---
 
-# FetchContent 使用
+# CMake FetchContent 使用
 
 `FetchContent` 是现代 CMake（3.11+）提供的依赖获取方式：在 **配置阶段** 拉取第三方源码，并把它作为子工程加入当前构建（通常通过 `add_subdirectory`）。它特别适合：
 

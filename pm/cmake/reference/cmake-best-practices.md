@@ -8,7 +8,11 @@ authors: [luhuadong]
 
 本节归纳一些常用写法与习惯，便于写出易维护的 CMake 工程。
 
-## 多源文件与 aux_source_directory若有多个源文件，可逐个列在 add_executable 中，或先收集到变量再传入：
+
+
+## 多源文件与 `aux_source_directory`
+
+若有多个源文件，可逐个列在 `add_executable` 中，或先收集到变量再传入：
 
 ```cmake showLineNumbers
 cmake_minimum_required(VERSION 3.0)
