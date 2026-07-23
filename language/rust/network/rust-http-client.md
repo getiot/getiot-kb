@@ -30,11 +30,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 这里使用 `blocking` API，适合入门理解。后面学习 Tokio 后，你可以使用异步版本。
 
-## 为什么返回 Box<dyn Error>
+## 为什么返回动态错误类型
 
 HTTP 请求可能出现网络错误、DNS 错误、TLS 错误、响应读取错误。示例中用 `Box<dyn std::error::Error>` 接收不同错误类型，方便演示。
 
 ## 小结
 
 HTTP 不是从 socket 字节流手写起步的日常任务。多数项目应该使用成熟 HTTP crate，把精力放在请求参数、状态码、响应数据和错误处理上。
-
