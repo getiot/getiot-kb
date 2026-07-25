@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 # Ubuntu 的 GIF 录制工具

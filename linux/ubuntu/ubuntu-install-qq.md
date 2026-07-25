@@ -1,5 +1,5 @@
 ---
-sidebar_position: 24
+sidebar_position: 25
 ---
 
 # Ubuntu 安装 QQ 软件

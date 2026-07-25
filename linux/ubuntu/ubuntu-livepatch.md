@@ -18,7 +18,7 @@ sidebar_position: 4
 
 - 建议在 **Ubuntu LTS** 上使用  
 - 内核需在 Livepatch 支持列表中（换过自定义内核时尤其要注意）  
-- 需要 **Ubuntu Pro** 订阅；个人用途可在官网申请免费额度（机器数量以官网当前说明为准）  
+- 需要 **Ubuntu Pro** 订阅；个人用途可在官网申请免费额度（机器数量以官网当前说明为准）。整体介绍见 [Ubuntu Pro](/ubuntu/ubuntu-pro/)。  
 
 :::note
 公有云上的 Ubuntu Pro 镜像有时已经附带订阅，可跳过「获取 token / attach」步骤，直接看 `pro status`。
@@ -90,4 +90,4 @@ sudo pro disable livepatch
 
 Livepatch = **少重启的内核安全热补丁**。个人与小规模机器可通过 Ubuntu Pro 免费额度启用；用 `pro attach` / `pro enable livepatch` 打开，用 `canonical-livepatch status` 确认是否真正生效。
 
-接下来了解软件从哪里来：[Ubuntu 软件源](/ubuntu/ubuntu-software-repositories/)。
+接下来可先阅读 [Ubuntu Pro](/ubuntu/ubuntu-pro/) 了解订阅与其它服务，或继续看软件从哪里来：[Ubuntu 软件源](/ubuntu/ubuntu-software-repositories/)。

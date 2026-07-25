@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 # apt 和 apt-get 的区别

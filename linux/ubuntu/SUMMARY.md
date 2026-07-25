@@ -5,6 +5,7 @@
 * [Ubuntu 版本](ubuntu-versions.md)
 * [Ubuntu 安装](ubuntu-installation.md)
 * [Ubuntu Livepatch](ubuntu-livepatch.md)
+* [Ubuntu Pro](ubuntu-pro.md)
 * [Ubuntu 软件源](ubuntu-software-repositories.md)
 * [Ubuntu 更换源](ubuntu-change-apt-source.md)
 * [Ubuntu 应用软件](ubuntu-software.md)

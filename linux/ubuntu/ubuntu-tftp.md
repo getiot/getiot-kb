@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 12
 ---
 
 # Ubuntu 搭建 TFTP 服务

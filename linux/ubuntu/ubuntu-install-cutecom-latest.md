@@ -1,5 +1,5 @@
 ---
-sidebar_position: 18
+sidebar_position: 19
 ---
 
 # Ubuntu 安装最新版本 Cutecom

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 20
+sidebar_position: 21
 ---
 
 # Ubuntu 安装 7zip 及其使用方法
