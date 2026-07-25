@@ -105,4 +105,4 @@ int main(void) {
 
 并查集是「动态维护连通性」的利器。先写对 `find` / `unite`，再理解路径压缩与按秩合并为何让它几乎 $O(1)$。
 
-下一章进入 [图的基本概念](/data-structures/graph-basics/)。
+下一章进入 [图的基本概念](/data-structures/graph/)。
