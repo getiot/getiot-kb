@@ -51,28 +51,30 @@ Ubuntu 通过 **APT 软件源（仓库，repository）** 组织大量可安装�
 echo "$UBUNTU_CODENAME"
 ```
 
-## APT、官方源、第三方源与 PPA
+## APT 与软件源类型
 
-| 来源 | 说明 |
-| --- | --- |
-| 发行版官方源 | Ubuntu 官方构建，版本不一定最新，但配套稳定 |
-| 软件项目官方 APT 源 | 如部分语言工具链自建仓库，版本往往更新 |
-| **PPA**（Personal Package Archive） | Launchpad 上的个人/团队源，方便但质量参差，添加前看维护情况 |
-| 本地 / 离线仓库 | 内网镜像、U 盘离线包等 |
+APT 是从指定的软件源获取安装包。常见几类源可以这样理解：
 
-换国内镜像、加快 `apt update` 的方法见：[Ubuntu 更换源](/ubuntu/ubuntu-change-apt-source/)。
+- **默认使用的官方源**：Ubuntu 发行版官方提供的安装包，虽然不一定是最新版，但质量和安全性有保障。
+- **软件自行提供的官方源**：比如 llvm/clang 就提供了 Ubuntu 和 Debian 的[官方源](https://apt.llvm.org/)。
+- **PPA**（Personal Package Archive）：个人软件源，可理解为托管软件安装包的 GitHub。方便，但质量参差，添加前建议看维护情况与评价。
 
-## 软件安装方式建议优先级
+此外还有本地 / 离线仓库等场景。换国内镜像、加快 `apt update` 的方法见：[Ubuntu 更换源](/ubuntu/ubuntu-change-apt-source/)。
 
-需要某个程序时，可以按下面顺序考虑（思路来自社区经验，可按场景调整）：
+## 软件安装方式优先顺序
 
-1. 不挑版本 → `apt` 安装  
-2. 需要的版本官方源里就有 → `apt` 安装  
-3. 官方源没有，但软件有自己的 APT 源 → 添加后再 `apt`  
-4. 没有上述源，但可靠 PPA 有 → 添加 PPA 后再 `apt`  
-5. 仍没有 → 官方 `.deb` / AppImage / Flatpak / 源码编译等  
+Ubuntu 上通常既可以用 APT 包管理器安装，也可以手动编译源码。对 APT 来说，你可以修改软件源（软件仓库的来源），从而安装更多软件。
 
-另外还有 **Snap**、**Flatpak** 等并行渠道，见 [Ubuntu 应用软件](/ubuntu/ubuntu-software/)。
+下面是比较建议的软件安装方式优先顺序（可按场景调整）：
+
+- 只是需要一个程序，不关心版本号：用 apt 安装
+- 只是需要一个程序，需要的版本 apt 里就有：用 apt 安装
+- 只是需要一个程序，需要的版本 apt 没有提供，但有官方源：添加对应的官方源，再用 apt 安装
+- 只是需要一个程序，需要的版本 apt 没有提供，但 PPA 里有：添加对应的 PPA，再用 apt 安装
+- 只是需要一个程序，需要的版本 apt 没有提供，PPA 里也没有：从源码自行编译安装
+- 想要探索 Linux 世界的秘密：从源码自行编译安装
+
+另外还有 **Snap**、**Flatpak**、官方 `.deb` 等并行渠道，见 [Ubuntu 应用软件](/ubuntu/ubuntu-software/)。
 
 :::note APT 与源的关系
 `apt` 只从**你已配置且 `apt update` 成功的源**里解析软件。源不可达、代号写错或 GPG 校验失败时，安装会失败——先修好源，再装软件。
@@ -94,4 +96,4 @@ sudo apt autoremove          # 清理无用依赖
 
 ## 小结
 
-软件源决定了「能装什么、从哪下载、是否可信」。先分清 Main / Universe / Restricted / Multiverse，再按需加 PPA 或第三方源；换源与装应用分别见后续两篇。
+软件源决定了「能装什么、从哪下载、是否可信」。先分清 Main / Universe / Restricted / Multiverse，再按「官方源 → 项目官方源 → PPA → 源码」的优先级选型；换源与装应用分别见后续两篇。

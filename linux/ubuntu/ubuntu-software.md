@@ -18,7 +18,7 @@ sidebar_position: 7
 | 官方 `.deb` / AppImage | 厂商直接提供 | 浏览器、IDE、专有软件 |
 | 源码 / 二进制包 | 最灵活，维护成本最高 | apt 没有、又要特定版本时 |
 
-更细的优先级讨论见 [Ubuntu 软件源](/ubuntu/ubuntu-software-repositories/)。
+更细的安装优先级（官方源 / 项目源 / PPA / 源码）见 [Ubuntu 软件源](/ubuntu/ubuntu-software-repositories/)。
 
 :::tip 新手默认策略
 能 `apt install` 就先 apt；只有版本不够新或官方明确推荐时，再上 Snap / Flatpak / 官网包。
