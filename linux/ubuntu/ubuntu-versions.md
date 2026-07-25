@@ -14,7 +14,11 @@ Ubuntu 每个版本都有它的代号和版本号。版本号采用 `年份.月�
 
 | 版本                 | 代号                 | 发布日期   | EOL         | 内核版本     |
 | -------------------- | -------------------- | ---------- | ----------- | ------------ |
-| **Ubuntu 24.04 LTS** | **Noble** Numbat     | 2024-04-25 | 2029-04     | Linux 6.8    |
+| **Ubuntu 26.04 LTS** | Resolute Raccoon     | 2026-04-23 | **2031-05** | Linux 7.0    |
+| Ubuntu 25.10         | Questing Quokka      | 2025-10-09 | 2026-07     | Linux 6.17   |
+| Ubuntu 25.04         | Plucky Puffin        | 2025-04-17 | 2026-01     | Linux 6.14   |
+| Ubuntu 24.10         | Oracular Oriole      | 2024-10-10 | 2025-07     | Linux 6.11   |
+| **Ubuntu 24.04 LTS** | **Noble** Numbat     | 2024-04-25 | **2029-04** | Linux 6.8    |
 | Ubuntu 23.04         | Lunar Lobster        | 2023-04-20 | 2024-01     | Linux 6.2    |
 | Ubuntu 22.10         | Kinetic Kudu         | 2022-10-20 | 2023-07     | Linux 5.19   |
 | **Ubuntu 22.04 LTS** | **Jammy** Jellyfish  | 2022-04-21 | **2027-04** | Linux 5.15   |
