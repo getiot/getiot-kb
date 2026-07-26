@@ -584,7 +584,7 @@ Environment CRC 与 U-Boot Image 是否损坏不是同一件事。先确认 U-Bo
 - 完成 256 MiB 对比，并用 diff 指出 DRAM 行的变化
 - 能根据「最后成功里程碑」说出下一轮优先检查方向
 
-第二部分到此结束。接下来进入[第三部分：使用 U-Boot 启动 Linux](/uboot/memory-and-address/)，先学习内存地址与 `md`、`mw` 等数据操作。
+U-Boot 入门到此结束。接下来进入[使用 U-Boot 启动 Linux](/uboot/memory-and-address/)，先学习内存地址与 `md`、`mw` 等数据操作。
 
 ## 21. 思考与练习
 

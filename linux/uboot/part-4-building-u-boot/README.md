@@ -1,9 +1,9 @@
 ---
 sidebar_position: 0
-sidebar_label: 第四部分：编译与理解 U-Boot
+sidebar_label: 编译与理解 U-Boot
 ---
 
-# 第四部分：编译与理解 U-Boot
+# 编译与理解 U-Boot
 
 前面你主要是在 U-Boot 命令行中使用现成镜像。从这一部分开始，你要回到源码，理解 U-Boot 是如何被配置、编译和组织起来的。
 

@@ -1,9 +1,9 @@
 ---
 sidebar_position: 0
-sidebar_label: 第三部分：使用 U-Boot 启动 Linux
+sidebar_label: 使用 U-Boot 启动 Linux
 ---
 
-# 第三部分：使用 U-Boot 启动 Linux
+# 使用 U-Boot 启动 Linux
 
 前两部分你已经认识了 U-Boot，也能在 QEMU ARM64 `virt` 机器中进入命令行。接下来我们要做一件更接近真实产品的事情：让 U-Boot 把 Linux 启动起来。
 

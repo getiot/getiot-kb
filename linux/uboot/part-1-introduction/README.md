@@ -1,9 +1,9 @@
 ---
 sidebar_position: 0
-sidebar_label: 第一部分：认识 U-Boot
+sidebar_label: 认识 U-Boot
 ---
 
-# 第一部分：认识 U-Boot
+# 认识 U-Boot
 
 动手敲命令之前，先建立正确的心智模型：设备为什么需要 Bootloader、U-Boot 是什么、启动链如何交接、U-Boot 内部大致如何组织。读完本部分，你应能画出一条从上电到用户空间的启动链，并知道 U-Boot 通常落在哪一环。
 

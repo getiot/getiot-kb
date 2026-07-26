@@ -1,9 +1,9 @@
 ---
 sidebar_position: 0
-sidebar_label: 第五部分：移植到真实硬件
+sidebar_label: 移植到真实硬件
 ---
 
-# 第五部分：移植到真实硬件
+# 移植到真实硬件
 
 QEMU 能帮你理解 U-Boot 的通用机制，但真实开发板会把问题变得更具体：启动 ROM 从哪里读第一段代码？DRAM 谁来初始化？是否需要 TF-A、OP-TEE 或 OpenSBI？U-Boot proper 是直接运行，还是先由 SPL 加载？
 

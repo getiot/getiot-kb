@@ -1,9 +1,9 @@
 ---
 sidebar_position: 0
-sidebar_label: 第二部分：第一次使用 U-Boot
+sidebar_label: U-Boot 入门
 ---
 
-# 第二部分：第一次使用 U-Boot
+# U-Boot 入门
 
 本部分在 QEMU ARM64 `virt` 上动手运行 U-Boot：先搭好工具链并生成镜像，再进入命令行观察启动过程。读完后，你应能独立启动 `=>` 提示符，并完成几项只读检查。
 

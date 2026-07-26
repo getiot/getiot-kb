@@ -22,7 +22,7 @@ slug: /qemu-environment
 
 ## 前置知识
 
-建议先读完[第一部分：认识 U-Boot](/uboot/embedded-system-and-bootloader/)，至少了解[本教程中的 QEMU 启动链](/uboot/boot-process/)。本章所有命令默认在开发主机的 Linux Shell 中执行。
+建议先读完[认识 U-Boot](/uboot/embedded-system-and-bootloader/)，至少了解[本教程中的 QEMU 启动链](/uboot/boot-process/)。本章所有命令默认在开发主机的 Linux Shell 中执行。
 
 ## 1. 为什么先使用 QEMU
 
