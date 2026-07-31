@@ -1,31 +1,39 @@
 # Summary
 
-* [Introduction](README.md)
-* [电阻](resistors.md)
-* [可变电阻](variable-resistors.md)
-* [电容](capacitors.md)
-* [晶体管](transistors.md)
-* [光敏电阻](light-dependent-resistor.md)
-* [热敏电阻](thermistor.md)
-* [电感](inductors.md)
-* [变压器](transformer.md)
-* [二极管](diodes.md)
-* [发光二极管](leds.md)
-* [三极管](triodes.md)
-* [蜂鸣器](buzzer.md)
-* [继电器](relays.md)
-* [开关](switches.md)
-* [电机](motors.md)
-* [液晶显示屏](lcd.md)
-* [七段数码管](7-segment-display.md)
-* [电池](battery.md)
-* [麦克风](microphone.md)
-* [红外收发器](ir-transmitter-receiver.md)
-* [Flash 存储器](flash-memory.md)
-* [eMMC](emmc.md)
-* [iButton](ibutton.md)
-* [简牛连接器](HDR-IDC.md)
-* [霍尔传感器](hall-sensor.md)
-* [光电耦合器](optocoupler.md)
-* [电子器件名词解释](electronics-glossary.md)
-
+* [简介](README.md)
+* 无源元件
+    * [电阻](passive/resistors.md)
+    * [可变电阻](passive/variable-resistors.md)
+    * [电容](passive/capacitors.md)
+    * [电感](passive/inductors.md)
+    * [变压器](passive/transformer.md)
+    * [光敏电阻](passive/light-dependent-resistor.md)
+    * [热敏电阻](passive/thermistor.md)
+* 半导体器件
+    * [二极管](semiconductor/diodes.md)
+    * [发光二极管](semiconductor/leds.md)
+    * [晶体管](semiconductor/transistors.md)
+    * [三极管](semiconductor/triodes.md)
+    * [光电耦合器](semiconductor/optocoupler.md)
+* 机电与执行器
+    * [开关](electromechanical/switches.md)
+    * [继电器](electromechanical/relays.md)
+    * [电机](electromechanical/motors.md)
+    * [蜂鸣器](electromechanical/buzzer.md)
+* 显示与交互
+    * [液晶显示屏](display-interaction/lcd.md)
+    * [七段数码管](display-interaction/7-segment-display.md)
+    * [麦克风](display-interaction/microphone.md)
+    * [红外收发器](display-interaction/ir-transmitter-receiver.md)
+* 电源
+    * [电池](power/battery.md)
+* 传感器
+    * [霍尔传感器](sensors/hall-sensor.md)
+* 存储
+    * [Flash 存储器](storage/flash-memory.md)
+    * [eMMC](storage/emmc.md)
+* 连接器件
+    * [iButton](connectors/ibutton.md)
+    * [简牛连接器](connectors/HDR-IDC.md)
+* 附录
+    * [电子器件名词解释](appendix/electronics-glossary.md)
