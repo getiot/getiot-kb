@@ -2,6 +2,7 @@
 sidebar_label: tar 命令
 sidebar_position: 26
 slug: /tar
+description: "tar（英文全拼：tape archive）命令用于在磁带、或者磁盘上创建和提取归档文件。"
 ---
 
 # Linux tar 命令 - 压缩或解压缩文件

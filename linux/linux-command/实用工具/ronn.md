@@ -2,6 +2,7 @@
 sidebar_label: ronn 命令
 sidebar_position: 6
 slug: /ronn
+description: "ronn 命令用于将 markdown 文档（roff 格式）转换成 Linux 标准的 manpages 帮助文档。"
 ---
 
 # Linux ronn 命令 - 转换 Markdown 为 man 页

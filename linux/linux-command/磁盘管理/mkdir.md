@@ -2,6 +2,7 @@
 sidebar_label: mkdir 命令
 sidebar_position: 10
 slug: /mkdir
+description: "mkdir（英文全拼：make directory）命令用于创建目录。"
 ---
 
 # Linux mkdir 命令 - 创建目录

@@ -2,6 +2,7 @@
 sidebar_label: echo 命令
 sidebar_position: 3
 slug: /echo
+description: "echo 命令用于在 Shell 终端中输出内容（比如 shell 变量的值，或者直接输出指定的字符串）。"
 ---
 
 # Linux echo 命令 - 输出字符串内容

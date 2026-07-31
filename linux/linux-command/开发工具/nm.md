@@ -2,6 +2,7 @@
 sidebar_label: nm 命令
 sidebar_position: 7
 slug: /nm
+description: "nm（英文全拼：names）命令是 GNU Binutils 二进制工具集的一员，用于显示二进制文件（例如库文件和可执行文件等）中的符号。如果没有为 nm 命令指明目标文件，则 nm 假定目标文件是 a.out。"
 ---
 
 # Linux nm 命令 - 列出目标文件的符号表

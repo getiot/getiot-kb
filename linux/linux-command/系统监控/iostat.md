@@ -2,6 +2,7 @@
 sidebar_label: iostat 命令
 sidebar_position: 4
 slug: /iostat
+description: "iostat（英文全拼：I/O statistics）是 Linux 系统中用于查看系统的磁盘 I/O（输入/输出）统计信息的命令。它能够提供关于磁盘和 CPU 使用情况的详细报告，对于监控系统性能和磁盘活动非常有用。"
 ---
 
 # Linux iostat 命令 - 显示 I/O 统计信息

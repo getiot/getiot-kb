@@ -2,6 +2,7 @@
 sidebar_label: gpsmon 命令
 sidebar_position: 17
 slug: /gpsmon
+description: "gpsmon（英文全拼：GPS monitor）是 GPSD 软件包中的一个监视器工具，用于监视来自 GPS 的数据包并将其与诊断信息一起显示。"
 ---
 
 # Linux gpsmon 命令 - 监控 GPS 数据和状态

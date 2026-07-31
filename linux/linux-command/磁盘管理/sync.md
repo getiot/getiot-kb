@@ -2,6 +2,7 @@
 sidebar_label: sync 命令
 sidebar_position: 21
 slug: /sync
+description: "sync（英文全拼：synchronize）命令用于数据同步，强制将内存缓冲区中的数据立即写入磁盘。"
 ---
 
 # Linux sync 命令 - 同步文件系统缓存

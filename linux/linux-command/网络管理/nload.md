@@ -2,6 +2,7 @@
 sidebar_label: nload 命令
 sidebar_position: 22
 slug: /nload
+description: "nload 是一个用于监测网络流量的命令行工具，它以图形化的方式显示实时的网络使用情况。使用该命令，可在命令行界面通过图形化方式实时显示网络流量，包括上传和下载速率、总流量等数据。"
 ---
 
 # Linux nload 命令 - 实时监控网络流量

@@ -2,6 +2,7 @@
 sidebar_label: mtr 命令
 sidebar_position: 21
 slug: /mtr
+description: "mtr（英文全拼：my traceroute）是一个用于网络诊断和网络性能测量的命令行工具，它在单个网络诊断工具中结合了 traceroute 和 ping 程序的功能，提供了更全面的网络路径跟踪和性能统计。"
 ---
 
 # Linux mtr 命令 - 网络诊断路由跟踪

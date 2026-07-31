@@ -2,6 +2,7 @@
 sidebar_label: apt-config 命令
 sidebar_position: 3
 slug: /apt-config
+description: "apt-config 命令是 Debian 系操作系统（包括 Ubuntu）中用于显示或操作 APT（Advanced Package Tool）软件包管理系统配置项的工具。"
 ---
 
 # Linux apt-config 命令 - 管理 APT 配置文件

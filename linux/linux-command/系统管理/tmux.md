@@ -2,6 +2,7 @@
 sidebar_label: tmux 命令
 sidebar_position: 23
 slug: /tmux
+description: "Tmux 是一款终端复用工具，其核心作用是解绑会话与窗口，实现断网重连、会话保持、多窗格分屏及多窗口管理。它允许在单界面中并行执行多个任务，且即使关闭终端窗口，后台程序依然会持续运行，特别适合远程服务器管理和高效率开发。"
 ---
 
 # Linux tmux 命令 - 终端复用器

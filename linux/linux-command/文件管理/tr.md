@@ -2,6 +2,7 @@
 sidebar_label: tr 命令
 sidebar_position: 36
 slug: /tr
+description: "tr（translate）命令用于从标准输入读取数据，对字符进行转换、压缩或删除，然后输出到标准输出。常用于大小写转换、删除不可见字符、替换分隔符等文本处理任务，常与管道配合使用。"
 ---
 
 # Linux tr 命令 - 转换或删除字符

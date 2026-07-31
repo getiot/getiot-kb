@@ -2,6 +2,7 @@
 sidebar_label: ssh 命令
 sidebar_position: 10
 slug: /ssh
+description: "ssh（SecureShell 的缩写）命令是 OpenSSH 套件的组成部分，是一个用于登录到远程机器并在远程机器上执行命令的客户端程序。"
 ---
 
 # Linux ssh 命令 - 远程登录安全协议

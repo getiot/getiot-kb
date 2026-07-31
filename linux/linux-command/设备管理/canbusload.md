@@ -2,6 +2,7 @@
 sidebar_label: canbusload 命令
 sidebar_position: 11
 slug: /canbusload
+description: "canbusload 命令用于实时监控 CAN 总线的带宽占用率。它根据接收到的报文数量和总线比特率，计算并显示各接口的负载百分比，适合评估总线利用率、排查拥塞问题。"
 ---
 
 # Linux canbusload 命令 - 监控 CAN 总线负载

@@ -2,6 +2,7 @@
 sidebar_label: qrencode 命令
 sidebar_position: 4
 slug: /qrencode
+description: "qrencode（英文全拼：QR Encode）命令用于根据输入文本生成二维码，可保存为 PNG 或 EPS 格式图片。"
 ---
 
 # Linux qrencode 命令 - 生成二维码的工具

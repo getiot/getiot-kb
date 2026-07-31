@@ -2,6 +2,7 @@
 sidebar_label: zcat 命令
 sidebar_position: 2
 slug: /zcat
+description: "zcat 命令用于查看压缩文件的内容，而无需对其进行解压缩。"
 ---
 
 # Linux zcat 命令 - 查看压缩文件内容

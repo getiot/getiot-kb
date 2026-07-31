@@ -2,6 +2,7 @@
 sidebar_label: timeout 命令
 sidebar_position: 7
 slug: /timeout
+description: "timeout 是一个 Linux 系统中的命令，用于在指定时间内运行命令，并在超时时终止该命令的执行。对于需要控制命令执行时间的情况非常有用，特别是在 Shell 脚本或批处理任务中。"
 ---
 
 # Linux timeout 命令 - 限制命令执行时间

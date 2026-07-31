@@ -2,6 +2,7 @@
 sidebar_label: tcpdump 命令
 sidebar_position: 32
 slug: /tcpdump
+description: "tcpdump 命令是 Linux 系统中的一个网络数据包截获分析工具，支持针对网络层、协议、主机、网络或端口的过滤，并提供 and、or、not 等逻辑语句帮助过滤无用的信息。"
 ---
 
 # Linux tcpdump 命令 - 数据包捕获分析工具

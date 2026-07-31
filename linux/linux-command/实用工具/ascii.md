@@ -2,6 +2,7 @@
 sidebar_label: ascii 命令
 sidebar_position: 1
 slug: /ascii
+description: "ascii 命令用于查询 ASCII 码字符 与字节（数字）的对应关系。"
 ---
 
 # Linux ascii 命令 - 显示字符的 ASCII 码

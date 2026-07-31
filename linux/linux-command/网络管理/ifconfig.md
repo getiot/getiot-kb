@@ -2,6 +2,7 @@
 sidebar_label: ifconfig 命令
 sidebar_position: 2
 slug: /ifconfig
+description: "ifconfig（英文全拼：network interfaces configuring）命令用于配置和显示 Linux 内核中网络接口的网络参数。"
 ---
 
 # Linux ifconfig 命令 - 网络接口配置命令

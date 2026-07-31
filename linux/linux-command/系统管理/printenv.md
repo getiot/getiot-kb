@@ -2,6 +2,7 @@
 sidebar_label: printenv 命令
 sidebar_position: 4
 slug: /printenv
+description: "printenv 命令用于显示当前环境变量的值。它在 Linux 和 Unix 系统上广泛使用，允许用户查看当前 shell 进程中定义的所有环境变量。"
 ---
 
 # Linux printenv 命令 - 打印环境变量

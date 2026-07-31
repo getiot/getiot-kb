@@ -2,6 +2,7 @@
 sidebar_label: cp 命令
 sidebar_position: 15
 slug: /cp
+description: "cp（copy）命令用于复制文件或目录，可将多个文件复制到目标路径或已存在目录，是备份与脚本中最常用的文件操作之一。"
 ---
 
 # Linux cp 命令 - 复制文件或目录

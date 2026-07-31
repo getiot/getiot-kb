@@ -2,6 +2,7 @@
 sidebar_label: wc 命令
 sidebar_position: 21
 slug: /wc
+description: "wc（英文全拼：word counts）命令统计指定文件中的字节数、字数、行数，并将统计结果显示输出。"
 ---
 
 # Linux wc 命令 - 统计文件内容

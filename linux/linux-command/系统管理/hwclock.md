@@ -2,6 +2,7 @@
 sidebar_label: hwclock 命令
 sidebar_position: 21
 slug: /hwclock
+description: "hwclock（英文全拼：hardware clock）命令用于显示与设定硬件时钟（RTC）。"
 ---
 
 # Linux hwclock 命令 - 显示/设置硬件时钟

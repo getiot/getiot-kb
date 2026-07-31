@@ -2,6 +2,7 @@
 sidebar_label: gcc 命令
 sidebar_position: 1
 slug: /gcc
+description: "GCC（英文全拼：GNU Compiler Collection）是 GNU 工具链的主要组成部分，是一套以 GPL 和 LGPL 许可证发布的程序语言编译器自由软件，由 Richard Stallman 于 1985 年开始开发。"
 ---
 
 # Linux gcc 命令 - GNU C 编译器

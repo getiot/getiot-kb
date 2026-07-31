@@ -2,6 +2,7 @@
 sidebar_label: traceroute 命令
 sidebar_position: 19
 slug: /traceroute
+description: "traceroute 命令用于跟踪、显示 IP 信息包至某个网络主机的路由。"
 ---
 
 # Linux traceroute 命令 - 路由追踪显示路径

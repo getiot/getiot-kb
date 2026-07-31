@@ -2,6 +2,7 @@
 sidebar_label: whatis 命令
 sidebar_position: 3
 slug: /whatis
+description: "whatis 命令是用于查询一个命令执行什么功能，并将查询结果打印到终端上。"
 ---
 
 # Linux whatis 命令 - 显示命令简要说明

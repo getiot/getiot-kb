@@ -2,6 +2,7 @@
 sidebar_label: pppd 命令
 sidebar_position: 38
 slug: /pppd
+description: "pppd（英文全拼：Point-to-Point Protocol Daemon）是 Linux 系统中用于建立和管理 PPP（点对点协议）连接的守护进程。pppd 支持多种身份验证方法，包括 PAP 和 CHAP 等。"
 ---
 
 # Linux pppd 命令 - 点对点协议守护进程

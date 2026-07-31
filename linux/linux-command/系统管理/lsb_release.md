@@ -2,6 +2,7 @@
 sidebar_label: lsb_release 命令
 sidebar_position: 53
 slug: /lsb_release
+description: "lsb_release 命令用于打印 Linux 发行版的系统信息，其中 LSB 是 Linux Standard Base 的缩写。"
 ---
 
 # Linux lsb_release 命令 - 显示 LSB 信息

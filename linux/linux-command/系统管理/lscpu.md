@@ -2,6 +2,7 @@
 sidebar_label: lscpu 命令
 sidebar_position: 42
 slug: /lscpu
+description: "lscpu（英文全拼：list cpu）命令用来显示 CPU 的相关信息。"
 ---
 
 # Linux lscpu 命令 - 显示 CPU 架构信息

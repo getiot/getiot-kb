@@ -2,6 +2,7 @@
 sidebar_label: cat 命令
 sidebar_position: 1
 slug: /cat
+description: "cat（英文全拼：concatenate）命令用于连接文件并打印到标准输出设备上。常用于在 Shell 终端中显示文件内容。"
 ---
 
 # Linux cat 命令 - 显示文件内容

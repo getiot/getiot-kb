@@ -2,6 +2,7 @@
 sidebar_label: export 命令
 sidebar_position: 1
 slug: /export
+description: "export 是 Linux 系统中用于设置环境变量的命令，也是一个重要系统命令。环境变量是一种在操作系统级别上保存配置信息和可在不同进程之间共享的变量。使用 export 可以将变量从当前 shell 传递到其子 shell。"
 ---
 
 # Linux export 命令 - 导出环境变量

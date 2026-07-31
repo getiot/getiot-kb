@@ -2,6 +2,7 @@
 sidebar_label: nfsstat 命令
 sidebar_position: 37
 slug: /nfsstat
+description: "nfsstat（英文全拼：NFS statistics）命令用于显示关于 NFS 客户机和服务器活动的统计信息。"
 ---
 
 # Linux nfsstat 命令 - 显示 NFS 统计信息

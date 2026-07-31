@@ -2,6 +2,7 @@
 sidebar_label: reboot 命令
 sidebar_position: 47
 slug: /reboot
+description: "在 Linux 系统中，reboot 命令用于重新启动计算机，类似于 Windows 系统中的 restart 命令。需要注意，机器重启必须要 root 用户才有权限。"
 ---
 
 # Linux reboot 命令 - 重启系统

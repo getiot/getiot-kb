@@ -2,6 +2,7 @@
 sidebar_label: lspci 命令
 sidebar_position: 2
 slug: /lspci
+description: "lspci 命令用于显示当前主机的所有 PCI 总线信息，以及所有已连接的 PCI 设备信息。"
 ---
 
 # Linux lspci 命令 - 列出 PCI 设备信息

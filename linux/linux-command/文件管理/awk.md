@@ -2,6 +2,7 @@
 sidebar_label: awk 命令
 sidebar_position: 22
 slug: /awk
+description: "awk 是一种强大的文本处理工具，用于在 Unix 和 Linux 系统中处理和分析文本数据。它是一种基于模式匹配和动作执行的编程语言，通常用于从结构化文本中提取和操作数据。awk 常常用于处理行格式的文本数据，例如日志文件或表格数据。"
 ---
 
 # Linux awk 命令 - 文本处理工具

@@ -2,6 +2,7 @@
 sidebar_label: mount 命令
 sidebar_position: 12
 slug: /mount
+description: "mount 命令用于将文件系统挂载到指定挂载点，常用于磁盘分区、U 盘、NFS 等；卸载请使用 umount，操作前注意数据安全。"
 ---
 
 # Linux mount 命令 - 挂载文件系统

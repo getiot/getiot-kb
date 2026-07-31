@@ -2,6 +2,7 @@
 sidebar_label: whereis 命令
 sidebar_position: 4
 slug: /whereis
+description: "whereis 命令用来定位命令的二进制程序、源代码文件和 man 手册页等相关文件的路径。"
 ---
 
 # Linux whereis 命令 - 查找命令的路径和相关文件

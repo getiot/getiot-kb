@@ -2,6 +2,7 @@
 sidebar_label: wvdialconf 命令
 sidebar_position: 44
 slug: /wvdialconf
+description: "wvdialconf 命令用于为 wvdial 生成一个配置文件，默认为 /etc/wvdial.conf。通常在首次安装 wvdial 工具，还没有配置文件时使用。"
 ---
 
 # Linux wvdialconf 命令 - 配置调制解调器

@@ -2,6 +2,7 @@
 sidebar_label: ftp 命令
 sidebar_position: 12
 slug: /ftp
+description: "ftp 命令是 FTP 文件传输协议（File Transfer Protocol）的客户端工具，用于本地主机和远程文件服务器之间上传和下载文件。ftp 命令使用 FTP 协议和远程文件服务器进行通信。"
 ---
 
 # Linux ftp 命令 - 文件传输协议客户端

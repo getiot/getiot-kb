@@ -2,6 +2,7 @@
 sidebar_label: i2cdetect 命令
 sidebar_position: 6
 slug: /i2cdetect
+description: "i2cdetect 命令用于在 Linux 系统用户空间扫描 I2C 总线上的设备。"
 ---
 
 # Linux i2cdetect 命令 - 扫描 I2C 设备地址

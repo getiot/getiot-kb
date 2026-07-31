@@ -2,6 +2,7 @@
 sidebar_label: spi-config 命令
 sidebar_position: 4
 slug: /spi-config
+description: "spi-config 命令用于在用户空间查询或设置 SPI 总线配置。"
 ---
 
 # Linux spi-config 命令 - 配置 SPI 接口

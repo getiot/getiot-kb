@@ -2,6 +2,7 @@
 sidebar_label: stat 命令
 sidebar_position: 15
 slug: /stat
+description: "stat（英文全拼：status）命令用于显示文件或文件系统的状态，以文字的格式来显示 inode 的内容。"
 ---
 
 # Linux stat 命令 - 显示文件或文件系统状态

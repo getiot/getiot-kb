@@ -2,6 +2,7 @@
 sidebar_label: iw 命令
 sidebar_position: 47
 slug: /iw
+description: "iw 命令是用于配置和管理基于 nl80211 驱动的无线网络接口的工具，可查看网卡信息、扫描 Wi-Fi 热点、连接网络、设置发射功率等。"
 ---
 
 # Linux iw 命令 - 配置无线网络接口

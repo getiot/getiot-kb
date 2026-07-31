@@ -2,6 +2,7 @@
 sidebar_label: su 命令
 sidebar_position: 36
 slug: /su
+description: "在 Linux 系统中，su（英文全拼：substitute user）命令用于切换当前用户身份到指定用户，或者以指定用户的身份执行命令或程序。"
 ---
 
 # Linux su 命令 - 切换用户身份

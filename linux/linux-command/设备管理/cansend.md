@@ -2,6 +2,7 @@
 sidebar_label: cansend 命令
 sidebar_position: 19
 slug: /cansend
+description: "cansend 命令用于通过 CAN_RAW socket 向指定 CAN 接口发送单帧报文。适合在脚本或命令行中快速发送测试帧，支持经典 CAN 2.0 数据帧、RTR 帧以及 CAN FD 帧。"
 ---
 
 # Linux cansend 命令 - 发送 CAN 报文

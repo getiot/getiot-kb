@@ -2,6 +2,7 @@
 sidebar_label: parted 命令
 sidebar_position: 19
 slug: /parted
+description: "parted 是 GNU 组织开发的一个磁盘/硬盘分区操作的程序。它支持多种分区表格式，包括 MS-DOS 和 GPT。可用于为新操作系统创建空间、重新组织磁盘使用（例如调整分区大小）以及将数据复制到新硬盘等操作。"
 ---
 
 # Linux parted 命令 - 管理磁盘分区

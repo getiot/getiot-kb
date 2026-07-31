@@ -2,6 +2,7 @@
 sidebar_label: xrandr 命令
 sidebar_position: 25
 slug: /xrandr
+description: "xrandr 是用于与 X RandR 扩展进行交互的命令行工具。它允许对 X server 进行实时配置（即无需重新启动即可使配置生效），xrandr 提供了显示模式（如分辨率、刷新率等）的自动检测，以及动态配置输出（如调整大小、旋转…"
 ---
 
 # Linux xrandr 命令 - 管理显示输出设置

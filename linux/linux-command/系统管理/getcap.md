@@ -2,6 +2,7 @@
 sidebar_label: getcap 命令
 sidebar_position: 57
 slug: /getcap
+description: "getcap 命令是在 Linux 系统中用于查看文件的特殊权限（capabilities）的工具。通过运行 getcap 命令，你可以查询指定文件或目录上设置的特殊权限。这些特殊权限描述了该文件或目录在执行时是否有一些超出普通权限的能力。"
 ---
 
 # Linux getcap 命令 - 查看文件的特殊权限

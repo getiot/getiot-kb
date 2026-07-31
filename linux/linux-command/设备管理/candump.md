@@ -2,6 +2,7 @@
 sidebar_label: candump 命令
 sidebar_position: 13
 slug: /candump
+description: "candump 命令用于监听 CAN 总线上的报文，并以可读格式在终端输出。它是 CAN 总线调试中最常用的工具之一，支持多接口同时监听、报文过滤、时间戳显示、日志记录以及 CAN FD 报文的解析。"
 ---
 
 # Linux candump 命令 - 抓取并显示 CAN 总线报文

@@ -2,6 +2,7 @@
 sidebar_label: modinfo 命令
 sidebar_position: 28
 slug: /modinfo
+description: "modinfo（英文全拼：module information）命令用于显示指定的 Linux 内核模块的相关信息。"
 ---
 
 # Linux modinfo 命令 - 显示模块信息

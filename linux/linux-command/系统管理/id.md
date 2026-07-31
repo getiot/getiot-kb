@@ -2,6 +2,7 @@
 sidebar_label: id 命令
 sidebar_position: 38
 slug: /id
+description: "id 命令可以显示真实有效的用户 ID（UID）和组 ID（GID）。UID 是对一个用户的单一身份标识。组 ID（GID）则对应多个 UID。id 命令已经默认预装在大多数 Linux 系统中。要使用它，只需要在你的控制台输入 id。"
 ---
 
 # Linux id 命令 - 显示用户 ID 信息

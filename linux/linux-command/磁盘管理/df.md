@@ -2,6 +2,7 @@
 sidebar_label: df 命令
 sidebar_position: 5
 slug: /df
+description: "df（英文全拼：disk free） 命令用于显示目前在 Linux 系统上的文件系统磁盘使用情况统计。"
 ---
 
 # Linux df 命令 - 显示磁盘使用情况

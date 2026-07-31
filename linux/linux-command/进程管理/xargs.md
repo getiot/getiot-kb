@@ -2,6 +2,7 @@
 sidebar_label: xargs 命令
 sidebar_position: 19
 slug: /xargs
+description: "xargs（英文全拼： eXtended ARGuments）是 Linux 系统给命令传递参数的一个过滤器，也是组合多个命令的一个工具，一般是和管道一起使用。"
 ---
 
 # Linux xargs 命令 - 构建并执行命令行参数

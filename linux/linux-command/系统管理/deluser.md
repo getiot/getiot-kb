@@ -2,6 +2,7 @@
 sidebar_label: deluser 命令
 sidebar_position: 13
 slug: /deluser
+description: "在许多 Linux 发行版中，deluser 是一个命令行工具，是对 userdel 和 groupdel 命令进行封装的脚本，用于删除系统中的用户账户。这个命令通常会删除用户的主目录以及与之相关的文件和组。"
 ---
 
 # Linux deluser 命令 - 删除用户

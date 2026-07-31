@@ -2,6 +2,7 @@
 sidebar_label: last 命令
 sidebar_position: 41
 slug: /last
+description: "last 命令用于显示 Linux 系统近期用户或终端的登录情况，通过查看系统记录的日志文件内容，进而使管理员可以获知谁曾经或者企图连接系统。"
 ---
 
 # Linux last 命令 - 显示登录记录

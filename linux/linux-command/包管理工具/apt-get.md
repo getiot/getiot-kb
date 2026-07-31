@@ -2,6 +2,7 @@
 sidebar_label: apt-get 命令
 sidebar_position: 2
 slug: /apt-get
+description: "apt-get 是基于 Debian 的操作系统（包括 Debian、Ubuntu、Linux Mint 等）中用来安装和卸载软件的包管理器命令。主要用于自动从互联网的软件仓库中搜索、安装、升级、卸载软件或操作系统。"
 ---
 
 # Linux apt-get 命令 - APT软件包管理工具

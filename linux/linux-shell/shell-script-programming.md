@@ -1,8 +1,11 @@
 ---
 sidebar_position: 10
+sidebar_label: Shell 脚本编程
+title: Linux Shell 脚本编程规范：结构、参数与健壮性
+description: 从脚本命名、shebang、函数组织到参数处理与出错退出，总结可维护 Bash 脚本的结构与健壮性实践。
 ---
 
-# Shell 脚本编程
+# Linux Shell 脚本编程规范：结构、参数与健壮性
 
 
 

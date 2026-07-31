@@ -2,6 +2,7 @@
 sidebar_label: networkctl 命令
 sidebar_position: 45
 slug: /networkctl
+description: "networkctl（英文全拼：network control）用于查询和控制 Linux 网络子系统，比如查看网络设备及其连接状态的摘要。"
 ---
 
 # Linux networkctl 命令 - 查询控制网络状态

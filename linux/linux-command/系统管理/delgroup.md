@@ -2,6 +2,7 @@
 sidebar_label: delgroup 命令
 sidebar_position: 15
 slug: /delgroup
+description: "在 Linux 系统中，delgroup 命令用于删除用户组（group）。delgroup 在不同的发行版中有不同的实现，它可能是 groupdel 的别名，也可能是一个脚本程序，可以更方便地创建用户组。"
 ---
 
 # Linux delgroup 命令 - 删除用户组

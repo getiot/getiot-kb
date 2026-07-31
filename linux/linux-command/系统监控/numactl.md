@@ -2,6 +2,7 @@
 sidebar_label: numactl 命令
 sidebar_position: 7
 slug: /numactl
+description: "numactl（英文全拼：NUMA Control）命令用于查看当前服务器的 NUMA 节点配置和运行状态，可通过该工具将进程绑定到指定 CPU core，由指定 CPU core 来运行对应进程。"
 ---
 
 # Linux numactl 命令 - 设置 NUMA 策略

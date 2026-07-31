@@ -2,6 +2,7 @@
 sidebar_label: apt-cache 命令
 sidebar_position: 4
 slug: /apt-cache
+description: "apt-cache 命令是一个用于查询 APT 软件包缓存的工具，它提供了有关已安装或可用软件包的信息，包括软件包的描述、依赖关系、版本号、可用性等。"
 ---
 
 # Linux apt-cache 命令 - 查询软件包信息

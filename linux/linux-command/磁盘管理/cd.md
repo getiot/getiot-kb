@@ -2,6 +2,7 @@
 sidebar_label: cd 命令
 sidebar_position: 4
 slug: /cd
+description: "cd（英文全拼：change directory）命令用于切换当前工作目录。"
 ---
 
 # Linux cd 命令 - 切换当前目录

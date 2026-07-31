@@ -2,6 +2,7 @@
 sidebar_label: pkg 命令
 sidebar_position: 8
 slug: /pkg
+description: "pkg 命令是 FreeBSD 操作系统中用于管理软件包的工具，包括安装、升级、删除软件包，以及查询软件包信息等功能。"
 ---
 
 # Linux pkg 命令 - 管理 FreeBSD 软件包

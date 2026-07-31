@@ -2,6 +2,7 @@
 sidebar_label: flatpak 命令
 sidebar_position: 9
 slug: /flatpak
+description: "flatpak 是各种不同的 Linux 发行版上分发和运行应用程序的全新打包格式，并且使用该格式打包的软件可安全运行。你可以访问官网以获得关于 flatpak 打包格式的详细介绍。"
 ---
 
 # Linux flatpak 命令 - 管理 Flatpak 应用程序

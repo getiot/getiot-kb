@@ -2,6 +2,7 @@
 sidebar_label: ethr 命令
 sidebar_position: 34
 slug: /ethr
+description: "Ethr 是一个用 golang 编写的跨平台网络性能测量工具。该项目的目标是提供本机工具，用于跨多种协议（如 TCP、UDP、HTTP、HTTPS 和跨多个平台）对带宽、连接、数据包、延迟、丢失进行全面的网络性能测量。"
 ---
 
 # Linux ethr 命令 - 网络性能测试工具

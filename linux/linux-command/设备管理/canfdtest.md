@@ -2,6 +2,7 @@
 sidebar_label: canfdtest 命令
 sidebar_position: 14
 slug: /canfdtest
+description: "canfdtest 命令是一个 CAN FD 全双工测试程序，包含 DUT（被测设备）端和 Host（主机）端两种工作模式。可用于验证 CAN FD 接口的收发功能、数据完整性和链路可靠性。"
 ---
 
 # Linux canfdtest 命令 - CAN FD 全双工测试

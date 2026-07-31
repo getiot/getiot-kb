@@ -2,6 +2,7 @@
 sidebar_label: ntopng 命令
 sidebar_position: 26
 slug: /ntopng
+description: "ntopng 是 ntop 的下一代版本，它是一个用于监控网络流量的工具。相较于 ntop，ntopng 提供了一个更现代化和交互式的 Web 界面，以及支持更多的功能和详细的统计信息，包括网络流量、协议使用情况、主机信息等。"
 ---
 
 # Linux ntopng 命令 - 网络流量监控分析

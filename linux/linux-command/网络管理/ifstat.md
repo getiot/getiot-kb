@@ -2,6 +2,7 @@
 sidebar_label: ifstat 命令
 sidebar_position: 23
 slug: /ifstat
+description: "ifstat（英文全拼：network interfaces status）是一个统计网络接口活动状态的工具。"
 ---
 
 # Linux ifstat 命令 - 网络接口流量监控

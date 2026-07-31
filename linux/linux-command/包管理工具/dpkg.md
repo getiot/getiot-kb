@@ -2,6 +2,7 @@
 sidebar_label: dpkg 命令
 sidebar_position: 5
 slug: /dpkg
+description: "dpkg（英文全拼：Debian package）命令是 Debian Linux 系统用来安装、创建和管理软件包的实用工具。它是 Debian 软件包管理器的基础，由伊恩·默多克创建于1993年。"
 ---
 
 # Linux dpkg 命令 - 管理 Debian 软件包

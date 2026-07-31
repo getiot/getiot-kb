@@ -2,6 +2,7 @@
 sidebar_label: aplay 命令
 sidebar_position: 1
 slug: /aplay
+description: "aplay 是 Linux 系统中用于播放音频文件的命令行工具。它是 ALSA（Advanced Linux Sound Architecture）项目的一部分，用于与音频设备进行交互。"
 ---
 
 # Linux aplay 命令 - 播放音频文件

@@ -2,6 +2,7 @@
 sidebar_label: gpioset 命令
 sidebar_position: 32
 slug: /gpioset
+description: "gpioset 命令用于设置指定的 GPIO line 的值。"
 ---
 
 # Linux gpioset 命令 - 设置 GPIO 引脚的值

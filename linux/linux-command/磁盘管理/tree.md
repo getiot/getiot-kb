@@ -2,6 +2,7 @@
 sidebar_label: tree 命令
 sidebar_position: 16
 slug: /tree
+description: "tree 命令以树状图列出目录的内容。执行 tree 指令，会列出指定目录下的所有文件，包括子目录里的文件。"
 ---
 
 # Linux tree 命令 - 以树形结构显示目录

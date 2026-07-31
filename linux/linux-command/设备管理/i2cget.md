@@ -2,6 +2,7 @@
 sidebar_label: i2cget 命令
 sidebar_position: 8
 slug: /i2cget
+description: "i2cget 是 Linux 系统中的一个命令行工具，用于从 I2C 设备中读取数据。"
 ---
 
 # Linux i2cget 命令 - 从 I2C 设备读取数据

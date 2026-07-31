@@ -2,6 +2,7 @@
 sidebar_label: alsamixer 命令
 sidebar_position: 4
 slug: /alsamixer
+description: "alsamixer 是 Linux 系统中的一个命令行工具，用于调整 ALSA（Advanced Linux Sound Architecture）音频设置，例如调整音频设备的音量、通道、输入输出等参数。"
 ---
 
 # Linux alsamixer 命令 - ALSA 混音器控制

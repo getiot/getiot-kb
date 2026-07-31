@@ -2,6 +2,7 @@
 sidebar_label: eject 命令
 sidebar_position: 14
 slug: /eject
+description: "eject 命令用于退出抽取式设备。若设备已挂载，则先将该设备卸载再退出。"
 ---
 
 # Linux eject 命令 - 弹出可移动介质

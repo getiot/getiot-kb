@@ -2,6 +2,7 @@
 sidebar_label: ptp4l 命令
 sidebar_position: 11
 slug: /ptp4l
+description: "ptp4l（英文全拼：PTP for Linux）命令用于 PTP 同步。"
 ---
 
 # Linux ptp4l 命令 - PTP 时间同步

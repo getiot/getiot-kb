@@ -2,6 +2,7 @@
 sidebar_label: convert 命令
 sidebar_position: 3
 slug: /convert
+description: "convert 命令用于对图像进行转换，支持包括转换图像格式、调整图像大小、模糊、裁剪、翻转、合并等功能。"
 ---
 
 # Linux convert 命令 - 图像格式转换工具

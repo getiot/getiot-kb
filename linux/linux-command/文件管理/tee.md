@@ -2,6 +2,7 @@
 sidebar_label: tee 命令
 sidebar_position: 20
 slug: /tee
+description: "tee 命令会从标准输入设备读取数据，将其内容输出到标准输出设备，同时保存成文件 。"
 ---
 
 # Linux tee 命令 - 读取并输出到文件

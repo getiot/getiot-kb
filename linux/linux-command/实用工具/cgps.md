@@ -2,6 +2,7 @@
 sidebar_label: cgps 命令
 sidebar_position: 16
 slug: /cgps
+description: "cgps 是 gpsd 软件包中的一个客户端命令行工具，它可以以更友好的方式展示 GPS 数据（NMEA 报文格式），可用于测试 GPS 设备故障情况。"
 ---
 
 # Linux cgps 命令 - 显示 GPS 信息和位置

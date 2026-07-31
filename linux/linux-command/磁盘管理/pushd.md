@@ -2,6 +2,7 @@
 sidebar_label: pushd 命令
 sidebar_position: 7
 slug: /pushd
+description: "Linux pushd 命令将目录压入目录栈，便于在多个目录间快速切换；可与 dirs、popd 配合使用，不带参数时可回到前一个目录。"
 ---
 
 # Linux pushd 命令 - 将目录压入目录栈

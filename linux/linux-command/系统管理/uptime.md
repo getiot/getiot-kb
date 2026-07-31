@@ -2,6 +2,7 @@
 sidebar_label: uptime 命令
 sidebar_position: 16
 slug: /uptime
+description: "uptime 命令用于显示 Linux 系统已运行多久，以及当前用户数与平均负载；可从 utmp 或 /proc/uptime 读取信息，适合运维巡检。"
 ---
 
 # Linux uptime 命令 - 显示系统运行时间

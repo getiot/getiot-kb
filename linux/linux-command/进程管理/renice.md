@@ -2,6 +2,7 @@
 sidebar_label: renice 命令
 sidebar_position: 14
 slug: /renice
+description: "renice 命令用于修改 Linux 系统中正在运行的进程的调度优先级。该命令默认是以进程 PID 指定程序调整其优先权，你也可以指定程序群组或用户名称调整优先权等级，并修改所有隶属于该程序群组或用户的程序的优先级。"
 ---
 
 # Linux renice 命令 - 改变运行中进程的优先级

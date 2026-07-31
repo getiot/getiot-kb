@@ -2,6 +2,7 @@
 sidebar_label: lsblk 命令
 sidebar_position: 2
 slug: /lsblk
+description: "lsblk（英文全拼：list block devices）命令用于列出所有可用块设备的信息，而且还能显示他们之间的依赖关系，但是它不会列出 RAM 盘的信息。常见的块设备包括硬盘、闪存盘、CD-ROM 等等。"
 ---
 
 # Linux lsblk 命令 - 列出块设备信息

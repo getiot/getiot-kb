@@ -2,6 +2,7 @@
 sidebar_label: shutdown 命令
 sidebar_position: 49
 slug: /shutdown
+description: "在 Linux 系统中，shutdown 命令用来系统关机命令。shutdown 指令可以关闭所有程序，并依用户的需要，进行重新开机或关机的动作。"
 ---
 
 # Linux shutdown 命令 - 系统关机命令

@@ -2,6 +2,7 @@
 sidebar_label: free 命令
 sidebar_position: 1
 slug: /free
+description: "free 命令用于显示系统内存的使用情况，包括物理内存、交换内存（swap）和内核缓冲区（buffer）内存。其显示的信息来自 /proc/meminfo 文件。"
 ---
 
 # Linux free 命令 - 显示内存使用情况

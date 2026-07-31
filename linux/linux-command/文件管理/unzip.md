@@ -2,6 +2,7 @@
 sidebar_label: unzip 命令
 sidebar_position: 30
 slug: /unzip
+description: "unzip 命令用于列出、测试和提取 zip 格式存档中的文件。"
 ---
 
 # Linux unzip 命令 - 解压缩 zip 文件

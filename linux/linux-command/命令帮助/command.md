@@ -2,6 +2,7 @@
 sidebar_label: command 命令
 sidebar_position: 6
 slug: /command
+description: "command 命令用于执行一个简单命令或者显示命令的相关信息。command 命令可带 ARGS 参数运行指定的命令且抑制 shell 函数查询或显示。"
 ---
 
 # Linux command 命令 - 执行外部命令

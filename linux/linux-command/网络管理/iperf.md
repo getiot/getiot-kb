@@ -2,6 +2,7 @@
 sidebar_label: iperf 命令
 sidebar_position: 17
 slug: /iperf
+description: "iperf 是一个 Linux 网络性能测试命令行工具。可用于测试 TCP 和 UDP 带宽质量，例如最大 TCP 带宽等多种参数特性，报告带宽、延迟抖动和数据包丢失。"
 ---
 
 # Linux iperf 命令 - 网络带宽测试工具

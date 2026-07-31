@@ -1,8 +1,11 @@
 ---
 sidebar_position: 19
+sidebar_label: 制作 shell 脚本安装包
+title: 制作 Shell 脚本安装包：打包、安装与分发
+description: 介绍如何把 Shell 脚本整理成可安装、可分发的安装包，覆盖打包结构、安装步骤与常见发布注意事项。
 ---
 
-# 制作 shell 脚本安装包
+# 制作 Shell 脚本安装包：打包、安装与分发
 
 
 

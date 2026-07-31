@@ -2,6 +2,7 @@
 sidebar_label: pv 命令
 sidebar_position: 9
 slug: /pv
+description: "pv（英文全拼：pipe viewer）命令用于通过管道监控数据处理的进度信息。这些信息包括已经耗费的时间、完成的百分比（通过进度条显示）、当前的速度、全部传输的数据，以及估计剩余的时间。"
 ---
 
 # Linux pv 命令 - 显示数据传输进度

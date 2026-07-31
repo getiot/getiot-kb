@@ -2,6 +2,7 @@
 sidebar_label: wget 命令
 sidebar_position: 14
 slug: /wget
+description: "wget 是一个用于从 web 下载文件的 Linux 命令行工具。支持 HTTP、HTTPS 和 FTP 协议，可以使用 HTTP 代理。"
 ---
 
 # Linux wget 命令 - 网络文件下载工具

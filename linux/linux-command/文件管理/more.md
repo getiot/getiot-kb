@@ -2,6 +2,7 @@
 sidebar_label: more 命令
 sidebar_position: 7
 slug: /more
+description: "more 命令类似 cat ，不过会以一页一页的形式显示，更方便使用者逐页阅读。"
 ---
 
 # Linux more 命令 - 分页查看文件

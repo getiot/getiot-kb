@@ -2,6 +2,7 @@
 sidebar_label: sysctl 命令
 sidebar_position: 54
 slug: /sysctl
+description: "sysctl（英文全拼：system control）命令被用于在 Linux 内核运行时动态地修改内核的运行参数。"
 ---
 
 # Linux sysctl 命令 - 读取/设置内核参数

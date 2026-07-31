@@ -2,6 +2,7 @@
 sidebar_label: blkid 命令
 sidebar_position: 3
 slug: /blkid
+description: "blkid（英文全称：block id）命令主要用来对系统的块设备（包括交换分区）所使用的文件系统类型、LABEL、UUID 等信息进行查询。"
 ---
 
 # Linux blkid 命令 - 显示块设备信息

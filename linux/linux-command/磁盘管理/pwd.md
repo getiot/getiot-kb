@@ -2,6 +2,7 @@
 sidebar_label: pwd 命令
 sidebar_position: 11
 slug: /pwd
+description: "pwd（英文全拼：print working directory） 命令用于显示用户当前所在的工作目录（以绝对路径显示）。"
 ---
 
 # Linux pwd 命令 - 显示当前工作目录

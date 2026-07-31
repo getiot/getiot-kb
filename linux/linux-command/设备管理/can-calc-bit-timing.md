@@ -2,6 +2,7 @@
 sidebar_label: can-calc-bit-timing 命令
 sidebar_position: 12
 slug: /can-calc-bit-timing
+description: "can-calc-bit-timing 命令用于根据 CAN 控制器型号、系统时钟频率和目标比特率，计算合适的位时序寄存器参数（如 tq、prop_seg、phase_seg1、phase_seg2、sjw 等）。"
 ---
 
 # Linux can-calc-bit-timing 命令 - 计算 CAN 位时序参数

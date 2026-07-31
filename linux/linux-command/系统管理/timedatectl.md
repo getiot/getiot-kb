@@ -2,6 +2,7 @@
 sidebar_label: timedatectl 命令
 sidebar_position: 51
 slug: /timedatectl
+description: "timedatectl（英文全拼：timedate control）命令用于在 Linux 中设置或查询系统时间、日期和时区等配置。"
 ---
 
 # Linux timedatectl 命令 - 时间日期控制

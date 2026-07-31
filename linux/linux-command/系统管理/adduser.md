@@ -2,6 +2,7 @@
 sidebar_label: adduser 命令
 sidebar_position: 12
 slug: /adduser
+description: "adduser 命令用于在 Linux 系统中添加新用户。在一些发行版中，adduser 实际上是 useradd 命令的一个符号链接，而另一些发行版中，adduser 是一个对 useradd、groupadd 和 usermod…"
 ---
 
 # Linux adduser 命令 - 添加新用户

@@ -2,6 +2,7 @@
 sidebar_label: netstat 命令
 sidebar_position: 7
 slug: /netstat
+description: "netstat（英文全拼：network statistics）命令用于显示网络连接、路由表、接口统计、伪连接和组播成员等信息。"
 ---
 
 # Linux netstat 命令 - 显示网络统计信息

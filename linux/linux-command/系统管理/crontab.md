@@ -2,6 +2,7 @@
 sidebar_label: crontab 命令
 sidebar_position: 46
 slug: /crontab
+description: "crontab（英文全拼：cron table）命令用于查看或设定在 Linux 系统中定期执行程序。"
 ---
 
 # Linux crontab 命令 - 定时任务表

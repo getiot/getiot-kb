@@ -2,6 +2,7 @@
 sidebar_label: modpoll 命令
 sidebar_position: 34
 slug: /modpoll
+description: "modpoll 是一个基于 libmodbus 库的 Modbus 主站仿真工具，支持基于串行链路的 Modbus RTU、Modbus ASCII 和基于以太网的 Modbus TCP 协议。"
 ---
 
 # Linux modpoll 命令 - Modbus 测试工具

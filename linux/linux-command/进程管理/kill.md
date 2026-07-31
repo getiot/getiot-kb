@@ -2,6 +2,7 @@
 sidebar_label: kill 命令
 sidebar_position: 4
 slug: /kill
+description: "kill 命令向进程发送信号以结束任务，默认发送 SIGTERM(15)；必要时可用 SIGKILL(9) 强制终止，PID 可通过 ps 或 jobs 查询。"
 ---
 
 # Linux kill 命令 - 终止进程

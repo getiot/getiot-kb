@@ -1,8 +1,11 @@
 ---
 sidebar_position: 1
+sidebar_label: Shell 简介
+title: Linux Shell 简介：历史、种类与运行方式
+description: 介绍 Linux Shell 的概念、发展历史、在系统中的位置，以及 Bash、dash、sh 等常见种类和脚本的几种运行方式。
 ---
 
-# Shell 简介
+# Linux Shell 简介：历史、种类与运行方式
 
 在学习 Linux Shell 编程之前，我们先来了解 Shell 的基本概念和发展历程。
 

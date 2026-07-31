@@ -2,6 +2,7 @@
 sidebar_label: screen 命令
 sidebar_position: 22
 slug: /screen
+description: "screen 命令是一个多重视窗管理程序，这里的“视窗”是指一个全屏幕的文字模式画面。用户可以通过该软件同时连接多个本地或远程的命令行会话（通常是交互式 shell），并在其间自由切换。"
 ---
 
 # Linux screen 命令 - 多窗口终端

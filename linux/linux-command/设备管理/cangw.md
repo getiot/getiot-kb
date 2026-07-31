@@ -2,6 +2,7 @@
 sidebar_label: cangw 命令
 sidebar_position: 16
 slug: /cangw
+description: "cangw 命令用于通过 PF_CAN netlink 接口管理 CAN 网关（Gateway）路由规则。"
 ---
 
 # Linux cangw 命令 - 管理 CAN 网关路由规则

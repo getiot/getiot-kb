@@ -2,6 +2,7 @@
 sidebar_label: who 命令
 sidebar_position: 32
 slug: /who
+description: "who 命令用于显示系统中有哪些使用者正在上面，显示的资料包含了使用者 ID、使用的终端机、从哪边连上来的、上线时间、呆滞时间、CPU 使用量、动作等等。"
 ---
 
 # Linux who 命令 - 显示当前登录用户

@@ -2,6 +2,7 @@
 sidebar_label: mv 命令
 sidebar_position: 17
 slug: /mv
+description: "mv（move）命令用于移动文件或目录，也可对文件重命名；支持覆盖确认等选项，是日常文件管理与脚本中最常用的命令之一。"
 ---
 
 # Linux mv 命令 - 移动或重命名文件

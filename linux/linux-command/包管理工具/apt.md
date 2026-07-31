@@ -2,6 +2,7 @@
 sidebar_label: apt 命令
 sidebar_position: 1
 slug: /apt
+description: "apt（英文全拼：Advanced Packaging Tool）是 Debian/Ubuntu 系统中的 Shell 前端软件包管理器。该命令提供了查找、安装、升级、删除某一个、一组甚至全部软件包的命令，而且命令简洁而又好记。"
 ---
 
 # Linux apt 命令 - APT软件包管理工具

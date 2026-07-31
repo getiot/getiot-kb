@@ -2,6 +2,7 @@
 sidebar_label: size 命令
 sidebar_position: 6
 slug: /size
+description: "Linux 系统中的 size 命令用于显示指定目标文件或可执行文件各段的大小及其总和。"
 ---
 
 # Linux size 命令 - 显示目标文件的大小

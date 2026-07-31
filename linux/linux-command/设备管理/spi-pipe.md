@@ -2,6 +2,7 @@
 sidebar_label: spi-pipe 命令
 sidebar_position: 5
 slug: /spi-pipe
+description: "spi-pipe 命令用于在用户空间进行全双工 SPI 通讯测试。"
 ---
 
 # Linux spi-pipe 命令 - SPI 数据传输工具

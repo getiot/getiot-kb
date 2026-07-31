@@ -2,6 +2,7 @@
 sidebar_label: dwebp 命令
 sidebar_position: 8
 slug: /dwebp
+description: "dwebp（英文全拼：decompress WebP）命令用于将 WebP 格式图片解码成 PNG、PAM、PPM 或 PGM 格式。"
 ---
 
 # Linux dwebp 命令 - 将 WebP 图像转换为其他格式

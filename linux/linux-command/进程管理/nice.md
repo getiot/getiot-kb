@@ -2,6 +2,7 @@
 sidebar_label: nice 命令
 sidebar_position: 13
 slug: /nice
+description: "nice 命令用于指定 Linux 系统进程的调度优先级，即以更改过的优先序来执行程序。如果未指定程序，则会印出目前的排程优先序。nice 值的范围是 [-20, 19]，其中 -20 是最高优先级，19 是最低优先级。"
 ---
 
 # Linux nice 命令 - 设置进程优先级

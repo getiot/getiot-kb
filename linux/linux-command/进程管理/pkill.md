@@ -2,6 +2,7 @@
 sidebar_label: pkill 命令
 sidebar_position: 5
 slug: /pkill
+description: "pkill 用于杀死一个进程，类似于 killall 命令。"
 ---
 
 # Linux pkill 命令 - 根据名称终止进程

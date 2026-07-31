@@ -2,6 +2,7 @@
 sidebar_label: stty 命令
 sidebar_position: 22
 slug: /stty
+description: "stty（英文全拼：set tty）命令用于显示和修改终端命令行（terminal line）的相关设置。"
 ---
 
 # Linux stty 命令 - 配置终端行属性

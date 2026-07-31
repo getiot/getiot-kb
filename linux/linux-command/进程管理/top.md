@@ -2,6 +2,7 @@
 sidebar_label: top 命令
 sidebar_position: 2
 slug: /top
+description: "top 命令可动态实时显示 Linux 进程状态、CPU 与内存占用，适合排查负载过高、定位占用资源的进程。"
 ---
 
 # Linux top 命令 - 实时显示进程和系统状态

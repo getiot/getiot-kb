@@ -2,6 +2,7 @@
 sidebar_label: nmcli 命令
 sidebar_position: 40
 slug: /nmcli
+description: "nmcli 是 NetworkManager 网络管理客户端附带的一个命令行工具。使用 nmcli 命令，可以完成网络设备上的所有配置，并写入配置文件中。"
 ---
 
 # Linux nmcli 命令 - 网络管理配置工具

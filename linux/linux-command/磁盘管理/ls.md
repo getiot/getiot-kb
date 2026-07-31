@@ -2,6 +2,7 @@
 sidebar_label: ls 命令
 sidebar_position: 1
 slug: /ls
+description: "ls（英文全拼：list files）命令用于显示指定工作目录下之内容（列出目前工作目录所含之文件及子目录)，在 Linux 中是使用率较高的命令。ls 命令的输出信息可以进行彩色加亮显示，以分区不同类型的文件。"
 ---
 
 # Linux ls 命令 - 列出目录内容

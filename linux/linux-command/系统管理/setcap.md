@@ -2,6 +2,7 @@
 sidebar_label: setcap 命令
 sidebar_position: 56
 slug: /setcap
+description: "setcap（英文全拼：set capabilities）是在 Linux 系统中用于设置特殊权限的命令工具。它允许普通用户在执行特定程序时获得一些超过其正常权限的能力。"
 ---
 
 # Linux setcap 命令 - 设置文件特殊权限

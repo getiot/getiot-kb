@@ -2,6 +2,7 @@
 sidebar_label: grep 命令
 sidebar_position: 11
 slug: /grep
+description: "grep（英文全拼：Global Regular Expression Print）命令是一个强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。"
 ---
 
 # Linux grep 命令 - 搜索文本内容

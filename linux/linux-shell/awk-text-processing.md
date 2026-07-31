@@ -1,8 +1,11 @@
 ---
 sidebar_position: 17
+sidebar_label: awk 文本处理
+title: Linux awk 文本处理：按字段提取、过滤与统计
+description: 介绍 awk 按行按字段处理文本的方法，包括 FS/OFS、BEGIN/END、模式动作，以及日志与 CSV 的常见统计示例。
 ---
 
-# awk 文本处理
+# Linux awk 文本处理：按字段提取、过滤与统计
 
 `awk` 是一门面向文本的小型编程语言，也是一条命令。它的强项是：**按行扫描，按字段拆分，再打印或计算**。处理日志、CSV、命令输出时，比一层层管道嵌套往往更清晰。
 

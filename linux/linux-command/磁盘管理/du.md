@@ -2,6 +2,7 @@
 sidebar_label: du 命令
 sidebar_position: 9
 slug: /du
+description: "du（英文全拼：disk usage）命令用于显示指定的目录或文件所占用的磁盘空间。"
 ---
 
 # Linux du 命令 - 显示文件和目录大小

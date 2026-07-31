@@ -2,6 +2,7 @@
 sidebar_label: canlogserver 命令
 sidebar_position: 17
 slug: /canlogserver
+description: "canlogserver 命令用于在指定端口上启动 CAN 报文日志网络服务，将接收到的 CAN 帧通过网络转发给远程客户端。适合在嵌入式设备上集中采集总线数据，或配合远程分析工具使用。"
 ---
 
 # Linux canlogserver 命令 - CAN 报文日志网络服务

@@ -2,6 +2,7 @@
 sidebar_label: touch 命令
 sidebar_position: 14
 slug: /touch
+description: "touch 命令有两个功能：一是创建新的空文件，二是改变已有文件的时间戳属性。"
 ---
 
 # Linux touch 命令 - 创建或更新文件

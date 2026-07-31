@@ -2,6 +2,7 @@
 sidebar_label: minicom 命令
 sidebar_position: 23
 slug: /minicom
+description: "Minicom 是 Linux 下一款常用的命令行串口调试工具。其功能与 Windows 下的超级终端相似，可以通过串口控制外部的硬件设备，通常用于对嵌入式设备进行管理。"
 ---
 
 # Linux minicom 命令 - 串口调试工具

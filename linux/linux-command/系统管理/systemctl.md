@@ -2,6 +2,7 @@
 sidebar_label: systemctl 命令
 sidebar_position: 50
 slug: /systemctl
+description: "systemctl（英文全拼：system control）用于控制 systemd 系统和管理服务。"
 ---
 
 # Linux systemctl 命令 - 系统和服务管理

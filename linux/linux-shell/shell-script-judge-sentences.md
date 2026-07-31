@@ -1,8 +1,11 @@
 ---
 sidebar_position: 7
+sidebar_label: Shell 判断语句
+title: Linux Shell 判断语句：if、case 与条件测试
+description: "讲解 Shell 中 if/elif/else、case 分支以及 test/[ ]/[[ ]] 条件判断，帮助你编写清晰的分支逻辑。"
 ---
 
-# Shell 判断语句
+# Linux Shell 判断语句：if、case 与条件测试
 
 
 

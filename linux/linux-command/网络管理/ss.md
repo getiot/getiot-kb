@@ -2,6 +2,7 @@
 sidebar_label: ss 命令
 sidebar_position: 46
 slug: /ss
+description: "ss（英文全拼：socket statistics）命令用于获取 socket 统计信息，其输出的结果类似于 netstat 输出的内容，但能显示更多、更详细的 TCP 连接状态的信息，而且比 netstat 更快速高效。"
 ---
 
 # Linux ss 命令 - 显示套接字统计信息

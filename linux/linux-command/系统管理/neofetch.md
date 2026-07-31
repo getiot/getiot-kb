@@ -2,6 +2,7 @@
 sidebar_label: neofetch 命令
 sidebar_position: 31
 slug: /neofetch
+description: "Neofetch 是一个快速、高度可定制的系统信息脚本，用 Bash 编写。主要用于系统信息的截图，支持 Linux、BSD、Mac OS X、iOS 和 Windows 操作系统。"
 ---
 
 # Linux neofetch 命令 - 系统信息展示

@@ -2,6 +2,7 @@
 sidebar_label: dos2unix 命令
 sidebar_position: 5
 slug: /dos2unix
+description: "dos2unix 是一个 DOS/Mac - Unix 文件格式转换器。"
 ---
 
 # Linux dos2unix 命令 - 转换文本文件格式

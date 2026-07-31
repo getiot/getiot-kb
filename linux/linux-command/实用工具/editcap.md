@@ -2,6 +2,7 @@
 sidebar_label: editcap 命令
 sidebar_position: 21
 slug: /editcap
+description: "editcap 是 Wireshark 工具集中的一个命令，用于编辑 pcap 文件（网络捕获文件），包括截断、拆分、过滤等操作。这个命令允许你对捕获的网络流量进行一些基本的编辑，以便更好地分析和处理。"
 ---
 
 # Linux editcap 命令 - 编辑和转换 pcap 文件

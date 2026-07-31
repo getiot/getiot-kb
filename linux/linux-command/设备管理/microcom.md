@@ -2,6 +2,7 @@
 sidebar_label: microcom 命令
 sidebar_position: 24
 slug: /microcom
+description: "microcom 是一个用于与串行调制解调器通信的命令。我们可以把 microcom 理解为是一个在终端命令行运行的串口调试助手，在调试串口时非常有用，例如调试 AT 指令。"
 ---
 
 # Linux microcom 命令 - 串口通信工具

@@ -2,6 +2,7 @@
 sidebar_label: ufw 命令
 sidebar_position: 36
 slug: /ufw
+description: "ufw（英文全拼：Uncomplicated Firewall）命令用于管理 Linux 系统防火墙服务。"
 ---
 
 # Linux ufw 命令 - 防火墙配置管理工具

@@ -2,6 +2,7 @@
 sidebar_label: speedtest 命令
 sidebar_position: 18
 slug: /speedtest
+description: "speedtest 是一个测试网络速度的命令行工具，可在本地测量 Internet 连接性能指标，例如下载、上传、延迟和数据包丢失等，无需依赖 Web 浏览器。"
 ---
 
 # Linux speedtest 命令 - 网络速度测试工具

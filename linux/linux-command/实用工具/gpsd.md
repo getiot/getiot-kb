@@ -2,6 +2,7 @@
 sidebar_label: gpsd 命令
 sidebar_position: 15
 slug: /gpsd
+description: "gpsd（英文全拼：GPS daemon）是 Linux 系统中用于接收和处理 GPS 数据的守护进程，它可以监控通过串口或 USB 端口连接到主机计算机上的一个或多个 GPS 或 AIS 接收器，并将所有 GPS 传感器位置、航向…"
 ---
 
 # Linux gpsd 命令 - 管理 GPS 接收器服务

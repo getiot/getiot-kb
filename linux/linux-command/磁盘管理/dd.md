@@ -2,6 +2,7 @@
 sidebar_label: dd 命令
 sidebar_position: 24
 slug: /dd
+description: "dd（英文全拼：disk dump）命令用于读取、转换并输出数据。可从标准输入或文件中读取数据，根据指定的格式来转换数据，再输出到文件、设备或标准输出。"
 ---
 
 # Linux dd 命令 - 数据复制和转换

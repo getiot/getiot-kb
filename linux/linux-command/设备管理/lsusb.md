@@ -2,6 +2,7 @@
 sidebar_label: lsusb 命令
 sidebar_position: 1
 slug: /lsusb
+description: "lsusb 命令用于显示当前主机的 USB 设备列表，以及 USB 设备的详细信息。"
 ---
 
 # Linux lsusb 命令 - 列出 USB 设备信息

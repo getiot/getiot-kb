@@ -2,6 +2,7 @@
 sidebar_label: poweroff 命令
 sidebar_position: 48
 slug: /poweroff
+description: "在 Linux 系统中，poweroff 命令用来关闭计算机操作系统并且切断系统电源。如果确认系统中已经没有用户存在且所有数据都已保存，需要立即关闭系统，可以使用 poweroff 命令。"
 ---
 
 # Linux poweroff 命令 - 关闭系统电源

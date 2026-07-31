@@ -2,6 +2,7 @@
 sidebar_label: read 命令
 sidebar_position: 12
 slug: /read
+description: "read 是 Bash 内建命令，用于从标准输入读取一行数据，可接收键盘输入，也可在重定向时逐行读取文件，常用于交互式脚本。"
 ---
 
 # Linux read 命令 - 读取用户输入

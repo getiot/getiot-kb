@@ -2,6 +2,7 @@
 sidebar_label: amixer 命令
 sidebar_position: 3
 slug: /amixer
+description: "amixer 是 Linux 系统中的一个命令行工具，用于调整音频设置，包括音量、音频输入和输出设备等。它是 ALSA（Advanced Linux Sound Architecture）项目的一部分。"
 ---
 
 # Linux amixer 命令 - ALSA 音频控制

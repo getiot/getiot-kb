@@ -2,6 +2,7 @@
 sidebar_label: swapon 命令
 sidebar_position: 25
 slug: /swapon
+description: "swapon 命令用于检查或启用 Linux 系统中用于分页和交换的设备和文件。"
 ---
 
 # Linux swapon 命令 - 启用交换空间

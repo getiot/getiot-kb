@@ -2,6 +2,7 @@
 sidebar_label: nmtui 命令
 sidebar_position: 41
 slug: /nmtui
+description: "nmtui 是 NetworkManager 网络管理客户端附带的一个命令行工具。它是一个基于 Curses 的 TUI（Text User Interface）应用程序，用于与 NetworkManager 交互。"
 ---
 
 # Linux nmtui 命令 - 文本界面网络设置

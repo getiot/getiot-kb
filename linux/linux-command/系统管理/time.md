@@ -2,6 +2,7 @@
 sidebar_label: time 命令
 sidebar_position: 17
 slug: /time
+description: "time 命令用于计算特定指令执行时所需消耗的时间及系统资源等数据。例如 cpu 时间、内存、IO 资源等。"
 ---
 
 # Linux time 命令 - 统计命令执行时间

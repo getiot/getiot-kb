@@ -2,6 +2,7 @@
 sidebar_label: gpspipe 命令
 sidebar_position: 18
 slug: /gpspipe
+description: "gpspipe（英文全拼：GPS pipe）是 GPSD 软件包中的一个命令行工具，用于连接 gpsd 守护进程并将接收到的数据输出到 stdout。"
 ---
 
 # Linux gpspipe 命令 - 显示 GPS 数据流

@@ -2,6 +2,7 @@
 sidebar_label: history 命令
 sidebar_position: 40
 slug: /history
+description: "history 命令用于列出当前用户的历史操作记录。可带数字参数用于指定需要查看的最近的命令条目。"
 ---
 
 # Linux history 命令 - 显示命令历史

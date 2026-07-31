@@ -2,6 +2,7 @@
 sidebar_label: sed 命令
 sidebar_position: 23
 slug: /sed
+description: "sed（流编辑器）是一个在 Linux 和 Unix 系统上广泛使用的文本处理工具。它允许用户通过脚本或命令行对文本进行基本的编辑和转换。sed 主要用于处理文本流，它可以从输入流中读取文本，对文本进行处理，并将处理后的文本送到输出流。"
 ---
 
 # Linux sed 命令 - 流编辑器

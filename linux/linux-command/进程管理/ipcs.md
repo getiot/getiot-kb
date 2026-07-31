@@ -2,6 +2,7 @@
 sidebar_label: ipcs 命令
 sidebar_position: 7
 slug: /ipcs
+description: "ipcs 命令用于报告 Linux 中进程间通信设施的状态，显示的信息包括消息列表、共享内存和信号量的信息。"
 ---
 
 # Linux ipcs 命令 - 显示系统 IPC 资源信息

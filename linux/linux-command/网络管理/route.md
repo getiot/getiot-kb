@@ -2,6 +2,7 @@
 sidebar_label: route 命令
 sidebar_position: 4
 slug: /route
+description: "route 命令用于显示和操作 Linux 内核 IP 路由表。它的主要用途是在使用 ifconfig 程序配置后，设置一个网络接口（网卡）到特定主机或网络的静态路由。"
 ---
 
 # Linux route 命令 - 显示或操作 IP 路由表

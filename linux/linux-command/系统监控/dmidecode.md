@@ -2,6 +2,7 @@
 sidebar_label: dmidecode 命令
 sidebar_position: 5
 slug: /dmidecode
+description: "dmidecode 命令主要是通过 DMI 获取 Linux 主机的硬件信息。遵循 SMBIOS/DMI 标准，输出的信息包括 BIOS、系统、主板、处理器、内存、缓存等等。"
 ---
 
 # Linux dmidecode 命令 - 读取 DMI 信息

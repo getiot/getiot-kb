@@ -1,8 +1,11 @@
 ---
 sidebar_position: 4
+sidebar_label: Shell 变量
+title: Linux Shell 变量教程：定义、引用与环境变量
+description: "学习 Shell 变量的定义、引用、作用域与环境变量，掌握 $VAR、${VAR}、只读变量和常见内置变量的用法。"
 ---
 
-# Shell 变量
+# Linux Shell 变量教程：定义、引用与环境变量
 
 
 

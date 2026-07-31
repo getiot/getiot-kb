@@ -2,6 +2,7 @@
 sidebar_label: telnet 命令
 sidebar_position: 9
 slug: /telnet
+description: "telnet 命令用于登录远程主机，并对远程主机进行管理。但由于 telnet 采用明文传送报文，安全性不好，因此通常会使用更安全的 ssh 方式登录远程主机。如今，很多 Linux 服务器都已经不开放 telnet 服务。"
 ---
 
 # Linux telnet 命令 - 远程登录协议命令

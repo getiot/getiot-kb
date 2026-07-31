@@ -2,6 +2,7 @@
 sidebar_label: gpiofind 命令
 sidebar_position: 28
 slug: /gpiofind
+description: "gpiofind 命令用于通过名称找到对应的 gpiochip 及行内偏移量。"
 ---
 
 # Linux gpiofind 命令 - 查找指定名称的 GPIO 引脚

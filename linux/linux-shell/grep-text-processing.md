@@ -1,8 +1,11 @@
 ---
 sidebar_position: 15
+sidebar_label: grep 文本处理
+title: Linux grep 文本处理：查找、过滤与正则匹配
+description: 用 grep 在文件和管道中查找文本，掌握 -i、-n、-E、-o 等常用选项，以及在 Shell 脚本中用退出码做判断。
 ---
 
-# grep 文本处理
+# Linux grep 文本处理：查找、过滤与正则匹配
 
 `grep` 用来在文本中按模式查找行。名字来自编辑器里的 `g/re/p`（global / regular expression / print）。写脚本、查日志、过滤命令输出时，它几乎是第一选择。
 

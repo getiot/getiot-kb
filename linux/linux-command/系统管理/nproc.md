@@ -2,6 +2,7 @@
 sidebar_label: nproc 命令
 sidebar_position: 52
 slug: /nproc
+description: "nproc 命令用于打印 Linux 系统当前进程可用的处理器数，注意此数目可能小于实际的 CPU 核心数。"
 ---
 
 # Linux nproc 命令 - 显示可用处理器数

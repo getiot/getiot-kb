@@ -2,6 +2,7 @@
 sidebar_label: useradd 命令
 sidebar_position: 6
 slug: /useradd
+description: "在 Linux 系统中，useradd 命令用来创建新的用户或更改用户的信息。"
 ---
 
 # Linux useradd 命令 - 添加新用户

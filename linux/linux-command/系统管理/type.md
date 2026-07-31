@@ -2,6 +2,7 @@
 sidebar_label: type 命令
 sidebar_position: 39
 slug: /type
+description: "type 命令用于显示指定命令的类型，判断给出的指令是内部指令还是外部指令。"
 ---
 
 # Linux type 命令 - 显示命令类型

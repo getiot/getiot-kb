@@ -2,6 +2,7 @@
 sidebar_label: locale 命令
 sidebar_position: 55
 slug: /locale
+description: "locale 命令用于显示 Linux 系统本地语言环境等有关信息。如果未指定任何选项与参数，locale 将会显示 LC_* 系列环境变量表示的每个本地语言环境类别的当前设置。"
 ---
 
 # Linux locale 命令 - 显示区域设置

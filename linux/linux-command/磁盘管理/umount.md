@@ -2,6 +2,7 @@
 sidebar_label: umount 命令
 sidebar_position: 13
 slug: /umount
+description: "umount（英文全拼：unmount）命令用于卸载文件系统。"
 ---
 
 # Linux umount 命令 - 卸载文件系统

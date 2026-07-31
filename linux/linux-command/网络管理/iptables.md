@@ -2,6 +2,7 @@
 sidebar_label: iptables 命令
 sidebar_position: 35
 slug: /iptables
+description: "iptables 是 Linux 系统常用的防火墙软件，是 netfilter 项目的一部分。可以直接配置，也可以通过许多前端和图形界面配置。实际上，iptables 只是一个应用层的网络配置工具，它需要内核的支持才能正常工作。"
 ---
 
 # Linux iptables 命令 - 配置 Linux 防火墙

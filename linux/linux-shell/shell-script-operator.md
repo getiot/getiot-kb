@@ -1,8 +1,11 @@
 ---
 sidebar_position: 6
+sidebar_label: Shell 运算符
+title: Linux Shell 运算符：算术、关系与逻辑运算
+description: "汇总 Shell 常用运算符，包括算术运算、关系比较、布尔逻辑以及 expr、$(())、[[]] 等写法与注意事项。"
 ---
 
-# Shell 运算符
+# Linux Shell 运算符：算术、关系与逻辑运算
 
 
 

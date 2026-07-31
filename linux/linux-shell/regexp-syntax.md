@@ -1,8 +1,11 @@
 ---
 sidebar_position: 14
+sidebar_label: 正则表达式
+title: Linux 正则表达式入门：BRE、ERE 与常用元字符
+description: "入门 Linux 正则表达式，区分通配符与正则、BRE/ERE 差异，掌握 .[]^$*+?{}|() 等元字符及 Bash =~ 匹配。"
 ---
 
-# 正则表达式
+# Linux 正则表达式入门：BRE、ERE 与常用元字符
 
 正则表达式（Regular Expression，常简称 regex / regexp）是一套描述文本模式的规则。在 Shell 编程里，它经常出现在 `grep`、`sed`、`awk`，以及 Bash 的 `=~` 匹配中。
 

@@ -2,6 +2,7 @@
 sidebar_label: cwebp 命令
 sidebar_position: 7
 slug: /cwebp
+description: "cwebp（英文全拼：compress WebP）命令用于将 JPEG、PNG 或 TIFF 格式的图片编码成 WebP 格式。"
 ---
 
 # Linux cwebp 命令 - 将图像转换为 WebP 格式

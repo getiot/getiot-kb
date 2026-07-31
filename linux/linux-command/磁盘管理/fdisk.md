@@ -2,6 +2,7 @@
 sidebar_label: fdisk 命令
 sidebar_position: 17
 slug: /fdisk
+description: "fdisk 是一个创建和维护分区表的程序，它兼容 DOS 类型的分区表、BSD 或者 SUN 类型的磁盘列表。"
 ---
 
 # Linux fdisk 命令 - 管理磁盘分区表

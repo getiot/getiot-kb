@@ -2,6 +2,7 @@
 sidebar_label: mkfs 命令
 sidebar_position: 23
 slug: /mkfs
+description: "mkfs（英文全拼：make file system）命令用于在特定的分区上建立 Linux 文件系统。"
 ---
 
 # Linux mkfs 命令 - 创建文件系统

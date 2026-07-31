@@ -2,6 +2,7 @@
 sidebar_label: find 命令
 sidebar_position: 10
 slug: /find
+description: "find 命令是 Linux 系统管理员中最强大的工具之一。find 命令会根据用户指定的表达式（权限、类型、日期、所有权、大小等条件）在目录层次结构中搜索文件和目录，并且可以对每个匹配的文件执行用户指定的操作。"
 ---
 
 # Linux find 命令 - 查找文件或目录

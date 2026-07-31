@@ -2,6 +2,7 @@
 sidebar_label: strace 命令
 sidebar_position: 5
 slug: /strace
+description: "strace（英文全拼：system trace）是 Linux 系统中一个功能强大的调试、分析、诊断工具，可以对系统调用和信号传递的跟踪结果进行分析，从而解决问题。"
 ---
 
 # Linux strace 命令 - 跟踪系统调用和信号

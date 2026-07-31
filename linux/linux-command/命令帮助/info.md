@@ -2,6 +2,7 @@
 sidebar_label: info 命令
 sidebar_position: 2
 slug: /info
+description: "info（英文全拼：informations）命令用于阅读 Linux 下 info 格式的帮助信息。"
 ---
 
 # Linux info 命令 - 查看命令和程序的文档

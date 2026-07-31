@@ -2,6 +2,7 @@
 sidebar_label: chmod 命令
 sidebar_position: 4
 slug: /chmod
+description: "chmod（英文全拼：change mode）是 Linux 系统中用于改变文件权限的一个命令。对于文件或者目录的普通权限，共有 3 种，分别是 r（读取）、w（写入）和 x（执行）。"
 ---
 
 # Linux chmod 命令 - 改变文件权限

@@ -2,6 +2,7 @@
 sidebar_label: vim 命令
 sidebar_position: 18
 slug: /vim
+description: "vim 是 Linux 系统中非常流行的一个文本编辑器，绝大多数 Linux 系统都会内置 vim。"
 ---
 
 # Linux vim 命令 - 文本编辑器

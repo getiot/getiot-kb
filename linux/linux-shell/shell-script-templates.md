@@ -1,8 +1,11 @@
 ---
 sidebar_position: 18
+sidebar_label: shell 脚本示例
+title: Linux Shell 脚本示例：服务脚本与 getopts 参数解析
+description: 提供可复用的 Shell 脚本模板，包括 SysV 风格守护进程服务脚本，以及 getopts 解析命令行选项的完整示例。
 ---
 
-# shell 脚本示例
+# Linux Shell 脚本示例：服务脚本与 getopts 参数解析
 
 
 

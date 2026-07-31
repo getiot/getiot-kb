@@ -2,6 +2,7 @@
 sidebar_label: zip 命令
 sidebar_position: 29
 slug: /zip
+description: "zip 命令用于打包和压缩文件，压缩后的文件后缀名为 .zip。"
 ---
 
 # Linux zip 命令 - 压缩文件为 zip 格式

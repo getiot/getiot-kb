@@ -2,6 +2,7 @@
 sidebar_label: ln 命令
 sidebar_position: 32
 slug: /ln
+description: "ln（英文全拼：link）命令是 Linux 系统中非常重要的命令，它的作用是为某一个文件在另一个位置建立一个同步的链接。"
 ---
 
 # Linux ln 命令 - 创建文件链接

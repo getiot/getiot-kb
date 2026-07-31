@@ -2,6 +2,7 @@
 sidebar_label: head 命令
 sidebar_position: 24
 slug: /head
+description: "head 命令可用于查看文件的开头部分的内容，默认显示前 10 行的内容。"
 ---
 
 # Linux head 命令 - 显示文件头部

@@ -2,6 +2,7 @@
 sidebar_label: umask 命令
 sidebar_position: 13
 slug: /umask
+description: "umask 命令用于显示或设置创建文件的权限掩码。在 Linux 系统中，权限掩码是由3个八进制的数字所组成，将现有的存取权限减掉权限掩码后，即可产生建立文件时预设的权限。"
 ---
 
 # Linux umask 命令 - 设置文件权限掩码

@@ -2,6 +2,7 @@
 sidebar_label: rsync 命令
 sidebar_position: 22
 slug: /rsync
+description: "rsync（英文全拼：remote synchronize）是 Linux 系统中的一个远程数据同步工具，可通过 LAN/WAN 快速同步多台主机间的文件。"
 ---
 
 # Linux rsync 命令 - 远程数据同步工具

@@ -2,6 +2,7 @@
 sidebar_label: snap 命令
 sidebar_position: 10
 slug: /snap
+description: "Snap 是 Canonical（开发 Ubuntu 系统的公司）推出的一种新的软件打包格式，其目的是为了彻底解决 Linux 依赖性的问题，Snap 软件包拥有更加稳定和安全的特性。"
 ---
 
 # Linux snap 命令 - 管理 Snap 应用包

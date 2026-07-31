@@ -2,6 +2,7 @@
 sidebar_label: declare 命令
 sidebar_position: 8
 slug: /declare
+description: "在 Linux 中，declare 命令主要用于声明变量的属性，尤其是在 Shell 脚本编程中。它有几个用途，包括声明变量的类型、属性和设置变量的值。declare 命令若不带任何参数选项，则会显示所有 Shell 变量及其值。"
 ---
 
 # Linux declare 命令 - 声明变量和属性

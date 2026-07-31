@@ -2,6 +2,7 @@
 sidebar_label: netcat 命令
 sidebar_position: 28
 slug: /netcat
+description: "netcat（别名：nc）是 Linux 下的一个多功能的网络工具，可用于与 TCP 或 UDP 相关的各种任务，例如创建连接和侦听、执行端口扫描，以及处理 IPv4 和 IPv6 等。"
 ---
 
 # Linux netcat 命令 - 多功能网络工具

@@ -2,6 +2,7 @@
 sidebar_label: redshift 命令
 sidebar_position: 10
 slug: /redshift
+description: "Linux 中的 redshift 命令可以根据一天中的时间设置显示器的色温。它通过改变显示器配色和亮度来加强用户夜间坐在屏幕前的体验，减少由于显示屏对眼睛造成的压力。"
 ---
 
 # Linux redshift 命令 - 护眼色温调节工具

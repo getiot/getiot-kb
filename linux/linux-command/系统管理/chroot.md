@@ -2,6 +2,7 @@
 sidebar_label: chroot 命令
 sidebar_position: 44
 slug: /chroot
+description: "chroot（英文全称：change root directory）命令用于改变根目录。"
 ---
 
 # Linux chroot 命令 - 改变根目录

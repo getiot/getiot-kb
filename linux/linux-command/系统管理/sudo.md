@@ -2,6 +2,7 @@
 sidebar_label: sudo 命令
 sidebar_position: 37
 slug: /sudo
+description: "在 Linux 系统中，sudo 是一种权限管理机制，管理员可以授权于一些普通用户去执行一些 root 执行的操作，而不需要知道 root 的密码。"
 ---
 
 # Linux sudo 命令 - 以超级用户执行

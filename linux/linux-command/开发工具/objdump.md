@@ -2,6 +2,7 @@
 sidebar_label: objdump 命令
 sidebar_position: 4
 slug: /objdump
+description: "objdump 命令用于显示二进制目标文件的信息，也就是以一种可阅读的格式让开发者更多地了解二进制文件可能带有的附加信息。它是 GNU Binutils 工具集中的一个命令。"
 ---
 
 # Linux objdump 命令 - 显示目标文件信息

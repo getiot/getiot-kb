@@ -2,6 +2,7 @@
 sidebar_label: i2cdump 命令
 sidebar_position: 7
 slug: /i2cdump
+description: "i2cdump 命令用于在 Linux 系统用户空间读取连接到系统的 I2C 设备的数据，并以可读的格式显示 I2C 设备的寄存器内容。"
 ---
 
 # Linux i2cdump 命令 - 显示 I2C 设备的寄存器内容

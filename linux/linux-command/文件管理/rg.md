@@ -2,6 +2,7 @@
 sidebar_label: rg 命令
 sidebar_position: 35
 slug: /rg
+description: "rg（ripgrep）是一个高性能的文本搜索工具，用于在目录中递归搜索匹配正则表达式的行。相比传统 grep，rg 默认自动跳过隐藏文件、二进制文件，并尊重 .gitignore 规则，搜索速度更快，适合在大型代码库中日常使用。"
 ---
 
 # Linux rg 命令 - 快速递归搜索文本

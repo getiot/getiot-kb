@@ -2,6 +2,7 @@
 sidebar_label: dirs 命令
 sidebar_position: 6
 slug: /dirs
+description: "dirs 命令用于显示当前记住的目录列表（目录栈）。通过 pushd 命令可以将目录存入列表中；popd 命令可用于遍历弹出列表。"
 ---
 
 # Linux dirs 命令 - 显示当前目录栈

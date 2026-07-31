@@ -2,6 +2,7 @@
 sidebar_label: groupmod 命令
 sidebar_position: 11
 slug: /groupmod
+description: "groupmod 命令用于在 Linux 系统中修改用户组的属性。通过 groupmod 命令，管理员可以更改用户组的名称或 GID（组 ID），以及其他一些属性。"
 ---
 
 # Linux groupmod 命令 - 修改用户组

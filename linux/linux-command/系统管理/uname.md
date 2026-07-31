@@ -2,6 +2,7 @@
 sidebar_label: uname 命令
 sidebar_position: 20
 slug: /uname
+description: "uname 是一个 Linux 命令，用于显示操作系统和内核的相关信息，包括内核名称、操作系统类型、内核版本等。它是一个非常有用的工具，可以快速获取关于系统的基本信息。"
 ---
 
 # Linux uname 命令 - 显示系统信息

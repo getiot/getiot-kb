@@ -2,6 +2,7 @@
 sidebar_label: debootstrap 命令
 sidebar_position: 19
 slug: /debootstrap
+description: "debootstrap 是 Debian/Ubuntu 下的一个工具，用于构建一套基本的系统（根文件系统）。"
 ---
 
 # Linux debootstrap 命令 - 创建 Debian 基础文件系统

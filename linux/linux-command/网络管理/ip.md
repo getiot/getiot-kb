@@ -2,6 +2,7 @@
 sidebar_label: ip 命令
 sidebar_position: 3
 slug: /ip
+description: "ip 命令是 Linux 系统中的一个网络配置工具，主要用于显示或设置网络设备，功能非常全面，可完全替代 ifconfig 命令。"
 ---
 
 # Linux ip 命令 - 显示或设置网络设备

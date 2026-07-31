@@ -1,8 +1,11 @@
 ---
 sidebar_position: 11
+sidebar_label: Shell 传递参数
+title: "Linux Shell 传递参数：$1、$@ 与 shift"
+description: "说明 Shell 位置参数 $0、$1、$#、$@、$* 的区别，以及用 shift 处理超过 9 个参数的方法与示例。"
 ---
 
-# Shell 传递参数
+# Linux Shell 传递参数：$1、$@ 与 shift
 
 
 

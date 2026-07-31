@@ -2,6 +2,7 @@
 sidebar_label: mc 命令
 sidebar_position: 28
 slug: /mc
+description: "mc（英文全拼：Midnight Commander）是一个基于字符的目录浏览器和文件管理器。"
 ---
 
 # Linux mc 命令 - 字符界面文件管理器

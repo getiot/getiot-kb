@@ -2,6 +2,7 @@
 sidebar_label: colordiff 命令
 sidebar_position: 34
 slug: /colordiff
+description: "colordiff 是 diff 命令的包装工具，在终端中以彩色高亮显示文件差异，使新增、删除和修改的行更容易辨认。它接受与 diff 相同的参数，适合在代码审查、补丁对比等场景中使用。"
 ---
 
 # Linux colordiff 命令 - 彩色显示文件差异

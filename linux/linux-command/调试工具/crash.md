@@ -2,6 +2,7 @@
 sidebar_label: crash 命令
 sidebar_position: 9
 slug: /crash
+description: "crash 是一个用于交互式分析 Linux 内核崩溃转储（vmcore）和运行中内核状态的调试工具。"
 ---
 
 # Linux crash 命令 - 分析内核崩溃转储

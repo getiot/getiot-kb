@@ -2,6 +2,7 @@
 sidebar_label: man 命令
 sidebar_position: 1
 slug: /man
+description: "man（英文全拼：manuals）命令用于列出指定命令的说明文档，内容包括命令描述、语法、选项说明及相关命令等。"
 ---
 
 # Linux man 命令 - 查看命令手册页

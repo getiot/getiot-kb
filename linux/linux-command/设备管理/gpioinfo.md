@@ -2,6 +2,7 @@
 sidebar_label: gpioinfo 命令
 sidebar_position: 30
 slug: /gpioinfo
+description: "gpioinfo 命令用于列出指定 gpiochip 的所有 line，以及它们的名称、使用者、方向、活动状态和其他标志。"
 ---
 
 # Linux gpioinfo 命令 - 显示 GPIO 控制器和引脚信息

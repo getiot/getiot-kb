@@ -2,6 +2,7 @@
 sidebar_label: curl 命令
 sidebar_position: 13
 slug: /curl
+description: "curl（英文全拼：CommandLine URL）命令是在命令行方式下工作，利用 URL 的语法进行数据的传输或者文件的传输。"
 ---
 
 # Linux curl 命令 - 网络请求传输工具

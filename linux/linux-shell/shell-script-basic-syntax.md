@@ -1,8 +1,11 @@
 ---
 sidebar_position: 2
+sidebar_label: Shell 基础语法
+title: Linux Shell 基础语法：shebang、注释与程序块
+description: 讲解 Bash / Shell 脚本基础语法，包括 shebang 解释器标识、缩进与分界符、注释写法，帮你写出结构清晰的脚本。
 ---
 
-# Shell 基础语法
+# Linux Shell 基础语法：shebang、注释与程序块
 
 
 

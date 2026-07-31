@@ -2,6 +2,7 @@
 sidebar_label: passwd 命令
 sidebar_position: 5
 slug: /passwd
+description: "在 Linux 系统中，passwd 命令用于设置用户的认证信息，包括用户密码、账户锁定、密码失效等。直接运行 passwd 命令修改当前的用户密码，对其他用户的密码操作需要管理员权限。"
 ---
 
 # Linux passwd 命令 - 更改用户密码

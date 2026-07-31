@@ -2,6 +2,7 @@
 sidebar_label: gpiodetect 命令
 sidebar_position: 27
 slug: /gpiodetect
+description: "gpiodetect 命令用于列出系统上存在的所有 gpiochip，以及它们的名称、标签和 GPIO lines。"
 ---
 
 # Linux gpiodetect 命令 - 检测 GPIO 控制器

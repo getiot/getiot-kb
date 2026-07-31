@@ -2,6 +2,7 @@
 sidebar_label: ping 命令
 sidebar_position: 15
 slug: /ping
+description: "ping 是一个非常常用的计算机网络测试工具，用于测试数据包能否透过 IP 协议到达特定主机，从而判断网络的连通性。无论是 Linux、Windows、macOS 还是嵌入式 RTOS 都会提供 ping 命令。"
 ---
 
 # Linux ping 命令 - 测试网络连接状态

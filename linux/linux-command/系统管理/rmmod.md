@@ -2,6 +2,7 @@
 sidebar_label: rmmod 命令
 sidebar_position: 27
 slug: /rmmod
+description: "rmmod（英文全拼：remove module）命令用于移除已载入内核的模块。"
 ---
 
 # Linux rmmod 命令 - 移除内核模块

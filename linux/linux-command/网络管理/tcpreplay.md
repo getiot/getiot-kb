@@ -2,6 +2,7 @@
 sidebar_label: tcpreplay 命令
 sidebar_position: 33
 slug: /tcpreplay
+description: "tcpreplay 是一个用于在网络中重放和编辑 pcap 文件的命令行工具。它可以用来测试网络设备的性能、网络分析、入侵检测系统（IDS）的测试和验证等。tcpreplay 工具允许用户将先前捕获的网络流量重放到网络中，以模拟真实的流量。"
 ---
 
 # Linux tcpreplay 命令 - 重放网络数据包工具

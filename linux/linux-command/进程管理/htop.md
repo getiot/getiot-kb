@@ -2,6 +2,7 @@
 sidebar_label: htop 命令
 sidebar_position: 3
 slug: /htop
+description: "htop 是 Linux 系统中的一个互动的进程查看器，可动态实时显示 Linux 进程的状态，依赖于 ncurses 库。"
 ---
 
 # Linux htop 命令 - 交互式进程查看器

@@ -2,6 +2,7 @@
 sidebar_label: chattr 命令
 sidebar_position: 31
 slug: /chattr
+description: "chattr（英文全拼：change file attributes）命令用于修改 Linux 文件系统中的文件属性。"
 ---
 
 # Linux chattr 命令 - 改变文件属性

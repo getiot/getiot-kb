@@ -2,6 +2,7 @@
 sidebar_label: fsck 命令
 sidebar_position: 20
 slug: /fsck
+description: "fsck（英文全拼：file system check）命令用于检查与修复 Linux 文件系统，并且可以同时检查一个或多个 Linux 文件系统。"
 ---
 
 # Linux fsck 命令 - 检查和修复文件系统

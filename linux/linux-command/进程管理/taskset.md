@@ -2,6 +2,7 @@
 sidebar_label: taskset 命令
 sidebar_position: 16
 slug: /taskset
+description: "taskset（英文全拼：task set）命令用于绑定 Linux 进程与 CPU 核心。一般情况下，一个程序启动后，其进程会在 CPU 核心之间切换执行，在系统的调度下，每个进程平均公平地分配到一定量的计算资源。"
 ---
 
 # Linux taskset 命令 - 设置进程的 CPU 亲和性

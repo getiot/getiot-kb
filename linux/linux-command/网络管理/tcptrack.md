@@ -2,6 +2,7 @@
 sidebar_label: tcptrack 命令
 sidebar_position: 31
 slug: /tcptrack
+description: "tcptrack 是一个用于实时监视 TCP 连接的命令行工具。它可用于实时监视系统中活动的 TCP 连接，显示源和目标 IP 地址、端口以及连接的状态，并以图形化的方式显示每个连接的实时流量统计信息。"
 ---
 
 # Linux tcptrack 命令 - TCP连接跟踪工具

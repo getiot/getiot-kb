@@ -2,6 +2,7 @@
 sidebar_label: cangen 命令
 sidebar_position: 15
 slug: /cangen
+description: "cangen 命令用于在指定 CAN 接口上持续生成测试报文，可配置发送间隔、帧类型、ID 和数据内容的生成方式。常用于总线压力测试、接口验证和与 candump 配合调试。"
 ---
 
 # Linux cangen 命令 - 生成 CAN 测试报文

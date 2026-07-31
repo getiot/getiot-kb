@@ -2,6 +2,7 @@
 sidebar_label: pmc 命令
 sidebar_position: 14
 slug: /pmc
+description: "pmc（英文全拼：PTP management client）是一个根据 IEEE 1588 标准实现的 PTP 管理客户端程序，可用于获取 ptp4l 的更详细信息。"
 ---
 
 # Linux pmc 命令 - 管理 PTP 网络

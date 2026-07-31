@@ -2,6 +2,7 @@
 sidebar_label: which 命令
 sidebar_position: 5
 slug: /which
+description: "which 命令的作用是在 PATH 变量指定的路径中，搜索某个系统命令的位置，并且返回第一个搜索结果。"
 ---
 
 # Linux which 命令 - 查找命令的完整路径

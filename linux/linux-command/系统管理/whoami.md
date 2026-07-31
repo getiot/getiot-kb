@@ -2,6 +2,7 @@
 sidebar_label: whoami 命令
 sidebar_position: 33
 slug: /whoami
+description: "在 Linux 系统中，whoami 命令可用于打印与当前有效用户 ID 关联的用户名。"
 ---
 
 # Linux whoami 命令 - 显示当前用户

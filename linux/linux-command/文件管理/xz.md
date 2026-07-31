@@ -2,6 +2,7 @@
 sidebar_label: xz 命令
 sidebar_position: 27
 slug: /xz
+description: "xz 命令是为 POSIX 平台开发具有高压缩率的工具。它使用 LZMA2 压缩算法，生成的压缩文件比 POSIX 平台传统使用的 gzip、bzip2 生成的压缩文件更小，而且解压缩速度也很快。"
 ---
 
 # Linux xz 命令 - 压缩或解压缩文件

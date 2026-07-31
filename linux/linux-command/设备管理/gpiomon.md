@@ -2,6 +2,7 @@
 sidebar_label: gpiomon 命令
 sidebar_position: 31
 slug: /gpiomon
+description: "gpiomon 命令用于等待指定 GPIO line 上的事件，或指定要监视的事件。"
 ---
 
 # Linux gpiomon 命令 - 监控 GPIO 引脚的状态变化

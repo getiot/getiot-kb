@@ -2,6 +2,7 @@
 sidebar_label: gpioget 命令
 sidebar_position: 29
 slug: /gpioget
+description: "gpioget 命令用于读取指定 GPIO line 的值。"
 ---
 
 # Linux gpioget 命令 - 获取 GPIO 引脚的当前值

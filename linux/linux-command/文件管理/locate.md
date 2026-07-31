@@ -2,6 +2,7 @@
 sidebar_label: locate 命令
 sidebar_position: 33
 slug: /locate
+description: "locate 命令用于在 Linux 系统中查找符合条件的文档，作用类似于 find 命令。不过，locate 命令会去保存文档和目录名称的数据库内，查找合乎范本样式条件的文档或目录。"
 ---
 
 # Linux locate 命令 - 快速查找文件

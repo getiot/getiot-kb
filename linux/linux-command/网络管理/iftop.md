@@ -2,6 +2,7 @@
 sidebar_label: iftop 命令
 sidebar_position: 24
 slug: /iftop
+description: "iftop 是一个能够提供网络带宽实时监控的工具（类似于 top 命令实时监测进程状态）。"
 ---
 
 # Linux iftop 命令 - 实时流量监控工具

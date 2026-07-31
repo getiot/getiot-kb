@@ -2,6 +2,7 @@
 sidebar_label: nethogs 命令
 sidebar_position: 30
 slug: /nethogs
+description: "NetHogs 是一个开源的小型 net top 工具，它可以按进程实时监控网络带宽使用率。"
 ---
 
 # Linux nethogs 命令 - 按进程监控网络流量

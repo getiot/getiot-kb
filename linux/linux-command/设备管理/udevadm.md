@@ -2,6 +2,7 @@
 sidebar_label: udevadm 命令
 sidebar_position: 33
 slug: /udevadm
+description: "udevadm（英文全拼：udev administrator）是一个 udev 管理工具，可用于查询 udev 数据库中的设备信息，也可以从 sysfs 文件系统中查询到设备的属性以辅助创建 udev 规则。"
 ---
 
 # Linux udevadm 命令 - 管理设备事件和属性

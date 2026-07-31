@@ -2,6 +2,7 @@
 sidebar_label: ltrace 命令
 sidebar_position: 6
 slug: /ltrace
+description: "ltrace（英文全拼：library call tracer）是一个用于跟踪进程调用库函数的命令行工具。它可以显示应用程序运行时调用的共享库函数，并输出它们的参数和返回值。以帮助调试应用程序，了解其运行时行为。"
 ---
 
 # Linux ltrace 命令 - 跟踪程序的库调用

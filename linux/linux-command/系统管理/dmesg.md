@@ -2,6 +2,7 @@
 sidebar_label: dmesg 命令
 sidebar_position: 19
 slug: /dmesg
+description: "dmesg（英文全拼：diagnostic messages）命令用于显示和控制 Linux 内核环形缓冲区中的信息。"
 ---
 
 # Linux dmesg 命令 - 显示内核消息

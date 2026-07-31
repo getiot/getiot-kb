@@ -2,6 +2,7 @@
 sidebar_label: mktemp 命令
 sidebar_position: 27
 slug: /mktemp
+description: "mktemp 命令用于安全地创建临时文件或目录，并输出其路径名。模板中的 X 会被随机字符替换，避免文件名冲突。在 Shell 脚本中常用于存放中间数据，配合 trap 可在脚本退出时自动清理。"
 ---
 
 # Linux mktemp 命令 - 创建临时文件或目录

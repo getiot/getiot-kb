@@ -2,6 +2,7 @@
 sidebar_label: scp 命令
 sidebar_position: 11
 slug: /scp
+description: "scp（SecureCopy 的缩写）命令是 OpenSSH 套件的组成部分，是一个具有类 RCP 命令接口的文件传输客户端。"
 ---
 
 # Linux scp 命令 - 远程安全复制文件

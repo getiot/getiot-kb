@@ -1,8 +1,11 @@
 ---
 sidebar_position: 9
+sidebar_label: Shell 输入输出
+title: Linux Shell 输入输出：重定向与管道
+description: "介绍 Shell 标准输入输出、文件重定向、管道 | 以及 here-document 等用法，理清 2>&1、>> 等常见写法。"
 ---
 
-# Shell 输入输出
+# Linux Shell 输入输出：重定向与管道
 
 
 

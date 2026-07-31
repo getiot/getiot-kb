@@ -2,6 +2,7 @@
 sidebar_label: cansniffer 命令
 sidebar_position: 21
 slug: /cansniffer
+description: "cansniffer 命令是一个交互式 CAN 报文嗅探工具，以表格形式实时显示各 CAN ID 的数据内容，并在数据变化时高亮标记。"
 ---
 
 # Linux cansniffer 命令 - CAN 报文内容可视化

@@ -2,6 +2,7 @@
 sidebar_label: depmod 命令
 sidebar_position: 30
 slug: /depmod
+description: "depmod（英文全拼：dependency modules）命令用于分析可载入模块的相依性，生成内核模块及其关联映射文件的依赖关系描述列表。"
 ---
 
 # Linux depmod 命令 - 处理模块依赖

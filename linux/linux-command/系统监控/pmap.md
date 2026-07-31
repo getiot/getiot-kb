@@ -2,6 +2,7 @@
 sidebar_label: pmap 命令
 sidebar_position: 2
 slug: /pmap
+description: "pmap（英文全拼：process memory map）命令用于查看进程的内存映射。"
 ---
 
 # Linux pmap 命令 - 显示进程内存映射

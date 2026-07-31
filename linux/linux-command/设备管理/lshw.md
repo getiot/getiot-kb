@@ -2,6 +2,7 @@
 sidebar_label: lshw 命令
 sidebar_position: 3
 slug: /lshw
+description: "lshw（英文全拼：list hardware）命令用于检查硬件组件及其核心配置。它能为我们提供内存配置、固件版本、主板配置信息、CPU 版本和速度、cache 信息、总线速度等硬件信息。"
 ---
 
 # Linux lshw 命令 - 列出硬件配置详细信息

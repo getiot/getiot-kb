@@ -2,6 +2,7 @@
 sidebar_label: killall 命令
 sidebar_position: 6
 slug: /killall
+description: "killall 命令用于杀死指定名字的所有进程。与 kill 命令不同，killall 不需要事先查找进程 PID，直接对进程对名字进行操作，更加方便。"
 ---
 
 # Linux killall 命令 - 终止指定名称的所有进程

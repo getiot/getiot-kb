@@ -2,6 +2,7 @@
 sidebar_label: hexdump 命令
 sidebar_position: 1
 slug: /hexdump
+description: "hexdump 命令通常用于查看二进制文件，可以将二进制文件转换为 ASCII、八进制、十进制、十六进制格式进行查看。"
 ---
 
 # Linux hexdump 命令 - 查看二进制文件

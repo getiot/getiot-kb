@@ -2,6 +2,7 @@
 sidebar_label: chronyd 命令
 sidebar_position: 1
 slug: /chronyd
+description: "chronyd（英文全拼：chrony daemon）是 Chrony 时间同步服务的守护进程。"
 ---
 
 # Linux chronyd 命令 - Chrony 服务守护进程

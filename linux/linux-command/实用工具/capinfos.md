@@ -2,6 +2,7 @@
 sidebar_label: capinfos 命令
 sidebar_position: 20
 slug: /capinfos
+description: "capinfos 是 Wireshark 工具集中的一个命令，用于查看 pcap 文件（网络捕获文件）的基本信息，包括文件大小、记录数量、时间戳范围等信息。"
 ---
 
 # Linux capinfos 命令 - 显示 pcap 文件信息

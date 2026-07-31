@@ -2,6 +2,7 @@
 sidebar_label: seq 命令
 sidebar_position: 3
 slug: /seq
+description: "seq（英文全拼：sequence）命令用于产生一串序列化的数字，即从某个数到另外一个数之间的所有整数。"
 ---
 
 # Linux seq 命令 - 生成数字序列

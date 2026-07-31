@@ -2,6 +2,7 @@
 sidebar_label: i2ctransfer 命令
 sidebar_position: 10
 slug: /i2ctransfer
+description: "i2ctransfer 是 Linux 系统中的一个命令行工具，用于创建 I2C 消息并将它们作为一次传输合并发送到 I2C 总线。"
 ---
 
 # Linux i2ctransfer 命令 - 执行 I2C 数据传输操作

@@ -1,8 +1,11 @@
 ---
 sidebar_position: 13
+sidebar_label: Shell 通配符
+title: "Linux Shell 通配符：*、?、[] 与 {} 文件名匹配"
+description: "讲解 Shell 通配符（glob）与正则的区别，演示 *、?、[]、{} 匹配文件名的用法，避免与 grep 正则混淆。"
 ---
 
-# Shell 通配符
+# Linux Shell 通配符：*、?、[] 与 {} 文件名匹配
 
 
 

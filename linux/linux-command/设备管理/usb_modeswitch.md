@@ -2,6 +2,7 @@
 sidebar_label: usb_modeswitch 命令
 sidebar_position: 35
 slug: /usb_modeswitch
+description: "usb_modeswitch 命令用于控制“多状态” USB 设备的模式，它基于 libusb1/libusbx 库开发。"
 ---
 
 # Linux usb_modeswitch 命令 - 切换 USB 设备模式

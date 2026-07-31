@@ -2,6 +2,7 @@
 sidebar_label: insmod 命令
 sidebar_position: 25
 slug: /insmod
+description: "insmod（英文全拼：install module）命令用于将模块载入 Linux 内核。"
 ---
 
 # Linux insmod 命令 - 加载内核模块

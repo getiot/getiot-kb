@@ -1,8 +1,11 @@
 ---
 sidebar_position: 8
+sidebar_label: Shell 循环语句
+title: Linux Shell 循环语句：for、while 与 until
+description: 学习 Bash 的 for、while、until 循环以及 break/continue，掌握遍历列表、读文件和条件循环的常见写法。
 ---
 
-# Shell 循环语句
+# Linux Shell 循环语句：for、while 与 until
 
 
 

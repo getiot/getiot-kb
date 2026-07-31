@@ -2,6 +2,7 @@
 sidebar_label: arp 命令
 sidebar_position: 1
 slug: /arp
+description: "在 Linux 系统中，arp（英文全拼：Address Resolution Protocol）命令用于显示和修改系统的 ARP 缓存表，即存储 IP 地址与对应 MAC 地址的映射关系。"
 ---
 
 # Linux arp 命令 - 显示和修改 ARP 缓存

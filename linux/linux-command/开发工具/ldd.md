@@ -2,6 +2,7 @@
 sidebar_label: ldd 命令
 sidebar_position: 2
 slug: /ldd
+description: "ldd（英文全拼：list dynamic dependencies）命令列出程序或库文件的动态依赖关系（所依赖的共享库列表）。"
 ---
 
 # Linux ldd 命令 - 显示可执行文件的依赖库

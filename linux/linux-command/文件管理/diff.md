@@ -2,6 +2,7 @@
 sidebar_label: diff 命令
 sidebar_position: 8
 slug: /diff
+description: "diff（英文全拼：different）命令用于在 Linux 系统中比较文件的差异。"
 ---
 
 # Linux diff 命令 - 比较文件差异

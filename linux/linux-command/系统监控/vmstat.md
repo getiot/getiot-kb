@@ -2,6 +2,7 @@
 sidebar_label: vmstat 命令
 sidebar_position: 3
 slug: /vmstat
+description: "vmstat（英文全拼：virtual memory statistics）命令用于统计 Linux 系统虚拟内存使用情况，可实时动态监视操作系统的虚拟内存、进程、CPU 活动。"
 ---
 
 # Linux vmstat 命令 - 统计虚拟内存情况

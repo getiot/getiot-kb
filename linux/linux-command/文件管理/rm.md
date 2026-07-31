@@ -2,6 +2,7 @@
 sidebar_label: rm 命令
 sidebar_position: 16
 slug: /rm
+description: "rm（英文全拼：remove）命令用于删除一个文件或者目录。"
 ---
 
 # Linux rm 命令 - 删除文件或目录

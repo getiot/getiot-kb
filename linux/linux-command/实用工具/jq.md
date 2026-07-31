@@ -2,6 +2,7 @@
 sidebar_label: jq 命令
 sidebar_position: 23
 slug: /jq
+description: "jq 是一个轻量级的和灵活的命令行 JSON 处理器，用于解析、查询和转换 JSON 数据。它可以帮助用户在命令行中轻松地处理和操作 JSON 格式的数据。"
 ---
 
 # Linux jq 命令 - JSON 数据处理器

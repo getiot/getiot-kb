@@ -2,6 +2,7 @@
 sidebar_label: sfdisk 命令
 sidebar_position: 18
 slug: /sfdisk
+description: "sfdisk 用于显示或操作磁盘分区表，偏脚本化、非交互，适合在 Shell 中分区或备份恢复分区表；使用前请务必备份重要数据。"
 ---
 
 # Linux sfdisk 命令 - 管理磁盘分区表

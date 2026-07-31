@@ -2,6 +2,7 @@
 sidebar_label: arecord 命令
 sidebar_position: 2
 slug: /arecord
+description: "arecord 是 Linux 系统中用于录制音频文件的命令行工具，它可以通过 ALSA 驱动从音频输入设备录制音频，并保存为音频文件。"
 ---
 
 # Linux arecord 命令 - 录制音频文件

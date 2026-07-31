@@ -2,6 +2,7 @@
 sidebar_label: dnf 命令
 sidebar_position: 6
 slug: /dnf
+description: "dnf（Dandified Yum）是用于在基于 RPM 的 Linux 发行版中进行软件包管理的工具，如 Fedora、RHEL（Red Hat Enterprise Linux）以及它们的衍生发行版。"
 ---
 
 # Linux dnf 命令 - 软件包管理工具

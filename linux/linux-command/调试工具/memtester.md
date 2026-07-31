@@ -2,6 +2,7 @@
 sidebar_label: memtester 命令
 sidebar_position: 2
 slug: /memtester
+description: "memtester（英文全拼：memory tester）是 Linux 下的一款内存测试工具，可用于内存压力测试及查找内存子系统故障。"
 ---
 
 # Linux memtester 命令 - 测试内存稳定性和完整性

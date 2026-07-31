@@ -2,6 +2,7 @@
 sidebar_label: pidof 命令
 sidebar_position: 17
 slug: /pidof
+description: "pidof 命令用于查找 Linux 系统中指定名称的进程的进程号（PID），功能类似 pgrep 和 ps。"
 ---
 
 # Linux pidof 命令 - 获取进程的 PID

@@ -1,8 +1,11 @@
 ---
 sidebar_position: 0
+sidebar_label: 简介
+title: Linux Shell 编程教程：Bash 脚本入门到文本处理
+description: 系统学习 Linux Shell / Bash 脚本编程：语法、变量、流程控制、函数、通配符与正则，以及 grep、sed、awk 文本处理，适合嵌入式与运维初学者。
 ---
 
-# Linux Shell 编程
+# Linux Shell 编程教程：Bash 脚本入门到文本处理
 
 ![Linux Shell 编程](https://static.getiot.tech/cover-linux-shell-tutorial.webp#center)
 

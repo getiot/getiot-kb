@@ -2,6 +2,7 @@
 sidebar_label: env 命令
 sidebar_position: 3
 slug: /env
+description: "env 是一个用于显示或设置环境变量的命令。在 Linux 系统中，它通常用于在运行命令时设置临时环境变量，以影响该命令的行为。"
 ---
 
 # Linux env 命令 - 显示环境变量

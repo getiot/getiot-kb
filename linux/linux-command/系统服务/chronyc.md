@@ -2,6 +2,7 @@
 sidebar_label: chronyc 命令
 sidebar_position: 2
 slug: /chronyc
+description: "chronyc（英文全称：chrony command-line）命令用于设置时间与时钟服务器的同步工作。"
 ---
 
 # Linux chronyc 命令 - Chrony 服务交互工具

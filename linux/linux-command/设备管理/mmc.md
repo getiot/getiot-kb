@@ -2,6 +2,7 @@
 sidebar_label: mmc 命令
 sidebar_position: 26
 slug: /mmc
+description: "在 Linux 系统中，mmc 命令通常用于处理嵌入式系统中的存储设备，如 SD 卡或 eMMC（嵌入式多媒体卡）。通常用于与嵌入式存储设备进行交互，进行初始化、分区、读写操作等。"
 ---
 
 # Linux mmc 命令 - 管理 MMC/SD 卡

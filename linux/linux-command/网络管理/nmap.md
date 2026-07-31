@@ -2,6 +2,7 @@
 sidebar_label: nmap 命令
 sidebar_position: 27
 slug: /nmap
+description: "nmap（英文全拼：Network Mapper）是一个开源的网络探测工具和安全/端口扫描器，由 Fyodor 编写并维护。它的设计目标是快速地扫描大型网络，当然用它扫描单个主机也没有问题。"
 ---
 
 # Linux nmap 命令 - 网络扫描探测工具

@@ -1,8 +1,11 @@
 ---
 sidebar_position: 12
+sidebar_label: Shell 函数调用
+title: Linux Shell 函数教程：定义、参数、local 与返回值
+description: 学习 Bash 函数的定义与调用、local 局部变量，以及用 return 返回状态码、用 echo 返回文本结果的写法。
 ---
 
-# Shell 函数调用
+# Linux Shell 函数教程：定义、参数、local 与返回值
 
 函数用来把一段可复用的逻辑封装起来。学会函数后，脚本会更容易读、更容易测，也更不容易把主流程写成长长的一坨。
 

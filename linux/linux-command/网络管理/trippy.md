@@ -2,6 +2,7 @@
 sidebar_label: trippy 命令
 sidebar_position: 20
 slug: /trippy
+description: "trippy 是一个命令行工具（别名 trip），支持 Linux、Windows、macOS 等平台，可以代替 traceroute 查看互联网通信的路径，分析网络状况。"
 ---
 
 # Linux trippy 命令 - 网络调试分析工具

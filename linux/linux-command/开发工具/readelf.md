@@ -2,6 +2,7 @@
 sidebar_label: readelf 命令
 sidebar_position: 5
 slug: /readelf
+description: "readelf 命令用于显示一个或者多个 ELF 格式目标文件的信息。可以支持 32 位或 64 位的 elf 格式文件，也支持包含 elf 文件的文档（这里一般指的是使用 ar 命令将一些 elf 文件打包之后生成的例如 lib*."
 ---
 
 # Linux readelf 命令 - 显示 ELF 文件信息

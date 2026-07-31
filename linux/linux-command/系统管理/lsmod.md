@@ -2,6 +2,7 @@
 sidebar_label: lsmod 命令
 sidebar_position: 26
 slug: /lsmod
+description: "lsmod（英文全拼：list modules）命令用于显示已经加载到内核中的模块的状态信息。"
 ---
 
 # Linux lsmod 命令 - 列出加载模块

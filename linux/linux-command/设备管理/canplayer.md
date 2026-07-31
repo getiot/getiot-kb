@@ -2,6 +2,7 @@
 sidebar_label: canplayer 命令
 sidebar_position: 18
 slug: /canplayer
+description: "canplayer 命令用于将紧凑格式的 CAN 日志文件回放到 CAN 设备上。通常与 candump 的 -l 选项配合使用：先用 candump -l 录制总线报文，再用 canplayer 按原始时间戳回放，适合离线分析和回归测试。"
 ---
 
 # Linux canplayer 命令 - 回放 CAN 日志文件

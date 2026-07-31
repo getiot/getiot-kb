@@ -2,6 +2,7 @@
 sidebar_label: pgrep 命令
 sidebar_position: 18
 slug: /pgrep
+description: "pgrep（英文全拼：process global regular expression print）是 Linux 系统中用于检索进程 PID 的命令。"
 ---
 
 # Linux pgrep 命令 - 根据名称查找进程 ID

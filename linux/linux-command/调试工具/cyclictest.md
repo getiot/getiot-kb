@@ -2,6 +2,7 @@
 sidebar_label: cyclitest 命令
 sidebar_position: 4
 slug: /cyclictest
+description: "cyclictest 是一个用于测试 Linux 内核实时性的命令行程序，是 rt-tests 下的一个测试工具，也是 rt-tests 下使用最广泛的测试工具，一般用来测试 Linux 内核的延迟。"
 ---
 
 # Linux cyclictest 命令 - 测试 CPU 负载和响应时间

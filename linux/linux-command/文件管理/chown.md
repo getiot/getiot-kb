@@ -2,6 +2,7 @@
 sidebar_label: chown 命令
 sidebar_position: 5
 slug: /chown
+description: "chown（英文全拼：change owner）是 Linux 系统中用于改变文件所有者和文件关联组的一个命令。chown 是 Linux 系统中关于权限的重要命令之一，另外一个是 chmod 命令。"
 ---
 
 # Linux chown 命令 - 改变文件所有者

@@ -2,6 +2,7 @@
 sidebar_label: jobs 命令
 sidebar_position: 8
 slug: /jobs
+description: "jobs 命令用于查看当前终端（tty）的任务列表及任务状态，包括后台运行的任务。"
 ---
 
 # Linux jobs 命令 - 列出当前作业

@@ -2,6 +2,7 @@
 sidebar_label: wvdial 命令
 sidebar_position: 43
 slug: /wvdial
+description: "wvdial 是一个智能的 PPP 拨号工具，这意味着它会拨打调制解调器并启动 PPP 连接到互联网。wvdial 类似于 chat 程序，不同之处在于它使用启发式方法来猜测如何拨号和登录您的服务器，而不是强迫您编写登录脚本。"
 ---
 
 # Linux wvdial 命令 - PPP 拨号工具

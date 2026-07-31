@@ -2,6 +2,7 @@
 sidebar_label: less 命令
 sidebar_position: 6
 slug: /less
+description: "less 与 more 类似，less 可以随意浏览文件，支持翻页和搜索，支持向上翻页和向下翻页。（less 命令允许用户向前或向后浏览文件，而 more 命令只能向前浏览 ）"
 ---
 
 # Linux less 命令 - 分页查看文件

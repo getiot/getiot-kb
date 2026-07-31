@@ -2,6 +2,7 @@
 sidebar_label: swapoff 命令
 sidebar_position: 26
 slug: /swapoff
+description: "swapoff 命令用于关闭 Linux 系统中用于分页和交换的设备和文件。"
 ---
 
 # Linux swapoff 命令 - 禁用交换空间

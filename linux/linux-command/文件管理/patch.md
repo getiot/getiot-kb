@@ -2,6 +2,7 @@
 sidebar_label: patch 命令
 sidebar_position: 9
 slug: /patch
+description: "patch 命令用于修补文件（给文件打补丁）。Linux 早期正是使用 patch 命令来合并代码。"
 ---
 
 # Linux patch 命令 - 应用文件补丁

@@ -2,6 +2,7 @@
 sidebar_label: nohup 命令
 sidebar_position: 11
 slug: /nohup
+description: "nohup（英文全拼：no hang up）命令用于在系统后台不挂断地运行命令，退出终端不会影响程序的运行。"
 ---
 
 # Linux nohup 命令 - 后台运行程序

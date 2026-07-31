@@ -2,6 +2,7 @@
 sidebar_label: tail 命令
 sidebar_position: 25
 slug: /tail
+description: "tail 命令可用于查看文件的末尾部分的内容，默认显示后 10 行的内容。有一个常用的参数 -f 常用于查阅正在改变的日志文件。"
 ---
 
 # Linux tail 命令 - 显示文件尾部

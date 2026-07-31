@@ -1,8 +1,11 @@
 ---
 sidebar_position: 16
+sidebar_label: sed 文本处理
+title: Linux sed 文本处理：替换、删行与流编辑
+description: 学习 sed 流编辑器的 s/// 替换、地址选择、删行插行与捕获组，并了解脚本中安全使用 sed -i 的注意事项。
 ---
 
-# sed 文本处理
+# Linux sed 文本处理：替换、删行与流编辑
 
 `sed`（stream editor）是流编辑器：按行读入文本，按脚本规则处理，再输出结果。它特别擅长**批量查找替换、删行、插行**，常与管道一起使用。
 

@@ -2,6 +2,7 @@
 sidebar_label: modprobe 命令
 sidebar_position: 29
 slug: /modprobe
+description: "modprobe（英文全拼：modules probe）命令用于智能地向内核中加载模块或者从内核中移除模块。"
 ---
 
 # Linux modprobe 命令 - 自动加载模块

@@ -2,6 +2,7 @@
 sidebar_label: xxd 命令
 sidebar_position: 2
 slug: /xxd
+description: "xxd 命令用于以十六进制格式查看文件内容，也可将十六进制转储还原为二进制文件。输出格式经典直观（偏移量 + 十六进制 + ASCII），是嵌入式开发和二进制调试中常用的工具。功能与 hexdump 类似，但语法更简洁。"
 ---
 
 # Linux xxd 命令 - 十六进制查看与编辑

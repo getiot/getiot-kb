@@ -2,6 +2,7 @@
 sidebar_label: cansequence 命令
 sidebar_position: 20
 slug: /cansequence
+description: "cansequence 命令用于测试 CAN 链路的可靠性。发送端持续发送携带递增序列号的报文，接收端（-r 模式）校验序列号连续性，发现丢帧或乱序时输出错误信息。"
 ---
 
 # Linux cansequence 命令 - CAN 链路可靠性测试

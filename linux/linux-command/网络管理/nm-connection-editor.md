@@ -2,6 +2,7 @@
 sidebar_label: nm-connection-editor 命令
 sidebar_position: 39
 slug: /nm-connection-editor
+description: "nm-connection-editor（英文全拼：network connection editor for NetworkManager）是一个基于 GTK 的应用程序，可用来添加、删除和修改 NetworkManager…"
 ---
 
 # Linux nm-connection-editor 命令 - 图形界面网络设置

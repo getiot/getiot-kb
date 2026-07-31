@@ -2,6 +2,7 @@
 sidebar_label: whois 命令
 sidebar_position: 34
 slug: /whois
+description: "whois 命令用来查找并显示指定用户账号、域名相关信息，包括域名注册时间、拥有者、邮箱等。"
 ---
 
 # Linux whois 命令 - 查询域名信息

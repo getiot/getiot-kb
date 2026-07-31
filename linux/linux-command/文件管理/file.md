@@ -2,6 +2,7 @@
 sidebar_label: file 命令
 sidebar_position: 19
 slug: /file
+description: "file 命令用于探测 Linux 系统中指定文件的类型，也可用来辨别一些文件的编码格式。"
 ---
 
 # Linux file 命令 - 识别文件类型

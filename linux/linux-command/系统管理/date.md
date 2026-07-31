@@ -2,6 +2,7 @@
 sidebar_label: date 命令
 sidebar_position: 18
 slug: /date
+description: "date 命令用于显示或设置 Linux 系统的日期和时间。"
 ---
 
 # Linux date 命令 - 显示/设置日期时间

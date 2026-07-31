@@ -2,6 +2,7 @@
 sidebar_label: getconf 命令
 sidebar_position: 45
 slug: /getconf
+description: "getconf（英文全拼：get system configuration）命令用于查询系统配置变量的值。"
 ---
 
 # Linux getconf 命令 - 查询系统配置变量

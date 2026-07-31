@@ -2,6 +2,7 @@
 sidebar_label: perf 命令
 sidebar_position: 11
 slug: /perf
+description: "perf 是 Linux 内核自带的性能分析工具，基于 perf_events 子系统，可用于统计 CPU 性能计数器、记录函数调用栈、分析热点函数、跟踪调度延迟等。广泛应用于应用性能调优、内核开发和系统瓶颈排查。"
 ---
 
 # Linux perf 命令 - 性能分析与剖析

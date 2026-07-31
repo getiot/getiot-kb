@@ -2,6 +2,7 @@
 sidebar_label: unset 命令
 sidebar_position: 2
 slug: /unset
+description: "unset 命令用于删除已定义的 shell 变量（包括环境变量）或函数的值和属性。注意，unset 命令不能够删除具有只读属性（参考 readonly）的 shell 变量和环境变量。"
 ---
 
 # Linux unset 命令 - 取消环境变量

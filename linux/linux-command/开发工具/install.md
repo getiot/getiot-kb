@@ -2,6 +2,7 @@
 sidebar_label: install 命令
 sidebar_position: 8
 slug: /install
+description: "install 命令用于安装、升级软件，或者备份数据。install 的功能和 cp 命令类似，都可以将文件/目录拷贝到指定的位置。"
 ---
 
 # Linux install 命令 - 复制并安装文件

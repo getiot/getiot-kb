@@ -2,6 +2,7 @@
 sidebar_label: kdump 命令
 sidebar_position: 10
 slug: /kdump
+description: "kdump 是 Linux 内核的崩溃转储（crash dump）机制。当内核发生 panic 时，kdump 通过 kexec 启动一个预留的捕获内核（capture kernel），将当前内存状态保存为 vmcore 文件，供事后使用…"
 ---
 
 # Linux kdump - 内核崩溃转储机制

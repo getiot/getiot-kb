@@ -2,6 +2,7 @@
 sidebar_label: ethtool 命令
 sidebar_position: 5
 slug: /ethtool
+description: "ethtool（英文全拼：ethernet tool）命令用于查看和修改网络设备（尤其是有线以太网设备）的驱动参数和硬件设置。你可以根据需要更改以太网卡的参数，包括自动协商、速度、双工和局域网唤醒等参数。"
 ---
 
 # Linux ethtool 命令 - 查询设置网卡参数

@@ -2,6 +2,7 @@
 sidebar_label: i2cset 命令
 sidebar_position: 9
 slug: /i2cset
+description: "i2cset 是 Linux 系统中的一个命令行工具，用于向 I2C 设备写入数据。"
 ---
 
 # Linux i2cset 命令 - 向 I2C 设备写入数据

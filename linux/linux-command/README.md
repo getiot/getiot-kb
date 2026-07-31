@@ -1,9 +1,11 @@
 ---
 sidebar_position: 0
+sidebar_label: 简介
+title: Linux 命令大全：常用命令语法与示例手册
+description: "Linux 命令大全收录常用命令的语法、选项与示例，覆盖文件、进程、网络、磁盘与系统管理等场景，方便在终端与脚本中快速查阅。"
 ---
 
-# Linux 命令大全
-
+# Linux 命令大全：常用命令语法与示例手册
 ![Linux 命令大全](https://static.getiot.tech/cover-linux-commands-tutorial.webp#center)
 
 这里收集并整理各种实用的 Linux 命令，大致分为如下几大类。

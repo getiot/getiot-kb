@@ -2,6 +2,7 @@
 sidebar_label: socat 命令
 sidebar_position: 42
 slug: /socat
+description: "socat（英文全拼：Socket CAT）是 Linux 下的一个多功能的网络工具，其功能与有瑞士军刀之称的 Netcat 类似，可以看作是 Netcat 的加强版。"
 ---
 
 # Linux socat 命令 - 双向数据传输工具

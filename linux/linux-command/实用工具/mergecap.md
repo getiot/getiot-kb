@@ -2,6 +2,7 @@
 sidebar_label: mergecap 命令
 sidebar_position: 22
 slug: /mergecap
+description: "mergecap 是 Wireshark 工具集中的一个命令，用于将多个 pcap 文件（网络捕获文件）合并为一个文件。这个命令允许你将多个捕获文件的数据合并到一个文件中，方便进行整体分析和处理。"
 ---
 
 # Linux mergecap 命令 - 合并多个 pcap 文件

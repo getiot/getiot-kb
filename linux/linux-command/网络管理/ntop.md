@@ -2,6 +2,7 @@
 sidebar_label: ntop 命令
 sidebar_position: 25
 slug: /ntop
+description: "ntop 是一个网络流量监控工具，用于实时显示网络流量和连接信息。它提供了一个基于 Web 的用户界面，可以通过浏览器查看网络统计数据。"
 ---
 
 # Linux ntop 命令 - 网络流量分析工具

@@ -2,6 +2,7 @@
 sidebar_label: lsof 命令
 sidebar_position: 12
 slug: /lsof
+description: "lsof（英文全拼：list open files）命令用于查看进程开打的文件、打开文件的进程、进程打开的端口（TCP、UDP），甚至可用于找回/恢复删除的文件。"
 ---
 
 # Linux lsof 命令 - 列出打开的文件和进程

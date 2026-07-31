@@ -2,6 +2,7 @@
 sidebar_label: fbset 命令
 sidebar_position: 24
 slug: /fbset
+description: "fbset（英文全拼：framebuffer set）命令用于显示或设置 Linux 系统中帧缓冲区的大小，同时还兼具调整画面的分辨率、位置、高低宽窄、色彩深度等功能，并可决定是否启动显卡的各项硬件特性。"
 ---
 
 # Linux fbset 命令 - 帧缓冲设置

@@ -2,6 +2,7 @@
 sidebar_label: smartctl 命令
 sidebar_position: 6
 slug: /smartctl
+description: "smartctl 是用于 SMART 磁盘的控制和监视的一个实用程序。SMART 是 Self-Monitoring, Analysis and Reporting Technology 的缩写，即“自监控、分析和报告技术”…"
 ---
 
 # Linux smartctl 命令 - 管理 SMART 磁盘

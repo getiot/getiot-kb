@@ -1,8 +1,11 @@
 ---
 sidebar_position: 5
+sidebar_label: Shell 数组
+title: Linux Shell 数组教程：定义、遍历与切片
+description: 介绍 Bash 一维数组的创建、下标访问、遍历、切片与元素增删，并用示例演示脚本中处理列表数据的常用写法。
 ---
 
-# Shell 数组
+# Linux Shell 数组教程：定义、遍历与切片
 
 
 

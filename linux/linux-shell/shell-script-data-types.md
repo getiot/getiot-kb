@@ -1,8 +1,11 @@
 ---
 sidebar_position: 3
+sidebar_label: Shell 数据类型
+title: Linux Shell 数据类型：字符串、整数与特殊变量
+description: 说明 Shell 中常见的数据类型与取值方式，理解字符串、整数运算以及脚本里特殊变量的基本含义与使用场景。
 ---
 
-# Shell 数据类型
+# Linux Shell 数据类型：字符串、整数与特殊变量
 
 
 

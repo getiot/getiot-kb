@@ -2,6 +2,7 @@
 sidebar_label: ppsctl 命令
 sidebar_position: 36
 slug: /ppsctl
+description: "ppsctl 命令是 pps-tools 软件包中的一部分，用于管理和配置 PPS 信号。它提供对 PPS 信号进行测试和调试的功能，允许用户查看和调整与 PPS 相关的参数。"
 ---
 
 # Linux ppsctl 命令 - 管理 PPS 信号

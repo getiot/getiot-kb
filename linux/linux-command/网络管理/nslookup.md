@@ -2,6 +2,7 @@
 sidebar_label: nslookup 命令
 sidebar_position: 8
 slug: /nslookup
+description: "nslookup（英文全拼：name server lookup）是一个域名查询工具，可用于查询 DNS 记录信息、查看域名解析是否正常。nslookup 是诊断网络故障的常用工具之一。"
 ---
 
 # Linux nslookup 命令 - 查询 DNS 域名和 IP

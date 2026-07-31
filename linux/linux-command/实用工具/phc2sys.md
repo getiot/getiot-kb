@@ -2,6 +2,7 @@
 sidebar_label: phc2sys 命令
 sidebar_position: 12
 slug: /phc2sys
+description: "phc2sys（英文全拼：PTP hardware clock to system）命令用于同步两个或多个时钟。最常见的用法是，将系统时钟同步到网卡上的 PTP 硬件时钟（PHC）。"
 ---
 
 # Linux phc2sys 命令 - 同步 PTP 时钟与系统时钟

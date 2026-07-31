@@ -2,6 +2,7 @@
 sidebar_label: watch 命令
 sidebar_position: 35
 slug: /watch
+description: "watch 命令用于在 Linux 系统中周期性地执行一个程序，并全屏显示该程序的输出信息。"
 ---
 
 # Linux watch 命令 - 重复执行命令

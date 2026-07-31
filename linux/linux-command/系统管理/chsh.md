@@ -2,6 +2,7 @@
 sidebar_label: chsh 命令
 sidebar_position: 43
 slug: /chsh
+description: "chsh（英文全拼：change shell）命令用于更改用户登录 shell。"
 ---
 
 # Linux chsh 命令 - 更改登录 Shell

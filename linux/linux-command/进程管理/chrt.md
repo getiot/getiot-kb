@@ -2,6 +2,7 @@
 sidebar_label: chrt 命令
 sidebar_position: 15
 slug: /chrt
+description: "chrt（英文全拼：change real-time）是 Linux 系统中操作进程/线程实时属性的命令，可用于查看和设置进程/线程的调度策略。"
 ---
 
 # Linux chrt 命令 - 查看或设置进程的调度策略

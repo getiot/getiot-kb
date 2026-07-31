@@ -2,6 +2,7 @@
 sidebar_label: yum 命令
 sidebar_position: 7
 slug: /yum
+description: "yum 是用于在基于 RPM 的 Linux 发行版（例如 RHEL、CentOS、Fedora 等）中进行软件包管理的工具。其作用包括安装、升级和删除 rpm 软件包、搜索和显示软件包信息、处理软件包的依赖关系，以及管理软件源配置等。"
 ---
 
 # Linux yum 命令 - 管理 RPM 软件包

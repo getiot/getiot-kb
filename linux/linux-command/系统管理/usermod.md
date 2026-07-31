@@ -2,6 +2,7 @@
 sidebar_label: usermod 命令
 sidebar_position: 8
 slug: /usermod
+description: "在 Linux 系统中，usermod 命令用于修改用户账号的各项设定。在实现上，usermod 命令其实只是修改了系统的用户账号文件 /etc/passwd、/etc/shadow 以及 /etc/group 文件。"
 ---
 
 # Linux usermod 命令 - 修改用户属性

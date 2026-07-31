@@ -2,6 +2,7 @@
 sidebar_label: dig 命令
 sidebar_position: 16
 slug: /dig
+description: "dig（英文全拼：domain information groper）是一个用来灵活探测 DNS 的工具。它会打印出受请求的 DNS 域名服务器的回应。"
 ---
 
 # Linux dig 命令 - 域名查询工具

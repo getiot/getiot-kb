@@ -2,6 +2,7 @@
 sidebar_label: ldconfig 命令
 sidebar_position: 3
 slug: /ldconfig
+description: "ldconfig 命令用于管理 Linux 系统的动态链接库。"
 ---
 
 # Linux ldconfig 命令 - 更新共享库缓存

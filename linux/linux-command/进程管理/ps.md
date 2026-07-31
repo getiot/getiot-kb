@@ -2,6 +2,7 @@
 sidebar_label: ps 命令
 sidebar_position: 1
 slug: /ps
+description: "ps（英文全拼：process status）是 Linux 系统中非常常用的一个命令，用于查看当前运行的进程状态，类似于 Windows 的任务管理器。"
 ---
 
 # Linux ps 命令 - 显示当前运行的进程

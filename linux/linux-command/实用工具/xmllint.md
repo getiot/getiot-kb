@@ -2,6 +2,7 @@
 sidebar_label: xmllint 命令
 sidebar_position: 24
 slug: /xmllint
+description: "xmllint 是 libxml2 库提供的命令行 XML 工具，用于解析、格式化、校验 XML 和 HTML 文件。支持 DTD/XSD 验证、XPath 查询、XSLT 转换等，适合在脚本中检查配置文件格式或调试 XML 数据。"
 ---
 
 # Linux xmllint 命令 - 解析与校验 XML 文件

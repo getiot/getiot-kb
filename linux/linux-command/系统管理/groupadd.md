@@ -2,6 +2,7 @@
 sidebar_label: groupadd 命令
 sidebar_position: 9
 slug: /groupadd
+description: "groupadd 命令用于在 Linux 系统中创建新的用户组（group）。它允许系统管理员通过命令行创建和管理用户组。"
 ---
 
 # Linux groupadd 命令 - 添加用户组
