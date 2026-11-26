@@ -1,0 +1,89 @@
+---
+sidebar_position: 23
+---
+
+# 通信协议名词解释
+
+- **摩尔斯电码**（Morse Code）：一种时通时断的信号代码，通过不同的排列顺序来表达不同的英文字母、数字和标点符号。摩尔斯电码于 1836 年发明，是最早的电信通信协议之一，它为电报通信提供了一套标准化的编码和解码规则。
+- **RS-232**：一种单端串行通信协议，主要用于计算机与外部设备之间的短距离数据传输，支持全双工通信，传输距离较短（通常不超过 15 米），传输速率较低（最高约 20kbps），抗干扰能力较弱。
+- **RS-485**：一种差分串行通信协议，支持半双工通信，使用一对双绞线传输数据，传输距离可达 1200 米，支持多点通信（最多 32 个节点），抗干扰能力强，适用于长距离工业通信。
+- **UART**（Universal Asynchronous Receiver/Transmitter）：异步串行通信硬件协议，常见于微控制器和外设通信。
+- **SPI**（Serial Peripheral Interface）：同步串行接口，用于短距离高速通信（如芯片间通信）。
+- **I2C**（Inter-Integrated Circuit）：双线制同步串行总线，支持多主从设备连接。
+- **USB**（Universal Serial Bus）：通用串行总线标准，支持设备连接、供电和数据传输。
+- **1-Wire**：一种单总线通信协议，由 Dallas Semiconductor 开发，用于连接和通信各种设备。它通过一根信号线传输数据，具有简单、低功耗的特点，广泛应用于温度传感器（如 DHT11）、智能仪表等领域。
+- **JSON**（JavaScript Object Notation）：轻量级的数据交换格式，基于文本，易于人机读写，常用于 Web 开发和 API 数据传输。
+- **XML**（eXtensible Markup Language）：可扩展标记语言，用于结构化数据存储和传输，支持复杂数据描述，常用于数据存储和交换。
+- **Protobuf**（Protocol Buffers）：Google 开发的二进制序列化协议，高效紧凑，支持跨语言，用于高效序列化结构化数据，常用于网络传输和存储。
+- **YAML**（YAML Ain't Markup Language）：人性化的数据序列化格式，用于配置文件和数据交换，支持注释和层级结构。
+- **HTTP**（HyperText Transfer Protocol）：超文本传输协议，用于分布式、协作式、超媒体信息系统的应用层协议，基于请求-响应模型，是万维网（WWW）的数据通信基础，底层基于 TCP/IP 协议传输数据。
+- **HTTPS**（HTTP Secure）：HTTP 的加密版本，通过 SSL/TLS 协议对数据进行加密传输，确保通信安全。
+- **Socket**：一种网络编程接口，用于实现计算机之间的通信，支持 TCP/IP 和 UDP/IP 协议。
+- **WebSocket**：基于 TCP 的全双工通信协议，允许服务器和客户端之间实时双向通信，建立在 HTTP 协议之上。
+- **QUIC**（Quick UDP Internet Connections）：由 Google 开发的基于 UDP 的传输层协议（HTTP/3 的基础），旨在提升网页加载速度和连接可靠性，减少网络延迟。
+- **TCP**（Transmission Control Protocol）：面向连接的可靠传输协议，保证数据顺序和完整性。
+- **UDP**（User Datagram Protocol）：无连接的轻量级传输协议，牺牲可靠性换取速度和低延迟。
+- **gRPC**（Google Remote Procedure Call）：基于 HTTP/2 协议的高性能 RPC（远程过程调用）框架，使用 Protobuf 作为接口定义语言（IDL），支持多种编程语言。
+- **JSON-RPC**：一种轻量级的远程过程调用协议，使用 JSON 作为数据格式，基于 HTTP 协议进行通信。
+- **XML-RPC**：基于 XML 的远程过程调用协议，使用 XML 作为数据交换格式，基于 HTTP 协议进行通信。
+- **MQTT**（Message Queuing Telemetry Transport，消息队列遥测传输协议）：基于发布/订阅模式的轻量级通信协议，专为低带宽、高延迟网络设计（如物联网设备），工作在 TCP/IP 协议族上。
+- **CoAP**（Constrained Application Protocol，受限应用协议）：基于 UDP 的轻量级协议，适用于资源受限的物联网设备，支持 RESTful 架构。
+- **AMQP**（Advanced Message Queuing Protocol）：一种标准化的消息队列协议，广泛应用于异步通信和消息传递。是面向消息的中间件协议，支持可靠队列和事务（如 RabbitMQ），常用于企业级应用集成、物联网、电商平台、金融服务等领域。
+- **SOAP**（Simple Object Access Protocol）：基于 XML 的 Web 服务协议，支持复杂事务和安全扩展。
+- **LwM2M**（Lightweight M2M）：轻量级设备管理协议，基于 CoAP，用于物联网设备生命周期管理。
+- **LoRaWAN**（Long Range Wide Area Network）：一种低功耗广域网协议，适用于长距离通信和低功耗设备。
+- **ZigBee**：低功耗、低速率的无线通信协议，常用于智能家居和工业传感器网络。
+- **Matter**：基于 IPv6，打破设备品牌壁垒，支持多种底层协议（如 WiFi、Thread），实现设备互联互通。
+- **Thread**：基于 IPv6 的低功耗无线协议，专为智能家居设备设计（由 Nest 主导）。
+- **Z-Wave**：短距离无线协议，用于家庭自动化，支持网状网络和低功耗设备。
+- **OPC**（Open Platform Communications）：一种开放的工业通信标准，旨在实现不同制造商的设备和系统之间的数据交换。它最初基于微软的 COM/DCOM 技术，主要应用于工业自动化领域。
+- **OPC DA**（Data Access）：OPC 协议中用于实时数据访问的子协议，允许客户端从各种设备（如 PLC、传感器等）中读取和写入实时数据。
+- **OPC HDA**（Historical Data Access）：用于访问和分析历史数据，提供了对设备历史数据的查询和管理功能。它支持数据聚合和时间序列分析，适用于工业过程的历史数据监控。
+- **OPC UA**（Unified Architecture）：OPC 协议的升级版，旨在解决传统 OPC 协议的跨平台性和安全性问题。它整合了 OPC DA、HDA 等功能，并支持复杂的数据模型和安全通信，适用于工业自动化中的设备互操作和数据交换。
+- **Modbus**：一种基于串行通信的工业协议，广泛应用于工业自动化领域，支持多种物理介质（如 RS-232、RS-485），主要用于设备之间的数据交互。
+- **Modbus TCP/IP**：Modbus 的以太网版本，它继承了 Modbus 协议的简单性和可靠性，同时利用 TCP/IP 协议栈实现高效、可靠的数据传输。
+- **Profibus**（Process Field Bus）：一种基于现场总线的工业通信协议，适用于分布式控制系统，支持高速数据传输，常用于工业自动化设备的连接。
+- **Profinet**：基于以太网的工业通信协议，是 Profibus 的以太网版本，支持实时以太网通信。
+- **EtherNet/IP**：一种基于以太网的工业通信协议，支持实时控制和非实时数据传输，广泛应用于工业自动化和智能制造领域。
+- **EtherCAT**（Ethernet for Control Automation Technology）：以太网控制自动化技术，一种高性能的以太网现场总线协议，专为实时控制设计，具有高带宽和低延迟的特点，适用于工业自动化中的高精度控制。
+- **CAN**（Controller Area Network，控制器局域网）：一种串行通信协议，常用于汽车和工业控制系统。
+- **CANopen**：一种基于 CAN 总线的通信协议，适用于分布式控制，常用于汽车电子和工业自动化设备，支持多种设备类型。
+- **CiA402**（CANopen Device Profile for Actuators and Sensors）：基于 CANopen 协议栈的子协议，专为电机控制设计，包含伺服驱动器、步进电机、交流和直流电机的控制策略和通信约定。
+- **SERCOS**（Serial Real-time Communication System）：高性能实时通信协议，专为工业运动控制设计，支持多轴同步（如 SERCOS III 基于以太网）。
+- **CoE**（CANopen over EtherCAT）：在 EtherCAT 网络上运行 CANopen 协议，结合 EtherCAT 的实时性与 CANopen 的设备模型。
+- **MECHATROLINK**：日本开发的实时运动控制总线，支持多轴同步和高精度控制。
+- **DeviceNet**：基于 CAN 总线的工业协议，用于连接传感器、执行器等底层设备。
+- **CC-Link**：日本开发的工业现场总线，支持高速数据传输和设备控制。
+- **M-Bus**（Meter-Bus）：一种专为仪表联网设计的通信协议，广泛应用于智能电表、水表、热能表等设备的数据采集和监控。它采用双绞线传输数据，支持多主从通信，具有低功耗、低成本的特点。
+- **HART**（Highway Addressable Remote Transducer，可寻址远程传感器高速通道）：一种工业通信协议，结合了模拟信号和数字信号传输，支持设备的远程监控和诊断，广泛应用于过程控制领域。
+- **DALI**（Digital Addressable Lighting Interface）：一种用于照明控制的数字通信协议，主要用于商业建筑和智能照明系统。支持多点通信，可实现照明设备的集中控制。
+- **DMX512**（Digital Multiplex）：广泛应用于舞台灯光控制的协议，基于 RS-485 差分传输，支持有线和无线扩展，支持多路复用，可控制灯光亮度、颜色等参数。
+- **RDM**（Remote Device Management）：扩展了 DMX512 协议，支持设备的远程管理和双向通信。
+- **DyNet**：一种专用于灯光控制的通信协议，由 Dynalite（现为飞利浦公司所有）开发。它通过 RS-485 串口通信，支持点对点通信模型，常用于智能照明系统。
+- **BACnet**：一种专为楼宇自动化设计的开放标准通信协议，由美国采暖、制冷与空调工程师协会（ASHRAE）制定。支持多种物理介质，如以太网、RS-485、MS/TP 等。
+- **KNX**：楼宇自动化领域的国际标准，基于欧洲标准 EN 50090 和国际标准 ISO/IEC 14543-3，在欧洲市场应用广泛。支持多种通信介质，包括电力线、无线、以太网和双绞线。
+- **En+Ocean**：一种基于能量收集的无线通信协议，适用于低功耗设备，常用于智能建筑中的传感器网络。无需外部电源，通过环境能量（如振动、温度差）供电。
+- **LonWorks**：由 Echelon 公司开发的协议，基于神经元芯片和 LonTalk 协议，适用于高度分布式控制的复杂系统。支持多种通信介质，包括双绞线、电力线、无线等，常用于需要高可靠性和灵活性的楼宇自动化项目。
+- **DSI**（Distributed System Interface）：一种用于分布式系统的通信接口，支持设备之间的数据交换和控制。它常用于工业自动化中的分布式控制架构。
+- **MTConnect**：一种开放的工业通信协议，用于实时获取和传输机床设备的数据。它基于 XML 和 HTTP 技术，能够将不同设备的数据整合到统一的数据模型中，适用于智能制造和工业 4.0 场景。
+- **CAN FD**（CAN Flexible Data-Rate）：CAN 协议的升级版，支持更高的数据传输速率（可达 5 Mbps）和更大的数据帧。
+- **FlexRay**：高带宽、确定性的车载网络协议，专为现代汽车中高带宽和实时性需求而设计。它支持复杂、高速的数据交换，常用于高级驾驶辅助系统（ADAS）和底盘控制。
+- **LIN**（Local Interconnect Network）：一种低成本的串行通信协议，常用于汽车中的非关键子系统（如车窗、座椅控制）。
+- **MOST**（Media Oriented Systems Transport）：面向多媒体传输的车载网络协议，支持音频、视频流传输。
+- **DoIP**（Diagnostic over Internet Protocol）：基于以太网的汽车诊断协议，允许通过以太网实现车辆的远程诊断与通信，支持高带宽和低延迟，适用于现代汽车的电子系统。
+- **SOME/IP**（Scalable Service-Oriented MiddlewarE over IP）：一种面向汽车电子领域的通信协议，支持面向服务的通信，允许汽车中的电子控制单元（ECU）作为服务提供者或消费者进行交互。
+- **UDS**（Unified Diagnostic Services）：统一诊断服务协议，用于汽车电子控制单元（ECU）的诊断和测试。
+- **IEBus**（In-Vehicle Entertainment Bus）：一种车载网络通信协议，主要用于车内娱乐系统中的控制器与控制单元之间的通信。它支持多任务模式、广播通信功能和半双工异步通信。
+- **HL7**（Health Level Seven）：医疗信息交换标准，定义临床数据格式和传输规则（如电子病历共享）。
+- **DICOM**（Digital Imaging and Communications in Medicine）：医学影像传输与存储协议，用于 CT、MRI 等设备的图像管理。
+- **IEEE 11073**：个人健康设备通信标准，规范血糖仪、血压计等设备的交互接口。
+- **DNP3**（Distributed Network Protocol）：用于电力系统远程监控的协议，支持主站与子站通信（如变电站自动化）。
+- **IEC 60870**：电力系统控制与数据采集的国际标准，常用于电网调度。
+- **IEC 61850**：变电站自动化通信标准，定义设备建模和实时数据传输方法。
+- **RTSP**（Real-Time Streaming Protocol）：控制实时流媒体传输的协议，用于视频监控和直播系统。
+- **WebRTC**（Web Real-Time Communication）：支持浏览器间实时音视频通信的开放框架，基于 UDP 降低延迟。
+- **SIP**（Session Initiation Protocol）：建立、管理和终止多媒体会话的协议（如 VoIP 电话会议）。
+- **GPS NMEA**（National Marine Electronics Association）：用于 GPS 设备数据传输的标准协议，由国家海洋电子协会制定，常用于航海和定位系统。
+- **NTP**（Network Time Protocol）：网络时间协议，用于同步网络设备时钟的协议，确保网络中设备的时间一致性。
+- **PTP**（Precision Time Protocol）：精确时间协议，一种高精度时间同步协议，适用于对时间精度要求较高的工业和通信系统。
+
