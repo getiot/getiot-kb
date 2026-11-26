@@ -30,7 +30,7 @@ Here **label** can be any plain text except C keyword and it can be set anywhere
 
 ## 流程图
 
-![C goto statement](./images/c-goto-statement.jpg)
+![C goto statement](https://static.getiot.tech/c-goto-statement.jpg)
 
 ## 示例代码
 
