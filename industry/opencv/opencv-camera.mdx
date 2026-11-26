@@ -1,0 +1,106 @@
+---
+sidebar_position: 5
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# OpenCV 打开摄像头
+
+下面是一个使用 OpenCV 打开本地摄像头的简单示例程序。
+
+<Tabs className="unique-tabs">
+<TabItem value="cpp" label="C++">
+
+```cpp showLineNumbers
+#include <opencv2/opencv.hpp>
+
+int main()
+{
+    // 打开默认摄像头（设备编号 0）
+    cv::VideoCapture cap(0);
+
+    // 检查摄像头是否成功打开
+    if (!cap.isOpened()) {
+        std::cerr << "Error: 无法打开摄像头." << std::endl;
+        return -1;
+    }
+
+    // 创建窗口用于显示图像
+    cv::namedWindow("My Camera", cv::WINDOW_NORMAL);
+
+    while (true) {
+        // 读取一帧图像
+        cv::Mat frame;
+        cap >> frame;
+
+        // 检查图像是否读取成功
+        if (frame.empty()) {
+            std::cerr << "Error: 无法读取图像." << std::endl;
+            break;
+        }
+
+        // 在窗口中显示图像
+        cv::imshow("My Camera", frame);
+
+        // 检测键盘按键，如果按下 'q' 键，则退出循环
+        if (cv::waitKey(1) == 'q') {
+            break;
+        }
+    }
+
+    // 释放摄像头资源
+    cap.release();
+
+    // 关闭窗口
+    cv::destroyAllWindows();
+
+    return 0;
+}
+```
+
+</TabItem>
+<TabItem value="py" label="Python">
+
+```py showLineNumbers
+import cv2
+
+def open_local_camera():
+    # 打开摄像头，参数 0 表示默认摄像头，如果有多个摄像头可以尝试使用 1、2、3 等
+    cap = cv2.VideoCapture(0)
+
+    # 检查摄像头是否成功打开
+    if not cap.isOpened():
+        print("Error: 无法打开摄像头.")
+        return
+
+    while True:
+        # 读取一帧图像
+        ret, frame = cap.read()
+
+        # 检查图像是否读取成功
+        if not ret:
+            print("Error: 无法读取图像.")
+            break
+
+        # 在窗口中显示图像
+        cv2.imshow('My Camera', frame)
+
+        # 检测键盘按键，如果按下 'q' 键，则退出循环
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+
+    # 释放摄像头资源
+    cap.release()
+
+    # 关闭所有窗口
+    cv2.destroyAllWindows()
+
+if __name__ == "__main__":
+    open_local_camera()
+```
+
+</TabItem>
+</Tabs>
+
+在这个程序中，我们使用 OpenCV 的 `VideoCapture` 类打开默认摄像头（设备编号 0），然后循环读取摄像头的每一帧图像，并在窗口中显示。按下 'q' 键退出程序。确保你已经安装了 OpenCV 库并正确配置了开发环境。
