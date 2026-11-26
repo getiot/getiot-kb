@@ -1,0 +1,30 @@
+---
+sidebar_label: Autoware
+sidebar_position: 7
+slug: /autoware
+---
+
+# Autoware 自动驾驶平台框架
+
+Autoware 自动驾驶平台基于 ROS 机器人操作系统开发，也是世界上第一个用于自动驾驶汽车的 All-in-One 开源软件，可在 Apache 2.0 许可下使用。由于 Autoware 直接基于 ROS 系统开发，因此代码可重用性高，学习起来更容易上手，适合自动驾驶初学者学习。
+
+## 整体框架
+
+Autoware 自动驾驶平台已经集成了丰富的自动驾驶模块，整体框架如下图所示，主要包括传感器、算法和驱动三个部分。其中，传感器部分的主要功能是读取相机、雷达、GPS 和 IMU 等传感器的感知数据；算法部分包括感知、决策和路径规划三个功能；驱动部分则负责控制车辆的运行。
+
+![](https://static.getiot.tech/autoware-overview.png#center)
+
+Autoware 自动驾驶平台将相机、激光雷达、GPS 和 IMU 作为主要传感器。支持同时接入多个相机，可单独管理每个相机，以便执行不同的任务，如物体检测和交通信号灯识别等。另外，Autoware 也支持同时接入多台激光雷达，以便采集丰富的融合点云数据，实现更精准的目标检测、跟踪和定位。
+
+算法部分是 Autoware 自动驾驶平台的核心，Autoware 的开源算法最早由日本名古屋大学的客座教授、东京大学副教授 [加藤真平](https://shinpeikato.com) 于2015年首次提出，现已集成大量算法。主要包括感知、决策和路径规划三大功能，具体说明如下。
+
+- **感知功能**：由定位（Localization）、检测（Detection）和预测（Prediction）三个模块组成。其中，定位是通过 3D 地图和 SLAM 算法结合 GPS/GNSS 与 IMU 传感器实现的；检测是通过使用带有传感器融合算法和深度神经网络的相机与雷达实现的；预测基于定位和检测的结果进行输出。
+- **决策功能**：决策功能连接了感知和路径规划功能，它需要根据感知的结果来决定当前的驾驶行为，从而选择合适的规划函数。
+- **路径规划功能**：根据感知和决策的结果制定全局运动方案和局部运动方案。全局运动方案通常在车辆启动或重新启动时确定，而局部运动方案则根据车辆状态的变化进行更新。
+
+最后是驱动部分，在 Autoware 自动驾驶平台中，算法部分的输出结果是一组速度、角速度、车轮角度和曲率，这些信息将作为命令通过车辆接口发送到线控控制器，而线控控制器则负责方向角度和油门大小的调整。
+
+## 相关链接
+
+- Autoware 官网：[https://autoware.org](https://autoware.org)
+- GitHub 主页：[https://github.com/autowarefoundation/autoware](https://github.com/autowarefoundation/autoware)
