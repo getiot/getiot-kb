@@ -1,0 +1,8 @@
+{
+  "label": "Awesome C++",
+  "position": 200,
+  "link": {
+    "type": "generated-index",
+    "description": "优秀 C++ 开源项目"
+  }
+}
