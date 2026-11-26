@@ -19,4 +19,5 @@
 * [FastAPI 使用依赖项实现权限控制](fastapi-permission-dependencies.md)
 * [FastAPI 项目部署与上线](fastapi-deploy-production.md)
 * [FastAPI 常用插件与工具推荐](fastapi-appendix-tools.md)
+* [使用 Alembic 完成数据库迁移](fastapi-database-alembic.md)
 
