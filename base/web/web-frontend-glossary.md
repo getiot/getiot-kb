@@ -1,0 +1,114 @@
+---
+sidebar_position: 10
+---
+
+# Web 前端开发专业术语
+
+
+
+- **HTML**（HyperText Markup Language）：超文本标记语言，用于构建网页的结构和内容，通过标签定义网页中的标题、段落、链接、图片等元素。
+- **CSS**（Cascading Style Sheets）：层叠样式表，用于设置网页的布局、颜色、字体等视觉效果，使网页更加美观。
+- **JavaScript**（JS）：一种脚本语言，用于实现网页的交互功能，如动态效果、表单验证、响应用户操作等。
+- **TypeScript**（TS）：一种静态类型语言，是 JavaScript 的超集，通过类型检查和编译时错误检测，提高代码质量和开发效率。
+- **DOM**（Document Object Model）：文档对象模型，是 HTML 和 XML 文档的编程接口，通过它可以操作网页的结构和内容。
+- **BOM**（Browser Object Model）：浏览器对象模型，提供了与浏览器窗口和框架相关的对象和接口，用于操作浏览器窗口和导航。
+- **前端框架**（Framework）：一种用于简化开发过程的工具，提供了一套预定义的代码和结构，帮助开发者快速构建应用。
+- **库**（Library）：提供特定功能的代码集合，如 jQuery 是一个用于简化 DOM 操作的库。
+- **jQuery**：一个快速、小巧且功能丰富的 JavaScript 库，简化 HTML 文档操作、事件处理、动画和 Ajax 交互。最早由 John Resig 在2006年发布第一个版本，使用 MIT 开源协议，目前由 Dave Methvin 领导的团队进行开发。
+- **Bootstrap**：该项目源于 Twitter Blueprint，发布于2011年，是一个流行的开源前端框架，提供字体排印、窗体、按钮、导航及其他各种组件及 Javascript 扩展，旨在使动态网页和 Web 应用的开发更加容易。
+- **Vue.js**：一个渐进式 JavaScript 框架，用于构建用户界面，具有快速、体积小、双向数据绑定等特点。由尤雨溪于2014年发布，使用 MIT 开源协议。
+- **React**：由 Facebook 开发的 JavaScript 库，用于构建用户界面，采用组件化开发，提高代码复用性和开发效率。
+- **Angular**：一个开源的前端框架，由 Google 维护，用于构建大型、高性能的单页面应用，提供完整的开发解决方案。
+- **EmberJS**：一个用于构建大型 Web 应用的 JavaScript 框架，强调一致性、可维护性和开发效率。
+- **Layui**：一套免费的开源 Web UI 组件库，采用轻量级模块化规范，适合快速构建网页界面。
+- **UmiJS**：一个可插拔的企业级 React 应用框架，支持路由、状态管理、国际化等功能。
+- **uni-app**：基于 Vue.js 的跨平台开发框架，允许开发者使用一套代码编译到 iOS、Android、Web、小程序等多个平台。
+- **Taro**：一个开放式跨端框架，支持使用 React、Vue 等技术栈开发多端应用，包括小程序、H5、RN 等。
+- **React Native**（简称 RN）：一个由 Facebook 开发的开源框架，用于使用 JavaScript 和 React 构建原生移动应用。它允许开发者使用一套代码同时开发 iOS 和 Android 应用，提高开发效率。
+- **Svelte**：一种新型前端框架，与传统虚拟 DOM 框架不同，它在构建时将模板代码转换为高效的 JavaScript 代码，无需额外运行时库。
+- **Tailwind CSS**：一个实用工具优先的 CSS 框架，通过提供低级实用工具类直接在 HTML 中构建自定义设计，无需编写自定义 CSS。它支持响应式设计、暗模式优化，并通过配置文件或内联配置灵活定制。
+- **MVVM**（Model-View-ViewModel）：一种现代的前端架构模式，主要用于构建用户界面，特别是在 Vue.js 和 EmberJS 等框架中。
+- **脚手架工具**（Scaffolding Tools）：在前端开发中，脚手架工具用于快速生成项目的初始代码结构，帮助开发者快速启动项目。例如，Create React App 是一个用于创建 React 项目的脚手架工具。
+- **AJAX**（Asynchronous JavaScript and XML）：一种用于在不重新加载整个页面的情况下向服务器发出请求和接收响应的技术。
+- **API**（Application Programming Interface）：应用程序编程接口，用于不同软件之间的交互和数据传输。
+- **JSON**（JavaScript Object Notation）：一种轻量级的数据交换格式，常用于前后端数据交互。
+- **SPA**（Single Page Application）：单页面应用，通过动态加载内容，用户在浏览过程中无需重新加载整个页面。
+- **MPA**（Multi Page Application）：多页面应用，即传统的网页应用，每个页面都是独立的 HTML 文件，用户访问新页面时会重新加载整个页面。
+- **PWA**（Progressive Web App）：一种渐进式 Web 应用，结合了 Web 和原生应用的优点，支持离线运行、推送通知等功能。
+- **Web 组件**（Web Components）：一套标准，允许开发者创建可复用的自定义 HTML 元素，封装功能和样式。是构成 Web 应用的基本单元，可以在页面中重复使用。
+- **状态管理**（State Management）：用于管理应用的状态，如用户输入、页面数据等，确保状态在组件之间正确传递和更新。
+- **前端路由**（Front-end Routing）：在单页面应用中，通过 JavaScript 控制页面跳转和内容更新，而不刷新整个页面。
+- **Redux**：一个用于 JavaScript 应用的状态管理库，常与 React 搭配使用，帮助开发者管理复杂的应用状态。
+- **Vuex**：是 Vue.js 的状态管理库，用于集中存储和管理应用的状态，便于组件之间的数据共享。
+- **响应式设计**（Responsive Design）：一种网页设计方法，使网页能够自适应不同设备的屏幕尺寸，如手机、平板和桌面电脑。
+- **媒体查询**（Media Query）：CSS 的一种功能，用于根据设备的特性（如屏幕宽度、分辨率等）应用不同的样式规则，实现响应式设计。
+- **预处理器**（Preprocessor）：如 LESS、Sass，是 CSS 的扩展语言，通过变量、嵌套、混合等功能增强 CSS 的可维护性和可读性。
+- **LESS**：一种动态样式表语言，扩展了 CSS 的功能，增加了变量、混合、函数等特性，用于提高样式的可维护性和可读性。
+- **SASS**：又称 SCSS，是一种基于 Ruby 的 CSS 预处理器，它扩展了 CSS 的功能，支持变量、嵌套规则、混合（mixin）、函数等功能，使样式代码更加简洁、可维护和可复用。
+- **RESTful API**：一种基于 HTTP 协议的网络应用程序接口设计风格，通过标准的 HTTP 方法（如 `GET`、`POST`、`PUT`、`DELETE`）操作资源。
+- **GraphQL**：一种用于 API 的查询语言，允许客户端精确地请求所需的数据，减少数据传输量。
+- **NPM**（Node Package Manager）：Node.js 的包管理工具，用于安装和管理 JavaScript 依赖包。
+- **Webpack**：一个模块打包工具，用于将项目中的各种资源（如 JavaScript、CSS、图片等）打包成浏览器可识别的格式。
+- **Babel**：一个 JavaScript 编译器，用于将 ES6+ 代码转换为兼容旧浏览器的 ES5 代码。
+- **ESLint**：一个代码检查工具，用于检测 JavaScript 代码中的错误和风格问题，提高代码质量。
+- **单元测试**（Unit Testing）：对代码的最小单元（如函数、模块）进行测试，确保其功能正确。
+- **Jest**：一个 JavaScript 测试框架，用于编写和运行单元测试。
+- **端到端测试**（End-to-End Testing）：模拟用户操作，测试整个应用的流程和功能是否正常。
+- **Cypress**：一个端到端测试框架，用于测试 Web 应用的交互和功能。
+- **缓存策略**（Cache Strategy）：通过浏览器缓存或服务端缓存，减少重复请求，提高页面加载速度。
+- **懒加载**（Lazy Loading）：一种技术，通过延迟加载资源（如图片、脚本等），减少初始加载时间，提升性能。
+- **跨域问题**（Cross-Origin Resource Sharing，缩写为 CORS）：由于浏览器的同源策略，限制了不同域名下的网页之间资源共享，需要通过特定配置解决。
+- **Shadow DOM**：Web 组件的一部分，用于创建独立的 DOM 树，避免样式和脚本的冲突。
+- **自定义元素**（Custom Elements）：Web 组件的一部分，允许开发者定义自己的 HTML 元素，扩展 HTML 的功能。
+- **模板**（Template）：用于定义组件或页面的结构和样式，如 HTML 模板、Vue 模板等。
+- **生命周期**（Lifecycle）：组件或应用在运行过程中经历的不同阶段，如初始化、更新、销毁等，开发者可以在这些阶段执行特定的逻辑。
+- **事件**（Event）：用户操作（如点击、输入）或系统行为（如加载完成、错误发生）触发的动作，开发者可以通过监听事件实现交互功能。
+- **事件绑定**（Event Binding）：将事件与处理函数关联起来，当事件发生时执行对应的函数。
+- **虚拟 DOM**（Virtual DOM）：React 等框架中的一种技术，通过在内存中创建 DOM 的虚拟副本，优化 DOM 操作的性能。
+- **热更新**（Hot Reloading）：开发过程中，代码修改后自动更新页面的功能，无需手动刷新，提高开发效率。
+- **静态资源**（Static Resources）：不会动态生成的资源，如图片、CSS 文件、JavaScript 文件等。
+- **构建工具**（Build Tool）：如 Webpack、Rollup，用于将项目资源进行编译、压缩、打包等处理，生成可用于生产的代码。
+- **代码分割**（Code Splitting）：将代码分割成多个模块，按需加载，减少初始加载时间。
+- **服务端渲染**（SSR，Server-Side Rendering）：在服务器端生成 HTML 页面，然后发送给客户端，提高页面加载速度和 SEO。
+- **静态站点生成**（SSG，Static Site Generation）：在构建时生成静态页面，部署到服务器，适合内容不频繁更新的网站。
+- **Next.js**：一个基于 React 的框架，支持服务端渲染和静态站点生成，提高应用性能和 SEO。
+- **Nuxt.js**：一个基于 Vue.js 的框架，用于构建服务端渲染或静态站点生成的应用。
+- **跨浏览器兼容性**（Cross-Browser Compatibility）：确保网页在不同浏览器（如 Chrome、Firefox、Safari 等）上正常显示和运行。
+- **浏览器开发者工具**（Browser Developer Tools）：浏览器提供的工具，用于调试网页代码、查看网络请求、分析性能等。
+- **语义化 HTML**（Semantic HTML）：使用具有语义的 HTML 标签（如 `<header>`、`<nav>`、`<article>` 等），提高网页的可读性和搜索引擎优化。
+- **SEO**（Search Engine Optimization）：搜索引擎优化，通过优化网页内容和结构，提高网页在搜索引擎中的排名和可见性，吸引更多流量。
+- **Web 性能优化**（Web Performance Optimization）：通过优化代码、资源加载、网络请求等手段，提升网页的加载速度和用户体验。
+- **Web 性能指标**（Web Performance Metrics）：衡量网页性能的指标，如首屏加载时间、白屏时间、交互时间等。
+- **首屏加载时间**（First Contentful Paint, FCP）：浏览器渲染页面上第一个内容的时间，反映用户看到内容的速度。
+- **白屏时间**（Time to Interactive, TTI）：页面可交互的时间，用户可以开始操作的时间。
+- **最大内容绘制时间**（Largest Contentful Paint, LCP）：页面上最大内容元素渲染的时间，反映主要内容加载的速度。
+- **累计布局偏移**（Cumulative Layout Shift, CLS）：页面元素布局偏移的累积值，反映页面稳定性。
+- **Lighthouse**：一个开源的 Web 性能和质量检测工具，用于评估网页的性能、可访问性、SEO 等方面。
+- **Service Worker**：一种运行在浏览器后台的脚本，用于实现离线缓存、推送通知等功能，是 PWA 的核心技术之一。
+- **WebAssembly**（WASM）：一种可在浏览器中运行的低级语言，用于提高 Web 应用的性能，适合处理复杂计算。
+- **Web 安全**（Web Security）：保护 Web 应用免受攻击，如防止 XSS、CSRF 等安全漏洞。
+- **XSS**（Cross-Site Scripting）：跨站脚本攻击，通过注入恶意脚本窃取用户信息或篡改页面。
+- **CSRF**（Cross-Site Request Forgery）：跨站请求伪造攻击，通过诱导用户执行非预期操作。
+- **Cookie**：存储在用户浏览器中的小数据片段，用于跟踪用户状态或保存用户信息。
+- **Session Storage**：一种 Web 存储机制，存储的数据仅在当前会话期间有效。
+- **JavaScript 引擎**（JavaScript Engine）：浏览器中用于执行 JavaScript 代码的组件，如 Chrome 的 V8 引擎。
+- **浏览器内核**（Browser Engine）：浏览器的核心组件，负责解析 HTML、CSS 和 JavaScript，渲染网页，如 WebKit、Blink。
+- **浏览器指纹**（Browser Fingerprint）：浏览器的唯一标识，通过收集浏览器的各种信息（如版本、插件、屏幕分辨率等）生成。
+- **浏览器插件**（Browser Extension）：用于扩展浏览器功能的小程序，如广告屏蔽插件、开发者工具插件等。
+- **浏览器缓存**（Browser Cache）：浏览器存储的网页资源副本，用于减少重复请求，提高加载速度。
+- **HTTP 缓存**（HTTP Cache）：通过 HTTP 头信息（如 `Cache-Control`、`Expires`）控制资源的缓存策略。
+- **CDN**（Content Delivery Network）：内容分发网络，通过将资源缓存在多个服务器上，提高资源加载速度。
+- **UX**（User Experience）：用户体验，指用户在使用产品或服务时的感受和反馈。
+- **UI**（User Interface）：用户界面，指用户与软件或网页进行交互的界面元素和设计。
+- **骨架屏**（Skeleton Screen）：在页面加载过程中显示的占位图形，提升用户体验。
+- **暗模式**（Dark Mode）：一种界面显示模式，以深色背景为主，减少眼睛疲劳，适合低光环境。
+- **国际化**（Internationalization）：使应用支持多种语言和文化，通过配置语言包等方式实现。
+- **本地化**（Localization）：根据用户所在的地区和语言，调整应用的内容和格式。
+- **无障碍**（Accessibility）：确保网页对所有用户（包括残障人士）都可访问，通过语义化 HTML、键盘导航等技术实现。
+- **Figma**：一款流行的 UI/UX 设计工具，用于设计网页和应用的界面，支持团队协作和设计交付。
+- **Zeplin**：一个设计与开发协作平台，用于将设计稿转换为开发规范，方便开发者实现设计效果。
+- **Axure**：一款专业的原型设计工具，用于创建网页和应用的交互原型，方便需求沟通和设计验证。
+- **Sketch**：一款专为 UI/UX 设计师打造的矢量图形编辑工具，仅支持 macOS 系统。
+- **Postman**：一个 API 测试工具，用于发送 HTTP 请求、测试后端接口，验证数据交互的正确性。
+
+

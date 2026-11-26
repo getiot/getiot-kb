@@ -1,0 +1,67 @@
+---
+sidebar_position: 11
+---
+
+# Web 后端开发专业术语
+
+
+
+- **后端开发**（Back-end Development）：指服务器端的开发工作，主要涉及业务逻辑处理、数据库交互和 API 设计。
+- **Web 服务器**（Web Server）：用于托管和提供 Web 应用程序的软件，如 Apache 和 Nginx，负责处理客户端请求并返回响应。
+- **数据库**（Database）：用于存储和管理数据的系统，常见的数据库有 MySQL、PostgreSQL 和 MongoDB。
+- **API**（Application Programming Interface）：一组规则和定义，允许不同软件系统之间进行交互和通信。
+- **框架**（Framework）：提供了一组预定义的代码和工具，用于简化后端开发，如 Spring、Django 和 Express。
+- **中间件**（Middleware）：在请求到达处理逻辑之前，用于执行特定任务的软件，如身份验证、日志记录等。
+- **路由**（Routing）：将客户端请求映射到相应的处理逻辑的过程。
+- **缓存**（Caching）：通过存储常用数据以减少重复计算和数据库查询，提高应用性能。
+- **负载均衡**（Load Balancing）：将客户端请求分配到多个服务器的一种技术，可以优化资源使用、提高吞吐量、减少响应时间和避免单点过载。
+- **反向代理**（Reverse Proxy）：一种位于客户端和后端服务器之间的中间服务器，它接收客户端的请求，然后将请求转发到后端服务器。当后端服务器处理完请求后，反向代理会将响应返回给客户端。Nginx 和 OpenResty 常被用作反向代理，用于负载均衡、缓存和安全保护。
+- **MVC**（Model-View-Controller）：一种软件架构模式，将应用程序分为模型（Model）、视图（View）和控制器（Controller）三个部分。Model 负责处理应用程序的数据逻辑和数据存储；View 负责显示数据；Controller 作为模型和视图之间的桥梁，处理用户输入，更新模型，并根据模型的状态更新视图。
+- **MVT**（Model-View-Template）：Django 框架中使用的架构模式，与 MVC 类似，但有一些区别。Model 负责数据逻辑和存储；View 负责处理业务逻辑，类似于 MVC 中的控制器；Template 负责渲染 HTML 页面，类似于 MVC 中的视图，但更专注于模板引擎的使用。
+- **MVVM**（Model-View-ViewModel）：一种现代的前端架构模式，主要用于构建用户界面，例如 Vue.js。其中，Model 负责数据逻辑和存储，与 MVC 和 MVT 中的模型类似；View 负责显示数据；ViewModel 作为模型和视图之间的中间层，负责处理业务逻辑，将模型数据转换为视图可以显示的格式，并处理用户输入。MVVM 通过数据绑定和双向绑定机制，使视图和模型之间的交互更加高效，减少了直接操作 DOM 的需求，提高了代码的可维护性和可读性。
+- **事务**（Transaction）：数据库中的一系列操作，具有原子性、一致性、隔离性和持久性（ACID）。
+- **ORM**（Object-Relational Mapping）：一种技术，用于将数据库中的表结构映射到对象模型，简化数据库操作。
+- **API 网关**（API Gateway）：一种中间件，用于管理 API 的访问、认证、限流和路由。
+- **OAuth**：一种授权框架，允许用户授权第三方应用访问其资源，而无需共享密码。
+- **Session 和 Cookie**：用于在客户端和服务器之间存储用户会话信息。
+- **跨域资源共享**（CORS）：一种安全机制，允许受限资源在跨域请求中被访问。
+- **WebSocket**：一种全双工通信协议，允许客户端和服务器之间实时交换数据。
+- **开发环境**（Development Environment）：用于开发 Web 应用的环境，通常包括代码编辑器、开发服务器等。
+- **生产环境**（Production Environment）：应用部署后运行的环境，通常经过优化以提高性能和安全性。
+- **RESTful API**：基于 HTTP 协议的 API 设计风格，使用标准的 HTTP 方法（GET、POST、PUT、DELETE）进行资源操作。
+- **微服务架构**（Microservices Architecture）：将应用程序拆分为多个独立的服务，每个服务负责特定功能，便于扩展和维护。
+- **容器化**（Containerization）：通过容器（如 Docker）封装应用及其依赖，确保在不同环境中的一致性。
+- **Docker**：一种开源的容器化平台，用于将应用程序及其依赖打包成独立的容器，便于在不同环境中一致运行。
+  - **Docker 容器**（Docker Container）：Docker 的运行实例，基于镜像创建，拥有独立的文件系统、网络和进程空间，但共享宿主机的内核。
+  - **Docker 镜像**（Docker Image）：一个只读模板，包含运行应用程序所需的所有依赖、配置文件和库。通过 Dockerfile 构建镜像。
+  - **Dockerfile**：一个文本文件，包含构建 Docker 镜像的指令，如选择基础镜像、安装依赖、设置环境变量等。
+  - **Docker Registry**：用于存储和分发 Docker 镜像的仓库，如 Docker Hub。
+  - **Docker Compose**：一个工具，用于定义和运行多容器 Docker 应用程序，通过 YAML 文件描述服务、网络和数据卷。
+- **Kubernetes**（简写 K8s）：一个开源的容器编排平台，用于自动化部署、扩展和管理容器化应用程序。
+- **DevOps**：开发和运维的结合，强调开发与运维团队之间的协作，通过自动化工具提高效率。
+- **持续集成**（CI，Continuous Integration）：一种开发实践，通过自动化工具频繁地集成代码，及时发现和修复问题。
+- **持续部署**（CD，Continuous Deployment）：一种开发实践，将代码自动部署到生产环境，提高开发效率和发布速度。
+- **版本控制**（Version Control）：用于管理代码版本的工具，如 Git，方便多人协作开发和代码回溯。
+- **数据库迁移**（Database Migration）：一种用于管理数据库结构变更的技术，确保数据库版本与代码版本一致。
+- **日志**（Logging）：记录应用程序运行过程中的信息，用于调试和监控。
+- **监控**（Monitoring）：通过工具（如 Prometheus、Grafana）监控应用的性能和健康状态。
+- **安全性**（Security）：保护应用免受攻击，如防止 SQL 注入、XSS 攻击和数据泄露。
+- **JWT**（JSON Web Token）：一种基于 JSON 的开放标准，用于在网络应用之间安全地传递信息。
+- **JSP**（Java Server Pages）：一种基于 Java 的服务器端技术，允许开发者将 Java 代码嵌入到 HTML 页面中，用于动态生成 Web 页面。
+- **Servlet**：Java Web 开发中的一个规范，用于扩展 Web 服务器的功能。Servlet 是运行在服务器端的 Java 程序，用于处理客户端请求并返回响应。
+- **Apache**：全称 Apache HTTP Server，是一个著名的开源 Web 服务器软件，广泛用于托管静态和动态网站。它支持多种操作系统，具有高度的可扩展性和灵活性，常用于构建 LAMP（Linux、Apache、MySQL、PHP/Python/Perl）架构。
+- **Nginx**（Engine X）：一个高性能的 Web 服务器和反向代理服务器，以其轻量级、高并发处理能力和低内存占用而闻名。Nginx 适用于静态内容的快速分发，同时也支持动态内容的处理。
+- **OpenResty**：一个基于 Nginx 和 Lua 的高性能 Web 平台，集成了大量 Lua 库和第三方模块。它利用 Nginx 的非阻塞 I/O 模型，支持超高并发连接，适用于构建动态 Web 应用、Web 服务和 API 网关。
+- **Tomcat**：一个开源的 Java Servlet 容器，用于运行 Java Web 应用程序。它支持 Servlet 和 JSP 规范，常用于开发和部署基于 Java 的 Web 应用。
+- **Spring**：一个开源的 Java 框架，用于构建企业级应用程序。它提供依赖注入（DI）、面向切面编程（AOP）、事务管理等功能，帮助开发者简化 Java 应用的开发。
+- **Spring Boot**：基于 Spring 框架的扩展，用于快速开发独立、生产级的基于 Spring 框架的应用程序。它通过“约定大于配置”的方式，减少了配置文件的编写，简化了 Spring 应用的初始搭建和开发过程。
+- **Django**：一个高级的 Python Web 框架，鼓励快速开发和干净、实用的设计。它内置了许多功能，如 ORM、用户认证、模板引擎等，适合开发功能复杂的 Web 应用。
+- **Flask**：一个轻量级的 Python Web 框架，以简单、灵活著称。它提供了基础的 Web 功能，允许开发者根据需求自由扩展，适合开发小型到中型的 Web 应用。
+- **FastAPI**：一个现代、快速（高性能）的 Web 框架，用于构建 API，基于 Python 3.6+ 类型提示。它自动生成文档，支持异步编程，适合开发高性能的 RESTful API。
+- **Express**：一个基于 Node.js 的轻量级 Web 开发框架，用于快速构建 Web 应用和 API。它提供了丰富的中间件支持和灵活的路由机制，适合开发高性能的后端服务。
+- **Node.js**：一个基于 Chrome V8 引擎的 JavaScript 运行时环境，用于在服务器端运行 JavaScript 代码。它支持非阻塞 I/O 和事件驱动架构，适合开发高性能的网络应用。
+- **动态路由**（Dynamic Routing）：根据请求的动态条件（如用户身份、请求参数等）决定请求的处理逻辑。例如 OpenResty 通过 Lua 脚本支持灵活的动态路由。
+- **LuaJIT**：一种高性能的 Lua 虚拟机，OpenResty 使用 LuaJIT 将 Lua 脚本编译为高效的字节码，从而实现接近原生代码的执行效率。
+- **非阻塞 I/O**（Non-blocking I/O）：一种 I/O 模型，允许服务器在处理请求时不会被阻塞，从而提高并发处理能力。
+- **高并发**（High Concurrency）：指系统能够同时处理大量请求的能力。例如 OpenResty 通过 Nginx 的事件驱动架构，能够处理 10K 乃至 1000K 以上的并发连接。
+- **异步编程**（Asynchronous Programming）：一种编程范式，允许程序在等待某个操作完成时继续执行其他任务。
